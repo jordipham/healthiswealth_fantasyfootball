@@ -1,0 +1,258 @@
+[
+  {
+    "year": 2018,
+    "owner_id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+    "owner_name": "Jonathan Bi",
+    "team_name": "SUPER ANGRY HIPPO",
+    "record": "10-2-0",
+    "points_for": 1854.6799999999998,
+    "points_against": 1503.98,
+    "top_performers": [
+      {
+        "player_name": "Patrick Mahomes",
+        "position": "QB",
+        "pro_team": "KC",
+        "total_points": 417.08,
+        "avg_points": 26.07
+      },
+      {
+        "player_name": "Christian McCaffrey",
+        "position": "RB",
+        "pro_team": "CAR",
+        "total_points": 385.5,
+        "avg_points": 24.09
+      },
+      {
+        "player_name": "Todd Gurley II",
+        "position": "RB",
+        "pro_team": "LAR",
+        "total_points": 372.1,
+        "avg_points": 26.58
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "owner_id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+    "owner_name": "Justin Lee",
+    "team_name": "CANT GUARD  MIKE",
+    "record": "6-7-0",
+    "points_for": 1694.0600000000004,
+    "points_against": 1809.32,
+    "top_performers": [
+      {
+        "player_name": "Michael Thomas",
+        "position": "WR",
+        "pro_team": "NO",
+        "total_points": 374.6,
+        "avg_points": 23.41
+      },
+      {
+        "player_name": "Deshaun Watson",
+        "position": "QB",
+        "pro_team": "HOU",
+        "total_points": 320.98,
+        "avg_points": 21.4
+      },
+      {
+        "player_name": "Derrick Henry",
+        "position": "RB",
+        "pro_team": "TEN",
+        "total_points": 294.6,
+        "avg_points": 19.64
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "owner_id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+    "owner_name": "Jared Tao",
+    "team_name": "Easy Breesy Beautiful",
+    "record": "7-6-0",
+    "points_for": 1765.1200000000001,
+    "points_against": 1777.74,
+    "top_performers": [
+      {
+        "player_name": "Ryan Tannehill",
+        "position": "QB",
+        "pro_team": "TEN",
+        "total_points": 344.36,
+        "avg_points": 21.52
+      },
+      {
+        "player_name": "Stefon Diggs",
+        "position": "WR",
+        "pro_team": "BUF",
+        "total_points": 328.6,
+        "avg_points": 20.54
+      },
+      {
+        "player_name": "Darren Waller",
+        "position": "TE",
+        "pro_team": "LV",
+        "total_points": 278.6,
+        "avg_points": 17.41
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "owner_id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+    "owner_name": "Yannis Bi",
+    "team_name": "super cooper",
+    "record": "11-3-0",
+    "points_for": 1899.7599999999998,
+    "points_against": 1590.3,
+    "top_performers": [
+      {
+        "player_name": "Cooper Kupp",
+        "position": "WR",
+        "pro_team": "LAR",
+        "total_points": 439.5,
+        "avg_points": 25.85
+      },
+      {
+        "player_name": "Jalen Hurts",
+        "position": "QB",
+        "pro_team": "PHI",
+        "total_points": 312.16,
+        "avg_points": 20.81
+      },
+      {
+        "player_name": "Najee Harris",
+        "position": "RB",
+        "pro_team": "PIT",
+        "total_points": 300.7,
+        "avg_points": 17.69
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "owner_id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+    "owner_name": "Jonathan Bi",
+    "team_name": "MY NAME jeff",
+    "record": "9-5-0",
+    "points_for": 1582.2199999999998,
+    "points_against": 1580.1,
+    "top_performers": [
+      {
+        "player_name": "Justin Jefferson",
+        "position": "WR",
+        "pro_team": "MIN",
+        "total_points": 368.66,
+        "avg_points": 21.69
+      },
+      {
+        "player_name": "Joe Burrow",
+        "position": "QB",
+        "pro_team": "CIN",
+        "total_points": 350.7,
+        "avg_points": 21.92
+      },
+      {
+        "player_name": "Amari Cooper",
+        "position": "WR",
+        "pro_team": "CLE",
+        "total_points": 246.0,
+        "avg_points": 14.47
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "owner_id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+    "owner_name": "Parth Shah",
+    "team_name": "One Lamb Army",
+    "record": "8-6-0",
+    "points_for": 1584.9999999999998,
+    "points_against": 1446.26,
+    "top_performers": [
+      {
+        "player_name": "CeeDee Lamb",
+        "position": "WR",
+        "pro_team": "DAL",
+        "total_points": 403.2,
+        "avg_points": 23.72
+      },
+      {
+        "player_name": "Ja'Marr Chase",
+        "position": "WR",
+        "pro_team": "CIN",
+        "total_points": 262.72,
+        "avg_points": 16.42
+      },
+      {
+        "player_name": "Jayden Reed",
+        "position": "WR",
+        "pro_team": "GB",
+        "total_points": 217.2,
+        "avg_points": 13.58
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "owner_id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+    "owner_name": "Justin Lee",
+    "team_name": "SUPER SONIC GIBBS \u26a1\ufe0f",
+    "record": "7-7-0",
+    "points_for": 1679.3599999999997,
+    "points_against": 1660.48,
+    "top_performers": [
+      {
+        "player_name": "Jahmyr Gibbs",
+        "position": "RB",
+        "pro_team": "DET",
+        "total_points": 362.9,
+        "avg_points": 21.35
+      },
+      {
+        "player_name": "Justin Jefferson",
+        "position": "WR",
+        "pro_team": "MIN",
+        "total_points": 317.48,
+        "avg_points": 18.68
+      },
+      {
+        "player_name": "Bo Nix",
+        "position": "QB",
+        "pro_team": "DEN",
+        "total_points": 317.2,
+        "avg_points": 18.66
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "owner_id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+    "owner_name": "Eric Tao",
+    "team_name": "ARich AWAITING AREA",
+    "record": "10-4-0",
+    "points_for": 1773.88,
+    "points_against": 1473.64,
+    "top_performers": [
+      {
+        "player_name": "Christian McCaffrey",
+        "position": "RB",
+        "pro_team": "SF",
+        "total_points": 416.6,
+        "avg_points": 24.51
+      },
+      {
+        "player_name": "De'Von Achane",
+        "position": "RB",
+        "pro_team": "MIA",
+        "total_points": 322.8,
+        "avg_points": 20.18
+      },
+      {
+        "player_name": "Patrick Mahomes",
+        "position": "QB",
+        "pro_team": "KC",
+        "total_points": 285.68,
+        "avg_points": 20.41
+      }
+    ]
+  }
+]

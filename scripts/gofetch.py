@@ -40,17 +40,16 @@ def get_owner_name(team):
 
 
 def roster_to_list(team):
-    """
-    End-of-season roster snapshot: just enough (player_id, player_name) to
-    cross-reference against that team's draft picks later, e.g. for a
-    'did they keep their draft picks' stat.
-    """
     roster = getattr(team, "roster", None) or []
     out = []
     for p in roster:
         out.append({
             "player_id": getattr(p, "playerId", None),
             "player_name": getattr(p, "name", None),
+            "position": getattr(p, "position", None),
+            "pro_team": getattr(p, "proTeam", None),
+            "total_points": getattr(p, "total_points", None),
+            "avg_points": getattr(p, "avg_points", None),
         })
     return out
 
