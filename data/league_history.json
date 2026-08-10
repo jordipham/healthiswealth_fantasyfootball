@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-08-10T12:50:02.882922",
+  "pulled_at": "2026-08-10T13:09:27.716821",
   "league_id": 992916,
   "seasons": {
     "2018": {
@@ -74,6 +74,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2508176,
+              "player_name": "David Johnson"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 14221,
+              "player_name": "Doug Baldwin"
+            },
+            {
+              "player_id": 16790,
+              "player_name": "Jarvis Landry"
+            },
+            {
+              "player_id": 14912,
+              "player_name": "Alshon Jeffery"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": -16003,
+              "player_name": "Bears D/ST"
+            },
+            {
+              "player_id": 2979477,
+              "player_name": "Tevin Coleman"
+            },
+            {
+              "player_id": 11122,
+              "player_name": "Matt Prater"
+            },
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": 5529,
+              "player_name": "Philip Rivers"
+            },
+            {
+              "player_id": 16732,
+              "player_name": "Eric Ebron"
+            },
+            {
+              "player_id": 3116721,
+              "player_name": "Jaylen Samuels"
+            },
+            {
+              "player_id": 2980453,
+              "player_name": "Jamaal Williams"
+            },
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            }
           ]
         },
         {
@@ -138,6 +204,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 2985659,
+              "player_name": "Wil Lutz"
+            },
+            {
+              "player_id": 2580,
+              "player_name": "Drew Brees"
+            },
+            {
+              "player_id": -16034,
+              "player_name": "Texans D/ST"
+            },
+            {
+              "player_id": 3049916,
+              "player_name": "Matt Breida"
+            },
+            {
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley"
+            },
+            {
+              "player_id": 3116593,
+              "player_name": "Dalvin Cook"
+            },
+            {
+              "player_id": 2974858,
+              "player_name": "Kenny Golladay"
+            },
+            {
+              "player_id": 3139605,
+              "player_name": "Marlon Mack"
+            },
+            {
+              "player_id": 3042778,
+              "player_name": "Corey Davis"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 3057987,
+              "player_name": "DaeSean Hamilton"
+            },
+            {
+              "player_id": 3115306,
+              "player_name": "Josh Reynolds"
+            },
+            {
+              "player_id": 17359,
+              "player_name": "Damien Williams"
+            }
           ]
         },
         {
@@ -202,6 +334,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 13217,
+              "player_name": "Golden Tate"
+            },
+            {
+              "player_id": 3122840,
+              "player_name": "Deshaun Watson"
+            },
+            {
+              "player_id": 3919596,
+              "player_name": "Chris Carson"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 14054,
+              "player_name": "Kyle Rudolph"
+            },
+            {
+              "player_id": 10452,
+              "player_name": "Adrian Peterson"
+            },
+            {
+              "player_id": 12514,
+              "player_name": "LeSean McCoy"
+            },
+            {
+              "player_id": 3046779,
+              "player_name": "Jared Goff"
+            },
+            {
+              "player_id": 3043275,
+              "player_name": "Austin Hooper"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 3115364,
+              "player_name": "Leonard Fournette"
+            },
+            {
+              "player_id": 14198,
+              "player_name": "Dion Lewis"
+            },
+            {
+              "player_id": 16486,
+              "player_name": "Brett Maher"
+            }
           ]
         },
         {
@@ -266,6 +464,72 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3060022,
+              "player_name": "Jordan Howard"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": 14993,
+              "player_name": "Greg Zuerlein"
+            },
+            {
+              "player_id": -16016,
+              "player_name": "Vikings D/ST"
+            },
+            {
+              "player_id": 3916925,
+              "player_name": "Kerryon Johnson"
+            },
+            {
+              "player_id": 16913,
+              "player_name": "James White"
+            },
+            {
+              "player_id": 16725,
+              "player_name": "Sammy Watkins"
+            },
+            {
+              "player_id": 2977609,
+              "player_name": "Devin Funchess"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            },
+            {
+              "player_id": 2574576,
+              "player_name": "C.J. Uzomah"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 3039707,
+              "player_name": "Mitchell Trubisky"
+            }
           ]
         },
         {
@@ -330,6 +594,72 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 13229,
+              "player_name": "Rob Gronkowski"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 3052117,
+              "player_name": "Phillip Lindsay"
+            },
+            {
+              "player_id": 17082,
+              "player_name": "Cody Parkey"
+            },
+            {
+              "player_id": 3045144,
+              "player_name": "Tyler Boyd"
+            },
+            {
+              "player_id": 3123076,
+              "player_name": "David Njoku"
+            },
+            {
+              "player_id": 13982,
+              "player_name": "Julio Jones"
+            },
+            {
+              "player_id": 12537,
+              "player_name": "Jared Cook"
+            },
+            {
+              "player_id": 10636,
+              "player_name": "Mason Crosby"
+            },
+            {
+              "player_id": 13981,
+              "player_name": "Mark Ingram II"
+            },
+            {
+              "player_id": 14924,
+              "player_name": "T.Y. Hilton"
+            },
+            {
+              "player_id": 14874,
+              "player_name": "Andrew Luck"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": -16028,
+              "player_name": "Redskins D/ST"
+            },
+            {
+              "player_id": 3042494,
+              "player_name": "Elijah McGuire"
+            }
           ]
         },
         {
@@ -394,6 +724,72 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 13216,
+              "player_name": "Demaryius Thomas"
+            },
+            {
+              "player_id": 2979843,
+              "player_name": "Kenyan Drake"
+            },
+            {
+              "player_id": 3120348,
+              "player_name": "JuJu Smith-Schuster"
+            },
+            {
+              "player_id": 13994,
+              "player_name": "Cam Newton"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 3066158,
+              "player_name": "Tarik Cohen"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": 12563,
+              "player_name": "Michael Crabtree"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": 16799,
+              "player_name": "Allen Robinson"
+            },
+            {
+              "player_id": 10475,
+              "player_name": "Greg Olsen"
+            },
+            {
+              "player_id": 1097,
+              "player_name": "Adam Vinatieri"
+            },
+            {
+              "player_id": 13232,
+              "player_name": "Jimmy Graham"
+            },
+            {
+              "player_id": 3121427,
+              "player_name": "Curtis Samuel"
+            }
           ]
         },
         {
@@ -458,6 +854,72 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2977644,
+              "player_name": "Todd Gurley II"
+            },
+            {
+              "player_id": 2976316,
+              "player_name": "Michael Thomas"
+            },
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 12649,
+              "player_name": "Julian Edelman"
+            },
+            {
+              "player_id": 9704,
+              "player_name": "Stephen Gostkowski"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 3128721,
+              "player_name": "Sony Michel"
+            },
+            {
+              "player_id": 11237,
+              "player_name": "Matt Ryan"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": 13934,
+              "player_name": "Antonio Brown"
+            },
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 14886,
+              "player_name": "Lamar Miller"
+            },
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 16020,
+              "player_name": "Spencer Ware"
+            },
+            {
+              "player_id": 16040,
+              "player_name": "C.J. Anderson"
+            }
           ]
         },
         {
@@ -522,6 +984,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 2576434,
+              "player_name": "Melvin Gordon"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            },
+            {
+              "player_id": 15072,
+              "player_name": "Marvin Jones Jr."
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 5536,
+              "player_name": "Ben Roethlisberger"
+            },
+            {
+              "player_id": 2976592,
+              "player_name": "Sterling Shepard"
+            },
+            {
+              "player_id": 15880,
+              "player_name": "Robert Woods"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 2972091,
+              "player_name": "Jalen Richard"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 3051926,
+              "player_name": "Gus Edwards"
+            },
+            {
+              "player_id": 17453,
+              "player_name": "Cameron Brate"
+            }
           ]
         }
       ],
@@ -2532,6 +3060,76 @@
             "U",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 15825,
+              "player_name": "Le'Veon Bell"
+            },
+            {
+              "player_id": 16944,
+              "player_name": "Devonta Freeman"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 3045144,
+              "player_name": "Tyler Boyd"
+            },
+            {
+              "player_id": 2979477,
+              "player_name": "Tevin Coleman"
+            },
+            {
+              "player_id": 13295,
+              "player_name": "Emmanuel Sanders"
+            },
+            {
+              "player_id": 3121427,
+              "player_name": "Curtis Samuel"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 11122,
+              "player_name": "Matt Prater"
+            },
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 3892889,
+              "player_name": "Dede Westbrook"
+            },
+            {
+              "player_id": 2576414,
+              "player_name": "Raheem Mostert"
+            },
+            {
+              "player_id": 14876,
+              "player_name": "Ryan Tannehill"
+            },
+            {
+              "player_id": 2577654,
+              "player_name": "DeAndre Washington"
+            }
           ]
         },
         {
@@ -2602,6 +3200,68 @@
             "U",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 2974858,
+              "player_name": "Kenny Golladay"
+            },
+            {
+              "player_id": 2985659,
+              "player_name": "Wil Lutz"
+            },
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 15920,
+              "player_name": "Latavius Murray"
+            },
+            {
+              "player_id": 2580,
+              "player_name": "Drew Brees"
+            },
+            {
+              "player_id": 15773,
+              "player_name": "Darren Fells"
+            },
+            {
+              "player_id": 3116721,
+              "player_name": "Jaylen Samuels"
+            },
+            {
+              "player_id": 3116642,
+              "player_name": "Reggie Bonnafon"
+            },
+            {
+              "player_id": 12537,
+              "player_name": "Jared Cook"
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 3127211,
+              "player_name": "Patrick Laird"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 3125404,
+              "player_name": "Jacob Hollister"
+            },
+            {
+              "player_id": 10452,
+              "player_name": "Adrian Peterson"
+            }
           ]
         },
         {
@@ -2672,6 +3332,76 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 3919596,
+              "player_name": "Chris Carson"
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 3139605,
+              "player_name": "Marlon Mack"
+            },
+            {
+              "player_id": 15853,
+              "player_name": "Vance McDonald"
+            },
+            {
+              "player_id": 3895856,
+              "player_name": "Christian Kirk"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 3051738,
+              "player_name": "Marquez Valdes-Scantling"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 10636,
+              "player_name": "Mason Crosby"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 5528,
+              "player_name": "Larry Fitzgerald"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": -16026,
+              "player_name": "Seahawks D/ST"
+            },
+            {
+              "player_id": 3051891,
+              "player_name": "Jordan Wilkins"
+            }
           ]
         },
         {
@@ -2742,6 +3472,76 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2976316,
+              "player_name": "Michael Thomas"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 14924,
+              "player_name": "T.Y. Hilton"
+            },
+            {
+              "player_id": 3122840,
+              "player_name": "Deshaun Watson"
+            },
+            {
+              "player_id": 4045163,
+              "player_name": "Miles Sanders"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Marquise Brown"
+            },
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": 4527,
+              "player_name": "Jason Witten"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": -16018,
+              "player_name": "Saints D/ST"
+            },
+            {
+              "player_id": -16016,
+              "player_name": "Vikings D/ST"
+            },
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 4036131,
+              "player_name": "Noah Fant"
+            },
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            }
           ]
         },
         {
@@ -2812,6 +3612,76 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 2576434,
+              "player_name": "Melvin Gordon"
+            },
+            {
+              "player_id": 2976592,
+              "player_name": "Sterling Shepard"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 3043275,
+              "player_name": "Austin Hooper"
+            },
+            {
+              "player_id": 3917315,
+              "player_name": "Kyler Murray"
+            },
+            {
+              "player_id": 13217,
+              "player_name": "Golden Tate"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 3115394,
+              "player_name": "DJ Chark Jr."
+            },
+            {
+              "player_id": 3060022,
+              "player_name": "Jordan Howard"
+            },
+            {
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo"
+            },
+            {
+              "player_id": 3050487,
+              "player_name": "Anthony Miller"
+            },
+            {
+              "player_id": 9354,
+              "player_name": "Robbie Gould"
+            },
+            {
+              "player_id": 3045138,
+              "player_name": "Mike Williams"
+            },
+            {
+              "player_id": 2573401,
+              "player_name": "Tyler Higbee"
+            },
+            {
+              "player_id": 14198,
+              "player_name": "Dion Lewis"
+            }
           ]
         },
         {
@@ -2882,6 +3752,76 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3120348,
+              "player_name": "JuJu Smith-Schuster"
+            },
+            {
+              "player_id": 17359,
+              "player_name": "Damien Williams"
+            },
+            {
+              "player_id": 2979843,
+              "player_name": "Kenyan Drake"
+            },
+            {
+              "player_id": 16790,
+              "player_name": "Jarvis Landry"
+            },
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            },
+            {
+              "player_id": 16777,
+              "player_name": "Carlos Hyde"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": 2508176,
+              "player_name": "David Johnson"
+            },
+            {
+              "player_id": 16804,
+              "player_name": "John Brown"
+            },
+            {
+              "player_id": 15705,
+              "player_name": "Josh Gordon"
+            },
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": -16025,
+              "player_name": "49ers D/ST"
+            },
+            {
+              "player_id": -16029,
+              "player_name": "Panthers D/ST"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 2978109,
+              "player_name": "Zach Pascal"
+            },
+            {
+              "player_id": 3916430,
+              "player_name": "Nyheim Hines"
+            },
+            {
+              "player_id": 16504,
+              "player_name": "Jack Doyle"
+            }
           ]
         },
         {
@@ -2952,6 +3892,76 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 13983,
+              "player_name": "A.J. Green"
+            },
+            {
+              "player_id": 2573079,
+              "player_name": "Carson Wentz"
+            },
+            {
+              "player_id": 4048244,
+              "player_name": "Alexander Mattison"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 3116593,
+              "player_name": "Dalvin Cook"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 12649,
+              "player_name": "Julian Edelman"
+            },
+            {
+              "player_id": 3115364,
+              "player_name": "Leonard Fournette"
+            },
+            {
+              "player_id": 2574808,
+              "player_name": "Robby Anderson"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 2998120,
+              "player_name": "Josh Lambo"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": 2972091,
+              "player_name": "Jalen Richard"
+            }
           ]
         },
         {
@@ -3022,6 +4032,76 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2977644,
+              "player_name": "Todd Gurley II"
+            },
+            {
+              "player_id": 3052117,
+              "player_name": "Phillip Lindsay"
+            },
+            {
+              "player_id": 3052876,
+              "player_name": "Will Fuller V"
+            },
+            {
+              "player_id": 14993,
+              "player_name": "Greg Zuerlein"
+            },
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 2969939,
+              "player_name": "Jameis Winston"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 2980453,
+              "player_name": "Jamaal Williams"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            },
+            {
+              "player_id": 2576623,
+              "player_name": "DeVante Parker"
+            },
+            {
+              "player_id": 2576716,
+              "player_name": "Jamison Crowder"
+            },
+            {
+              "player_id": 2972460,
+              "player_name": "Breshad Perriman"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            },
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            }
           ]
         },
         {
@@ -3092,6 +4172,76 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 13982,
+              "player_name": "Julio Jones"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 11237,
+              "player_name": "Matt Ryan"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 2587819,
+              "player_name": "Tyrell Williams"
+            },
+            {
+              "player_id": 3122672,
+              "player_name": "Royce Freeman"
+            },
+            {
+              "player_id": 3912550,
+              "player_name": "Ronald Jones II"
+            },
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 3066158,
+              "player_name": "Tarik Cohen"
+            },
+            {
+              "player_id": 4249087,
+              "player_name": "Matt Gay"
+            },
+            {
+              "player_id": 5615,
+              "player_name": "Matt Schaub"
+            },
+            {
+              "player_id": 3116164,
+              "player_name": "Mike Gesicki"
+            },
+            {
+              "player_id": 14053,
+              "player_name": "Randall Cobb"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            }
           ]
         },
         {
@@ -3162,6 +4312,76 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 15880,
+              "player_name": "Robert Woods"
+            },
+            {
+              "player_id": 16913,
+              "player_name": "James White"
+            },
+            {
+              "player_id": 16799,
+              "player_name": "Allen Robinson II"
+            },
+            {
+              "player_id": -16003,
+              "player_name": "Bears D/ST"
+            },
+            {
+              "player_id": 4036348,
+              "player_name": "Michael Gallup"
+            },
+            {
+              "player_id": 3043234,
+              "player_name": "Zane Gonzalez"
+            },
+            {
+              "player_id": 13981,
+              "player_name": "Mark Ingram II"
+            },
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 14922,
+              "player_name": "Mohamed Sanu Sr."
+            },
+            {
+              "player_id": 15072,
+              "player_name": "Marvin Jones Jr."
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            },
+            {
+              "player_id": 2980077,
+              "player_name": "Jonathan Williams"
+            },
+            {
+              "player_id": 3916945,
+              "player_name": "Darius Slayton"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            }
           ]
         }
       ],
@@ -5871,6 +7091,88 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 3115394,
+              "player_name": "DJ Chark Jr."
+            },
+            {
+              "player_id": 3052876,
+              "player_name": "Will Fuller V"
+            },
+            {
+              "player_id": 15920,
+              "player_name": "Latavius Murray"
+            },
+            {
+              "player_id": 2976592,
+              "player_name": "Sterling Shepard"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 15826,
+              "player_name": "Giovani Bernard"
+            },
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": 16804,
+              "player_name": "John Brown"
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": -16005,
+              "player_name": "Browns D/ST"
+            },
+            {
+              "player_id": 3917232,
+              "player_name": "Tyler Bass"
+            },
+            {
+              "player_id": 3122866,
+              "player_name": "Devontae Booker"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Marquise Brown"
+            },
+            {
+              "player_id": 14924,
+              "player_name": "T.Y. Hilton"
+            }
           ]
         },
         {
@@ -5941,6 +7243,80 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 3045144,
+              "player_name": "Tyler Boyd"
+            },
+            {
+              "player_id": 4052042,
+              "player_name": "James Robinson"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 3886818,
+              "player_name": "Myles Gaskin"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 4241985,
+              "player_name": "J.K. Dobbins"
+            },
+            {
+              "player_id": 3051909,
+              "player_name": "Daniel Carlson"
+            },
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 3924365,
+              "player_name": "Hayden Hurst"
+            },
+            {
+              "player_id": 4240021,
+              "player_name": "Cam Akers"
+            },
+            {
+              "player_id": 16813,
+              "player_name": "Logan Thomas"
+            },
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 2983509,
+              "player_name": "Dare Ogunbowale"
+            },
+            {
+              "player_id": 2580,
+              "player_name": "Drew Brees"
+            },
+            {
+              "player_id": 3123969,
+              "player_name": "Ito Smith"
+            }
           ]
         },
         {
@@ -6011,6 +7387,76 @@
             "U",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 3919596,
+              "player_name": "Chris Carson"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": 12649,
+              "player_name": "Julian Edelman"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            },
+            {
+              "player_id": 16913,
+              "player_name": "James White"
+            },
+            {
+              "player_id": 4036131,
+              "player_name": "Noah Fant"
+            },
+            {
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo"
+            },
+            {
+              "player_id": 5528,
+              "player_name": "Larry Fitzgerald"
+            },
+            {
+              "player_id": 13994,
+              "player_name": "Cam Newton"
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 13217,
+              "player_name": "Golden Tate"
+            },
+            {
+              "player_id": -16018,
+              "player_name": "Saints D/ST"
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            },
+            {
+              "player_id": 4360438,
+              "player_name": "Brandon Aiyuk"
+            },
+            {
+              "player_id": 4242214,
+              "player_name": "Clyde Edwards-Helaire"
+            }
           ]
         },
         {
@@ -6081,6 +7527,84 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3116593,
+              "player_name": "Dalvin Cook"
+            },
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": 2977644,
+              "player_name": "Todd Gurley II"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 3917315,
+              "player_name": "Kyler Murray"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 4035004,
+              "player_name": "Mecole Hardman"
+            },
+            {
+              "player_id": 13229,
+              "player_name": "Rob Gronkowski"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": 3045138,
+              "player_name": "Mike Williams"
+            },
+            {
+              "player_id": 3043275,
+              "player_name": "Austin Hooper"
+            },
+            {
+              "player_id": 15349,
+              "player_name": "Cole Beasley"
+            },
+            {
+              "player_id": 3042778,
+              "player_name": "Corey Davis"
+            },
+            {
+              "player_id": 12460,
+              "player_name": "Graham Gano"
+            },
+            {
+              "player_id": 3050487,
+              "player_name": "Anthony Miller"
+            }
           ]
         },
         {
@@ -6151,6 +7675,88 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 13934,
+              "player_name": "Antonio Brown"
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 2576716,
+              "player_name": "Jamison Crowder"
+            },
+            {
+              "player_id": 3045127,
+              "player_name": "Wayne Gallman"
+            },
+            {
+              "player_id": 3932905,
+              "player_name": "Diontae Johnson"
+            },
+            {
+              "player_id": 3120348,
+              "player_name": "JuJu Smith-Schuster"
+            },
+            {
+              "player_id": 4046692,
+              "player_name": "Chase Claypool"
+            },
+            {
+              "player_id": 16732,
+              "player_name": "Eric Ebron"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 16790,
+              "player_name": "Jarvis Landry"
+            },
+            {
+              "player_id": 3915165,
+              "player_name": "Rodrigo Blankenship"
+            },
+            {
+              "player_id": 3051902,
+              "player_name": "Peyton Barber"
+            },
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 3042910,
+              "player_name": "Rashard Higgins"
+            },
+            {
+              "player_id": 4035072,
+              "player_name": "Benny Snell Jr."
+            },
+            {
+              "player_id": 15825,
+              "player_name": "Le'Veon Bell"
+            },
+            {
+              "player_id": 2578369,
+              "player_name": "Marvin Hall"
+            }
           ]
         },
         {
@@ -6221,6 +7827,84 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 3122840,
+              "player_name": "Deshaun Watson"
+            },
+            {
+              "player_id": 2576414,
+              "player_name": "Raheem Mostert"
+            },
+            {
+              "player_id": 16944,
+              "player_name": "Devonta Freeman"
+            },
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": 13982,
+              "player_name": "Julio Jones"
+            },
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": 13983,
+              "player_name": "A.J. Green"
+            },
+            {
+              "player_id": 12731,
+              "player_name": "Ryan Succop"
+            },
+            {
+              "player_id": -16016,
+              "player_name": "Vikings D/ST"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            },
+            {
+              "player_id": 3134353,
+              "player_name": "Tim Patrick"
+            },
+            {
+              "player_id": -16028,
+              "player_name": "Washington D/ST"
+            },
+            {
+              "player_id": 3122976,
+              "player_name": "Jeff Wilson Jr."
+            },
+            {
+              "player_id": 3066074,
+              "player_name": "Chad Hansen"
+            },
+            {
+              "player_id": 2473037,
+              "player_name": "Jason Myers"
+            },
+            {
+              "player_id": 12537,
+              "player_name": "Jared Cook"
+            }
           ]
         },
         {
@@ -6291,6 +7975,80 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 4360294,
+              "player_name": "Antonio Gibson"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 2979843,
+              "player_name": "Kenyan Drake"
+            },
+            {
+              "player_id": 2974858,
+              "player_name": "Kenny Golladay"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 16799,
+              "player_name": "Allen Robinson II"
+            },
+            {
+              "player_id": 4038941,
+              "player_name": "Justin Herbert"
+            },
+            {
+              "player_id": 15072,
+              "player_name": "Marvin Jones Jr."
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": 3025433,
+              "player_name": "Mike Davis"
+            },
+            {
+              "player_id": 3124679,
+              "player_name": "Jason Sanders"
+            },
+            {
+              "player_id": 3115378,
+              "player_name": "Russell Gage"
+            },
+            {
+              "player_id": -16034,
+              "player_name": "Texans D/ST"
+            },
+            {
+              "player_id": 4039359,
+              "player_name": "Darrell Henderson Jr."
+            },
+            {
+              "player_id": -16003,
+              "player_name": "Bears D/ST"
+            },
+            {
+              "player_id": -16015,
+              "player_name": "Dolphins D/ST"
+            }
           ]
         },
         {
@@ -6361,6 +8119,76 @@
             "U",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": 15880,
+              "player_name": "Robert Woods"
+            },
+            {
+              "player_id": 2574808,
+              "player_name": "Robby Anderson"
+            },
+            {
+              "player_id": 2576623,
+              "player_name": "DeVante Parker"
+            },
+            {
+              "player_id": 10636,
+              "player_name": "Mason Crosby"
+            },
+            {
+              "player_id": 2980453,
+              "player_name": "Jamaal Williams"
+            },
+            {
+              "player_id": 3116164,
+              "player_name": "Mike Gesicki"
+            },
+            {
+              "player_id": 16339,
+              "player_name": "Brandon McManus"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 2572861,
+              "player_name": "J.D. McKissic"
+            },
+            {
+              "player_id": 2975674,
+              "player_name": "Robert Tonyan"
+            },
+            {
+              "player_id": 15705,
+              "player_name": "Josh Gordon"
+            },
+            {
+              "player_id": -16022,
+              "player_name": "Cardinals D/ST"
+            }
           ]
         },
         {
@@ -6431,6 +8259,84 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 2576434,
+              "player_name": "Melvin Gordon III"
+            },
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 3912550,
+              "player_name": "Ronald Jones II"
+            },
+            {
+              "player_id": 13295,
+              "player_name": "Emmanuel Sanders"
+            },
+            {
+              "player_id": 2985659,
+              "player_name": "Wil Lutz"
+            },
+            {
+              "player_id": 3128390,
+              "player_name": "Allen Lazard"
+            },
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 4045163,
+              "player_name": "Miles Sanders"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 3115364,
+              "player_name": "Leonard Fournette"
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            },
+            {
+              "player_id": -16010,
+              "player_name": "Titans D/ST"
+            },
+            {
+              "player_id": 2468609,
+              "player_name": "Taysom Hill"
+            },
+            {
+              "player_id": 14876,
+              "player_name": "Ryan Tannehill"
+            },
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            }
           ]
         },
         {
@@ -6501,6 +8407,80 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 3119195,
+              "player_name": "Chase Edmonds"
+            },
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": 2508176,
+              "player_name": "David Johnson"
+            },
+            {
+              "player_id": 3925347,
+              "player_name": "Damien Harris"
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": 3121427,
+              "player_name": "Curtis Samuel"
+            },
+            {
+              "player_id": 3916430,
+              "player_name": "Nyheim Hines"
+            },
+            {
+              "player_id": 16725,
+              "player_name": "Sammy Watkins"
+            },
+            {
+              "player_id": 2971618,
+              "player_name": "Nelson Agholor"
+            },
+            {
+              "player_id": -16009,
+              "player_name": "Packers D/ST"
+            },
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": 13232,
+              "player_name": "Jimmy Graham"
+            }
           ]
         }
       ],
@@ -9113,6 +11093,72 @@
             "U",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 4241457,
+              "player_name": "Najee Harris"
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 4360248,
+              "player_name": "Kyle Pitts"
+            },
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 3115364,
+              "player_name": "Leonard Fournette"
+            },
+            {
+              "player_id": 4241478,
+              "player_name": "DeVonta Smith"
+            },
+            {
+              "player_id": 3115375,
+              "player_name": "Darrel Williams"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 3895856,
+              "player_name": "Christian Kirk"
+            },
+            {
+              "player_id": -16003,
+              "player_name": "Bears D/ST"
+            },
+            {
+              "player_id": 3917612,
+              "player_name": "Ke'Shawn Vaughn"
+            },
+            {
+              "player_id": 3051439,
+              "player_name": "Boston Scott"
+            },
+            {
+              "player_id": 4383351,
+              "player_name": "Trey Lance"
+            },
+            {
+              "player_id": 4035072,
+              "player_name": "Benny Snell Jr."
+            },
+            {
+              "player_id": 3123052,
+              "player_name": "Michael Badgley"
+            }
           ]
         },
         {
@@ -9186,6 +11232,68 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 4036131,
+              "player_name": "Noah Fant"
+            },
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": 4361411,
+              "player_name": "Pat Freiermuth"
+            },
+            {
+              "player_id": 16339,
+              "player_name": "Brandon McManus"
+            },
+            {
+              "player_id": -16015,
+              "player_name": "Dolphins D/ST"
+            },
+            {
+              "player_id": 3115378,
+              "player_name": "Russell Gage"
+            },
+            {
+              "player_id": 3126246,
+              "player_name": "Dontrell Hilliard"
+            },
+            {
+              "player_id": 3915411,
+              "player_name": "Ty Johnson"
+            },
+            {
+              "player_id": 2576716,
+              "player_name": "Jamison Crowder"
+            },
+            {
+              "player_id": 3917315,
+              "player_name": "Kyler Murray"
+            },
+            {
+              "player_id": 4258595,
+              "player_name": "Cole Kmet"
+            },
+            {
+              "player_id": 4035170,
+              "player_name": "Marquez Callaway"
+            }
           ]
         },
         {
@@ -9259,6 +11367,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4046692,
+              "player_name": "Chase Claypool"
+            },
+            {
+              "player_id": 4036348,
+              "player_name": "Michael Gallup"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 3025433,
+              "player_name": "Mike Davis"
+            },
+            {
+              "player_id": 3930086,
+              "player_name": "Dawson Knox"
+            },
+            {
+              "player_id": 3046409,
+              "player_name": "Alex Collins"
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": 3042778,
+              "player_name": "Corey Davis"
+            },
+            {
+              "player_id": 10621,
+              "player_name": "Nick Folk"
+            },
+            {
+              "player_id": 4361579,
+              "player_name": "Javonte Williams"
+            },
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 4035115,
+              "player_name": "Albert Okwuegbunam"
+            },
+            {
+              "player_id": 10636,
+              "player_name": "Mason Crosby"
+            }
           ]
         },
         {
@@ -9332,6 +11502,72 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 2974858,
+              "player_name": "Kenny Golladay"
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": 13295,
+              "player_name": "Emmanuel Sanders"
+            },
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": 3119195,
+              "player_name": "Chase Edmonds"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 3045138,
+              "player_name": "Mike Williams"
+            },
+            {
+              "player_id": 14876,
+              "player_name": "Ryan Tannehill"
+            },
+            {
+              "player_id": 13982,
+              "player_name": "Julio Jones"
+            },
+            {
+              "player_id": 2576434,
+              "player_name": "Melvin Gordon III"
+            },
+            {
+              "player_id": 3128721,
+              "player_name": "Sony Michel"
+            },
+            {
+              "player_id": 15920,
+              "player_name": "Latavius Murray"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo"
+            }
           ]
         },
         {
@@ -9405,6 +11641,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3116593,
+              "player_name": "Dalvin Cook"
+            },
+            {
+              "player_id": 4360438,
+              "player_name": "Brandon Aiyuk"
+            },
+            {
+              "player_id": 13934,
+              "player_name": "Antonio Brown"
+            },
+            {
+              "player_id": 4048244,
+              "player_name": "Alexander Mattison"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 4240657,
+              "player_name": "Michael Carter"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": -16009,
+              "player_name": "Packers D/ST"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": 3125116,
+              "player_name": "D'Onta Foreman"
+            },
+            {
+              "player_id": 4039359,
+              "player_name": "Darrell Henderson Jr."
+            },
+            {
+              "player_id": 12483,
+              "player_name": "Matthew Stafford"
+            },
+            {
+              "player_id": 3912550,
+              "player_name": "Ronald Jones II"
+            },
+            {
+              "player_id": 2573401,
+              "player_name": "Tyler Higbee"
+            },
+            {
+              "player_id": 4240021,
+              "player_name": "Cam Akers"
+            },
+            {
+              "player_id": 4242433,
+              "player_name": "Joshua Palmer"
+            }
           ]
         },
         {
@@ -9478,6 +11780,68 @@
             "U",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": -16025,
+              "player_name": "49ers D/ST"
+            },
+            {
+              "player_id": -16010,
+              "player_name": "Titans D/ST"
+            },
+            {
+              "player_id": 13981,
+              "player_name": "Mark Ingram II"
+            },
+            {
+              "player_id": 4040655,
+              "player_name": "Darnell Mooney"
+            },
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 2979477,
+              "player_name": "Tevin Coleman"
+            },
+            {
+              "player_id": 17372,
+              "player_name": "Chris Boswell"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 3134353,
+              "player_name": "Tim Patrick"
+            },
+            {
+              "player_id": 12731,
+              "player_name": "Ryan Succop"
+            }
           ]
         },
         {
@@ -9551,6 +11915,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 4045163,
+              "player_name": "Miles Sanders"
+            },
+            {
+              "player_id": 3917232,
+              "player_name": "Tyler Bass"
+            },
+            {
+              "player_id": 2576623,
+              "player_name": "DeVante Parker"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            },
+            {
+              "player_id": 4362628,
+              "player_name": "Ja'Marr Chase"
+            },
+            {
+              "player_id": 4052042,
+              "player_name": "James Robinson"
+            },
+            {
+              "player_id": 3115306,
+              "player_name": "Josh Reynolds"
+            },
+            {
+              "player_id": 15349,
+              "player_name": "Cole Beasley"
+            },
+            {
+              "player_id": 4038941,
+              "player_name": "Justin Herbert"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            }
           ]
         },
         {
@@ -9624,6 +12054,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4360294,
+              "player_name": "Antonio Gibson"
+            },
+            {
+              "player_id": 3932905,
+              "player_name": "Diontae Johnson"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 16790,
+              "player_name": "Jarvis Landry"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Marquise Brown"
+            },
+            {
+              "player_id": 13229,
+              "player_name": "Rob Gronkowski"
+            },
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": 2980453,
+              "player_name": "Jamaal Williams"
+            },
+            {
+              "player_id": 16760,
+              "player_name": "Jimmy Garoppolo"
+            },
+            {
+              "player_id": 3050478,
+              "player_name": "Jake Elliott"
+            },
+            {
+              "player_id": -16026,
+              "player_name": "Seahawks D/ST"
+            },
+            {
+              "player_id": 4241479,
+              "player_name": "Tua Tagovailoa"
+            },
+            {
+              "player_id": 4362452,
+              "player_name": "Jaret Patterson"
+            }
           ]
         },
         {
@@ -9697,6 +12189,72 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 15072,
+              "player_name": "Marvin Jones Jr."
+            },
+            {
+              "player_id": -16018,
+              "player_name": "Saints D/ST"
+            },
+            {
+              "player_id": 3135321,
+              "player_name": "Hunter Renfrow"
+            },
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 3045144,
+              "player_name": "Tyler Boyd"
+            },
+            {
+              "player_id": 4360234,
+              "player_name": "Evan McPherson"
+            },
+            {
+              "player_id": 3843945,
+              "player_name": "Foster Moreau"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            },
+            {
+              "player_id": 2969962,
+              "player_name": "Duke Johnson"
+            },
+            {
+              "player_id": 2576336,
+              "player_name": "Ameer Abdullah"
+            }
           ]
         },
         {
@@ -9770,6 +12328,68 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4241555,
+              "player_name": "Elijah Mitchell"
+            },
+            {
+              "player_id": 3915511,
+              "player_name": "Joe Burrow"
+            },
+            {
+              "player_id": 3975763,
+              "player_name": "Greg Joseph"
+            },
+            {
+              "player_id": 4239934,
+              "player_name": "AJ Dillon"
+            },
+            {
+              "player_id": 4372016,
+              "player_name": "Jaylen Waddle"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 4372414,
+              "player_name": "Elijah Moore"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": 4241416,
+              "player_name": "Chuba Hubbard"
+            },
+            {
+              "player_id": 2574808,
+              "player_name": "Robby Anderson"
+            },
+            {
+              "player_id": 4421446,
+              "player_name": "Craig Reynolds"
+            },
+            {
+              "player_id": 2983509,
+              "player_name": "Dare Ogunbowale"
+            },
+            {
+              "player_id": -16029,
+              "player_name": "Panthers D/ST"
+            }
           ]
         },
         {
@@ -9843,6 +12463,68 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": 3925347,
+              "player_name": "Damien Harris"
+            },
+            {
+              "player_id": 4249087,
+              "player_name": "Matt Gay"
+            },
+            {
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": 3886818,
+              "player_name": "Myles Gaskin"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 3045523,
+              "player_name": "Kendrick Bourne"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 4374302,
+              "player_name": "Amon-Ra St. Brown"
+            },
+            {
+              "player_id": 3916566,
+              "player_name": "K.J. Osborn"
+            },
+            {
+              "player_id": 3139925,
+              "player_name": "Rashaad Penny"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            },
+            {
+              "player_id": 3122976,
+              "player_name": "Jeff Wilson Jr."
+            }
           ]
         },
         {
@@ -9916,6 +12598,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 3116164,
+              "player_name": "Mike Gesicki"
+            },
+            {
+              "player_id": 4242214,
+              "player_name": "Clyde Edwards-Helaire"
+            },
+            {
+              "player_id": 15807,
+              "player_name": "Cordarrelle Patterson"
+            },
+            {
+              "player_id": 16944,
+              "player_name": "Devonta Freeman"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": 15971,
+              "player_name": "Rex Burkhead"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 13983,
+              "player_name": "A.J. Green"
+            },
+            {
+              "player_id": 14993,
+              "player_name": "Greg Zuerlein"
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            }
           ]
         }
       ],
@@ -12972,6 +15720,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 4360238,
+              "player_name": "Dameon Pierce"
+            },
+            {
+              "player_id": 4361370,
+              "player_name": "Chris Olave"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 4241478,
+              "player_name": "DeVonta Smith"
+            },
+            {
+              "player_id": 3116593,
+              "player_name": "Dalvin Cook"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": 4048244,
+              "player_name": "Alexander Mattison"
+            },
+            {
+              "player_id": 10621,
+              "player_name": "Nick Folk"
+            },
+            {
+              "player_id": 3916945,
+              "player_name": "Darius Slayton"
+            },
+            {
+              "player_id": -16010,
+              "player_name": "Titans D/ST"
+            },
+            {
+              "player_id": 2576581,
+              "player_name": "Chris Moore"
+            },
+            {
+              "player_id": 4361409,
+              "player_name": "Jahan Dotson"
+            },
+            {
+              "player_id": 4373626,
+              "player_name": "Tyler Allgeier"
+            }
           ]
         },
         {
@@ -13045,6 +15859,72 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4241457,
+              "player_name": "Najee Harris"
+            },
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 4038941,
+              "player_name": "Justin Herbert"
+            },
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 3128390,
+              "player_name": "Allen Lazard"
+            },
+            {
+              "player_id": 4361411,
+              "player_name": "Pat Freiermuth"
+            },
+            {
+              "player_id": 3051909,
+              "player_name": "Daniel Carlson"
+            },
+            {
+              "player_id": 4360310,
+              "player_name": "Trevor Lawrence"
+            },
+            {
+              "player_id": 3121410,
+              "player_name": "Parris Campbell"
+            },
+            {
+              "player_id": 4035004,
+              "player_name": "Mecole Hardman"
+            },
+            {
+              "player_id": 4258173,
+              "player_name": "Nico Collins"
+            },
+            {
+              "player_id": 2991662,
+              "player_name": "Mack Hollins"
+            },
+            {
+              "player_id": 3042778,
+              "player_name": "Corey Davis"
+            },
+            {
+              "player_id": -16028,
+              "player_name": "Commanders D/ST"
+            },
+            {
+              "player_id": 4037235,
+              "player_name": "Greg Dortch"
+            }
           ]
         },
         {
@@ -13118,6 +15998,72 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 4426502,
+              "player_name": "Drake London"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 4240600,
+              "player_name": "Kadarius Toney"
+            },
+            {
+              "player_id": 4052042,
+              "player_name": "James Robinson"
+            },
+            {
+              "player_id": 3115394,
+              "player_name": "DJ Chark"
+            },
+            {
+              "player_id": 4241479,
+              "player_name": "Tua Tagovailoa"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 3929645,
+              "player_name": "Juwan Johnson"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 3051926,
+              "player_name": "Gus Edwards"
+            },
+            {
+              "player_id": 3124679,
+              "player_name": "Jason Sanders"
+            }
           ]
         },
         {
@@ -13191,6 +16137,72 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": 3932905,
+              "player_name": "Diontae Johnson"
+            },
+            {
+              "player_id": 3895856,
+              "player_name": "Christian Kirk"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": 4035886,
+              "player_name": "Khalil Herbert"
+            },
+            {
+              "player_id": 4243537,
+              "player_name": "Gabe Davis"
+            },
+            {
+              "player_id": 4045163,
+              "player_name": "Miles Sanders"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 2576434,
+              "player_name": "Melvin Gordon III"
+            },
+            {
+              "player_id": 3932442,
+              "player_name": "Equanimeous St. Brown"
+            },
+            {
+              "player_id": 3700815,
+              "player_name": "Kendall Hinton"
+            },
+            {
+              "player_id": -16020,
+              "player_name": "Jets D/ST"
+            },
+            {
+              "player_id": 3917792,
+              "player_name": "Daniel Jones"
+            }
           ]
         },
         {
@@ -13264,6 +16276,68 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": 4362887,
+              "player_name": "Justin Fields"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 15864,
+              "player_name": "Geno Smith"
+            },
+            {
+              "player_id": 4569618,
+              "player_name": "Garrett Wilson"
+            },
+            {
+              "player_id": 4372016,
+              "player_name": "Jaylen Waddle"
+            },
+            {
+              "player_id": 4241985,
+              "player_name": "J.K. Dobbins"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            },
+            {
+              "player_id": 2468609,
+              "player_name": "Taysom Hill"
+            },
+            {
+              "player_id": 12731,
+              "player_name": "Ryan Succop"
+            },
+            {
+              "player_id": 4240603,
+              "player_name": "Malik Davis"
+            }
           ]
         },
         {
@@ -13337,6 +16411,68 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 4239934,
+              "player_name": "AJ Dillon"
+            },
+            {
+              "player_id": 4360438,
+              "player_name": "Brandon Aiyuk"
+            },
+            {
+              "player_id": -16025,
+              "player_name": "49ers D/ST"
+            },
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 4239996,
+              "player_name": "Travis Etienne Jr."
+            },
+            {
+              "player_id": 3059722,
+              "player_name": "Zay Jones"
+            },
+            {
+              "player_id": 4258195,
+              "player_name": "Donovan Peoples-Jones"
+            },
+            {
+              "player_id": 3917232,
+              "player_name": "Tyler Bass"
+            },
+            {
+              "player_id": 3115364,
+              "player_name": "Leonard Fournette"
+            },
+            {
+              "player_id": 3120348,
+              "player_name": "JuJu Smith-Schuster"
+            },
+            {
+              "player_id": 4697815,
+              "player_name": "Rachaad White"
+            },
+            {
+              "player_id": 16757,
+              "player_name": "Derek Carr"
+            },
+            {
+              "player_id": 4038524,
+              "player_name": "Gardner Minshew"
+            }
           ]
         },
         {
@@ -13410,6 +16546,72 @@
             "U",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 2576414,
+              "player_name": "Raheem Mostert"
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 3122976,
+              "player_name": "Jeff Wilson Jr."
+            },
+            {
+              "player_id": 4567048,
+              "player_name": "Kenneth Walker III"
+            },
+            {
+              "player_id": 4258595,
+              "player_name": "Cole Kmet"
+            },
+            {
+              "player_id": 2473037,
+              "player_name": "Jason Myers"
+            },
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 3915511,
+              "player_name": "Joe Burrow"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": 4360797,
+              "player_name": "Tutu Atwell"
+            },
+            {
+              "player_id": 3930086,
+              "player_name": "Dawson Knox"
+            },
+            {
+              "player_id": -16015,
+              "player_name": "Dolphins D/ST"
+            },
+            {
+              "player_id": -16019,
+              "player_name": "Giants D/ST"
+            },
+            {
+              "player_id": 4372071,
+              "player_name": "Hassan Haskins"
+            }
           ]
         },
         {
@@ -13483,6 +16685,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 3045138,
+              "player_name": "Mike Williams"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Marquise Brown"
+            },
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": 4360294,
+              "player_name": "Antonio Gibson"
+            },
+            {
+              "player_id": 4372414,
+              "player_name": "Elijah Moore"
+            },
+            {
+              "player_id": 3121427,
+              "player_name": "Curtis Samuel"
+            },
+            {
+              "player_id": 4242433,
+              "player_name": "Joshua Palmer"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 16486,
+              "player_name": "Brett Maher"
+            },
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 4362628,
+              "player_name": "Ja'Marr Chase"
+            },
+            {
+              "player_id": 16782,
+              "player_name": "Jerick McKinnon"
+            },
+            {
+              "player_id": 4361259,
+              "player_name": "Zach Wilson"
+            },
+            {
+              "player_id": 4361741,
+              "player_name": "Brock Purdy"
+            }
           ]
         },
         {
@@ -13556,6 +16820,68 @@
             "U",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 4360234,
+              "player_name": "Evan McPherson"
+            },
+            {
+              "player_id": 4374302,
+              "player_name": "Amon-Ra St. Brown"
+            },
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 4039050,
+              "player_name": "Devin Duvernay"
+            },
+            {
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST"
+            },
+            {
+              "player_id": 4361529,
+              "player_name": "Isiah Pacheco"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 4241474,
+              "player_name": "Brian Robinson Jr."
+            },
+            {
+              "player_id": 4426388,
+              "player_name": "Jameson Williams"
+            },
+            {
+              "player_id": 3915486,
+              "player_name": "Tyler Conklin"
+            }
           ]
         },
         {
@@ -13629,6 +16955,72 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 3925347,
+              "player_name": "Damien Harris"
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": 2573401,
+              "player_name": "Tyler Higbee"
+            },
+            {
+              "player_id": 12460,
+              "player_name": "Graham Gano"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 4248528,
+              "player_name": "Christian Watson"
+            },
+            {
+              "player_id": 4362087,
+              "player_name": "Keaontay Ingram"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 3125116,
+              "player_name": "D'Onta Foreman"
+            },
+            {
+              "player_id": 4240021,
+              "player_name": "Cam Akers"
+            },
+            {
+              "player_id": 3046779,
+              "player_name": "Jared Goff"
+            },
+            {
+              "player_id": 4036348,
+              "player_name": "Michael Gallup"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            }
           ]
         },
         {
@@ -13702,6 +17094,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 15807,
+              "player_name": "Cordarrelle Patterson"
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 4240657,
+              "player_name": "Michael Carter"
+            },
+            {
+              "player_id": 4430737,
+              "player_name": "Kyren Williams"
+            },
+            {
+              "player_id": 3918639,
+              "player_name": "Gerald Everett"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 4240455,
+              "player_name": "Deon Jackson"
+            },
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            }
           ]
         },
         {
@@ -13775,6 +17233,68 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            },
+            {
+              "player_id": 2980453,
+              "player_name": "Jamaal Williams"
+            },
+            {
+              "player_id": 3123076,
+              "player_name": "David Njoku"
+            },
+            {
+              "player_id": 4426354,
+              "player_name": "George Pickens"
+            },
+            {
+              "player_id": 4569173,
+              "player_name": "Rhamondre Stevenson"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 15920,
+              "player_name": "Latavius Murray"
+            },
+            {
+              "player_id": 9354,
+              "player_name": "Robbie Gould"
+            },
+            {
+              "player_id": 4427728,
+              "player_name": "Zonovan Knight"
+            },
+            {
+              "player_id": 4241416,
+              "player_name": "Chuba Hubbard"
+            },
+            {
+              "player_id": 4035676,
+              "player_name": "Zack Moss"
+            },
+            {
+              "player_id": -16030,
+              "player_name": "Jaguars D/ST"
+            },
+            {
+              "player_id": 4242540,
+              "player_name": "Isaiah Hodgins"
+            }
           ]
         }
       ],
@@ -16831,6 +20351,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 4371733,
+              "player_name": "Kenneth Gainwell"
+            },
+            {
+              "player_id": 3055899,
+              "player_name": "Harrison Butker"
+            },
+            {
+              "player_id": 4428331,
+              "player_name": "Rashee Rice"
+            },
+            {
+              "player_id": 4360310,
+              "player_name": "Trevor Lawrence"
+            },
+            {
+              "player_id": -16020,
+              "player_name": "Jets D/ST"
+            },
+            {
+              "player_id": 4242355,
+              "player_name": "Jake Ferguson"
+            },
+            {
+              "player_id": 2468609,
+              "player_name": "Taysom Hill"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 4379399,
+              "player_name": "James Cook"
+            },
+            {
+              "player_id": -16015,
+              "player_name": "Dolphins D/ST"
+            },
+            {
+              "player_id": 4036378,
+              "player_name": "Jordan Love"
+            },
+            {
+              "player_id": 4432620,
+              "player_name": "Parker Washington"
+            }
           ]
         },
         {
@@ -16904,6 +20490,68 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 4239934,
+              "player_name": "AJ Dillon"
+            },
+            {
+              "player_id": 4426354,
+              "player_name": "George Pickens"
+            },
+            {
+              "player_id": 4241479,
+              "player_name": "Tua Tagovailoa"
+            },
+            {
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST"
+            },
+            {
+              "player_id": 3050478,
+              "player_name": "Jake Elliott"
+            },
+            {
+              "player_id": 4430027,
+              "player_name": "Sam LaPorta"
+            },
+            {
+              "player_id": 4035676,
+              "player_name": "Zack Moss"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 4432577,
+              "player_name": "C.J. Stroud"
+            }
           ]
         },
         {
@@ -16977,6 +20625,68 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 4239996,
+              "player_name": "Travis Etienne Jr."
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 4430878,
+              "player_name": "Jaxon Smith-Njigba"
+            },
+            {
+              "player_id": 3115394,
+              "player_name": "DJ Chark Jr."
+            },
+            {
+              "player_id": 3051926,
+              "player_name": "Gus Edwards"
+            },
+            {
+              "player_id": 3918639,
+              "player_name": "Gerald Everett"
+            },
+            {
+              "player_id": 3049916,
+              "player_name": "Matt Breida"
+            },
+            {
+              "player_id": 4241474,
+              "player_name": "Brian Robinson Jr."
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 10621,
+              "player_name": "Nick Folk"
+            },
+            {
+              "player_id": 15864,
+              "player_name": "Geno Smith"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            },
+            {
+              "player_id": 4361411,
+              "player_name": "Pat Freiermuth"
+            },
+            {
+              "player_id": 4569618,
+              "player_name": "Garrett Wilson"
+            }
           ]
         },
         {
@@ -17050,6 +20760,68 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": 4362081,
+              "player_name": "Cameron Dicker"
+            },
+            {
+              "player_id": 4361409,
+              "player_name": "Jahan Dotson"
+            },
+            {
+              "player_id": 4688813,
+              "player_name": "Josh Downs"
+            },
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley"
+            },
+            {
+              "player_id": -16001,
+              "player_name": "Falcons D/ST"
+            },
+            {
+              "player_id": 4241555,
+              "player_name": "Elijah Mitchell"
+            },
+            {
+              "player_id": 4361777,
+              "player_name": "Zamir White"
+            },
+            {
+              "player_id": 3116389,
+              "player_name": "Samaje Perine"
+            },
+            {
+              "player_id": 4722893,
+              "player_name": "Jaleel McLaughlin"
+            }
           ]
         },
         {
@@ -17123,6 +20895,72 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4361370,
+              "player_name": "Chris Olave"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 4362887,
+              "player_name": "Justin Fields"
+            },
+            {
+              "player_id": 4361579,
+              "player_name": "Javonte Williams"
+            },
+            {
+              "player_id": 4361432,
+              "player_name": "Romeo Doubs"
+            },
+            {
+              "player_id": 2576414,
+              "player_name": "Raheem Mostert"
+            },
+            {
+              "player_id": 4361529,
+              "player_name": "Isiah Pacheco"
+            },
+            {
+              "player_id": 3953687,
+              "player_name": "Brandon Aubrey"
+            },
+            {
+              "player_id": 4429025,
+              "player_name": "Quentin Johnston"
+            },
+            {
+              "player_id": 4242214,
+              "player_name": "Clyde Edwards-Helaire"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 4242431,
+              "player_name": "Ty Chandler"
+            },
+            {
+              "player_id": 3043116,
+              "player_name": "Demarcus Robinson"
+            },
+            {
+              "player_id": 4366031,
+              "player_name": "Tank Dell"
+            },
+            {
+              "player_id": -16029,
+              "player_name": "Panthers D/ST"
+            },
+            {
+              "player_id": 13934,
+              "player_name": "Antonio Brown"
+            }
           ]
         },
         {
@@ -17196,6 +21034,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 3917232,
+              "player_name": "Tyler Bass"
+            },
+            {
+              "player_id": -16030,
+              "player_name": "Jaguars D/ST"
+            },
+            {
+              "player_id": 4569987,
+              "player_name": "Jaylen Warren"
+            },
+            {
+              "player_id": 4361741,
+              "player_name": "Brock Purdy"
+            },
+            {
+              "player_id": 4429615,
+              "player_name": "Zay Flowers"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 4430807,
+              "player_name": "Bijan Robinson"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            },
+            {
+              "player_id": 4259619,
+              "player_name": "Blake Grupe"
+            },
+            {
+              "player_id": 3886812,
+              "player_name": "Jake Browning"
+            },
+            {
+              "player_id": 4361307,
+              "player_name": "Trey McBride"
+            },
+            {
+              "player_id": -16005,
+              "player_name": "Browns D/ST"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            }
           ]
         },
         {
@@ -17269,6 +21169,72 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4241372,
+              "player_name": "Marquise Brown"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 3917315,
+              "player_name": "Kyler Murray"
+            },
+            {
+              "player_id": 3046779,
+              "player_name": "Jared Goff"
+            },
+            {
+              "player_id": 4374302,
+              "player_name": "Amon-Ra St. Brown"
+            },
+            {
+              "player_id": 4428557,
+              "player_name": "Tyjae Spears"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": 4360438,
+              "player_name": "Brandon Aiyuk"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            },
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 3124679,
+              "player_name": "Jason Sanders"
+            },
+            {
+              "player_id": 3045144,
+              "player_name": "Tyler Boyd"
+            },
+            {
+              "player_id": 4373632,
+              "player_name": "Jaren Hall"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            }
           ]
         },
         {
@@ -17342,6 +21308,68 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4241457,
+              "player_name": "Najee Harris"
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 16731,
+              "player_name": "Brandin Cooks"
+            },
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            },
+            {
+              "player_id": 4430737,
+              "player_name": "Kyren Williams"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 4242433,
+              "player_name": "Joshua Palmer"
+            },
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            },
+            {
+              "player_id": 3915486,
+              "player_name": "Tyler Conklin"
+            },
+            {
+              "player_id": 4361050,
+              "player_name": "Isaiah Likely"
+            },
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 4372016,
+              "player_name": "Jaylen Waddle"
+            },
+            {
+              "player_id": 2473037,
+              "player_name": "Jason Myers"
+            },
+            {
+              "player_id": 2330,
+              "player_name": "Tom Brady"
+            }
           ]
         },
         {
@@ -17415,6 +21443,72 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": 2976316,
+              "player_name": "Michael Thomas"
+            },
+            {
+              "player_id": 3122976,
+              "player_name": "Jeff Wilson Jr."
+            },
+            {
+              "player_id": 4258173,
+              "player_name": "Nico Collins"
+            },
+            {
+              "player_id": 4241416,
+              "player_name": "Chuba Hubbard"
+            },
+            {
+              "player_id": 4372066,
+              "player_name": "Jake Moody"
+            },
+            {
+              "player_id": 4361418,
+              "player_name": "Will Levis"
+            },
+            {
+              "player_id": 4360635,
+              "player_name": "Chigoziem Okonkwo"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 2576336,
+              "player_name": "Ameer Abdullah"
+            },
+            {
+              "player_id": -16009,
+              "player_name": "Packers D/ST"
+            }
           ]
         },
         {
@@ -17488,6 +21582,68 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": 4429795,
+              "player_name": "Jahmyr Gibbs"
+            },
+            {
+              "player_id": 4697815,
+              "player_name": "Rachaad White"
+            },
+            {
+              "player_id": 3932905,
+              "player_name": "Diontae Johnson"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": 4385690,
+              "player_name": "Dalton Kincaid"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 4426386,
+              "player_name": "Roschon Johnson"
+            },
+            {
+              "player_id": -16034,
+              "player_name": "Texans D/ST"
+            },
+            {
+              "player_id": 4428850,
+              "player_name": "Dontayvion Wicks"
+            },
+            {
+              "player_id": 2576623,
+              "player_name": "DeVante Parker"
+            },
+            {
+              "player_id": 4572680,
+              "player_name": "Tucker Kraft"
+            },
+            {
+              "player_id": 4360234,
+              "player_name": "Evan McPherson"
+            },
+            {
+              "player_id": 3150744,
+              "player_name": "Chase McLaughlin"
+            }
           ]
         },
         {
@@ -17561,6 +21717,68 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3068267,
+              "player_name": "Austin Ekeler"
+            },
+            {
+              "player_id": -16025,
+              "player_name": "49ers D/ST"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            },
+            {
+              "player_id": 4426388,
+              "player_name": "Jameson Williams"
+            },
+            {
+              "player_id": 4362249,
+              "player_name": "Jayden Reed"
+            },
+            {
+              "player_id": 4372019,
+              "player_name": "Jerome Ford"
+            },
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": 4258595,
+              "player_name": "Cole Kmet"
+            },
+            {
+              "player_id": 4362628,
+              "player_name": "Ja'Marr Chase"
+            },
+            {
+              "player_id": 3916566,
+              "player_name": "K.J. Osborn"
+            },
+            {
+              "player_id": 3120590,
+              "player_name": "Easton Stick"
+            },
+            {
+              "player_id": 3929645,
+              "player_name": "Juwan Johnson"
+            },
+            {
+              "player_id": 3892775,
+              "player_name": "Jarrett Stidham"
+            },
+            {
+              "player_id": 4362238,
+              "player_name": "Chase Brown"
+            },
+            {
+              "player_id": 4036335,
+              "player_name": "Cedrick Wilson Jr."
+            }
           ]
         },
         {
@@ -17634,6 +21852,72 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 4241478,
+              "player_name": "DeVonta Smith"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 4427366,
+              "player_name": "Breece Hall"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 4429205,
+              "player_name": "Jordan Addison"
+            },
+            {
+              "player_id": 4426385,
+              "player_name": "Zach Charbonnet"
+            },
+            {
+              "player_id": 4372414,
+              "player_name": "Elijah Moore"
+            },
+            {
+              "player_id": 4373626,
+              "player_name": "Tyler Allgeier"
+            },
+            {
+              "player_id": 4428085,
+              "player_name": "Luke Musgrave"
+            },
+            {
+              "player_id": 4427095,
+              "player_name": "DeMario Douglas"
+            },
+            {
+              "player_id": 12483,
+              "player_name": "Matthew Stafford"
+            },
+            {
+              "player_id": -16003,
+              "player_name": "Bears D/ST"
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            }
           ]
         },
         {
@@ -17707,6 +21991,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 4248528,
+              "player_name": "Christian Watson"
+            },
+            {
+              "player_id": 4567048,
+              "player_name": "Kenneth Walker III"
+            },
+            {
+              "player_id": 3123076,
+              "player_name": "David Njoku"
+            },
+            {
+              "player_id": 4429084,
+              "player_name": "Anthony Richardson"
+            },
+            {
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo"
+            },
+            {
+              "player_id": 4035886,
+              "player_name": "Khalil Herbert"
+            },
+            {
+              "player_id": 4243537,
+              "player_name": "Gabe Davis"
+            },
+            {
+              "player_id": -16008,
+              "player_name": "Lions D/ST"
+            },
+            {
+              "player_id": 4426875,
+              "player_name": "Sam Howell"
+            },
+            {
+              "player_id": 4426515,
+              "player_name": "Puka Nacua"
+            },
+            {
+              "player_id": 4048244,
+              "player_name": "Alexander Mattison"
+            },
+            {
+              "player_id": 3059722,
+              "player_name": "Zay Jones"
+            },
+            {
+              "player_id": 3121409,
+              "player_name": "Noah Brown"
+            },
+            {
+              "player_id": 4360294,
+              "player_name": "Antonio Gibson"
+            },
+            {
+              "player_id": 4569587,
+              "player_name": "Wan'Dale Robinson"
+            }
           ]
         },
         {
@@ -17780,6 +22130,68 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4032473,
+              "player_name": "Rashid Shaheed"
+            },
+            {
+              "player_id": 15965,
+              "player_name": "Dustin Hopkins"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 4360248,
+              "player_name": "Kyle Pitts"
+            },
+            {
+              "player_id": 3121427,
+              "player_name": "Curtis Samuel"
+            },
+            {
+              "player_id": 16757,
+              "player_name": "Derek Carr"
+            },
+            {
+              "player_id": 2976499,
+              "player_name": "Amari Cooper"
+            },
+            {
+              "player_id": 4429160,
+              "player_name": "De'Von Achane"
+            },
+            {
+              "player_id": 16733,
+              "player_name": "Odell Beckham Jr."
+            },
+            {
+              "player_id": 4426502,
+              "player_name": "Drake London"
+            },
+            {
+              "player_id": 4426485,
+              "player_name": "Jonathan Mingo"
+            },
+            {
+              "player_id": 11252,
+              "player_name": "Joe Flacco"
+            },
+            {
+              "player_id": 17427,
+              "player_name": "Cairo Santos"
+            },
+            {
+              "player_id": 4038441,
+              "player_name": "Justice Hill"
+            },
+            {
+              "player_id": -16013,
+              "player_name": "Raiders D/ST"
+            }
           ]
         }
       ],
@@ -21312,6 +25724,68 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4430027,
+              "player_name": "Sam LaPorta"
+            },
+            {
+              "player_id": 4432708,
+              "player_name": "Marvin Harrison Jr."
+            },
+            {
+              "player_id": 3917315,
+              "player_name": "Kyler Murray"
+            },
+            {
+              "player_id": 4373626,
+              "player_name": "Tyler Allgeier"
+            },
+            {
+              "player_id": 4361741,
+              "player_name": "Brock Purdy"
+            },
+            {
+              "player_id": 4426388,
+              "player_name": "Jameson Williams"
+            },
+            {
+              "player_id": 4243331,
+              "player_name": "Cade Otton"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 4241985,
+              "player_name": "J.K. Dobbins"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 4039358,
+              "player_name": "Patrick Taylor Jr."
+            },
+            {
+              "player_id": -16010,
+              "player_name": "Titans D/ST"
+            },
+            {
+              "player_id": 16339,
+              "player_name": "Brandon McManus"
+            },
+            {
+              "player_id": 2576414,
+              "player_name": "Raheem Mostert"
+            },
+            {
+              "player_id": 4372561,
+              "player_name": "Isaac Guerendo"
+            }
           ]
         },
         {
@@ -21385,6 +25859,68 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4361529,
+              "player_name": "Isiah Pacheco"
+            },
+            {
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley"
+            },
+            {
+              "player_id": 4385690,
+              "player_name": "Dalton Kincaid"
+            },
+            {
+              "player_id": 4248528,
+              "player_name": "Christian Watson"
+            },
+            {
+              "player_id": 4431299,
+              "player_name": "Rome Odunze"
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            },
+            {
+              "player_id": 4697815,
+              "player_name": "Rachaad White"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 3124679,
+              "player_name": "Jason Sanders"
+            },
+            {
+              "player_id": 4596448,
+              "player_name": "Bucky Irving"
+            },
+            {
+              "player_id": 4242355,
+              "player_name": "Jake Ferguson"
+            },
+            {
+              "player_id": -16001,
+              "player_name": "Falcons D/ST"
+            },
+            {
+              "player_id": 4430834,
+              "player_name": "Jalen McMillan"
+            },
+            {
+              "player_id": -16028,
+              "player_name": "Commanders D/ST"
+            }
           ]
         },
         {
@@ -21458,6 +25994,68 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 4362628,
+              "player_name": "Ja'Marr Chase"
+            },
+            {
+              "player_id": -16025,
+              "player_name": "49ers D/ST"
+            },
+            {
+              "player_id": 3915511,
+              "player_name": "Joe Burrow"
+            },
+            {
+              "player_id": 4430878,
+              "player_name": "Jaxon Smith-Njigba"
+            },
+            {
+              "player_id": 4040655,
+              "player_name": "Darnell Mooney"
+            },
+            {
+              "player_id": 4360939,
+              "player_name": "Rashod Bateman"
+            },
+            {
+              "player_id": 3916945,
+              "player_name": "Darius Slayton"
+            },
+            {
+              "player_id": 4683062,
+              "player_name": "Xavier Worthy"
+            },
+            {
+              "player_id": 4362238,
+              "player_name": "Chase Brown"
+            },
+            {
+              "player_id": 4361579,
+              "player_name": "Javonte Williams"
+            },
+            {
+              "player_id": 4361411,
+              "player_name": "Pat Freiermuth"
+            },
+            {
+              "player_id": 4240391,
+              "player_name": "Tommy DeVito"
+            },
+            {
+              "player_id": 10621,
+              "player_name": "Nick Folk"
+            },
+            {
+              "player_id": 4429086,
+              "player_name": "Michael Mayer"
+            }
           ]
         },
         {
@@ -21531,6 +26129,68 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4426515,
+              "player_name": "Puka Nacua"
+            },
+            {
+              "player_id": 4036378,
+              "player_name": "Jordan Love"
+            },
+            {
+              "player_id": 4432665,
+              "player_name": "Brock Bowers"
+            },
+            {
+              "player_id": -16009,
+              "player_name": "Packers D/ST"
+            },
+            {
+              "player_id": 4426338,
+              "player_name": "Bo Nix"
+            },
+            {
+              "player_id": 4612826,
+              "player_name": "Ladd McConkey"
+            },
+            {
+              "player_id": 4426385,
+              "player_name": "Zach Charbonnet"
+            },
+            {
+              "player_id": 4429795,
+              "player_name": "Jahmyr Gibbs"
+            },
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": 4048244,
+              "player_name": "Alexander Mattison"
+            },
+            {
+              "player_id": 4242433,
+              "player_name": "Joshua Palmer"
+            },
+            {
+              "player_id": 4567104,
+              "player_name": "Will Reichard"
+            },
+            {
+              "player_id": 4371733,
+              "player_name": "Kenneth Gainwell"
+            },
+            {
+              "player_id": 4686472,
+              "player_name": "Marvin Mims Jr."
+            },
+            {
+              "player_id": 4428209,
+              "player_name": "Ricky Pearsall"
+            }
           ]
         },
         {
@@ -21604,6 +26264,72 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 4572680,
+              "player_name": "Tucker Kraft"
+            },
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 4429013,
+              "player_name": "Tank Bigsby"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            },
+            {
+              "player_id": 4688813,
+              "player_name": "Josh Downs"
+            },
+            {
+              "player_id": 4429615,
+              "player_name": "Zay Flowers"
+            },
+            {
+              "player_id": 4241474,
+              "player_name": "Brian Robinson Jr."
+            },
+            {
+              "player_id": 4430807,
+              "player_name": "Bijan Robinson"
+            },
+            {
+              "player_id": 4258173,
+              "player_name": "Nico Collins"
+            },
+            {
+              "player_id": 3917232,
+              "player_name": "Tyler Bass"
+            },
+            {
+              "player_id": 4430539,
+              "player_name": "Brenton Strange"
+            },
+            {
+              "player_id": 4361370,
+              "player_name": "Chris Olave"
+            },
+            {
+              "player_id": 4360635,
+              "player_name": "Chig Okonkwo"
+            },
+            {
+              "player_id": 16799,
+              "player_name": "Allen Robinson"
+            },
+            {
+              "player_id": 4240703,
+              "player_name": "Kenny Pickett"
+            }
           ]
         },
         {
@@ -21677,6 +26403,72 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3045147,
+              "player_name": "James Conner"
+            },
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 4426502,
+              "player_name": "Drake London"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            },
+            {
+              "player_id": -16008,
+              "player_name": "Lions D/ST"
+            },
+            {
+              "player_id": 3912547,
+              "player_name": "Sam Darnold"
+            },
+            {
+              "player_id": 4366031,
+              "player_name": "Tank Dell"
+            },
+            {
+              "player_id": 16460,
+              "player_name": "Adam Thielen"
+            },
+            {
+              "player_id": 2473037,
+              "player_name": "Jason Myers"
+            },
+            {
+              "player_id": 4567048,
+              "player_name": "Kenneth Walker III"
+            },
+            {
+              "player_id": 4372016,
+              "player_name": "Jaylen Waddle"
+            },
+            {
+              "player_id": 4243004,
+              "player_name": "Jordan Mims"
+            },
+            {
+              "player_id": 4695883,
+              "player_name": "Jalen Coker"
+            },
+            {
+              "player_id": 4429275,
+              "player_name": "Trey Benson"
+            },
+            {
+              "player_id": 4429022,
+              "player_name": "Kayshon Boutte"
+            }
           ]
         },
         {
@@ -21750,6 +26542,72 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3953687,
+              "player_name": "Brandon Aubrey"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 4361307,
+              "player_name": "Trey McBride"
+            },
+            {
+              "player_id": 4429025,
+              "player_name": "Quentin Johnston"
+            },
+            {
+              "player_id": 4432773,
+              "player_name": "Brian Thomas Jr."
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 4429160,
+              "player_name": "De'Von Achane"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 4379399,
+              "player_name": "James Cook"
+            },
+            {
+              "player_id": 3054212,
+              "player_name": "Jonnu Smith"
+            },
+            {
+              "player_id": 4678008,
+              "player_name": "Jonathon Brooks"
+            },
+            {
+              "player_id": 3046779,
+              "player_name": "Jared Goff"
+            },
+            {
+              "player_id": 4429501,
+              "player_name": "Ray Davis"
+            },
+            {
+              "player_id": -16026,
+              "player_name": "Seahawks D/ST"
+            }
           ]
         },
         {
@@ -21823,6 +26681,68 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": 4430737,
+              "player_name": "Kyren Williams"
+            },
+            {
+              "player_id": 4362249,
+              "player_name": "Jayden Reed"
+            },
+            {
+              "player_id": 2577327,
+              "player_name": "Tyler Lockett"
+            },
+            {
+              "player_id": 17372,
+              "player_name": "Chris Boswell"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins"
+            },
+            {
+              "player_id": 4258595,
+              "player_name": "Cole Kmet"
+            },
+            {
+              "player_id": 4360516,
+              "player_name": "Tyrone Tracy Jr."
+            },
+            {
+              "player_id": 4569987,
+              "player_name": "Jaylen Warren"
+            },
+            {
+              "player_id": 14881,
+              "player_name": "Russell Wilson"
+            },
+            {
+              "player_id": 4241479,
+              "player_name": "Tua Tagovailoa"
+            },
+            {
+              "player_id": 3043116,
+              "player_name": "Demarcus Robinson"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 15683,
+              "player_name": "Justin Tucker"
+            }
           ]
         },
         {
@@ -21896,6 +26816,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 4595348,
+              "player_name": "Malik Nabers"
+            },
+            {
+              "player_id": 4360248,
+              "player_name": "Kyle Pitts"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin"
+            },
+            {
+              "player_id": 4241416,
+              "player_name": "Chuba Hubbard"
+            },
+            {
+              "player_id": 4635008,
+              "player_name": "Keon Coleman"
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": -16016,
+              "player_name": "Vikings D/ST"
+            },
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": 4427366,
+              "player_name": "Breece Hall"
+            },
+            {
+              "player_id": 4689936,
+              "player_name": "Jake Bates"
+            },
+            {
+              "player_id": 2976592,
+              "player_name": "Sterling Shepard"
+            },
+            {
+              "player_id": 4038441,
+              "player_name": "Justice Hill"
+            },
+            {
+              "player_id": 4372019,
+              "player_name": "Jerome Ford"
+            },
+            {
+              "player_id": 4240472,
+              "player_name": "Noah Gray"
+            },
+            {
+              "player_id": 4428557,
+              "player_name": "Tyjae Spears"
+            }
           ]
         },
         {
@@ -21969,6 +26955,68 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones"
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 4429205,
+              "player_name": "Jordan Addison"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 12483,
+              "player_name": "Matthew Stafford"
+            },
+            {
+              "player_id": 4038941,
+              "player_name": "Justin Herbert"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 4431611,
+              "player_name": "Caleb Williams"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Hollywood Brown"
+            },
+            {
+              "player_id": 3116164,
+              "player_name": "Mike Gesicki"
+            },
+            {
+              "player_id": 4372505,
+              "player_name": "Payne Durham"
+            }
           ]
         },
         {
@@ -22042,6 +27090,68 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 4239996,
+              "player_name": "Travis Etienne Jr."
+            },
+            {
+              "player_id": 4569618,
+              "player_name": "Garrett Wilson"
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": 4373678,
+              "player_name": "Khalil Shakir"
+            },
+            {
+              "player_id": 4038815,
+              "player_name": "Rico Dowdle"
+            },
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            },
+            {
+              "player_id": 4240021,
+              "player_name": "Cam Akers"
+            },
+            {
+              "player_id": 2985659,
+              "player_name": "Wil Lutz"
+            },
+            {
+              "player_id": -16018,
+              "player_name": "Saints D/ST"
+            },
+            {
+              "player_id": 4242519,
+              "player_name": "Anders Carlson"
+            }
           ]
         },
         {
@@ -22115,6 +27225,72 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4374302,
+              "player_name": "Amon-Ra St. Brown"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": 3051876,
+              "player_name": "Evan Engram"
+            },
+            {
+              "player_id": 3116385,
+              "player_name": "Joe Mixon"
+            },
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": 4241457,
+              "player_name": "Najee Harris"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 4372066,
+              "player_name": "Jake Moody"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 4360294,
+              "player_name": "Antonio Gibson"
+            },
+            {
+              "player_id": 4431452,
+              "player_name": "Drake Maye"
+            },
+            {
+              "player_id": 4429084,
+              "player_name": "Anthony Richardson"
+            },
+            {
+              "player_id": 4260394,
+              "player_name": "Aidan O'Connell"
+            },
+            {
+              "player_id": -16015,
+              "player_name": "Dolphins D/ST"
+            }
           ]
         },
         {
@@ -22188,6 +27364,72 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 4360438,
+              "player_name": "Brandon Aiyuk"
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel Sr."
+            },
+            {
+              "player_id": 4426354,
+              "player_name": "George Pickens"
+            },
+            {
+              "player_id": 4569173,
+              "player_name": "Rhamondre Stevenson"
+            },
+            {
+              "player_id": 4426348,
+              "player_name": "Jayden Daniels"
+            },
+            {
+              "player_id": 4361432,
+              "player_name": "Romeo Doubs"
+            },
+            {
+              "player_id": 3915486,
+              "player_name": "Tyler Conklin"
+            },
+            {
+              "player_id": 4722893,
+              "player_name": "Jaleel McLaughlin"
+            },
+            {
+              "player_id": 4569587,
+              "player_name": "Wan'Dale Robinson"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 3150744,
+              "player_name": "Chase McLaughlin"
+            },
+            {
+              "player_id": 3728262,
+              "player_name": "Ray-Ray McCloud III"
+            },
+            {
+              "player_id": 4241374,
+              "player_name": "Grant Calcaterra"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            }
           ]
         },
         {
@@ -22261,6 +27503,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 3886598,
+              "player_name": "Jauan Jennings"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            },
+            {
+              "player_id": 4427095,
+              "player_name": "DeMario Douglas"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 4241478,
+              "player_name": "DeVonta Smith"
+            },
+            {
+              "player_id": 4430968,
+              "player_name": "Kimani Vidal"
+            },
+            {
+              "player_id": 4362081,
+              "player_name": "Cameron Dicker"
+            },
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 3929645,
+              "player_name": "Juwan Johnson"
+            },
+            {
+              "player_id": 4599739,
+              "player_name": "Kendre Miller"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": 2576336,
+              "player_name": "Ameer Abdullah"
+            },
+            {
+              "player_id": 4360423,
+              "player_name": "Michael Penix Jr."
+            }
           ]
         }
       ],
@@ -25793,6 +31097,72 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4426515,
+              "player_name": "Puka Nacua"
+            },
+            {
+              "player_id": 4685382,
+              "player_name": "Omarion Hampton"
+            },
+            {
+              "player_id": 4379399,
+              "player_name": "James Cook III"
+            },
+            {
+              "player_id": 3916148,
+              "player_name": "Tony Pollard"
+            },
+            {
+              "player_id": 4697745,
+              "player_name": "Tyler Loop"
+            },
+            {
+              "player_id": 3054850,
+              "player_name": "Alvin Kamara"
+            },
+            {
+              "player_id": 4429096,
+              "player_name": "Blake Corum"
+            },
+            {
+              "player_id": 3042519,
+              "player_name": "Aaron Jones Sr."
+            },
+            {
+              "player_id": 4429615,
+              "player_name": "Zay Flowers"
+            },
+            {
+              "player_id": -16005,
+              "player_name": "Browns D/ST"
+            },
+            {
+              "player_id": 3916433,
+              "player_name": "Jakobi Meyers"
+            },
+            {
+              "player_id": 4432665,
+              "player_name": "Brock Bowers"
+            },
+            {
+              "player_id": 4426338,
+              "player_name": "Bo Nix"
+            },
+            {
+              "player_id": 4361741,
+              "player_name": "Brock Purdy"
+            },
+            {
+              "player_id": -16023,
+              "player_name": "Steelers D/ST"
+            },
+            {
+              "player_id": 4429086,
+              "player_name": "Michael Mayer"
+            }
           ]
         },
         {
@@ -25866,6 +31236,72 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4890973,
+              "player_name": "Ashton Jeanty"
+            },
+            {
+              "player_id": 4361529,
+              "player_name": "Isiah Pacheco"
+            },
+            {
+              "player_id": -16011,
+              "player_name": "Colts D/ST"
+            },
+            {
+              "player_id": 4431545,
+              "player_name": "Will Shipley"
+            },
+            {
+              "player_id": 15835,
+              "player_name": "Zach Ertz"
+            },
+            {
+              "player_id": 11122,
+              "player_name": "Matt Prater"
+            },
+            {
+              "player_id": 4242335,
+              "player_name": "Jonathan Taylor"
+            },
+            {
+              "player_id": 15847,
+              "player_name": "Travis Kelce"
+            },
+            {
+              "player_id": 4567750,
+              "player_name": "Emeka Egbuka"
+            },
+            {
+              "player_id": 4432708,
+              "player_name": "Marvin Harrison Jr."
+            },
+            {
+              "player_id": 12483,
+              "player_name": "Matthew Stafford"
+            },
+            {
+              "player_id": 4360078,
+              "player_name": "Alec Pierce"
+            },
+            {
+              "player_id": 4248528,
+              "player_name": "Christian Watson"
+            },
+            {
+              "player_id": 4883647,
+              "player_name": "Elic Ayomanor"
+            },
+            {
+              "player_id": -16021,
+              "player_name": "Eagles D/ST"
+            },
+            {
+              "player_id": 16339,
+              "player_name": "Brandon McManus"
+            }
           ]
         },
         {
@@ -25939,6 +31375,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4426502,
+              "player_name": "Drake London"
+            },
+            {
+              "player_id": 16800,
+              "player_name": "Davante Adams"
+            },
+            {
+              "player_id": 4685247,
+              "player_name": "Braelon Allen"
+            },
+            {
+              "player_id": 4567048,
+              "player_name": "Kenneth Walker III"
+            },
+            {
+              "player_id": 4241478,
+              "player_name": "DeVonta Smith"
+            },
+            {
+              "player_id": 2577417,
+              "player_name": "Dak Prescott"
+            },
+            {
+              "player_id": -16026,
+              "player_name": "Seahawks D/ST"
+            },
+            {
+              "player_id": 4036378,
+              "player_name": "Jordan Love"
+            },
+            {
+              "player_id": 3895856,
+              "player_name": "Christian Kirk"
+            },
+            {
+              "player_id": 4431268,
+              "player_name": "Chimere Dike"
+            },
+            {
+              "player_id": 4576297,
+              "player_name": "AJ Barner"
+            },
+            {
+              "player_id": 4428085,
+              "player_name": "Luke Musgrave"
+            },
+            {
+              "player_id": 4608686,
+              "player_name": "Kyle Monangai"
+            },
+            {
+              "player_id": 4040655,
+              "player_name": "Darnell Mooney"
+            },
+            {
+              "player_id": 4686361,
+              "player_name": "Cam Little"
+            }
           ]
         },
         {
@@ -26012,6 +31510,68 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4596448,
+              "player_name": "Bucky Irving"
+            },
+            {
+              "player_id": 4239996,
+              "player_name": "Travis Etienne Jr."
+            },
+            {
+              "player_id": 4428557,
+              "player_name": "Tyjae Spears"
+            },
+            {
+              "player_id": 4241389,
+              "player_name": "CeeDee Lamb"
+            },
+            {
+              "player_id": 3150744,
+              "player_name": "Chase McLaughlin"
+            },
+            {
+              "player_id": 4372016,
+              "player_name": "Jaylen Waddle"
+            },
+            {
+              "player_id": 3121023,
+              "player_name": "Dallas Goedert"
+            },
+            {
+              "player_id": 4360516,
+              "player_name": "Tyrone Tracy Jr."
+            },
+            {
+              "player_id": -16030,
+              "player_name": "Jaguars D/ST"
+            },
+            {
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs"
+            },
+            {
+              "player_id": 3040151,
+              "player_name": "George Kittle"
+            },
+            {
+              "player_id": 4431452,
+              "player_name": "Drake Maye"
+            },
+            {
+              "player_id": -16018,
+              "player_name": "Saints D/ST"
+            },
+            {
+              "player_id": 2468609,
+              "player_name": "Taysom Hill"
+            },
+            {
+              "player_id": 4595348,
+              "player_name": "Malik Nabers"
+            }
           ]
         },
         {
@@ -26085,6 +31645,72 @@
             "W",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3953687,
+              "player_name": "Brandon Aubrey"
+            },
+            {
+              "player_id": 4429160,
+              "player_name": "De'Von Achane"
+            },
+            {
+              "player_id": 5083076,
+              "player_name": "Harold Fannin Jr."
+            },
+            {
+              "player_id": -16034,
+              "player_name": "Texans D/ST"
+            },
+            {
+              "player_id": 4258173,
+              "player_name": "Nico Collins"
+            },
+            {
+              "player_id": 2578570,
+              "player_name": "Jacoby Brissett"
+            },
+            {
+              "player_id": 3117251,
+              "player_name": "Christian McCaffrey"
+            },
+            {
+              "player_id": 4723086,
+              "player_name": "Colston Loveland"
+            },
+            {
+              "player_id": 16737,
+              "player_name": "Mike Evans"
+            },
+            {
+              "player_id": 4682745,
+              "player_name": "Jaylen Wright"
+            },
+            {
+              "player_id": 4241474,
+              "player_name": "Brian Robinson Jr."
+            },
+            {
+              "player_id": 4240657,
+              "player_name": "Michael Carter"
+            },
+            {
+              "player_id": 4701936,
+              "player_name": "Matthew Golden"
+            },
+            {
+              "player_id": 3116406,
+              "player_name": "Tyreek Hill"
+            },
+            {
+              "player_id": 4429275,
+              "player_name": "Trey Benson"
+            },
+            {
+              "player_id": 3139477,
+              "player_name": "Patrick Mahomes"
+            }
           ]
         },
         {
@@ -26158,6 +31784,64 @@
             "W",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4360569,
+              "player_name": "Jordan Mason"
+            },
+            {
+              "player_id": 3915511,
+              "player_name": "Joe Burrow"
+            },
+            {
+              "player_id": 15818,
+              "player_name": "Keenan Allen"
+            },
+            {
+              "player_id": 4428718,
+              "player_name": "Tre Tucker"
+            },
+            {
+              "player_id": 4034949,
+              "player_name": "Eddy Pineiro"
+            },
+            {
+              "player_id": 4427728,
+              "player_name": "Bam Knight"
+            },
+            {
+              "player_id": 4242355,
+              "player_name": "Jake Ferguson"
+            },
+            {
+              "player_id": -16012,
+              "player_name": "Chiefs D/ST"
+            },
+            {
+              "player_id": 4259545,
+              "player_name": "D'Andre Swift"
+            },
+            {
+              "player_id": 4362628,
+              "player_name": "Ja'Marr Chase"
+            },
+            {
+              "player_id": 4430737,
+              "player_name": "Kyren Williams"
+            },
+            {
+              "player_id": 4597500,
+              "player_name": "Adonai Mitchell"
+            },
+            {
+              "player_id": -16002,
+              "player_name": "Bills D/ST"
+            },
+            {
+              "player_id": 4432762,
+              "player_name": "Shedeur Sanders"
+            }
           ]
         },
         {
@@ -26231,6 +31915,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3059915,
+              "player_name": "Kareem Hunt"
+            },
+            {
+              "player_id": 4431280,
+              "player_name": "Troy Franklin"
+            },
+            {
+              "player_id": 4432773,
+              "player_name": "Brian Thomas Jr."
+            },
+            {
+              "player_id": 4038941,
+              "player_name": "Justin Herbert"
+            },
+            {
+              "player_id": 4362238,
+              "player_name": "Chase Brown"
+            },
+            {
+              "player_id": 4595342,
+              "player_name": "Oronde Gadsden"
+            },
+            {
+              "player_id": 4426354,
+              "player_name": "George Pickens"
+            },
+            {
+              "player_id": 2971573,
+              "player_name": "Ka'imi Fairbairn"
+            },
+            {
+              "player_id": 4428331,
+              "player_name": "Rashee Rice"
+            },
+            {
+              "player_id": 4038815,
+              "player_name": "Rico Dowdle"
+            },
+            {
+              "player_id": 3046439,
+              "player_name": "Hunter Henry"
+            },
+            {
+              "player_id": 4040715,
+              "player_name": "Jalen Hurts"
+            },
+            {
+              "player_id": 4362619,
+              "player_name": "Chris Rodriguez Jr."
+            },
+            {
+              "player_id": -16027,
+              "player_name": "Buccaneers D/ST"
+            },
+            {
+              "player_id": 4685278,
+              "player_name": "Luther Burden III"
+            },
+            {
+              "player_id": -16009,
+              "player_name": "Packers D/ST"
+            }
           ]
         },
         {
@@ -26304,6 +32054,68 @@
             "L",
             "W",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4430807,
+              "player_name": "Bijan Robinson"
+            },
+            {
+              "player_id": 3043078,
+              "player_name": "Derrick Henry"
+            },
+            {
+              "player_id": 3915416,
+              "player_name": "DJ Moore"
+            },
+            {
+              "player_id": 4047650,
+              "player_name": "DK Metcalf"
+            },
+            {
+              "player_id": 4685472,
+              "player_name": "Tetairoa McMillan"
+            },
+            {
+              "player_id": 4241372,
+              "player_name": "Hollywood Brown"
+            },
+            {
+              "player_id": 4361432,
+              "player_name": "Romeo Doubs"
+            },
+            {
+              "player_id": 3117256,
+              "player_name": "Dalton Schultz"
+            },
+            {
+              "player_id": 4877706,
+              "player_name": "Jayden Higgins"
+            },
+            {
+              "player_id": 17427,
+              "player_name": "Cairo Santos"
+            },
+            {
+              "player_id": 4382466,
+              "player_name": "Jalen Nailor"
+            },
+            {
+              "player_id": -16017,
+              "player_name": "Patriots D/ST"
+            },
+            {
+              "player_id": 2977187,
+              "player_name": "Cooper Kupp"
+            },
+            {
+              "player_id": 4360310,
+              "player_name": "Trevor Lawrence"
+            },
+            {
+              "player_id": 3051392,
+              "player_name": "Ezekiel Elliott"
+            }
           ]
         },
         {
@@ -26377,6 +32189,68 @@
             "W",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4429795,
+              "player_name": "Jahmyr Gibbs"
+            },
+            {
+              "player_id": 4689936,
+              "player_name": "Jake Bates"
+            },
+            {
+              "player_id": 3918298,
+              "player_name": "Josh Allen"
+            },
+            {
+              "player_id": 4427366,
+              "player_name": "Breece Hall"
+            },
+            {
+              "player_id": 4241463,
+              "player_name": "Jerry Jeudy"
+            },
+            {
+              "player_id": 4426388,
+              "player_name": "Jameson Williams"
+            },
+            {
+              "player_id": 4431459,
+              "player_name": "Tyler Warren"
+            },
+            {
+              "player_id": 3128720,
+              "player_name": "Nick Chubb"
+            },
+            {
+              "player_id": 4569587,
+              "player_name": "Wan'Dale Robinson"
+            },
+            {
+              "player_id": 4362249,
+              "player_name": "Jayden Reed"
+            },
+            {
+              "player_id": 4035687,
+              "player_name": "Michael Pittman Jr."
+            },
+            {
+              "player_id": 3126486,
+              "player_name": "Deebo Samuel"
+            },
+            {
+              "player_id": 4036133,
+              "player_name": "T.J. Hockenson"
+            },
+            {
+              "player_id": -16016,
+              "player_name": "Vikings D/ST"
+            },
+            {
+              "player_id": -16010,
+              "player_name": "Titans D/ST"
+            }
           ]
         },
         {
@@ -26450,6 +32324,68 @@
             "L",
             "L",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4047646,
+              "player_name": "A.J. Brown"
+            },
+            {
+              "player_id": 3916387,
+              "player_name": "Lamar Jackson"
+            },
+            {
+              "player_id": 3128429,
+              "player_name": "Courtland Sutton"
+            },
+            {
+              "player_id": 4688813,
+              "player_name": "Josh Downs"
+            },
+            {
+              "player_id": 3929645,
+              "player_name": "Juwan Johnson"
+            },
+            {
+              "player_id": 17372,
+              "player_name": "Chris Boswell"
+            },
+            {
+              "player_id": -16033,
+              "player_name": "Ravens D/ST"
+            },
+            {
+              "player_id": 4426385,
+              "player_name": "Zach Charbonnet"
+            },
+            {
+              "player_id": 4429059,
+              "player_name": "Woody Marks"
+            },
+            {
+              "player_id": 3916945,
+              "player_name": "Darius Slayton"
+            },
+            {
+              "player_id": 4429939,
+              "player_name": "Jawhar Jordan"
+            },
+            {
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST"
+            },
+            {
+              "player_id": 3116389,
+              "player_name": "Samaje Perine"
+            },
+            {
+              "player_id": 8439,
+              "player_name": "Aaron Rodgers"
+            },
+            {
+              "player_id": 4432577,
+              "player_name": "C.J. Stroud"
+            }
           ]
         },
         {
@@ -26523,6 +32459,68 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3929630,
+              "player_name": "Saquon Barkley"
+            },
+            {
+              "player_id": 3121422,
+              "player_name": "Terry McLaurin"
+            },
+            {
+              "player_id": 4426348,
+              "player_name": "Jayden Daniels"
+            },
+            {
+              "player_id": 4568490,
+              "player_name": "RJ Harvey"
+            },
+            {
+              "player_id": 4429025,
+              "player_name": "Quentin Johnston"
+            },
+            {
+              "player_id": 2473037,
+              "player_name": "Jason Myers"
+            },
+            {
+              "player_id": 4262921,
+              "player_name": "Justin Jefferson"
+            },
+            {
+              "player_id": 4431299,
+              "player_name": "Rome Odunze"
+            },
+            {
+              "player_id": 2576925,
+              "player_name": "Darren Waller"
+            },
+            {
+              "player_id": 4432620,
+              "player_name": "Parker Washington"
+            },
+            {
+              "player_id": 4360248,
+              "player_name": "Kyle Pitts Sr."
+            },
+            {
+              "player_id": -16019,
+              "player_name": "Giants D/ST"
+            },
+            {
+              "player_id": -16013,
+              "player_name": "Raiders D/ST"
+            },
+            {
+              "player_id": 3912547,
+              "player_name": "Sam Darnold"
+            },
+            {
+              "player_id": 2991662,
+              "player_name": "Mack Hollins"
+            }
           ]
         },
         {
@@ -26596,6 +32594,68 @@
             "L",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 3052587,
+              "player_name": "Baker Mayfield"
+            },
+            {
+              "player_id": -16007,
+              "player_name": "Broncos D/ST"
+            },
+            {
+              "player_id": 4373678,
+              "player_name": "Khalil Shakir"
+            },
+            {
+              "player_id": 4697815,
+              "player_name": "Rachaad White"
+            },
+            {
+              "player_id": 4569173,
+              "player_name": "Rhamondre Stevenson"
+            },
+            {
+              "player_id": 4385690,
+              "player_name": "Dalton Kincaid"
+            },
+            {
+              "player_id": 4430878,
+              "player_name": "Jaxon Smith-Njigba"
+            },
+            {
+              "player_id": 4035538,
+              "player_name": "David Montgomery"
+            },
+            {
+              "player_id": 4430968,
+              "player_name": "Kimani Vidal"
+            },
+            {
+              "player_id": 4040761,
+              "player_name": "Devin Singletary"
+            },
+            {
+              "player_id": 3116165,
+              "player_name": "Chris Godwin Jr."
+            },
+            {
+              "player_id": 4239993,
+              "player_name": "Tee Higgins"
+            },
+            {
+              "player_id": 4569923,
+              "player_name": "Andy Borregales"
+            },
+            {
+              "player_id": 4569682,
+              "player_name": "Audric Estime"
+            },
+            {
+              "player_id": 4430539,
+              "player_name": "Brenton Strange"
+            }
           ]
         },
         {
@@ -26669,6 +32729,72 @@
             "W",
             "L",
             "W"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4361307,
+              "player_name": "Trey McBride"
+            },
+            {
+              "player_id": 4374302,
+              "player_name": "Amon-Ra St. Brown"
+            },
+            {
+              "player_id": 4569618,
+              "player_name": "Garrett Wilson"
+            },
+            {
+              "player_id": 4432710,
+              "player_name": "TreVeyon Henderson"
+            },
+            {
+              "player_id": 4569987,
+              "player_name": "Jaylen Warren"
+            },
+            {
+              "player_id": 3886598,
+              "player_name": "Jauan Jennings"
+            },
+            {
+              "player_id": 4361579,
+              "player_name": "Javonte Williams"
+            },
+            {
+              "player_id": 4373626,
+              "player_name": "Tyler Allgeier"
+            },
+            {
+              "player_id": 4032473,
+              "player_name": "Rashid Shaheed"
+            },
+            {
+              "player_id": -16014,
+              "player_name": "Rams D/ST"
+            },
+            {
+              "player_id": 4431611,
+              "player_name": "Caleb Williams"
+            },
+            {
+              "player_id": 4371733,
+              "player_name": "Kenneth Gainwell"
+            },
+            {
+              "player_id": 4429148,
+              "player_name": "Theo Johnson"
+            },
+            {
+              "player_id": 10621,
+              "player_name": "Nick Folk"
+            },
+            {
+              "player_id": 4360689,
+              "player_name": "Tyler Shough"
+            },
+            {
+              "player_id": 4695883,
+              "player_name": "Jalen Coker"
+            }
           ]
         },
         {
@@ -26742,6 +32868,68 @@
             "L",
             "W",
             "L"
+          ],
+          "final_roster": [
+            {
+              "player_id": 4362081,
+              "player_name": "Cameron Dicker"
+            },
+            {
+              "player_id": 4429205,
+              "player_name": "Jordan Addison"
+            },
+            {
+              "player_id": -16024,
+              "player_name": "Chargers D/ST"
+            },
+            {
+              "player_id": 3116365,
+              "player_name": "Mark Andrews"
+            },
+            {
+              "player_id": 4689114,
+              "player_name": "Jaxson Dart"
+            },
+            {
+              "player_id": 4612826,
+              "player_name": "Ladd McConkey"
+            },
+            {
+              "player_id": 5081397,
+              "player_name": "Dylan Sampson"
+            },
+            {
+              "player_id": 4428209,
+              "player_name": "Ricky Pearsall"
+            },
+            {
+              "player_id": 4685702,
+              "player_name": "Quinshon Judkins"
+            },
+            {
+              "player_id": 4360761,
+              "player_name": "Michael Wilson"
+            },
+            {
+              "player_id": 3046779,
+              "player_name": "Jared Goff"
+            },
+            {
+              "player_id": 4361370,
+              "player_name": "Chris Olave"
+            },
+            {
+              "player_id": 4047365,
+              "player_name": "Josh Jacobs"
+            },
+            {
+              "player_id": 14880,
+              "player_name": "Kirk Cousins"
+            },
+            {
+              "player_id": 4575131,
+              "player_name": "Jacory Croskey-Merritt"
+            }
           ]
         }
       ],

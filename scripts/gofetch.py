@@ -39,6 +39,22 @@ def get_owner_name(team):
     return team.team_name
 
 
+def roster_to_list(team):
+    """
+    End-of-season roster snapshot: just enough (player_id, player_name) to
+    cross-reference against that team's draft picks later, e.g. for a
+    'did they keep their draft picks' stat.
+    """
+    roster = getattr(team, "roster", None) or []
+    out = []
+    for p in roster:
+        out.append({
+            "player_id": getattr(p, "playerId", None),
+            "player_name": getattr(p, "name", None),
+        })
+    return out
+
+
 def team_to_dict(team):
     return {
         "team_id": team.team_id,
@@ -60,6 +76,7 @@ def team_to_dict(team):
         ] if team.schedule else [],
         "scores": list(team.scores) if team.scores else [],
         "outcomes": list(team.outcomes) if team.outcomes else [],
+        "final_roster": roster_to_list(team),
     }
 
 
