@@ -77,6 +77,9 @@ def team_to_dict(team):
         "scores": list(team.scores) if team.scores else [],
         "outcomes": list(team.outcomes) if team.outcomes else [],
         "final_roster": roster_to_list(team),
+        "trades": getattr(team, "trades", None),
+        "acquisitions": getattr(team, "acquisitions", None),
+        "drops": getattr(team, "drops", None),
     }
 
 

@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-08-10T13:09:27.716821",
+  "pulled_at": "2026-08-10T14:13:33.552048",
   "league_id": 992916,
   "seasons": {
     "2018": {
@@ -140,7 +140,10 @@
               "player_id": 3052587,
               "player_name": "Baker Mayfield"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 29,
+          "drops": 29
         },
         {
           "team_id": 2,
@@ -270,7 +273,10 @@
               "player_id": 17359,
               "player_name": "Damien Williams"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 43,
+          "drops": 43
         },
         {
           "team_id": 3,
@@ -400,7 +406,10 @@
               "player_id": 16486,
               "player_name": "Brett Maher"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 8,
+          "drops": 9
         },
         {
           "team_id": 4,
@@ -530,7 +539,10 @@
               "player_id": 3039707,
               "player_name": "Mitchell Trubisky"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 15,
+          "drops": 15
         },
         {
           "team_id": 5,
@@ -660,7 +672,10 @@
               "player_id": 3042494,
               "player_name": "Elijah McGuire"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 28,
+          "drops": 28
         },
         {
           "team_id": 6,
@@ -790,7 +805,10 @@
               "player_id": 3121427,
               "player_name": "Curtis Samuel"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 8,
+          "drops": 9
         },
         {
           "team_id": 7,
@@ -920,7 +938,10 @@
               "player_id": 16040,
               "player_name": "C.J. Anderson"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 31,
+          "drops": 29
         },
         {
           "team_id": 8,
@@ -1050,7 +1071,10 @@
               "player_id": 17453,
               "player_name": "Cameron Brate"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 13,
+          "drops": 13
         }
       ],
       "draft": [
@@ -3130,7 +3154,10 @@
               "player_id": 2577654,
               "player_name": "DeAndre Washington"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 29,
+          "drops": 29
         },
         {
           "team_id": 2,
@@ -3262,7 +3289,10 @@
               "player_id": 10452,
               "player_name": "Adrian Peterson"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 47,
+          "drops": 44
         },
         {
           "team_id": 3,
@@ -3402,7 +3432,10 @@
               "player_id": 3051891,
               "player_name": "Jordan Wilkins"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 5,
+          "drops": 5
         },
         {
           "team_id": 4,
@@ -3542,7 +3575,10 @@
               "player_id": 3054850,
               "player_name": "Alvin Kamara"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 21,
+          "drops": 21
         },
         {
           "team_id": 5,
@@ -3682,7 +3718,10 @@
               "player_id": 14198,
               "player_name": "Dion Lewis"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 21,
+          "drops": 21
         },
         {
           "team_id": 6,
@@ -3822,7 +3861,10 @@
               "player_id": 16504,
               "player_name": "Jack Doyle"
             }
-          ]
+          ],
+          "trades": 6,
+          "acquisitions": 19,
+          "drops": 18
         },
         {
           "team_id": 7,
@@ -3962,7 +4004,10 @@
               "player_id": 2972091,
               "player_name": "Jalen Richard"
             }
-          ]
+          ],
+          "trades": 10,
+          "acquisitions": 36,
+          "drops": 33
         },
         {
           "team_id": 8,
@@ -4102,7 +4147,10 @@
               "player_id": 3117251,
               "player_name": "Christian McCaffrey"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 23,
+          "drops": 23
         },
         {
           "team_id": 9,
@@ -4242,7 +4290,10 @@
               "player_id": -16024,
               "player_name": "Chargers D/ST"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 11,
+          "drops": 11
         },
         {
           "team_id": 10,
@@ -4382,7 +4433,10 @@
               "player_id": -16011,
               "player_name": "Colts D/ST"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 22,
+          "drops": 21
         }
       ],
       "draft": [
@@ -7173,7 +7227,10 @@
               "player_id": 14924,
               "player_name": "T.Y. Hilton"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 41,
+          "drops": 35
         },
         {
           "team_id": 2,
@@ -7317,7 +7374,10 @@
               "player_id": 3123969,
               "player_name": "Ito Smith"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 76,
+          "drops": 73
         },
         {
           "team_id": 3,
@@ -7457,7 +7517,10 @@
               "player_id": 4242214,
               "player_name": "Clyde Edwards-Helaire"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 6,
+          "drops": 5
         },
         {
           "team_id": 4,
@@ -7605,7 +7668,10 @@
               "player_id": 3050487,
               "player_name": "Anthony Miller"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 15,
+          "drops": 12
         },
         {
           "team_id": 5,
@@ -7757,7 +7823,10 @@
               "player_id": 2578369,
               "player_name": "Marvin Hall"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 55,
+          "drops": 50
         },
         {
           "team_id": 6,
@@ -7905,7 +7974,10 @@
               "player_id": 12537,
               "player_name": "Jared Cook"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 46,
+          "drops": 44
         },
         {
           "team_id": 7,
@@ -8049,7 +8121,10 @@
               "player_id": -16015,
               "player_name": "Dolphins D/ST"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 57,
+          "drops": 54
         },
         {
           "team_id": 8,
@@ -8189,7 +8264,10 @@
               "player_id": -16022,
               "player_name": "Cardinals D/ST"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 25,
+          "drops": 23
         },
         {
           "team_id": 9,
@@ -8337,7 +8415,10 @@
               "player_id": 3052587,
               "player_name": "Baker Mayfield"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 27,
+          "drops": 24
         },
         {
           "team_id": 10,
@@ -8481,7 +8562,10 @@
               "player_id": 13232,
               "player_name": "Jimmy Graham"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 51,
+          "drops": 49
         }
       ],
       "draft": [
@@ -11159,7 +11243,10 @@
               "player_id": 3123052,
               "player_name": "Michael Badgley"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 57,
+          "drops": 55
         },
         {
           "team_id": 2,
@@ -11294,7 +11381,10 @@
               "player_id": 4035170,
               "player_name": "Marquez Callaway"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 33,
+          "drops": 32
         },
         {
           "team_id": 3,
@@ -11429,7 +11519,10 @@
               "player_id": 10636,
               "player_name": "Mason Crosby"
             }
-          ]
+          ],
+          "trades": 6,
+          "acquisitions": 17,
+          "drops": 17
         },
         {
           "team_id": 4,
@@ -11568,7 +11661,10 @@
               "player_id": 3049899,
               "player_name": "Younghoe Koo"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 19,
+          "drops": 16
         },
         {
           "team_id": 5,
@@ -11707,7 +11803,10 @@
               "player_id": 4242433,
               "player_name": "Joshua Palmer"
             }
-          ]
+          ],
+          "trades": 12,
+          "acquisitions": 73,
+          "drops": 71
         },
         {
           "team_id": 6,
@@ -11842,7 +11941,10 @@
               "player_id": 12731,
               "player_name": "Ryan Succop"
             }
-          ]
+          ],
+          "trades": 11,
+          "acquisitions": 43,
+          "drops": 41
         },
         {
           "team_id": 7,
@@ -11981,7 +12083,10 @@
               "player_id": 15818,
               "player_name": "Keenan Allen"
             }
-          ]
+          ],
+          "trades": 16,
+          "acquisitions": 31,
+          "drops": 31
         },
         {
           "team_id": 8,
@@ -12116,7 +12221,10 @@
               "player_id": 4362452,
               "player_name": "Jaret Patterson"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 27,
+          "drops": 27
         },
         {
           "team_id": 9,
@@ -12255,7 +12363,10 @@
               "player_id": 2576336,
               "player_name": "Ameer Abdullah"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 19,
+          "drops": 18
         },
         {
           "team_id": 10,
@@ -12390,7 +12501,10 @@
               "player_id": -16029,
               "player_name": "Panthers D/ST"
             }
-          ]
+          ],
+          "trades": 18,
+          "acquisitions": 58,
+          "drops": 54
         },
         {
           "team_id": 11,
@@ -12525,7 +12639,10 @@
               "player_id": 3122976,
               "player_name": "Jeff Wilson Jr."
             }
-          ]
+          ],
+          "trades": 6,
+          "acquisitions": 40,
+          "drops": 41
         },
         {
           "team_id": 12,
@@ -12664,7 +12781,10 @@
               "player_id": -16014,
               "player_name": "Rams D/ST"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 18,
+          "drops": 17
         }
       ],
       "draft": [
@@ -15786,7 +15906,10 @@
               "player_id": 4373626,
               "player_name": "Tyler Allgeier"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 47,
+          "drops": 48
         },
         {
           "team_id": 2,
@@ -15925,7 +16048,10 @@
               "player_id": 4037235,
               "player_name": "Greg Dortch"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 42,
+          "drops": 43
         },
         {
           "team_id": 3,
@@ -16064,7 +16190,10 @@
               "player_id": 3124679,
               "player_name": "Jason Sanders"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 7,
+          "drops": 6
         },
         {
           "team_id": 4,
@@ -16203,7 +16332,10 @@
               "player_id": 3917792,
               "player_name": "Daniel Jones"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 27,
+          "drops": 24
         },
         {
           "team_id": 5,
@@ -16338,7 +16470,10 @@
               "player_id": 4240603,
               "player_name": "Malik Davis"
             }
-          ]
+          ],
+          "trades": 11,
+          "acquisitions": 72,
+          "drops": 70
         },
         {
           "team_id": 6,
@@ -16473,7 +16608,10 @@
               "player_id": 4038524,
               "player_name": "Gardner Minshew"
             }
-          ]
+          ],
+          "trades": 6,
+          "acquisitions": 24,
+          "drops": 28
         },
         {
           "team_id": 7,
@@ -16612,7 +16750,10 @@
               "player_id": 4372071,
               "player_name": "Hassan Haskins"
             }
-          ]
+          ],
+          "trades": 9,
+          "acquisitions": 58,
+          "drops": 61
         },
         {
           "team_id": 8,
@@ -16747,7 +16888,10 @@
               "player_id": 4361741,
               "player_name": "Brock Purdy"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 23,
+          "drops": 24
         },
         {
           "team_id": 9,
@@ -16882,7 +17026,10 @@
               "player_id": 3915486,
               "player_name": "Tyler Conklin"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 14,
+          "drops": 15
         },
         {
           "team_id": 10,
@@ -17021,7 +17168,10 @@
               "player_id": -16007,
               "player_name": "Broncos D/ST"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 43,
+          "drops": 43
         },
         {
           "team_id": 11,
@@ -17160,7 +17310,10 @@
               "player_id": -16024,
               "player_name": "Chargers D/ST"
             }
-          ]
+          ],
+          "trades": 4,
+          "acquisitions": 26,
+          "drops": 27
         },
         {
           "team_id": 12,
@@ -17295,7 +17448,10 @@
               "player_id": 4242540,
               "player_name": "Isaiah Hodgins"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 28,
+          "drops": 28
         }
       ],
       "draft": [
@@ -20417,7 +20573,10 @@
               "player_id": 4432620,
               "player_name": "Parker Washington"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 24,
+          "drops": 24
         },
         {
           "team_id": 2,
@@ -20552,7 +20711,10 @@
               "player_id": 4432577,
               "player_name": "C.J. Stroud"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 17,
+          "drops": 19
         },
         {
           "team_id": 3,
@@ -20687,7 +20849,10 @@
               "player_id": 4569618,
               "player_name": "Garrett Wilson"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 6,
+          "drops": 6
         },
         {
           "team_id": 4,
@@ -20822,7 +20987,10 @@
               "player_id": 4722893,
               "player_name": "Jaleel McLaughlin"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 38,
+          "drops": 38
         },
         {
           "team_id": 5,
@@ -20961,7 +21129,10 @@
               "player_id": 13934,
               "player_name": "Antonio Brown"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 61,
+          "drops": 63
         },
         {
           "team_id": 6,
@@ -21096,7 +21267,10 @@
               "player_id": 3046439,
               "player_name": "Hunter Henry"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 28,
+          "drops": 28
         },
         {
           "team_id": 7,
@@ -21235,7 +21409,10 @@
               "player_id": -16012,
               "player_name": "Chiefs D/ST"
             }
-          ]
+          ],
+          "trades": 10,
+          "acquisitions": 31,
+          "drops": 32
         },
         {
           "team_id": 8,
@@ -21370,7 +21547,10 @@
               "player_id": 2330,
               "player_name": "Tom Brady"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 21,
+          "drops": 22
         },
         {
           "team_id": 9,
@@ -21509,7 +21689,10 @@
               "player_id": -16009,
               "player_name": "Packers D/ST"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 18,
+          "drops": 17
         },
         {
           "team_id": 10,
@@ -21644,7 +21827,10 @@
               "player_id": 3150744,
               "player_name": "Chase McLaughlin"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 32,
+          "drops": 33
         },
         {
           "team_id": 11,
@@ -21779,7 +21965,10 @@
               "player_id": 4036335,
               "player_name": "Cedrick Wilson Jr."
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 28,
+          "drops": 32
         },
         {
           "team_id": 12,
@@ -21918,7 +22107,10 @@
               "player_id": 2971573,
               "player_name": "Ka'imi Fairbairn"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 25,
+          "drops": 26
         },
         {
           "team_id": 13,
@@ -22057,7 +22249,10 @@
               "player_id": 4569587,
               "player_name": "Wan'Dale Robinson"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 15,
+          "drops": 14
         },
         {
           "team_id": 14,
@@ -22192,7 +22387,10 @@
               "player_id": -16013,
               "player_name": "Raiders D/ST"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 39,
+          "drops": 37
         }
       ],
       "draft": [
@@ -25786,7 +25984,10 @@
               "player_id": 4372561,
               "player_name": "Isaac Guerendo"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 46,
+          "drops": 45
         },
         {
           "team_id": 2,
@@ -25921,7 +26122,10 @@
               "player_id": -16028,
               "player_name": "Commanders D/ST"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 25,
+          "drops": 23
         },
         {
           "team_id": 3,
@@ -26056,7 +26260,10 @@
               "player_id": 4429086,
               "player_name": "Michael Mayer"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 10,
+          "drops": 10
         },
         {
           "team_id": 4,
@@ -26191,7 +26398,10 @@
               "player_id": 4428209,
               "player_name": "Ricky Pearsall"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 45,
+          "drops": 45
         },
         {
           "team_id": 5,
@@ -26330,7 +26540,10 @@
               "player_id": 4240703,
               "player_name": "Kenny Pickett"
             }
-          ]
+          ],
+          "trades": 16,
+          "acquisitions": 74,
+          "drops": 76
         },
         {
           "team_id": 6,
@@ -26469,7 +26682,10 @@
               "player_id": 4429022,
               "player_name": "Kayshon Boutte"
             }
-          ]
+          ],
+          "trades": 6,
+          "acquisitions": 30,
+          "drops": 29
         },
         {
           "team_id": 7,
@@ -26608,7 +26824,10 @@
               "player_id": -16026,
               "player_name": "Seahawks D/ST"
             }
-          ]
+          ],
+          "trades": 14,
+          "acquisitions": 41,
+          "drops": 39
         },
         {
           "team_id": 8,
@@ -26743,7 +26962,10 @@
               "player_id": 15683,
               "player_name": "Justin Tucker"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 30,
+          "drops": 30
         },
         {
           "team_id": 9,
@@ -26882,7 +27104,10 @@
               "player_id": 4428557,
               "player_name": "Tyjae Spears"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 16,
+          "drops": 14
         },
         {
           "team_id": 10,
@@ -27017,7 +27242,10 @@
               "player_id": 4372505,
               "player_name": "Payne Durham"
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 30,
+          "drops": 29
         },
         {
           "team_id": 11,
@@ -27152,7 +27380,10 @@
               "player_id": 4242519,
               "player_name": "Anders Carlson"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 31,
+          "drops": 32
         },
         {
           "team_id": 12,
@@ -27291,7 +27522,10 @@
               "player_id": -16015,
               "player_name": "Dolphins D/ST"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 15,
+          "drops": 15
         },
         {
           "team_id": 13,
@@ -27430,7 +27664,10 @@
               "player_id": -16014,
               "player_name": "Rams D/ST"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 20,
+          "drops": 19
         },
         {
           "team_id": 14,
@@ -27565,7 +27802,10 @@
               "player_id": 4360423,
               "player_name": "Michael Penix Jr."
             }
-          ]
+          ],
+          "trades": 7,
+          "acquisitions": 32,
+          "drops": 34
         }
       ],
       "draft": [
@@ -31163,7 +31403,10 @@
               "player_id": 4429086,
               "player_name": "Michael Mayer"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 36,
+          "drops": 33
         },
         {
           "team_id": 2,
@@ -31302,7 +31545,10 @@
               "player_id": 16339,
               "player_name": "Brandon McManus"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 19,
+          "drops": 18
         },
         {
           "team_id": 3,
@@ -31437,7 +31683,10 @@
               "player_id": 4686361,
               "player_name": "Cam Little"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 10,
+          "drops": 10
         },
         {
           "team_id": 4,
@@ -31572,7 +31821,10 @@
               "player_id": 4595348,
               "player_name": "Malik Nabers"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 41,
+          "drops": 40
         },
         {
           "team_id": 5,
@@ -31711,7 +31963,10 @@
               "player_id": 3139477,
               "player_name": "Patrick Mahomes"
             }
-          ]
+          ],
+          "trades": 12,
+          "acquisitions": 45,
+          "drops": 43
         },
         {
           "team_id": 6,
@@ -31842,7 +32097,10 @@
               "player_id": 4432762,
               "player_name": "Shedeur Sanders"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 25,
+          "drops": 25
         },
         {
           "team_id": 7,
@@ -31981,7 +32239,10 @@
               "player_id": -16009,
               "player_name": "Packers D/ST"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 37,
+          "drops": 38
         },
         {
           "team_id": 8,
@@ -32116,7 +32377,10 @@
               "player_id": 3051392,
               "player_name": "Ezekiel Elliott"
             }
-          ]
+          ],
+          "trades": 2,
+          "acquisitions": 18,
+          "drops": 22
         },
         {
           "team_id": 9,
@@ -32251,7 +32515,10 @@
               "player_id": -16010,
               "player_name": "Titans D/ST"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 20,
+          "drops": 20
         },
         {
           "team_id": 10,
@@ -32386,7 +32653,10 @@
               "player_id": 4432577,
               "player_name": "C.J. Stroud"
             }
-          ]
+          ],
+          "trades": 1,
+          "acquisitions": 47,
+          "drops": 47
         },
         {
           "team_id": 11,
@@ -32521,7 +32791,10 @@
               "player_id": 2991662,
               "player_name": "Mack Hollins"
             }
-          ]
+          ],
+          "trades": 3,
+          "acquisitions": 43,
+          "drops": 47
         },
         {
           "team_id": 12,
@@ -32656,7 +32929,10 @@
               "player_id": 4430539,
               "player_name": "Brenton Strange"
             }
-          ]
+          ],
+          "trades": 5,
+          "acquisitions": 31,
+          "drops": 31
         },
         {
           "team_id": 13,
@@ -32795,7 +33071,10 @@
               "player_id": 4695883,
               "player_name": "Jalen Coker"
             }
-          ]
+          ],
+          "trades": 0,
+          "acquisitions": 17,
+          "drops": 16
         },
         {
           "team_id": 14,
@@ -32930,7 +33209,10 @@
               "player_id": 4575131,
               "player_name": "Jacory Croskey-Merritt"
             }
-          ]
+          ],
+          "trades": 8,
+          "acquisitions": 26,
+          "drops": 28
         }
       ],
       "draft": [
