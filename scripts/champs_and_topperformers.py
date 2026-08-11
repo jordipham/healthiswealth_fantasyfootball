@@ -1,3 +1,5 @@
+# SCRIPT COMPUTES EACH YEAR'S CHAMP AND THEIR TOP PERFORMERS
+
 import json
 import os
 

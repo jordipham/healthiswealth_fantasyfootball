@@ -1,0 +1,95 @@
+{
+  "canonical_owners": {
+    "yannis_bi": {
+      "display_name": "Yannis Bi",
+      "owner_ids": [
+        "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}"
+      ]
+    },
+    "ameya_gadkari": {
+      "display_name": "Ameya Gadkari",
+      "owner_ids": [
+        "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}"
+      ]
+    },
+    "eric_tao": {
+      "display_name": "Eric Tao",
+      "owner_ids": [
+        "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}"
+      ]
+    },
+    "ancheng_da": {
+      "display_name": "Ancheng Da",
+      "owner_ids": [
+        "{39910E8D-9825-4D48-A41A-25E6C9836633}"
+      ]
+    },
+    "nicholas_yang": {
+      "display_name": "Nicholas Yang",
+      "owner_ids": [
+        "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}"
+      ]
+    },
+    "robert_hong": {
+      "display_name": "Robert Hong",
+      "owner_ids": [
+        "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}"
+      ]
+    },
+    "justin_lee": {
+      "display_name": "Justin Lee",
+      "owner_ids": [
+        "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+        "{D45E4909-47DF-4913-B22E-F46836D3654A}"
+      ]
+    },
+    "karthik_pittala": {
+      "display_name": "Karthik Pittala",
+      "owner_ids": [
+        "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}"
+      ]
+    },
+    "jonathan_bi": {
+      "display_name": "Jonathan Bi",
+      "owner_ids": [
+        "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}"
+      ]
+    },
+    "saurab_nooguri": {
+      "display_name": "Saurab Nooguri",
+      "owner_ids": [
+        "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}"
+      ]
+    },
+    "jared_tao": {
+      "display_name": "Jared Tao",
+      "owner_ids": [
+        "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}"
+      ]
+    },
+    "parth_shah": {
+      "display_name": "Parth Shah",
+      "owner_ids": [
+        "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}"
+      ]
+    },
+    "andy_chen": {
+      "display_name": "Andy Chen",
+      "owner_ids": [
+        "{36D486F2-EF9F-4C42-B3CA-EBEAE5142CAF}"
+      ]
+    },
+    "derek_wen": {
+      "display_name": "Derek Wen",
+      "owner_ids": [
+        "{14885BD2-73BD-4F6C-B708-FCD2A6643611}"
+      ]
+    },
+    "jordi_pham": {
+      "display_name": "Jordi Pham",
+      "owner_ids": [
+        "{276AB088-B4C6-4ED8-AFC0-FA935DE39BF4}"
+      ]
+    }
+  }
+}
