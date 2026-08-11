@@ -34,29 +34,36 @@ def resolve_owner(owner_id, id_to_canonical, canonical_owners):
 
 def compute_season_records(history, id_to_canonical, canonical_owners):
     records = {
-        "highest_points_for": None,
-        "lowest_points_for": None,
-        "highest_points_against": None,
-        "lowest_points_against": None,
-        "best_record": None,
-        "worst_record": None,
-        "longest_win_streak": None,
-        "longest_losing_streak": None,
-        "most_trades_season": None,
-        "most_acquisitions_season": None,
-        "highest_single_week_score": None,
-        "lowest_single_week_score": None,
-        "biggest_blowout": None,
-        "closest_game": None,
+        "highest_points_for": [],
+        "lowest_points_for": [],
+        "highest_points_against": [],
+        "lowest_points_against": [],
+        "best_record": [],
+        "worst_record": [],
+        "longest_win_streak": [],
+        "longest_losing_streak": [],
+        "most_trades_season": [],
+        "most_acquisitions_season": [],
+        "highest_single_week_score": [],
+        "lowest_single_week_score": [],
+        "biggest_blowout": [],
+        "closest_game": [],
     }
 
-    def better(current, candidate, key, higher_is_better=True):
-        if current is None:
-            return candidate
-        if higher_is_better:
-            return candidate if candidate[key] > current[key] else current
-        else:
-            return candidate if candidate[key] < current[key] else current
+    def better(current_list, candidate, key, higher_is_better=True):
+        """
+        current_list is a list of tied leaders (or empty). Returns the
+        updated list: extends it if candidate ties the current best,
+        replaces it if candidate beats the current best, or leaves it
+        unchanged if candidate is worse.
+        """
+        if not current_list:
+            return [candidate]
+        current_value = current_list[0][key]
+        if candidate[key] == current_value:
+            return current_list + [candidate]
+        is_better = candidate[key] > current_value if higher_is_better else candidate[key] < current_value
+        return [candidate] if is_better else current_list
 
     for year, season_data in history.get("seasons", {}).items():
         for team in season_data.get("teams", []):
@@ -199,17 +206,22 @@ def compute_career_records(history, id_to_canonical, canonical_owners):
         else:
             c["championship_drought"] = current_year - c["last_championship_year"]
 
-    most_championships = max(careers.values(), key=lambda c: c["championships"], default=None)
-    best_win_pct = max(
-        (c for c in careers.values() if c["win_pct"] is not None),
-        key=lambda c: c["win_pct"], default=None
-    )
-    worst_win_pct = min(
-        (c for c in careers.values() if c["win_pct"] is not None),
-        key=lambda c: c["win_pct"], default=None
-    )
-    most_trades_career = max(careers.values(), key=lambda c: c["trades"], default=None)
-    most_last_place = max(careers.values(), key=lambda c: c["last_place_finishes"], default=None)
+    def get_leaders(careers_dict, key, reverse=True):
+        """
+        Return ALL managers tied at the best value for `key`, not just one.
+        reverse=True means higher is better; reverse=False means lower is better.
+        """
+        valid = [c for c in careers_dict.values() if c.get(key) is not None]
+        if not valid:
+            return []
+        best_value = max((c[key] for c in valid)) if reverse else min((c[key] for c in valid))
+        return [c for c in valid if c[key] == best_value]
+
+    most_championships = get_leaders(careers, "championships", reverse=True)
+    best_win_pct = get_leaders(careers, "win_pct", reverse=True)
+    worst_win_pct = get_leaders(careers, "win_pct", reverse=False)
+    most_trades_career = get_leaders(careers, "trades", reverse=True)
+    most_last_place = get_leaders(careers, "last_place_finishes", reverse=True)
 
     return {
         "all_managers": careers,
