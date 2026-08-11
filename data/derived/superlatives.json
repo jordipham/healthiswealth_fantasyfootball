@@ -1,0 +1,522 @@
+{
+  "season_records": {
+    "highest_points_for": {
+      "year": 2019,
+      "owner_name": "Robert Hong",
+      "team_name": "Team Chair",
+      "value": 2011.3199999999997
+    },
+    "lowest_points_for": {
+      "year": 2024,
+      "owner_name": "Derek Wen",
+      "team_name": "JD VANCE \ud83d\udca5",
+      "value": 1315.1999999999998
+    },
+    "highest_points_against": {
+      "year": 2020,
+      "owner_name": "Saurab Nooguri",
+      "team_name": "kelce my big boi",
+      "value": 1912.38
+    },
+    "lowest_points_against": {
+      "year": 2018,
+      "owner_name": "Justin Lee",
+      "team_name": "Team NUK",
+      "value": 1393.04
+    },
+    "best_record": {
+      "year": 2018,
+      "owner_name": "Jonathan Bi",
+      "team_name": "SUPER ANGRY HIPPO",
+      "value": 0.8333333333333334,
+      "record": "10-2-0"
+    },
+    "worst_record": {
+      "year": 2018,
+      "owner_name": "Yannis Bi",
+      "team_name": "ha HAA",
+      "value": 0.16666666666666666,
+      "record": "2-10-0"
+    },
+    "longest_win_streak": {
+      "year": 2018,
+      "owner_name": "Jonathan Bi",
+      "team_name": "SUPER ANGRY HIPPO",
+      "value": 8
+    },
+    "longest_losing_streak": {
+      "year": 2020,
+      "owner_name": "Eric Tao",
+      "team_name": "Pat Mahomes",
+      "value": 8
+    },
+    "most_trades_season": {
+      "year": 2021,
+      "owner_name": "Karthik Pittala",
+      "team_name": "Greg The Leg",
+      "value": 18
+    },
+    "most_acquisitions_season": {
+      "year": 2020,
+      "owner_name": "Robert Hong",
+      "team_name": "Nick Yang",
+      "value": 76
+    },
+    "highest_single_week_score": {
+      "year": 2018,
+      "week": 13,
+      "owner_name": "Jonathan Bi",
+      "value": 331.18
+    },
+    "lowest_single_week_score": {
+      "year": 2022,
+      "week": 6,
+      "owner_name": "Eric Tao",
+      "value": 46.64
+    },
+    "biggest_blowout": {
+      "year": 2021,
+      "week": 14,
+      "matchup": "Ancheng Da (206.32) vs Nicholas Yang (77.38)",
+      "value": 128.94
+    },
+    "closest_game": {
+      "year": 2022,
+      "week": 14,
+      "matchup": "Jared Tao (103.06) vs Robert Hong (102.98)",
+      "value": 0.0799999999999983
+    }
+  },
+  "career_records": {
+    "all_managers": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "championships": 1,
+        "wins": 51,
+        "losses": 57,
+        "ties": 0,
+        "trades": 31,
+        "acquisitions": 309,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2021,
+        "win_pct": 0.4722,
+        "championship_drought": 4
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "championships": 0,
+        "wins": 52,
+        "losses": 42,
+        "ties": 0,
+        "trades": 14,
+        "acquisitions": 277,
+        "last_place_finishes": 1,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.5532,
+        "championship_drought": "never won"
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "championships": 0,
+        "wins": 50,
+        "losses": 58,
+        "ties": 0,
+        "trades": 18,
+        "acquisitions": 69,
+        "last_place_finishes": 1,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.463,
+        "championship_drought": "never won"
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "championships": 2,
+        "wins": 48,
+        "losses": 60,
+        "ties": 0,
+        "trades": 39,
+        "acquisitions": 221,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2024,
+        "win_pct": 0.4444,
+        "championship_drought": 1
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "championships": 1,
+        "wins": 57,
+        "losses": 51,
+        "ties": 0,
+        "trades": 71,
+        "acquisitions": 429,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2025,
+        "win_pct": 0.5278,
+        "championship_drought": 0
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "championships": 0,
+        "wins": 53,
+        "losses": 55,
+        "ties": 0,
+        "trades": 42,
+        "acquisitions": 223,
+        "last_place_finishes": 2,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.4907,
+        "championship_drought": "never won"
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "championships": 2,
+        "wins": 48,
+        "losses": 33,
+        "ties": 0,
+        "trades": 56,
+        "acquisitions": 234,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2022,
+        "win_pct": 0.5926,
+        "championship_drought": 3
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "championships": 0,
+        "wins": 59,
+        "losses": 49,
+        "ties": 0,
+        "trades": 27,
+        "acquisitions": 180,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.5463,
+        "championship_drought": "never won"
+      },
+      "saurab_nooguri": {
+        "owner_name": "Saurab Nooguri",
+        "championships": 0,
+        "wins": 38,
+        "losses": 44,
+        "ties": 0,
+        "trades": 45,
+        "acquisitions": 196,
+        "last_place_finishes": 0,
+        "years_played": [
+          2019,
+          2020,
+          2021,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.4634,
+        "championship_drought": "never won"
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "championships": 0,
+        "wins": 40,
+        "losses": 56,
+        "ties": 0,
+        "trades": 33,
+        "acquisitions": 283,
+        "last_place_finishes": 2,
+        "years_played": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.4167,
+        "championship_drought": "never won"
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "championships": 1,
+        "wins": 54,
+        "losses": 29,
+        "ties": 0,
+        "trades": 6,
+        "acquisitions": 114,
+        "last_place_finishes": 0,
+        "years_played": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2020,
+        "win_pct": 0.6506,
+        "championship_drought": 5
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "championships": 1,
+        "wins": 36,
+        "losses": 34,
+        "ties": 0,
+        "trades": 17,
+        "acquisitions": 168,
+        "last_place_finishes": 0,
+        "years_played": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2023,
+        "win_pct": 0.5143,
+        "championship_drought": 2
+      },
+      "andy_chen": {
+        "owner_name": "Andy Chen",
+        "championships": 0,
+        "wins": 24,
+        "losses": 32,
+        "ties": 0,
+        "trades": 3,
+        "acquisitions": 86,
+        "last_place_finishes": 1,
+        "years_played": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.4286,
+        "championship_drought": "never won"
+      },
+      "derek_wen": {
+        "owner_name": "Derek Wen",
+        "championships": 0,
+        "wins": 21,
+        "losses": 21,
+        "ties": 0,
+        "trades": 5,
+        "acquisitions": 52,
+        "last_place_finishes": 1,
+        "years_played": [
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.5,
+        "championship_drought": "never won"
+      },
+      "jordi_pham": {
+        "owner_name": "Jordi Pham",
+        "championships": 0,
+        "wins": 9,
+        "losses": 19,
+        "ties": 0,
+        "trades": 13,
+        "acquisitions": 56,
+        "last_place_finishes": 0,
+        "years_played": [
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.3214,
+        "championship_drought": "never won"
+      }
+    },
+    "leaders": {
+      "most_championships": {
+        "owner_name": "Justin Lee",
+        "championships": 2,
+        "wins": 48,
+        "losses": 60,
+        "ties": 0,
+        "trades": 39,
+        "acquisitions": 221,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2024,
+        "win_pct": 0.4444,
+        "championship_drought": 1
+      },
+      "best_career_win_pct": {
+        "owner_name": "Jared Tao",
+        "championships": 1,
+        "wins": 54,
+        "losses": 29,
+        "ties": 0,
+        "trades": 6,
+        "acquisitions": 114,
+        "last_place_finishes": 0,
+        "years_played": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2020,
+        "win_pct": 0.6506,
+        "championship_drought": 5
+      },
+      "worst_career_win_pct": {
+        "owner_name": "Jordi Pham",
+        "championships": 0,
+        "wins": 9,
+        "losses": 19,
+        "ties": 0,
+        "trades": 13,
+        "acquisitions": 56,
+        "last_place_finishes": 0,
+        "years_played": [
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.3214,
+        "championship_drought": "never won"
+      },
+      "most_trades_career": {
+        "owner_name": "Eric Tao",
+        "championships": 1,
+        "wins": 57,
+        "losses": 51,
+        "ties": 0,
+        "trades": 71,
+        "acquisitions": 429,
+        "last_place_finishes": 0,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": 2025,
+        "win_pct": 0.5278,
+        "championship_drought": 0
+      },
+      "most_last_place_finishes": {
+        "owner_name": "Ancheng Da",
+        "championships": 0,
+        "wins": 53,
+        "losses": 55,
+        "ties": 0,
+        "trades": 42,
+        "acquisitions": 223,
+        "last_place_finishes": 2,
+        "years_played": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "last_championship_year": null,
+        "win_pct": 0.4907,
+        "championship_drought": "never won"
+      }
+    }
+  }
+}
