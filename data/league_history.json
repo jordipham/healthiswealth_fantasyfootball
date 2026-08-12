@@ -1,5 +1,5 @@
 {
-  "pulled_at": "2026-08-10T15:29:20.560922",
+  "pulled_at": "2026-08-11T21:31:48.669042",
   "league_id": 992916,
   "seasons": {
     "2018": {
@@ -207,7 +207,13 @@
           ],
           "trades": 1,
           "acquisitions": 29,
-          "drops": 29
+          "drops": 29,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -404,7 +410,13 @@
           ],
           "trades": 2,
           "acquisitions": 43,
-          "drops": 43
+          "drops": 43,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -601,7 +613,13 @@
           ],
           "trades": 3,
           "acquisitions": 8,
-          "drops": 9
+          "drops": 9,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -798,7 +816,13 @@
           ],
           "trades": 4,
           "acquisitions": 15,
-          "drops": 15
+          "drops": 15,
+          "all_owners": [
+            {
+              "id": "{D45E4909-47DF-4913-B22E-F46836D3654A}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -995,7 +1019,13 @@
           ],
           "trades": 5,
           "acquisitions": 28,
-          "drops": 28
+          "drops": 28,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -1192,7 +1222,13 @@
           ],
           "trades": 1,
           "acquisitions": 8,
-          "drops": 9
+          "drops": 9,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -1389,7 +1425,13 @@
           ],
           "trades": 5,
           "acquisitions": 31,
-          "drops": 29
+          "drops": 29,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -1586,7 +1628,13 @@
           ],
           "trades": 3,
           "acquisitions": 13,
-          "drops": 13
+          "drops": 13,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         }
       ],
       "draft": [
@@ -3737,7 +3785,13 @@
           ],
           "trades": 1,
           "acquisitions": 29,
-          "drops": 29
+          "drops": 29,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -3932,7 +3986,13 @@
           ],
           "trades": 3,
           "acquisitions": 47,
-          "drops": 44
+          "drops": 44,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -4143,7 +4203,13 @@
           ],
           "trades": 1,
           "acquisitions": 5,
-          "drops": 5
+          "drops": 5,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -4354,7 +4420,13 @@
           ],
           "trades": 3,
           "acquisitions": 21,
-          "drops": 21
+          "drops": 21,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -4565,7 +4637,13 @@
           ],
           "trades": 1,
           "acquisitions": 21,
-          "drops": 21
+          "drops": 21,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -4776,7 +4854,13 @@
           ],
           "trades": 6,
           "acquisitions": 19,
-          "drops": 18
+          "drops": 18,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -4987,7 +5071,13 @@
           ],
           "trades": 10,
           "acquisitions": 36,
-          "drops": 33
+          "drops": 33,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -5198,7 +5288,13 @@
           ],
           "trades": 4,
           "acquisitions": 23,
-          "drops": 23
+          "drops": 23,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -5409,7 +5505,13 @@
           ],
           "trades": 2,
           "acquisitions": 11,
-          "drops": 11
+          "drops": 11,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -5620,7 +5722,13 @@
           ],
           "trades": 1,
           "acquisitions": 22,
-          "drops": 21
+          "drops": 21,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         }
       ],
       "draft": [
@@ -8494,7 +8602,13 @@
           ],
           "trades": 4,
           "acquisitions": 41,
-          "drops": 35
+          "drops": 35,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -8713,7 +8827,13 @@
           ],
           "trades": 3,
           "acquisitions": 76,
-          "drops": 73
+          "drops": 73,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -8924,7 +9044,13 @@
           ],
           "trades": 2,
           "acquisitions": 6,
-          "drops": 5
+          "drops": 5,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -9151,7 +9277,13 @@
           ],
           "trades": 0,
           "acquisitions": 15,
-          "drops": 12
+          "drops": 12,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -9386,7 +9518,13 @@
           ],
           "trades": 7,
           "acquisitions": 55,
-          "drops": 50
+          "drops": 50,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -9613,7 +9751,13 @@
           ],
           "trades": 2,
           "acquisitions": 46,
-          "drops": 44
+          "drops": 44,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -9832,7 +9976,17 @@
           ],
           "trades": 4,
           "acquisitions": 57,
-          "drops": 54
+          "drops": 54,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            },
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -10043,7 +10197,13 @@
           ],
           "trades": 7,
           "acquisitions": 25,
-          "drops": 23
+          "drops": 23,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -10270,7 +10430,13 @@
           ],
           "trades": 1,
           "acquisitions": 27,
-          "drops": 24
+          "drops": 24,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -10489,7 +10655,13 @@
           ],
           "trades": 2,
           "acquisitions": 51,
-          "drops": 49
+          "drops": 49,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         }
       ],
       "draft": [
@@ -13234,7 +13406,13 @@
           ],
           "trades": 7,
           "acquisitions": 57,
-          "drops": 55
+          "drops": 55,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -13432,7 +13610,13 @@
           ],
           "trades": 3,
           "acquisitions": 33,
-          "drops": 32
+          "drops": 32,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -13630,7 +13814,13 @@
           ],
           "trades": 6,
           "acquisitions": 17,
-          "drops": 17
+          "drops": 17,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -13836,7 +14026,13 @@
           ],
           "trades": 7,
           "acquisitions": 19,
-          "drops": 16
+          "drops": 16,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -14042,7 +14238,13 @@
           ],
           "trades": 12,
           "acquisitions": 73,
-          "drops": 71
+          "drops": 71,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -14240,7 +14442,13 @@
           ],
           "trades": 11,
           "acquisitions": 43,
-          "drops": 41
+          "drops": 41,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -14446,7 +14654,17 @@
           ],
           "trades": 16,
           "acquisitions": 31,
-          "drops": 31
+          "drops": 31,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            },
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -14644,7 +14862,13 @@
           ],
           "trades": 5,
           "acquisitions": 27,
-          "drops": 27
+          "drops": 27,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -14850,7 +15074,13 @@
           ],
           "trades": 1,
           "acquisitions": 19,
-          "drops": 18
+          "drops": 18,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -15048,7 +15278,13 @@
           ],
           "trades": 18,
           "acquisitions": 58,
-          "drops": 54
+          "drops": 54,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         },
         {
           "team_id": 11,
@@ -15246,7 +15482,13 @@
           ],
           "trades": 6,
           "acquisitions": 40,
-          "drops": 41
+          "drops": 41,
+          "all_owners": [
+            {
+              "id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+              "name": "Parth Shah"
+            }
+          ]
         },
         {
           "team_id": 12,
@@ -15452,7 +15694,13 @@
           ],
           "trades": 2,
           "acquisitions": 18,
-          "drops": 17
+          "drops": 17,
+          "all_owners": [
+            {
+              "id": "{36D486F2-EF9F-4C42-B3CA-EBEAE5142CAF}",
+              "name": "Andy Chen"
+            }
+          ]
         }
       ],
       "draft": [
@@ -18641,7 +18889,13 @@
           ],
           "trades": 1,
           "acquisitions": 47,
-          "drops": 48
+          "drops": 48,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -18847,7 +19101,13 @@
           ],
           "trades": 1,
           "acquisitions": 42,
-          "drops": 43
+          "drops": 43,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -19053,7 +19313,13 @@
           ],
           "trades": 1,
           "acquisitions": 7,
-          "drops": 6
+          "drops": 6,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -19259,7 +19525,13 @@
           ],
           "trades": 4,
           "acquisitions": 27,
-          "drops": 24
+          "drops": 24,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -19457,7 +19729,13 @@
           ],
           "trades": 11,
           "acquisitions": 72,
-          "drops": 70
+          "drops": 70,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -19655,7 +19933,13 @@
           ],
           "trades": 6,
           "acquisitions": 24,
-          "drops": 28
+          "drops": 28,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -19861,7 +20145,13 @@
           ],
           "trades": 9,
           "acquisitions": 58,
-          "drops": 61
+          "drops": 61,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -20059,7 +20349,13 @@
           ],
           "trades": 2,
           "acquisitions": 23,
-          "drops": 24
+          "drops": 24,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -20257,7 +20553,13 @@
           ],
           "trades": 2,
           "acquisitions": 14,
-          "drops": 15
+          "drops": 15,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -20463,7 +20765,13 @@
           ],
           "trades": 4,
           "acquisitions": 43,
-          "drops": 43
+          "drops": 43,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         },
         {
           "team_id": 11,
@@ -20669,7 +20977,13 @@
           ],
           "trades": 4,
           "acquisitions": 26,
-          "drops": 27
+          "drops": 27,
+          "all_owners": [
+            {
+              "id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+              "name": "Parth Shah"
+            }
+          ]
         },
         {
           "team_id": 12,
@@ -20867,7 +21181,13 @@
           ],
           "trades": 1,
           "acquisitions": 28,
-          "drops": 28
+          "drops": 28,
+          "all_owners": [
+            {
+              "id": "{36D486F2-EF9F-4C42-B3CA-EBEAE5142CAF}",
+              "name": "Andy Chen"
+            }
+          ]
         }
       ],
       "draft": [
@@ -24056,7 +24376,13 @@
           ],
           "trades": 2,
           "acquisitions": 24,
-          "drops": 24
+          "drops": 24,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -24254,7 +24580,13 @@
           ],
           "trades": 0,
           "acquisitions": 17,
-          "drops": 19
+          "drops": 19,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -24452,7 +24784,13 @@
           ],
           "trades": 2,
           "acquisitions": 6,
-          "drops": 6
+          "drops": 6,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -24650,7 +24988,13 @@
           ],
           "trades": 5,
           "acquisitions": 38,
-          "drops": 38
+          "drops": 38,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -24856,7 +25200,13 @@
           ],
           "trades": 7,
           "acquisitions": 61,
-          "drops": 63
+          "drops": 63,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -25054,7 +25404,13 @@
           ],
           "trades": 5,
           "acquisitions": 28,
-          "drops": 28
+          "drops": 28,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -25260,7 +25616,13 @@
           ],
           "trades": 10,
           "acquisitions": 31,
-          "drops": 32
+          "drops": 32,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -25458,7 +25820,13 @@
           ],
           "trades": 2,
           "acquisitions": 21,
-          "drops": 22
+          "drops": 22,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -25664,7 +26032,13 @@
           ],
           "trades": 0,
           "acquisitions": 18,
-          "drops": 17
+          "drops": 17,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -25862,7 +26236,13 @@
           ],
           "trades": 0,
           "acquisitions": 32,
-          "drops": 33
+          "drops": 33,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         },
         {
           "team_id": 11,
@@ -26060,7 +26440,13 @@
           ],
           "trades": 3,
           "acquisitions": 28,
-          "drops": 32
+          "drops": 32,
+          "all_owners": [
+            {
+              "id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+              "name": "Parth Shah"
+            }
+          ]
         },
         {
           "team_id": 12,
@@ -26266,7 +26652,13 @@
           ],
           "trades": 0,
           "acquisitions": 25,
-          "drops": 26
+          "drops": 26,
+          "all_owners": [
+            {
+              "id": "{36D486F2-EF9F-4C42-B3CA-EBEAE5142CAF}",
+              "name": "Andy Chen"
+            }
+          ]
         },
         {
           "team_id": 13,
@@ -26472,7 +26864,13 @@
           ],
           "trades": 2,
           "acquisitions": 15,
-          "drops": 14
+          "drops": 14,
+          "all_owners": [
+            {
+              "id": "{14885BD2-73BD-4F6C-B708-FCD2A6643611}",
+              "name": "Derek Wen"
+            }
+          ]
         },
         {
           "team_id": 14,
@@ -26670,7 +27068,13 @@
           ],
           "trades": 8,
           "acquisitions": 39,
-          "drops": 37
+          "drops": 37,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            }
+          ]
         }
       ],
       "draft": [
@@ -30327,7 +30731,13 @@
           ],
           "trades": 7,
           "acquisitions": 46,
-          "drops": 45
+          "drops": 45,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -30525,7 +30935,17 @@
           ],
           "trades": 8,
           "acquisitions": 25,
-          "drops": 23
+          "drops": 23,
+          "all_owners": [
+            {
+              "id": "{276AB088-B4C6-4ED8-AFC0-FA935DE39BF4}",
+              "name": "Jordi Pham"
+            },
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -30723,7 +31143,13 @@
           ],
           "trades": 2,
           "acquisitions": 10,
-          "drops": 10
+          "drops": 10,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -30921,7 +31347,13 @@
           ],
           "trades": 8,
           "acquisitions": 45,
-          "drops": 45
+          "drops": 45,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -31127,7 +31559,13 @@
           ],
           "trades": 16,
           "acquisitions": 74,
-          "drops": 76
+          "drops": 76,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -31333,7 +31771,13 @@
           ],
           "trades": 6,
           "acquisitions": 30,
-          "drops": 29
+          "drops": 29,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -31539,7 +31983,13 @@
           ],
           "trades": 14,
           "acquisitions": 41,
-          "drops": 39
+          "drops": 39,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -31737,7 +32187,13 @@
           ],
           "trades": 2,
           "acquisitions": 30,
-          "drops": 30
+          "drops": 30,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -31943,7 +32399,13 @@
           ],
           "trades": 1,
           "acquisitions": 16,
-          "drops": 14
+          "drops": 14,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -32141,7 +32603,13 @@
           ],
           "trades": 7,
           "acquisitions": 30,
-          "drops": 29
+          "drops": 29,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         },
         {
           "team_id": 11,
@@ -32339,7 +32807,13 @@
           ],
           "trades": 1,
           "acquisitions": 31,
-          "drops": 32
+          "drops": 32,
+          "all_owners": [
+            {
+              "id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+              "name": "Parth Shah"
+            }
+          ]
         },
         {
           "team_id": 12,
@@ -32545,7 +33019,13 @@
           ],
           "trades": 0,
           "acquisitions": 15,
-          "drops": 15
+          "drops": 15,
+          "all_owners": [
+            {
+              "id": "{36D486F2-EF9F-4C42-B3CA-EBEAE5142CAF}",
+              "name": "Andy Chen"
+            }
+          ]
         },
         {
           "team_id": 13,
@@ -32751,7 +33231,13 @@
           ],
           "trades": 3,
           "acquisitions": 20,
-          "drops": 19
+          "drops": 19,
+          "all_owners": [
+            {
+              "id": "{14885BD2-73BD-4F6C-B708-FCD2A6643611}",
+              "name": "Derek Wen"
+            }
+          ]
         },
         {
           "team_id": 14,
@@ -32949,7 +33435,13 @@
           ],
           "trades": 7,
           "acquisitions": 32,
-          "drops": 34
+          "drops": 34,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            }
+          ]
         }
       ],
       "draft": [
@@ -36614,7 +37106,13 @@
           ],
           "trades": 8,
           "acquisitions": 36,
-          "drops": 33
+          "drops": 33,
+          "all_owners": [
+            {
+              "id": "{05D77D51-2FFA-47CA-BDE5-18AAD1656BC0}",
+              "name": "Yannis Bi"
+            }
+          ]
         },
         {
           "team_id": 2,
@@ -36820,7 +37318,13 @@
           ],
           "trades": 2,
           "acquisitions": 19,
-          "drops": 18
+          "drops": 18,
+          "all_owners": [
+            {
+              "id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+              "name": "Robert Hong"
+            }
+          ]
         },
         {
           "team_id": 3,
@@ -37018,7 +37522,13 @@
           ],
           "trades": 1,
           "acquisitions": 10,
-          "drops": 10
+          "drops": 10,
+          "all_owners": [
+            {
+              "id": "{86E3C48D-D0A8-443E-A3C4-8DD0A8543E1A}",
+              "name": "Ameya Gadkari"
+            }
+          ]
         },
         {
           "team_id": 4,
@@ -37216,7 +37726,13 @@
           ],
           "trades": 8,
           "acquisitions": 41,
-          "drops": 40
+          "drops": 40,
+          "all_owners": [
+            {
+              "id": "{DA3D757E-D449-4CF6-BD75-7ED4491CF634}",
+              "name": "Justin Lee"
+            }
+          ]
         },
         {
           "team_id": 5,
@@ -37422,7 +37938,13 @@
           ],
           "trades": 12,
           "acquisitions": 45,
-          "drops": 43
+          "drops": 43,
+          "all_owners": [
+            {
+              "id": "{E6877D7C-AD57-47C2-877D-7CAD5717C22B}",
+              "name": "Eric Tao"
+            }
+          ]
         },
         {
           "team_id": 6,
@@ -37612,7 +38134,13 @@
           ],
           "trades": 5,
           "acquisitions": 25,
-          "drops": 25
+          "drops": 25,
+          "all_owners": [
+            {
+              "id": "{39910E8D-9825-4D48-A41A-25E6C9836633}",
+              "name": "Ancheng Da"
+            }
+          ]
         },
         {
           "team_id": 7,
@@ -37818,7 +38346,13 @@
           ],
           "trades": 8,
           "acquisitions": 37,
-          "drops": 38
+          "drops": 38,
+          "all_owners": [
+            {
+              "id": "{6632EC31-274D-4A6C-B2EC-31274DBA6CA5}",
+              "name": "Jonathan Bi"
+            }
+          ]
         },
         {
           "team_id": 8,
@@ -38016,7 +38550,13 @@
           ],
           "trades": 2,
           "acquisitions": 18,
-          "drops": 22
+          "drops": 22,
+          "all_owners": [
+            {
+              "id": "{A474B530-2292-4AC3-9D0E-D72AB4550BB8}",
+              "name": "Nicholas Yang"
+            }
+          ]
         },
         {
           "team_id": 9,
@@ -38214,7 +38754,13 @@
           ],
           "trades": 1,
           "acquisitions": 20,
-          "drops": 20
+          "drops": 20,
+          "all_owners": [
+            {
+              "id": "{C7DF8C93-2175-4FDF-A11D-885B99F043F3}",
+              "name": "Jared Tao"
+            }
+          ]
         },
         {
           "team_id": 10,
@@ -38412,7 +38958,13 @@
           ],
           "trades": 1,
           "acquisitions": 47,
-          "drops": 47
+          "drops": 47,
+          "all_owners": [
+            {
+              "id": "{EEBC8C85-10E9-456F-BC8C-8510E9F56FF7}",
+              "name": "Karthik Pittala"
+            }
+          ]
         },
         {
           "team_id": 11,
@@ -38610,7 +39162,13 @@
           ],
           "trades": 3,
           "acquisitions": 43,
-          "drops": 47
+          "drops": 47,
+          "all_owners": [
+            {
+              "id": "{109BAC5F-442E-45DF-8CAC-FB75BCAD593C}",
+              "name": "Parth Shah"
+            }
+          ]
         },
         {
           "team_id": 12,
@@ -38808,7 +39366,13 @@
           ],
           "trades": 5,
           "acquisitions": 31,
-          "drops": 31
+          "drops": 31,
+          "all_owners": [
+            {
+              "id": "{276AB088-B4C6-4ED8-AFC0-FA935DE39BF4}",
+              "name": "Jordi Pham"
+            }
+          ]
         },
         {
           "team_id": 13,
@@ -39014,7 +39578,13 @@
           ],
           "trades": 0,
           "acquisitions": 17,
-          "drops": 16
+          "drops": 16,
+          "all_owners": [
+            {
+              "id": "{14885BD2-73BD-4F6C-B708-FCD2A6643611}",
+              "name": "Derek Wen"
+            }
+          ]
         },
         {
           "team_id": 14,
@@ -39212,7 +39782,13 @@
           ],
           "trades": 8,
           "acquisitions": 26,
-          "drops": 28
+          "drops": 28,
+          "all_owners": [
+            {
+              "id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+              "name": "Saurab Nooguri"
+            }
+          ]
         }
       ],
       "draft": [

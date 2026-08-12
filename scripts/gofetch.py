@@ -39,6 +39,21 @@ def get_owner_name(team):
     return team.team_name
 
 
+def get_all_owners(team):
+    """
+    Full owners list (not just the primary owners[0]) - needed to detect
+    co-ownership, e.g. investigating whether someone missing from a given
+    year was actually a secondary/co-owner on another team that season.
+    """
+    out = []
+    for o in (team.owners or []):
+        out.append({
+            "id": o.get("id"),
+            "name": f"{o.get('firstName', '')} {o.get('lastName', '')}".strip(),
+        })
+    return out
+
+
 def roster_to_list(team):
     roster = getattr(team, "roster", None) or []
     out = []
@@ -79,6 +94,7 @@ def team_to_dict(team):
         "trades": getattr(team, "trades", None),
         "acquisitions": getattr(team, "acquisitions", None),
         "drops": getattr(team, "drops", None),
+        "all_owners": get_all_owners(team),
     }
 
 

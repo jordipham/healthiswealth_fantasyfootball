@@ -3,11 +3,11 @@ compute_playoffs.py
 
 Reads data/league_history.json + owner_map.json, produces
 data/derived/playoffs.json - a reconstructed playoff bracket per year,
-organized by matchup_type (WINNERS_BRACKET, WINNERS_CONSOLATION_LADDER,
-LOSERS_CONSOLATION_LADDER), with each game labeled by the teams'
-pre-playoff seed (Team.standing - confirmed via direct data check to
-be the regular-season seed, distinct from final_standing which is
-the post-playoff result).
+crediting ALL co-owners on each team, not just the primary owner.
+
+Uses team_id (not owner_id) to join matchups back to their teams, so
+co-ownership is handled correctly regardless of which owner ESPN
+listed as "primary" that season.
 
 Pure read/compute/write - no ESPN API calls.
 
@@ -24,7 +24,7 @@ OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "playoffs.json")
 
 
 # ---------------------------------------------------------------------------
-# Owner resolution (same pattern as other compute_*.py scripts)
+# Owner resolution
 # ---------------------------------------------------------------------------
 
 def load_owner_map():
@@ -46,17 +46,36 @@ def resolve_owner(owner_id, id_to_canonical, canonical_owners):
     return canonical_id, canonical_owners[canonical_id]["display_name"]
 
 
+def resolve_all_owners(team, id_to_canonical, canonical_owners):
+    all_owners = team.get("all_owners") or []
+    if not all_owners:
+        oid = team.get("owner_id")
+        cid, name = resolve_owner(oid, id_to_canonical, canonical_owners)
+        return [{"canonical_id": cid, "display_name": name}]
+
+    resolved = []
+    for o in all_owners:
+        cid, name = resolve_owner(o.get("id"), id_to_canonical, canonical_owners)
+        resolved.append({"canonical_id": cid, "display_name": name})
+    return resolved
+
+
+def owners_display(resolved_owners):
+    return " & ".join(o["display_name"] for o in resolved_owners)
+
+
 # ---------------------------------------------------------------------------
-# Build a seed lookup (owner_id -> pre-playoff standing) for one season
+# Build lookups (team_id -> seed, team_id -> resolved owners) for one season
 # ---------------------------------------------------------------------------
 
-def build_seed_lookup(season_data):
-    lookup = {}
+def build_team_lookups(season_data, id_to_canonical, canonical_owners):
+    seeds = {}
+    owners_by_team = {}
     for team in season_data.get("teams", []):
-        owner_id = team.get("owner_id")
-        if owner_id:
-            lookup[owner_id] = team.get("standing")
-    return lookup
+        tid = team.get("team_id")
+        seeds[tid] = team.get("standing")
+        owners_by_team[tid] = resolve_all_owners(team, id_to_canonical, canonical_owners)
+    return seeds, owners_by_team
 
 
 # ---------------------------------------------------------------------------
@@ -64,7 +83,7 @@ def build_seed_lookup(season_data):
 # ---------------------------------------------------------------------------
 
 def build_year_bracket(season_data, id_to_canonical, canonical_owners):
-    seeds = build_seed_lookup(season_data)
+    seeds, owners_by_team = build_team_lookups(season_data, id_to_canonical, canonical_owners)
     matchups = season_data.get("matchups", {})
 
     brackets = {
@@ -80,17 +99,17 @@ def build_year_bracket(season_data, id_to_canonical, canonical_owners):
 
             matchup_type = m.get("matchup_type")
             if matchup_type not in brackets:
-                # Unknown/unexpected matchup_type - skip but don't crash,
-                # this would be worth investigating if it ever prints.
                 continue
 
-            home_id = m.get("home_owner_id")
-            away_id = m.get("away_owner_id")
+            home_team_id = m.get("home_team_id")
+            away_team_id = m.get("away_team_id")
             home_score = m.get("home_score")
             away_score = m.get("away_score")
 
-            _, home_name = resolve_owner(home_id, id_to_canonical, canonical_owners)
-            _, away_name = resolve_owner(away_id, id_to_canonical, canonical_owners)
+            home_owners = owners_by_team.get(home_team_id, [])
+            away_owners = owners_by_team.get(away_team_id, [])
+            home_name = owners_display(home_owners) if home_owners else None
+            away_name = owners_display(away_owners) if away_owners else None
 
             winner_name = None
             if home_score is not None and away_score is not None:
@@ -98,15 +117,18 @@ def build_year_bracket(season_data, id_to_canonical, canonical_owners):
                     winner_name = home_name
                 elif away_score > home_score:
                     winner_name = away_name
-                # else: tie, winner stays None
 
             brackets[matchup_type].append({
                 "week": int(week),
-                "home_owner_name": home_name,
-                "home_seed": seeds.get(home_id),
+                "home_owners": home_owners,
+                "home_owners_display": home_name,
+                "home_co_owned": len(home_owners) > 1,
+                "home_seed": seeds.get(home_team_id),
                 "home_score": home_score,
-                "away_owner_name": away_name,
-                "away_seed": seeds.get(away_id),
+                "away_owners": away_owners,
+                "away_owners_display": away_name,
+                "away_co_owned": len(away_owners) > 1,
+                "away_seed": seeds.get(away_team_id),
                 "away_score": away_score,
                 "winner": winner_name,
             })
@@ -127,7 +149,6 @@ def main():
     output = {}
     for year, season_data in history.get("seasons", {}).items():
         bracket = build_year_bracket(season_data, id_to_canonical, canonical_owners)
-        # Only include years that actually have playoff data
         if any(bracket.values()):
             output[year] = bracket
         else:

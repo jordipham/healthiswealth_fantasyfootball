@@ -1,4 +1,21 @@
-# SCRIPT COMPUTES SINGLE-SEASON SUPERLATIVES AND RECORDS FOR THE LEAGUE
+"""
+compute_superlatives.py
+
+Reads data/league_history.json + owner_map.json, produces
+data/derived/superlatives.json - single-season records and
+all-time career records across the whole league history.
+
+Co-ownership handling: any team with multiple owners (see
+team["all_owners"]) credits EVERY co-owner fully for that team's
+stats that season - both in season records (e.g. if a co-owned team
+holds the highest points_for, both owners appear as tied leaders)
+and in career records (each co-owner's career totals include that
+season's full wins/losses/points/trades/championship, etc).
+
+Pure read/compute/write - no ESPN API calls.
+
+Run with: python compute_superlatives.py
+"""
 
 import json
 import os
@@ -8,7 +25,10 @@ HISTORY_PATH = os.path.join(SCRIPT_DIR, "..", "data", "league_history.json")
 OWNER_MAP_PATH = os.path.join(SCRIPT_DIR, "owner_map.json")
 OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "superlatives.json")
 
+
+# ---------------------------------------------------------------------------
 # Owner resolution
+# ---------------------------------------------------------------------------
 
 def load_owner_map():
     with open(OWNER_MAP_PATH) as f:
@@ -29,8 +49,28 @@ def resolve_owner(owner_id, id_to_canonical, canonical_owners):
     return canonical_id, canonical_owners[canonical_id]["display_name"]
 
 
-# Single-season records
+def resolve_all_owners(team, id_to_canonical, canonical_owners):
+    """
+    Returns [(canonical_id, display_name), ...] for every owner on this
+    team - primary plus any co-owners. Falls back to the single primary
+    owner if all_owners isn't present (older raw pulls).
+    """
+    all_owners = team.get("all_owners") or []
+    if not all_owners:
+        oid = team.get("owner_id")
+        cid, name = resolve_owner(oid, id_to_canonical, canonical_owners)
+        return [(cid, name)]
 
+    resolved = []
+    for o in all_owners:
+        cid, name = resolve_owner(o.get("id"), id_to_canonical, canonical_owners)
+        resolved.append((cid, name))
+    return resolved
+
+
+# ---------------------------------------------------------------------------
+# Single-season records
+# ---------------------------------------------------------------------------
 
 def compute_season_records(history, id_to_canonical, canonical_owners):
     records = {
@@ -52,10 +92,9 @@ def compute_season_records(history, id_to_canonical, canonical_owners):
 
     def better(current_list, candidate, key, higher_is_better=True):
         """
-        current_list is a list of tied leaders (or empty). Returns the
-        updated list: extends it if candidate ties the current best,
-        replaces it if candidate beats the current best, or leaves it
-        unchanged if candidate is worse.
+        current_list is a list of tied leaders (or empty). Extends it if
+        candidate ties the current best, replaces it if candidate beats
+        the current best, leaves it unchanged if candidate is worse.
         """
         if not current_list:
             return [candidate]
@@ -66,49 +105,58 @@ def compute_season_records(history, id_to_canonical, canonical_owners):
         return [candidate] if is_better else current_list
 
     for year, season_data in history.get("seasons", {}).items():
+        teams_by_id = {t.get("team_id"): t for t in season_data.get("teams", [])}
+
         for team in season_data.get("teams", []):
-            _, name = resolve_owner(team.get("owner_id"), id_to_canonical, canonical_owners)
+            owners = resolve_all_owners(team, id_to_canonical, canonical_owners)
             games = (team.get("wins", 0) or 0) + (team.get("losses", 0) or 0) + (team.get("ties", 0) or 0)
             win_pct = (team.get("wins", 0) or 0) / games if games else 0
 
-            base = {
-                "year": int(year),
-                "owner_name": name,
-                "team_name": team.get("team_name"),
-            }
+            # One candidate per co-owner - if the team holds the record,
+            # every co-owner gets credited (and tie logic in better()
+            # naturally keeps them together).
+            is_co_owned = len(owners) > 1
+            for _, owner_name in owners:
+                base = {
+                    "year": int(year),
+                    "owner_name": owner_name,
+                    "team_name": team.get("team_name"),
+                    "co_owned": is_co_owned,
+                }
 
-            if team.get("points_for") is not None:
-                c = {**base, "value": team["points_for"]}
-                records["highest_points_for"] = better(records["highest_points_for"], c, "value", True)
-                records["lowest_points_for"] = better(records["lowest_points_for"], c, "value", False)
+                if team.get("points_for") is not None:
+                    c = {**base, "value": team["points_for"]}
+                    records["highest_points_for"] = better(records["highest_points_for"], c, "value", True)
+                    records["lowest_points_for"] = better(records["lowest_points_for"], c, "value", False)
 
-            if team.get("points_against") is not None:
-                c = {**base, "value": team["points_against"]}
-                records["highest_points_against"] = better(records["highest_points_against"], c, "value", True)
-                records["lowest_points_against"] = better(records["lowest_points_against"], c, "value", False)
+                if team.get("points_against") is not None:
+                    c = {**base, "value": team["points_against"]}
+                    records["highest_points_against"] = better(records["highest_points_against"], c, "value", True)
+                    records["lowest_points_against"] = better(records["lowest_points_against"], c, "value", False)
 
-            if games:
-                c = {**base, "value": win_pct, "record": f"{team.get('wins')}-{team.get('losses')}-{team.get('ties')}"}
-                records["best_record"] = better(records["best_record"], c, "value", True)
-                records["worst_record"] = better(records["worst_record"], c, "value", False)
+                if games:
+                    c = {**base, "value": win_pct, "record": f"{team.get('wins')}-{team.get('losses')}-{team.get('ties')}"}
+                    records["best_record"] = better(records["best_record"], c, "value", True)
+                    records["worst_record"] = better(records["worst_record"], c, "value", False)
 
-            if team.get("streak_type") == "WIN" and team.get("streak_length"):
-                c = {**base, "value": team["streak_length"]}
-                records["longest_win_streak"] = better(records["longest_win_streak"], c, "value", True)
+                if team.get("streak_type") == "WIN" and team.get("streak_length"):
+                    c = {**base, "value": team["streak_length"]}
+                    records["longest_win_streak"] = better(records["longest_win_streak"], c, "value", True)
 
-            if team.get("streak_type") == "LOSS" and team.get("streak_length"):
-                c = {**base, "value": team["streak_length"]}
-                records["longest_losing_streak"] = better(records["longest_losing_streak"], c, "value", True)
+                if team.get("streak_type") == "LOSS" and team.get("streak_length"):
+                    c = {**base, "value": team["streak_length"]}
+                    records["longest_losing_streak"] = better(records["longest_losing_streak"], c, "value", True)
 
-            if team.get("trades") is not None:
-                c = {**base, "value": team["trades"]}
-                records["most_trades_season"] = better(records["most_trades_season"], c, "value", True)
+                if team.get("trades") is not None:
+                    c = {**base, "value": team["trades"]}
+                    records["most_trades_season"] = better(records["most_trades_season"], c, "value", True)
 
-            if team.get("acquisitions") is not None:
-                c = {**base, "value": team["acquisitions"]}
-                records["most_acquisitions_season"] = better(records["most_acquisitions_season"], c, "value", True)
+                if team.get("acquisitions") is not None:
+                    c = {**base, "value": team["acquisitions"]}
+                    records["most_acquisitions_season"] = better(records["most_acquisitions_season"], c, "value", True)
 
-        # Weekly score + margin records, from matchups
+        # Weekly score + margin records, joined via team_id (not the
+        # singular home_owner_id/away_owner_id) so co-owners are caught.
         for week, matchups in season_data.get("matchups", {}).items():
             for m in matchups:
                 if m.get("is_bye"):
@@ -116,29 +164,36 @@ def compute_season_records(history, id_to_canonical, canonical_owners):
 
                 home_score = m.get("home_score")
                 away_score = m.get("away_score")
-                home_id = m.get("home_owner_id")
-                away_id = m.get("away_owner_id")
+                home_team = teams_by_id.get(m.get("home_team_id"))
+                away_team = teams_by_id.get(m.get("away_team_id"))
+
+                home_owners = resolve_all_owners(home_team, id_to_canonical, canonical_owners) if home_team else []
+                away_owners = resolve_all_owners(away_team, id_to_canonical, canonical_owners) if away_team else []
 
                 if home_score is not None:
-                    _, home_name = resolve_owner(home_id, id_to_canonical, canonical_owners)
-                    c = {"year": int(year), "week": int(week), "owner_name": home_name, "value": home_score}
-                    records["highest_single_week_score"] = better(records["highest_single_week_score"], c, "value", True)
-                    records["lowest_single_week_score"] = better(records["lowest_single_week_score"], c, "value", False)
+                    home_is_co = len(home_owners) > 1
+                    for _, home_name in home_owners:
+                        c = {"year": int(year), "week": int(week), "owner_name": home_name, "value": home_score, "co_owned": home_is_co}
+                        records["highest_single_week_score"] = better(records["highest_single_week_score"], c, "value", True)
+                        records["lowest_single_week_score"] = better(records["lowest_single_week_score"], c, "value", False)
 
                 if away_score is not None:
-                    _, away_name = resolve_owner(away_id, id_to_canonical, canonical_owners)
-                    c = {"year": int(year), "week": int(week), "owner_name": away_name, "value": away_score}
-                    records["highest_single_week_score"] = better(records["highest_single_week_score"], c, "value", True)
-                    records["lowest_single_week_score"] = better(records["lowest_single_week_score"], c, "value", False)
+                    away_is_co = len(away_owners) > 1
+                    for _, away_name in away_owners:
+                        c = {"year": int(year), "week": int(week), "owner_name": away_name, "value": away_score, "co_owned": away_is_co}
+                        records["highest_single_week_score"] = better(records["highest_single_week_score"], c, "value", True)
+                        records["lowest_single_week_score"] = better(records["lowest_single_week_score"], c, "value", False)
 
                 if home_score is not None and away_score is not None:
                     margin = abs(home_score - away_score)
-                    _, home_name = resolve_owner(home_id, id_to_canonical, canonical_owners)
-                    _, away_name = resolve_owner(away_id, id_to_canonical, canonical_owners)
+                    home_display = " & ".join(n for _, n in home_owners) if home_owners else "UNKNOWN"
+                    away_display = " & ".join(n for _, n in away_owners) if away_owners else "UNKNOWN"
                     c = {
                         "year": int(year), "week": int(week),
-                        "matchup": f"{home_name} ({home_score}) vs {away_name} ({away_score})",
+                        "matchup": f"{home_display} ({home_score}) vs {away_display} ({away_score})",
                         "value": margin,
+                        "home_co_owned": len(home_owners) > 1,
+                        "away_co_owned": len(away_owners) > 1,
                     }
                     records["biggest_blowout"] = better(records["biggest_blowout"], c, "value", True)
                     records["closest_game"] = better(records["closest_game"], c, "value", False)
@@ -146,11 +201,12 @@ def compute_season_records(history, id_to_canonical, canonical_owners):
     return records
 
 
+# ---------------------------------------------------------------------------
 # Career / all-time records
-
+# ---------------------------------------------------------------------------
 
 def compute_career_records(history, id_to_canonical, canonical_owners):
-    careers = {}  # canonical_id -> aggregated stats
+    careers = {}
 
     def get_career(canonical_id, name):
         if canonical_id not in careers:
@@ -164,6 +220,7 @@ def compute_career_records(history, id_to_canonical, canonical_owners):
                 "acquisitions": 0,
                 "last_place_finishes": 0,
                 "years_played": [],
+                "co_ownership_history": [],  # [{"year": 2020, "co_owners": ["Saurab Nooguri"]}, ...]
                 "last_championship_year": None,
             }
         return careers[canonical_id]
@@ -173,33 +230,45 @@ def compute_career_records(history, id_to_canonical, canonical_owners):
         max_standing = max((t.get("final_standing") or 0) for t in teams) if teams else 0
 
         for team in teams:
-            canonical_id, name = resolve_owner(team.get("owner_id"), id_to_canonical, canonical_owners)
-            if canonical_id is None:
-                continue  # unmapped owner - run check_unmapped_owners.py
+            owners = resolve_all_owners(team, id_to_canonical, canonical_owners)
+            is_co_owned = len(owners) > 1
 
-            c = get_career(canonical_id, name)
-            c["wins"] += team.get("wins", 0) or 0
-            c["losses"] += team.get("losses", 0) or 0
-            c["ties"] += team.get("ties", 0) or 0
-            c["trades"] += team.get("trades", 0) or 0
-            c["acquisitions"] += team.get("acquisitions", 0) or 0
-            c["years_played"].append(int(year))
+            # Every co-owner on this team gets full credit for the season.
+            for canonical_id, name in owners:
+                if canonical_id is None:
+                    continue  # unmapped owner - run check_unmapped_owners.py
 
-            if team.get("final_standing") == 1:
-                c["championships"] += 1
-                if c["last_championship_year"] is None or int(year) > c["last_championship_year"]:
-                    c["last_championship_year"] = int(year)
+                c = get_career(canonical_id, name)
+                c["wins"] += team.get("wins", 0) or 0
+                c["losses"] += team.get("losses", 0) or 0
+                c["ties"] += team.get("ties", 0) or 0
+                c["trades"] += team.get("trades", 0) or 0
+                c["acquisitions"] += team.get("acquisitions", 0) or 0
+                c["years_played"].append(int(year))
 
-            if team.get("final_standing") == max_standing and max_standing > 0:
-                c["last_place_finishes"] += 1
+                if is_co_owned:
+                    # Everyone else on this team that year, excluding self
+                    co_owner_names = [n for cid, n in owners if cid != canonical_id]
+                    c["co_ownership_history"].append({
+                        "year": int(year),
+                        "co_owners": co_owner_names,
+                    })
+
+                if team.get("final_standing") == 1:
+                    c["championships"] += 1
+                    if c["last_championship_year"] is None or int(year) > c["last_championship_year"]:
+                        c["last_championship_year"] = int(year)
+
+                if team.get("final_standing") == max_standing and max_standing > 0:
+                    c["last_place_finishes"] += 1
 
     current_year = max((int(y) for y in history.get("seasons", {}).keys()), default=None)
 
-    # Finalize: win %, championship drought
     for canonical_id, c in careers.items():
         games = c["wins"] + c["losses"] + c["ties"]
         c["win_pct"] = round(c["wins"] / games, 4) if games else None
-        c["years_played"] = sorted(c["years_played"])
+        c["years_played"] = sorted(set(c["years_played"]))
+        c["co_ownership_history"] = sorted(c["co_ownership_history"], key=lambda x: x["year"])
 
         if c["championships"] == 0:
             c["championship_drought"] = "never won"
@@ -207,10 +276,6 @@ def compute_career_records(history, id_to_canonical, canonical_owners):
             c["championship_drought"] = current_year - c["last_championship_year"]
 
     def get_leaders(careers_dict, key, reverse=True):
-        """
-        Return ALL managers tied at the best value for `key`, not just one.
-        reverse=True means higher is better; reverse=False means lower is better.
-        """
         valid = [c for c in careers_dict.values() if c.get(key) is not None]
         if not valid:
             return []
@@ -235,8 +300,9 @@ def compute_career_records(history, id_to_canonical, canonical_owners):
     }
 
 
+# ---------------------------------------------------------------------------
 # Main
-
+# ---------------------------------------------------------------------------
 
 def main():
     with open(HISTORY_PATH) as f:
@@ -262,3 +328,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+    
