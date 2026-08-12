@@ -1,0 +1,1476 @@
+{
+  "2018": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 13,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 1,
+        "home_score": 331.18,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 4,
+        "away_score": 202.72,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 13,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 2,
+        "home_score": 208.96,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 3,
+        "away_score": 231.92000000000002,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 1,
+        "home_score": 306.64,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 3,
+        "away_score": 254.5,
+        "winner": "Jonathan Bi"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 14,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 2,
+        "home_score": 243.6,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 4,
+        "away_score": 287.02,
+        "winner": "Robert Hong"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 13,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 5,
+        "home_score": 246.9,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 6,
+        "away_score": 251.98000000000002,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 13,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 7,
+        "home_score": 189.64,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 8,
+        "away_score": 271.15999999999997,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 6,
+        "home_score": 228.5,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 8,
+        "away_score": 220.18,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 5,
+        "home_score": 168.84,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 7,
+        "away_score": 229.62,
+        "winner": "Ameya Gadkari"
+      }
+    ]
+  },
+  "2019": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 14,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 1,
+        "home_score": 170.96,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Robert Hong"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 4,
+        "home_score": 101.0,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 114.88,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 3,
+        "home_score": 152.3,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 139.2,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 2,
+        "home_score": 149.3,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 1,
+        "home_score": 170.38,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 202.22,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 2,
+        "home_score": 127.56,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 3,
+        "away_score": 170.06,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 3,
+        "home_score": 128.32,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 128.96,
+        "winner": "Justin Lee"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 4,
+        "home_score": 132.72,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 123.54,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 1,
+        "home_score": 213.16,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 2,
+        "away_score": 149.28,
+        "winner": "Robert Hong"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 4,
+        "home_score": 102.3,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 105.16,
+        "winner": "Jonathan Bi"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 14,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 7,
+        "home_score": 145.4,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 8,
+        "away_score": 151.82,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 9,
+        "home_score": 109.06,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 10,
+        "away_score": 62.88,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 8,
+        "home_score": 151.1,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 9,
+        "away_score": 153.02,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 7,
+        "home_score": 117.98,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 10,
+        "away_score": 106.48,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 7,
+        "home_score": 158.02,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 9,
+        "away_score": 111.3,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 8,
+        "home_score": 144.14,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 10,
+        "away_score": 121.58,
+        "winner": "Karthik Pittala"
+      }
+    ]
+  },
+  "2020": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 14,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 1,
+        "home_score": 138.34,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 4,
+        "home_score": 169.34,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 5,
+        "away_score": 135.22,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 3,
+        "home_score": 150.86,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 6,
+        "away_score": 168.22,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 2,
+        "home_score": 151.32,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 1,
+        "home_score": 138.6,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 4,
+        "away_score": 184.32,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 2,
+        "home_score": 137.56,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 6,
+        "away_score": 145.16,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 4,
+        "home_score": 152.3,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 6,
+        "away_score": 146.9,
+        "winner": "Jared Tao"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 3,
+        "home_score": 163.82,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 5,
+        "away_score": 134.02,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 1,
+        "home_score": 133.22,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 2,
+        "away_score": 163.32,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 3,
+        "home_score": 173.06,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 5,
+        "away_score": 202.22,
+        "winner": "Robert Hong"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 14,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 7,
+        "home_score": 101.86,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 8,
+        "away_score": 125.24,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 14,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 9,
+        "home_score": 117.5,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 10,
+        "away_score": 114.18,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 8,
+        "home_score": 92.24,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 9,
+        "away_score": 137.12,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 7,
+        "home_score": 138.84,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 10,
+        "away_score": 135.42,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 7,
+        "home_score": 103.98,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 9,
+        "away_score": 116.14,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 8,
+        "home_score": 123.4,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 10,
+        "away_score": 162.3,
+        "winner": "Eric Tao"
+      }
+    ]
+  },
+  "2021": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 15,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 86.86,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 118.02,
+        "away_owner_name": "Andy Chen",
+        "away_seed": 5,
+        "away_score": 89.6,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 3,
+        "home_score": 128.3,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 98.44,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 2,
+        "home_score": 118.96,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 121.48,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 4,
+        "away_score": 167.98,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 2,
+        "home_score": 139.96,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 3,
+        "away_score": 122.92,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 2,
+        "home_score": 151.96,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 4,
+        "away_score": 136.12,
+        "winner": "Yannis Bi"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 16,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 5,
+        "home_score": 126.06,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 79.32,
+        "winner": "Andy Chen"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 148.0,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 3,
+        "away_score": 127.86,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 5,
+        "home_score": 96.4,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 107.6,
+        "winner": "Nicholas Yang"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 109.08,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 8,
+        "away_score": 146.64,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 9,
+        "home_score": 109.68,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 10,
+        "away_score": 82.86,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 11,
+        "home_score": 72.18,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 12,
+        "away_score": 85.98,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 8,
+        "home_score": 111.94,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 9,
+        "away_score": 136.9,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 129.6,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 12,
+        "away_score": 145.3,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 10,
+        "home_score": 107.88,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 11,
+        "away_score": 73.1,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 9,
+        "home_score": 131.14,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 12,
+        "away_score": 121.64,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 8,
+        "home_score": 146.08,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 10,
+        "away_score": 83.66,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 110.32,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 11,
+        "away_score": 110.64,
+        "winner": "Ameya Gadkari"
+      }
+    ]
+  },
+  "2022": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 15,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 104.84,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 98.44,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 5,
+        "away_score": 156.86,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 3,
+        "home_score": 155.1,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 106.44,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 2,
+        "home_score": 130.3,
+        "away_owner_name": "UNKNOWN (None)",
+        "away_seed": null,
+        "away_score": 0,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 107.38,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 5,
+        "away_score": 123.38,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 2,
+        "home_score": 132.2,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 3,
+        "away_score": 112.26,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 2,
+        "home_score": 95.2,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 5,
+        "away_score": 92.2,
+        "winner": "Jonathan Bi"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 16,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 114.66,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 107.9,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 73.98,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 3,
+        "away_score": 146.8,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 106.52,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 121.66,
+        "winner": "Nicholas Yang"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 98.12,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 8,
+        "away_score": 134.4,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 9,
+        "home_score": 129.78,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 10,
+        "away_score": 90.4,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 11,
+        "home_score": 103.48,
+        "away_owner_name": "Andy Chen",
+        "away_seed": 12,
+        "away_score": 105.68,
+        "winner": "Andy Chen"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 8,
+        "home_score": 132.0,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 9,
+        "away_score": 122.96,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 106.7,
+        "away_owner_name": "Andy Chen",
+        "away_seed": 12,
+        "away_score": 86.44,
+        "winner": "Robert Hong"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 10,
+        "home_score": 109.26,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 11,
+        "away_score": 148.1,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 7,
+        "home_score": 103.98,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 8,
+        "away_score": 84.46,
+        "winner": "Robert Hong"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 9,
+        "home_score": 84.9,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 11,
+        "away_score": 117.1,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 10,
+        "home_score": 117.08,
+        "away_owner_name": "Andy Chen",
+        "away_seed": 12,
+        "away_score": 106.38,
+        "winner": "Justin Lee"
+      }
+    ]
+  },
+  "2023": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 15,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 102.98,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 8,
+        "away_score": 145.34,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 98.18,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 5,
+        "away_score": 96.34,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 3,
+        "home_score": 96.96,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 107.24,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 2,
+        "home_score": 147.26,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 7,
+        "away_score": 119.1,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 100.34,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 8,
+        "away_score": 96.92,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 2,
+        "home_score": 124.68,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 132.98,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 4,
+        "home_score": 134.2,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 6,
+        "away_score": 107.14,
+        "winner": "Parth Shah"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 16,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 102.8,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 3,
+        "away_score": 121.72,
+        "winner": "Robert Hong"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 5,
+        "home_score": 111.7,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 7,
+        "away_score": 99.4,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 2,
+        "home_score": 118.66,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 8,
+        "away_score": 139.16,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Robert Hong",
+        "home_seed": 3,
+        "home_score": 103.12,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 5,
+        "away_score": 104.32,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 1,
+        "home_score": 94.8,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 7,
+        "away_score": 93.5,
+        "winner": "Ancheng Da"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 86.74,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 10,
+        "away_score": 184.36,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 11,
+        "home_score": 97.58,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 12,
+        "away_score": 103.46,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 13,
+        "home_score": 83.94,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 14,
+        "away_score": 81.42,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 10,
+        "home_score": 66.84,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 12,
+        "away_score": 110.96,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 132.18,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 13,
+        "away_score": 131.72,
+        "winner": "Andy Chen"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 11,
+        "home_score": 122.62,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 14,
+        "away_score": 90.84,
+        "winner": "Derek Wen"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 123.34,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 12,
+        "away_score": 81.38,
+        "winner": "Andy Chen"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 10,
+        "home_score": 160.84,
+        "away_owner_name": "Derek Wen",
+        "away_seed": 11,
+        "away_score": 77.86,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 13,
+        "home_score": 118.5,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 14,
+        "away_score": 105.68,
+        "winner": "Justin Lee"
+      }
+    ]
+  },
+  "2024": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 15,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 145.78,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 8,
+        "away_score": 118.66,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 4,
+        "home_score": 99.42,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 139.9,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 3,
+        "home_score": 184.0,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 6,
+        "away_score": 125.5,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 2,
+        "home_score": 125.9,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 7,
+        "away_score": 108.54,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 110.76,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 174.62,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 2,
+        "home_score": 99.14,
+        "away_owner_name": "Jonathan Bi",
+        "away_seed": 3,
+        "away_score": 158.48,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 3,
+        "home_score": 164.72,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 5,
+        "away_score": 164.86,
+        "winner": "Justin Lee"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 16,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 4,
+        "home_score": 99.18,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 6,
+        "away_score": 103.04,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 7,
+        "home_score": 110.38,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 8,
+        "away_score": 87.8,
+        "winner": "Ameya Gadkari"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jared Tao",
+        "home_seed": 1,
+        "home_score": 93.28,
+        "away_owner_name": "Eric Tao",
+        "away_seed": 2,
+        "away_score": 91.22,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Karthik Pittala",
+        "home_seed": 6,
+        "home_score": 142.34,
+        "away_owner_name": "Ameya Gadkari",
+        "away_seed": 7,
+        "away_score": 92.18,
+        "winner": "Karthik Pittala"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 4,
+        "home_score": 133.52,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 8,
+        "away_score": 98.7,
+        "winner": "Saurab Nooguri"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 142.28,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 10,
+        "away_score": 101.44,
+        "winner": "Andy Chen"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 11,
+        "home_score": 71.58,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 12,
+        "away_score": 68.44,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 13,
+        "home_score": 98.94,
+        "away_owner_name": "Jordi Pham",
+        "away_seed": 14,
+        "away_score": 126.92,
+        "winner": "Jordi Pham"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 95.74,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 11,
+        "away_score": 118.08,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 10,
+        "home_score": 138.74,
+        "away_owner_name": "Jordi Pham",
+        "away_seed": 14,
+        "away_score": 131.72,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 12,
+        "home_score": 147.5,
+        "away_owner_name": "Derek Wen",
+        "away_seed": 13,
+        "away_score": 92.02,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 10,
+        "home_score": 111.08,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 11,
+        "away_score": 146.48,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Andy Chen",
+        "home_seed": 9,
+        "home_score": 101.78,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 12,
+        "away_score": 106.62,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 13,
+        "home_score": 120.38,
+        "away_owner_name": "Jordi Pham",
+        "away_seed": 14,
+        "away_score": 129.66,
+        "winner": "Jordi Pham"
+      }
+    ]
+  },
+  "2025": {
+    "WINNERS_BRACKET": [
+      {
+        "week": 15,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 1,
+        "home_score": 124.86,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 8,
+        "away_score": 96.12,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 4,
+        "home_score": 64.96,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 5,
+        "away_score": 114.02,
+        "winner": "Jared Tao"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 3,
+        "home_score": 191.28,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 132.8,
+        "winner": "Derek Wen"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 2,
+        "home_score": 132.2,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 7,
+        "away_score": 120.74,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 1,
+        "home_score": 126.72,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 5,
+        "away_score": 87.4,
+        "winner": "Eric Tao"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Justin Lee",
+        "home_seed": 2,
+        "home_score": 134.0,
+        "away_owner_name": "Derek Wen",
+        "away_seed": 3,
+        "away_score": 97.5,
+        "winner": "Justin Lee"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Eric Tao",
+        "home_seed": 1,
+        "home_score": 137.98,
+        "away_owner_name": "Justin Lee",
+        "away_seed": 2,
+        "away_score": 97.34,
+        "winner": "Eric Tao"
+      }
+    ],
+    "WINNERS_CONSOLATION_LADDER": [
+      {
+        "week": 16,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 4,
+        "home_score": 98.38,
+        "away_owner_name": "Nicholas Yang",
+        "away_seed": 6,
+        "away_score": 166.66,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Saurab Nooguri",
+        "home_seed": 7,
+        "home_score": 115.18,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 8,
+        "away_score": 108.28,
+        "winner": "Saurab Nooguri"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Derek Wen",
+        "home_seed": 3,
+        "home_score": 104.0,
+        "away_owner_name": "Jared Tao",
+        "away_seed": 5,
+        "away_score": 96.38,
+        "winner": "Derek Wen"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Nicholas Yang",
+        "home_seed": 6,
+        "home_score": 139.92,
+        "away_owner_name": "Saurab Nooguri",
+        "away_seed": 7,
+        "away_score": 71.78,
+        "winner": "Nicholas Yang"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Ameya Gadkari",
+        "home_seed": 4,
+        "home_score": 93.48,
+        "away_owner_name": "Robert Hong",
+        "away_seed": 8,
+        "away_score": 93.36,
+        "winner": "Ameya Gadkari"
+      }
+    ],
+    "LOSERS_CONSOLATION_LADDER": [
+      {
+        "week": 15,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 9,
+        "home_score": 103.6,
+        "away_owner_name": "Jordi Pham",
+        "away_seed": 10,
+        "away_score": 83.48,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 11,
+        "home_score": 156.1,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 12,
+        "away_score": 137.14,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 15,
+        "home_owner_name": "Ancheng Da",
+        "home_seed": 13,
+        "home_score": 116.9,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 14,
+        "away_score": 80.7,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 9,
+        "home_score": 126.1,
+        "away_owner_name": "Yannis Bi",
+        "away_seed": 11,
+        "away_score": 163.2,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Jordi Pham",
+        "home_seed": 10,
+        "home_score": 84.7,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 13,
+        "away_score": 102.96,
+        "winner": "Ancheng Da"
+      },
+      {
+        "week": 16,
+        "home_owner_name": "Parth Shah",
+        "home_seed": 12,
+        "home_score": 114.5,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 14,
+        "away_score": 106.34,
+        "winner": "Parth Shah"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Yannis Bi",
+        "home_seed": 11,
+        "home_score": 142.12,
+        "away_owner_name": "Ancheng Da",
+        "away_seed": 13,
+        "away_score": 119.0,
+        "winner": "Yannis Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jonathan Bi",
+        "home_seed": 9,
+        "home_score": 118.6,
+        "away_owner_name": "Parth Shah",
+        "away_seed": 12,
+        "away_score": 101.38,
+        "winner": "Jonathan Bi"
+      },
+      {
+        "week": 17,
+        "home_owner_name": "Jordi Pham",
+        "home_seed": 10,
+        "home_score": 131.74,
+        "away_owner_name": "Karthik Pittala",
+        "away_seed": 14,
+        "away_score": 89.72,
+        "winner": "Jordi Pham"
+      }
+    ]
+  }
+}
