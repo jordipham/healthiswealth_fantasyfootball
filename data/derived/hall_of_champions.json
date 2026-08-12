@@ -9,6 +9,12 @@
     ],
     "owners_display": "Jonathan Bi",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "jonathan_bi",
+        "display_name": "Jonathan Bi"
+      }
+    ],
     "team_name": "SUPER ANGRY HIPPO",
     "record": "10-2-0",
     "points_for": 1854.6799999999998,
@@ -47,6 +53,12 @@
     ],
     "owners_display": "Justin Lee",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "justin_lee",
+        "display_name": "Justin Lee"
+      }
+    ],
     "team_name": "CANT GUARD  MIKE",
     "record": "6-7-0",
     "points_for": 1694.0600000000004,
@@ -85,6 +97,12 @@
     ],
     "owners_display": "Jared Tao",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "jared_tao",
+        "display_name": "Jared Tao"
+      }
+    ],
     "team_name": "Easy Breesy Beautiful",
     "record": "7-6-0",
     "points_for": 1765.1200000000001,
@@ -123,6 +141,12 @@
     ],
     "owners_display": "Yannis Bi",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "yannis_bi",
+        "display_name": "Yannis Bi"
+      }
+    ],
     "team_name": "super cooper",
     "record": "11-3-0",
     "points_for": 1899.7599999999998,
@@ -161,6 +185,12 @@
     ],
     "owners_display": "Jonathan Bi",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "jonathan_bi",
+        "display_name": "Jonathan Bi"
+      }
+    ],
     "team_name": "MY NAME jeff",
     "record": "9-5-0",
     "points_for": 1582.2199999999998,
@@ -199,6 +229,12 @@
     ],
     "owners_display": "Parth Shah",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "parth_shah",
+        "display_name": "Parth Shah"
+      }
+    ],
     "team_name": "One Lamb Army",
     "record": "8-6-0",
     "points_for": 1584.9999999999998,
@@ -237,6 +273,12 @@
     ],
     "owners_display": "Justin Lee",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "justin_lee",
+        "display_name": "Justin Lee"
+      }
+    ],
     "team_name": "SUPER SONIC GIBBS \u26a1\ufe0f",
     "record": "7-7-0",
     "points_for": 1679.3599999999997,
@@ -275,6 +317,12 @@
     ],
     "owners_display": "Eric Tao",
     "co_owned": false,
+    "all_owners_of_record": [
+      {
+        "canonical_id": "eric_tao",
+        "display_name": "Eric Tao"
+      }
+    ],
     "team_name": "ARich AWAITING AREA",
     "record": "10-4-0",
     "points_for": 1773.88,

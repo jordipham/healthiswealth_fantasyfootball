@@ -1,9 +1,11 @@
 """
 compute_playoffs.py
 
-Reads data/league_history.json + owner_map.json, produces
-data/derived/playoffs.json - a reconstructed playoff bracket per year,
-crediting ALL co-owners on each team, not just the primary owner.
+Reads data/league_history.json + owner_map.json + co_owner_overrides.json,
+produces data/derived/playoffs.json - a reconstructed playoff bracket per
+year, crediting only confirmed real managers (training co-owners listed
+in co_owner_overrides.json are excluded from credit but still available
+in all_owners_of_record for transparency).
 
 Uses team_id (not owner_id) to join matchups back to their teams, so
 co-ownership is handled correctly regardless of which owner ESPN
@@ -20,6 +22,7 @@ import os
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_PATH = os.path.join(SCRIPT_DIR, "..", "data", "league_history.json")
 OWNER_MAP_PATH = os.path.join(SCRIPT_DIR, "owner_map.json")
+OVERRIDES_PATH = os.path.join(SCRIPT_DIR, "co_owner_overrides.json")
 OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "playoffs.json")
 
 
@@ -39,6 +42,14 @@ def load_owner_map():
     return raw["canonical_owners"], id_to_canonical
 
 
+def load_exclusions():
+    if not os.path.exists(OVERRIDES_PATH):
+        return set()
+    with open(OVERRIDES_PATH) as f:
+        raw = json.load(f)
+    return {(e["year"], e["excluded_owner_id"]) for e in raw.get("exclusions", [])}
+
+
 def resolve_owner(owner_id, id_to_canonical, canonical_owners):
     canonical_id = id_to_canonical.get(owner_id)
     if canonical_id is None:
@@ -46,17 +57,21 @@ def resolve_owner(owner_id, id_to_canonical, canonical_owners):
     return canonical_id, canonical_owners[canonical_id]["display_name"]
 
 
-def resolve_all_owners(team, id_to_canonical, canonical_owners):
+def resolve_credited_owners(team, year, id_to_canonical, canonical_owners, exclusions):
     all_owners = team.get("all_owners") or []
     if not all_owners:
         oid = team.get("owner_id")
         cid, name = resolve_owner(oid, id_to_canonical, canonical_owners)
-        return [{"canonical_id": cid, "display_name": name}]
+        return [{"canonical_id": cid, "display_name": name}] if cid else []
 
     resolved = []
     for o in all_owners:
-        cid, name = resolve_owner(o.get("id"), id_to_canonical, canonical_owners)
-        resolved.append({"canonical_id": cid, "display_name": name})
+        raw_id = o.get("id")
+        if (year, raw_id) in exclusions:
+            continue
+        cid, name = resolve_owner(raw_id, id_to_canonical, canonical_owners)
+        if cid is not None:
+            resolved.append({"canonical_id": cid, "display_name": name})
     return resolved
 
 
@@ -65,16 +80,16 @@ def owners_display(resolved_owners):
 
 
 # ---------------------------------------------------------------------------
-# Build lookups (team_id -> seed, team_id -> resolved owners) for one season
+# Build lookups (team_id -> seed, team_id -> credited owners) for one season
 # ---------------------------------------------------------------------------
 
-def build_team_lookups(season_data, id_to_canonical, canonical_owners):
+def build_team_lookups(season_data, year, id_to_canonical, canonical_owners, exclusions):
     seeds = {}
     owners_by_team = {}
     for team in season_data.get("teams", []):
         tid = team.get("team_id")
         seeds[tid] = team.get("standing")
-        owners_by_team[tid] = resolve_all_owners(team, id_to_canonical, canonical_owners)
+        owners_by_team[tid] = resolve_credited_owners(team, year, id_to_canonical, canonical_owners, exclusions)
     return seeds, owners_by_team
 
 
@@ -82,8 +97,8 @@ def build_team_lookups(season_data, id_to_canonical, canonical_owners):
 # Per-year bracket reconstruction
 # ---------------------------------------------------------------------------
 
-def build_year_bracket(season_data, id_to_canonical, canonical_owners):
-    seeds, owners_by_team = build_team_lookups(season_data, id_to_canonical, canonical_owners)
+def build_year_bracket(season_data, year, id_to_canonical, canonical_owners, exclusions):
+    seeds, owners_by_team = build_team_lookups(season_data, year, id_to_canonical, canonical_owners, exclusions)
     matchups = season_data.get("matchups", {})
 
     brackets = {
@@ -145,10 +160,11 @@ def main():
         history = json.load(f)
 
     canonical_owners, id_to_canonical = load_owner_map()
+    exclusions = load_exclusions()
 
     output = {}
     for year, season_data in history.get("seasons", {}).items():
-        bracket = build_year_bracket(season_data, id_to_canonical, canonical_owners)
+        bracket = build_year_bracket(season_data, int(year), id_to_canonical, canonical_owners, exclusions)
         if any(bracket.values()):
             output[year] = bracket
         else:

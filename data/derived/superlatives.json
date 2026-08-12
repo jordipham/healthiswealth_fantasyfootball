@@ -21,16 +21,9 @@
     "highest_points_against": [
       {
         "year": 2020,
-        "owner_name": "Saurab Nooguri",
-        "team_name": "kelce my big boi",
-        "co_owned": true,
-        "value": 1912.38
-      },
-      {
-        "year": 2020,
         "owner_name": "Jonathan Bi",
         "team_name": "kelce my big boi",
-        "co_owned": true,
+        "co_owned": false,
         "value": 1912.38
       }
     ],
@@ -167,11 +160,11 @@
       "robert_hong": {
         "owner_name": "Robert Hong",
         "championships": 0,
-        "wins": 55,
-        "losses": 53,
+        "wins": 52,
+        "losses": 42,
         "ties": 0,
-        "trades": 22,
-        "acquisitions": 302,
+        "trades": 14,
+        "acquisitions": 277,
         "last_place_finishes": 1,
         "years_played": [
           2018,
@@ -180,7 +173,6 @@
           2021,
           2022,
           2023,
-          2024,
           2025
         ],
         "co_ownership_history": [
@@ -188,11 +180,12 @@
             "year": 2024,
             "co_owners": [
               "Jordi Pham"
-            ]
+            ],
+            "received_credit": false
           }
         ],
         "last_championship_year": null,
-        "win_pct": 0.5093,
+        "win_pct": 0.5532,
         "championship_drought": "never won"
       },
       "ameya_gadkari": {
@@ -315,13 +308,15 @@
             "year": 2020,
             "co_owners": [
               "Saurab Nooguri"
-            ]
+            ],
+            "received_credit": true
           },
           {
             "year": 2021,
             "co_owners": [
               "Saurab Nooguri"
-            ]
+            ],
+            "received_credit": true
           }
         ],
         "last_championship_year": 2022,
@@ -355,16 +350,14 @@
       "saurab_nooguri": {
         "owner_name": "Saurab Nooguri",
         "championships": 0,
-        "wins": 38,
-        "losses": 44,
+        "wins": 26,
+        "losses": 29,
         "ties": 0,
-        "trades": 45,
-        "acquisitions": 196,
+        "trades": 25,
+        "acquisitions": 108,
         "last_place_finishes": 0,
         "years_played": [
           2019,
-          2020,
-          2021,
           2023,
           2024,
           2025
@@ -374,17 +367,19 @@
             "year": 2020,
             "co_owners": [
               "Jonathan Bi"
-            ]
+            ],
+            "received_credit": false
           },
           {
             "year": 2021,
             "co_owners": [
               "Jonathan Bi"
-            ]
+            ],
+            "received_credit": false
           }
         ],
         "last_championship_year": null,
-        "win_pct": 0.4634,
+        "win_pct": 0.4727,
         "championship_drought": "never won"
       },
       "karthik_pittala": {
@@ -510,7 +505,8 @@
             "year": 2024,
             "co_owners": [
               "Robert Hong"
-            ]
+            ],
+            "received_credit": true
           }
         ],
         "last_championship_year": null,
@@ -568,13 +564,15 @@
               "year": 2020,
               "co_owners": [
                 "Saurab Nooguri"
-              ]
+              ],
+              "received_credit": true
             },
             {
               "year": 2021,
               "co_owners": [
                 "Saurab Nooguri"
-              ]
+              ],
+              "received_credit": true
             }
           ],
           "last_championship_year": 2022,
@@ -625,7 +623,8 @@
               "year": 2024,
               "co_owners": [
                 "Robert Hong"
-              ]
+              ],
+              "received_credit": true
             }
           ],
           "last_championship_year": null,
@@ -658,13 +657,15 @@
               "year": 2020,
               "co_owners": [
                 "Saurab Nooguri"
-              ]
+              ],
+              "received_credit": true
             },
             {
               "year": 2021,
               "co_owners": [
                 "Saurab Nooguri"
-              ]
+              ],
+              "received_credit": true
             }
           ],
           "last_championship_year": 2022,

@@ -640,19 +640,15 @@
         "home_score": 150.86,
         "away_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "away_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "away_co_owned": true,
+        "away_owners_display": "Jonathan Bi",
+        "away_co_owned": false,
         "away_seed": 6,
         "away_score": 168.22,
-        "winner": "Saurab Nooguri & Jonathan Bi"
+        "winner": "Jonathan Bi"
       },
       {
         "week": 14,
@@ -711,19 +707,15 @@
         "home_score": 137.56,
         "away_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "away_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "away_co_owned": true,
+        "away_owners_display": "Jonathan Bi",
+        "away_co_owned": false,
         "away_seed": 6,
         "away_score": 145.16,
-        "winner": "Saurab Nooguri & Jonathan Bi"
+        "winner": "Jonathan Bi"
       },
       {
         "week": 16,
@@ -739,16 +731,12 @@
         "home_score": 152.3,
         "away_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "away_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "away_co_owned": true,
+        "away_owners_display": "Jonathan Bi",
+        "away_co_owned": false,
         "away_seed": 6,
         "away_score": 146.9,
         "winner": "Jared Tao"
@@ -1225,19 +1213,15 @@
         "home_score": 109.08,
         "away_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "away_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "away_co_owned": true,
+        "away_owners_display": "Jonathan Bi",
+        "away_co_owned": false,
         "away_seed": 8,
         "away_score": 146.64,
-        "winner": "Saurab Nooguri & Jonathan Bi"
+        "winner": "Jonathan Bi"
       },
       {
         "week": 15,
@@ -1291,16 +1275,12 @@
         "week": 16,
         "home_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "home_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "home_co_owned": true,
+        "home_owners_display": "Jonathan Bi",
+        "home_co_owned": false,
         "home_seed": 8,
         "home_score": 111.94,
         "away_owners": [
@@ -1391,16 +1371,12 @@
         "week": 17,
         "home_owners": [
           {
-            "canonical_id": "saurab_nooguri",
-            "display_name": "Saurab Nooguri"
-          },
-          {
             "canonical_id": "jonathan_bi",
             "display_name": "Jonathan Bi"
           }
         ],
-        "home_owners_display": "Saurab Nooguri & Jonathan Bi",
-        "home_co_owned": true,
+        "home_owners_display": "Jonathan Bi",
+        "home_co_owned": false,
         "home_seed": 8,
         "home_score": 146.08,
         "away_owners": [
@@ -1413,7 +1389,7 @@
         "away_co_owned": false,
         "away_seed": 10,
         "away_score": 83.66,
-        "winner": "Saurab Nooguri & Jonathan Bi"
+        "winner": "Jonathan Bi"
       },
       {
         "week": 17,
@@ -2765,17 +2741,13 @@
           {
             "canonical_id": "jordi_pham",
             "display_name": "Jordi Pham"
-          },
-          {
-            "canonical_id": "robert_hong",
-            "display_name": "Robert Hong"
           }
         ],
-        "away_owners_display": "Jordi Pham & Robert Hong",
-        "away_co_owned": true,
+        "away_owners_display": "Jordi Pham",
+        "away_co_owned": false,
         "away_seed": 14,
         "away_score": 126.92,
-        "winner": "Jordi Pham & Robert Hong"
+        "winner": "Jordi Pham"
       },
       {
         "week": 16,
@@ -2817,14 +2789,10 @@
           {
             "canonical_id": "jordi_pham",
             "display_name": "Jordi Pham"
-          },
-          {
-            "canonical_id": "robert_hong",
-            "display_name": "Robert Hong"
           }
         ],
-        "away_owners_display": "Jordi Pham & Robert Hong",
-        "away_co_owned": true,
+        "away_owners_display": "Jordi Pham",
+        "away_co_owned": false,
         "away_seed": 14,
         "away_score": 131.72,
         "winner": "Ancheng Da"
@@ -2917,17 +2885,13 @@
           {
             "canonical_id": "jordi_pham",
             "display_name": "Jordi Pham"
-          },
-          {
-            "canonical_id": "robert_hong",
-            "display_name": "Robert Hong"
           }
         ],
-        "away_owners_display": "Jordi Pham & Robert Hong",
-        "away_co_owned": true,
+        "away_owners_display": "Jordi Pham",
+        "away_co_owned": false,
         "away_seed": 14,
         "away_score": 129.66,
-        "winner": "Jordi Pham & Robert Hong"
+        "winner": "Jordi Pham"
       }
     ]
   },

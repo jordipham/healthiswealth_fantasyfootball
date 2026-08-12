@@ -1,0 +1,27 @@
+{
+  "_purpose": "Manual overrides for co-owned teams where one person was a genuine training/learning co-owner and should receive NO stat credit. The other owner(s) on the same team receive full solo credit for that season, as if they owned the team alone. This does NOT remove the excluded person from the historical record - all_owners still shows them, and co_ownership_history still notes the pairing - it only removes them from wins/losses/points/championships/trades/records/rivalry games.",
+
+  "exclusions": [
+    {
+      "year": 2020,
+      "excluded_owner_id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+      "excluded_name": "Saurab Nooguri",
+      "credited_to": "Jonathan Bi",
+      "note": "Training co-owner on Jonathan's team, confirmed by user - no stat credit."
+    },
+    {
+      "year": 2021,
+      "excluded_owner_id": "{49B038DF-70D8-4CA6-B76E-F51AE7BB77FA}",
+      "excluded_name": "Saurab Nooguri",
+      "credited_to": "Jonathan Bi",
+      "note": "Training co-owner on Jonathan's team, confirmed by user - no stat credit."
+    },
+    {
+      "year": 2024,
+      "excluded_owner_id": "{49E4688F-3F87-4770-BDC5-58CB2A93FC7A}",
+      "excluded_name": "Robert Hong",
+      "credited_to": "Jordi Pham",
+      "note": "Training co-owner on Jordi's team, confirmed by user - no stat credit."
+    }
+  ]
+}

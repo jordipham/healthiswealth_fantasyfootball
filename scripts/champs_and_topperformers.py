@@ -3,8 +3,14 @@ compute_hall_of_champions.py
 
 Reads data/league_history.json (already pulled by gofetch.py) and
 produces data/derived/hall_of_champions.json - one entry per year,
-with that year's champion (crediting ALL co-owners, not just the
-primary owner) and their top performers by season points.
+with that year's champion and their top performers by season points.
+
+Co-ownership handling:
+- By default, ALL co-owners on a team are credited for that season.
+- co_owner_overrides.json lists specific exceptions where one co-owner
+  was purely a training/learning participant and should receive NO
+  credit - the other owner(s) get full solo credit instead. This is a
+  manual, human-confirmed list, not something inferred automatically.
 
 Pure read/compute/write - no ESPN API calls.
 
@@ -17,6 +23,7 @@ import os
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "league_history.json")
 OWNER_MAP_PATH = os.path.join(SCRIPT_DIR, "owner_map.json")
+OVERRIDES_PATH = os.path.join(SCRIPT_DIR, "co_owner_overrides.json")
 OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "hall_of_champions.json")
 
 TOP_N = 3
@@ -38,6 +45,15 @@ def load_owner_map():
     return raw["canonical_owners"], id_to_canonical
 
 
+def load_exclusions():
+    """Returns a set of (year, raw_owner_id) tuples that should get NO stat credit."""
+    if not os.path.exists(OVERRIDES_PATH):
+        return set()
+    with open(OVERRIDES_PATH) as f:
+        raw = json.load(f)
+    return {(e["year"], e["excluded_owner_id"]) for e in raw.get("exclusions", [])}
+
+
 def resolve_owner(owner_id, id_to_canonical, canonical_owners):
     canonical_id = id_to_canonical.get(owner_id)
     if canonical_id is None:
@@ -46,22 +62,41 @@ def resolve_owner(owner_id, id_to_canonical, canonical_owners):
 
 
 def resolve_all_owners(team, id_to_canonical, canonical_owners):
+    """Full owners list, unfiltered - used for narrative/record-keeping only."""
+    all_owners = team.get("all_owners") or []
+    if not all_owners:
+        oid = team.get("owner_id")
+        cid, name = resolve_owner(oid, id_to_canonical, canonical_owners)
+        return [{"canonical_id": cid, "display_name": name}] if cid else []
+
+    resolved = []
+    for o in all_owners:
+        cid, name = resolve_owner(o.get("id"), id_to_canonical, canonical_owners)
+        if cid is not None:
+            resolved.append({"canonical_id": cid, "display_name": name})
+    return resolved
+
+
+def resolve_credited_owners(team, year, id_to_canonical, canonical_owners, exclusions):
     """
-    Returns a list of {"canonical_id", "display_name"} for every owner
-    on this team (primary + any co-owners), resolved through the
-    canonical map. Falls back to the single primary owner if
-    all_owners isn't present (older raw pulls).
+    Owners who should actually receive stat credit for this team/year -
+    same as resolve_all_owners but with manually-confirmed training
+    co-owners filtered out via co_owner_overrides.json.
     """
     all_owners = team.get("all_owners") or []
     if not all_owners:
         oid = team.get("owner_id")
         cid, name = resolve_owner(oid, id_to_canonical, canonical_owners)
-        return [{"canonical_id": cid, "display_name": name}]
+        return [{"canonical_id": cid, "display_name": name}] if cid else []
 
     resolved = []
     for o in all_owners:
-        cid, name = resolve_owner(o.get("id"), id_to_canonical, canonical_owners)
-        resolved.append({"canonical_id": cid, "display_name": name})
+        raw_id = o.get("id")
+        if (year, raw_id) in exclusions:
+            continue  # confirmed training co-owner - no credit
+        cid, name = resolve_owner(raw_id, id_to_canonical, canonical_owners)
+        if cid is not None:
+            resolved.append({"canonical_id": cid, "display_name": name})
     return resolved
 
 
@@ -83,7 +118,7 @@ def get_top_performers(team, n=TOP_N):
     return ranked[:n]
 
 
-def build_hall_of_champions(history, id_to_canonical, canonical_owners):
+def build_hall_of_champions(history, id_to_canonical, canonical_owners, exclusions):
     seasons = history.get("seasons", {})
     hall = []
 
@@ -95,14 +130,16 @@ def build_hall_of_champions(history, id_to_canonical, canonical_owners):
             print(f"WARNING: no champion found for {year} (final_standing==1 missing) - skipping")
             continue
 
-        owners = resolve_all_owners(champion, id_to_canonical, canonical_owners)
+        credited_owners = resolve_credited_owners(champion, int(year), id_to_canonical, canonical_owners, exclusions)
+        all_owners_of_record = resolve_all_owners(champion, id_to_canonical, canonical_owners)
         top_performers = get_top_performers(champion)
 
         hall.append({
             "year": int(year),
-            "owners": owners,
-            "owners_display": " & ".join(o["display_name"] for o in owners),
-            "co_owned": len(owners) > 1,
+            "owners": credited_owners,
+            "owners_display": " & ".join(o["display_name"] for o in credited_owners),
+            "co_owned": len(credited_owners) > 1,
+            "all_owners_of_record": all_owners_of_record,  # includes training co-owners, for transparency
             "team_name": champion.get("team_name"),
             "record": f"{champion.get('wins')}-{champion.get('losses')}-{champion.get('ties')}",
             "points_for": champion.get("points_for"),
@@ -127,7 +164,9 @@ def main():
         history = json.load(f)
 
     canonical_owners, id_to_canonical = load_owner_map()
-    hall = build_hall_of_champions(history, id_to_canonical, canonical_owners)
+    exclusions = load_exclusions()
+
+    hall = build_hall_of_champions(history, id_to_canonical, canonical_owners, exclusions)
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
