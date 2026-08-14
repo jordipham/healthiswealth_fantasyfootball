@@ -123,6 +123,16 @@ function showProfile(canonicalId, manager) {
   document.getElementById("p-years").textContent =
     `${c.years_played[0]}–${c.years_played[c.years_played.length - 1]}`;
   document.getElementById("p-lastplace").textContent = c.last_place_finishes;
+  const finish = c.best_finish;
+  const ordinal =
+    finish === 1
+      ? "1ST"
+      : finish === 2
+        ? "2ND"
+        : finish === 3
+          ? "3RD"
+          : finish + "TH";
+  document.getElementById("p-bestfinish").textContent = ordinal;
   document.getElementById("p-drought").textContent =
     c.championship_drought === "never won"
       ? "NEVER WON"

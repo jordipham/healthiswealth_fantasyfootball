@@ -156,6 +156,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": 2021,
+        "best_finish": 1,
         "win_pct": 0.4722,
         "avg_points_per_match": 123.98,
         "championship_drought": 4
@@ -190,6 +191,7 @@
           }
         ],
         "last_championship_year": null,
+        "best_finish": 3,
         "win_pct": 0.5532,
         "avg_points_per_match": 124.91,
         "championship_drought": "never won"
@@ -217,6 +219,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 2,
         "win_pct": 0.463,
         "avg_points_per_match": 116.92,
         "championship_drought": "never won"
@@ -244,6 +247,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": 2024,
+        "best_finish": 1,
         "win_pct": 0.4444,
         "avg_points_per_match": 117.19,
         "championship_drought": 1
@@ -271,6 +275,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": 2025,
+        "best_finish": 1,
         "win_pct": 0.5278,
         "avg_points_per_match": 123.19,
         "championship_drought": 0
@@ -298,6 +303,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 3,
         "win_pct": 0.4907,
         "avg_points_per_match": 117.92,
         "championship_drought": "never won"
@@ -340,6 +346,7 @@
           }
         ],
         "last_championship_year": 2022,
+        "best_finish": 1,
         "win_pct": 0.5556,
         "avg_points_per_match": 127.86,
         "championship_drought": 3
@@ -367,6 +374,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 2,
         "win_pct": 0.5463,
         "avg_points_per_match": 123.5,
         "championship_drought": "never won"
@@ -405,6 +413,7 @@
           }
         ],
         "last_championship_year": null,
+        "best_finish": 6,
         "win_pct": 0.4727,
         "avg_points_per_match": 115.67,
         "championship_drought": "never won"
@@ -431,6 +440,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 5,
         "win_pct": 0.4167,
         "avg_points_per_match": 117.68,
         "championship_drought": "never won"
@@ -456,6 +466,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": 2020,
+        "best_finish": 1,
         "win_pct": 0.6506,
         "avg_points_per_match": 122.14,
         "championship_drought": 5
@@ -480,6 +491,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": 2023,
+        "best_finish": 1,
         "win_pct": 0.5143,
         "avg_points_per_match": 114.17,
         "championship_drought": 2
@@ -503,6 +515,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 6,
         "win_pct": 0.4286,
         "avg_points_per_match": 112.36,
         "championship_drought": "never won"
@@ -525,6 +538,7 @@
         ],
         "co_ownership_history": [],
         "last_championship_year": null,
+        "best_finish": 3,
         "win_pct": 0.5,
         "avg_points_per_match": 104.12,
         "championship_drought": "never won"
@@ -554,6 +568,7 @@
           }
         ],
         "last_championship_year": null,
+        "best_finish": 13,
         "win_pct": 0.3214,
         "avg_points_per_match": 104.15,
         "championship_drought": "never won"
@@ -584,6 +599,7 @@
           ],
           "co_ownership_history": [],
           "last_championship_year": 2024,
+          "best_finish": 1,
           "win_pct": 0.4444,
           "avg_points_per_match": 117.19,
           "championship_drought": 1
@@ -626,6 +642,7 @@
             }
           ],
           "last_championship_year": 2022,
+          "best_finish": 1,
           "win_pct": 0.5556,
           "avg_points_per_match": 127.86,
           "championship_drought": 3
@@ -653,6 +670,7 @@
           ],
           "co_ownership_history": [],
           "last_championship_year": 2020,
+          "best_finish": 1,
           "win_pct": 0.6506,
           "avg_points_per_match": 122.14,
           "championship_drought": 5
@@ -684,6 +702,7 @@
             }
           ],
           "last_championship_year": null,
+          "best_finish": 13,
           "win_pct": 0.3214,
           "avg_points_per_match": 104.15,
           "championship_drought": "never won"
@@ -728,6 +747,7 @@
             }
           ],
           "last_championship_year": 2022,
+          "best_finish": 1,
           "win_pct": 0.5556,
           "avg_points_per_match": 127.86,
           "championship_drought": 3
@@ -757,6 +777,7 @@
           ],
           "co_ownership_history": [],
           "last_championship_year": null,
+          "best_finish": 3,
           "win_pct": 0.4907,
           "avg_points_per_match": 117.92,
           "championship_drought": "never won"
@@ -783,6 +804,7 @@
           ],
           "co_ownership_history": [],
           "last_championship_year": null,
+          "best_finish": 5,
           "win_pct": 0.4167,
           "avg_points_per_match": 117.68,
           "championship_drought": "never won"

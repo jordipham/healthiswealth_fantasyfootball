@@ -243,6 +243,7 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
                 "years_played": [],
                 "co_ownership_history": [],  # narrative only, not stat-affecting
                 "last_championship_year": None,
+                "best_finish": None,
             }
         return careers[canonical_id]
 
@@ -277,6 +278,11 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
 
                 if team.get("final_standing") == max_standing and max_standing > 0:
                     c["last_place_finishes"] += 1
+
+                finish = team.get("final_standing")
+                if finish is not None:
+                    if c["best_finish"] is None or finish < c["best_finish"]:
+                        c["best_finish"] = finish
 
             # Narrative-only co-ownership tracking uses the FULL owners list,
             # so the training relationship is preserved on both people's
