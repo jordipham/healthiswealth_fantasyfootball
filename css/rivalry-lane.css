@@ -1,0 +1,205 @@
+/* Rivalry Lane CSS */
+
+/*
+  css/rivalry-lane.css
+
+  Styles specific to the Rivalry Lane page only.
+  Relies on variables and base styles already defined in css/style.css
+  (loaded first in rivalry-lane.html).
+*/
+
+.subtitle {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.instruction {
+  text-align: center;
+  font-size: 9px;
+  color: var(--green);
+  margin: 20px 0;
+}
+
+/* ============ SLIM MANAGER GRID ============
+   Deliberately more compact than Meet Your Managers / Draft Day -
+   this is a quick pick-two-and-go picker, not a page meant for
+   browsing/admiring, so smaller cards and more columns is correct here. */
+.grid {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  text-align: center;
+  padding: 10px 6px;
+  cursor: pointer;
+  transition: border-color 0.1s, opacity 0.1s;
+}
+.card:hover { border-color: var(--gold); }
+
+.card.retired { opacity: 0.55; filter: grayscale(1); }
+.card.picked1 { border-color: var(--blue); background: #101a30; }
+.card.picked2 { border-color: var(--red); background: #300f0f; }
+.card.disabled { pointer-events: none; opacity: 0.3; }
+
+.avatar-placeholder {
+  width: 44px;
+  height: 44px;
+  background: #333;
+  border: 2px solid #000;
+  margin: 0 auto 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.avatar-placeholder .placeholder-text {
+  font-size: 6px;
+  color: #666;
+}
+
+.card-name { font-size: 7px; }
+.card-status {
+  font-family: monospace;
+  font-size: 6px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+/* ============ VS SCREEN ============ */
+.vs-screen {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: none;
+}
+.vs-screen.open { display: block; }
+
+.fighters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.side { flex: 1; text-align: center; }
+.side-avatar-placeholder {
+  width: 76px;
+  height: 76px;
+  background: #333;
+  border: 3px solid #000;
+  margin: 0 auto 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.side-avatar-placeholder .placeholder-text {
+  font-size: 8px;
+  color: #666;
+}
+.side-name { font-size: 11px; color: var(--gold); }
+.side-status {
+  font-family: monospace;
+  font-size: 8px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+.vs-mark { font-size: 20px; color: var(--pink); padding: 0 6px; }
+
+/* ============ HEALTH BARS ============ */
+.health-bars { margin-top: 24px; }
+.health-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.health-label {
+  font-size: 8px;
+  width: 100px;
+  color: var(--text-body);
+  text-align: right;
+}
+.health-track {
+  flex: 1;
+  height: 18px;
+  background: #222;
+  border: 2px solid #000;
+  position: relative;
+  overflow: hidden;
+}
+.health-fill-a { height: 100%; background: var(--blue); float: left; }
+.health-fill-b { height: 100%; background: var(--red); float: right; }
+.health-count { font-size: 10px; width: 26px; text-align: center; color: var(--green); }
+
+.record-summary {
+  text-align: center;
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--green);
+  margin: 16px 0;
+}
+
+/* ============ STAT ROW (points, win pct) ============ */
+.rivalry-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+  font-family: monospace;
+}
+.rivalry-stat-box {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 8px 10px;
+  text-align: center;
+}
+.rivalry-stat-label { font-size: 7px; color: var(--text-dim); }
+.rivalry-stat-value { font-size: 11px; color: var(--green); margin-top: 6px; }
+
+/* ============ MATCH HISTORY ============ */
+.rounds { margin-top: 24px; }
+.rounds h3 { font-size: 9px; color: var(--pink); margin-bottom: 10px; }
+.round {
+  font-family: monospace;
+  font-size: 10px;
+  color: var(--text-body);
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.round.playoff { border-color: var(--gold); }
+.round .playoff-tag { color: var(--gold); font-size: 8px; }
+
+.reset-btn { display: block; margin: 24px auto 0; }
+
+/* ============ MOBILE ============ */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+    gap: 8px;
+  }
+  .avatar-placeholder { width: 36px; height: 36px; }
+  .card-name { font-size: 6px; }
+
+  .side-avatar-placeholder { width: 56px; height: 56px; }
+  .side-name { font-size: 9px; }
+  .vs-mark { font-size: 14px; }
+  .health-label { width: 70px; font-size: 7px; }
+  .round { font-size: 8px; }
+}

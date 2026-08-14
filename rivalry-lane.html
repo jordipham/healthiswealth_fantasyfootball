@@ -1,0 +1,92 @@
+<!-- CONSTRUCTION OF RIVALRY LANE PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rivalry Lane — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/rivalry-lane.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="rivalries"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 14px;">RIVALRY LANE</h1>
+  <div class="subtitle">HEAD-TO-HEAD RECORDS</div>
+</div>
+
+<div class="instruction" id="instruction">PICK TWO MANAGERS TO SEE THEIR HEAD-TO-HEAD</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="vs-screen" id="vs-screen">
+  <div class="panel">
+    <div class="fighters">
+      <div class="side">
+        <div id="side-avatar-a"></div>
+        <div class="side-name" id="name1">—</div>
+        <div class="side-status" id="status1">—</div>
+      </div>
+      <div class="vs-mark">VS</div>
+      <div class="side">
+        <div id="side-avatar-b"></div>
+        <div class="side-name" id="name2">—</div>
+        <div class="side-status" id="status2">—</div>
+      </div>
+    </div>
+
+    <div class="record-summary" id="record-summary">—</div>
+
+    <div class="health-bars" id="health-bars">
+      <div class="health-row">
+        <span class="health-label" id="health-label-a">—</span>
+        <div class="health-track">
+          <div class="health-fill-a" id="health-fill-a" style="width:50%"></div>
+        </div>
+        <span class="health-count" id="health-count-a">—</span>
+      </div>
+      <div class="health-row">
+        <span class="health-label" id="health-label-b">—</span>
+        <div class="health-track">
+          <div class="health-fill-b" id="health-fill-b" style="width:50%"></div>
+        </div>
+        <span class="health-count" id="health-count-b">—</span>
+      </div>
+    </div>
+
+    <div class="rivalry-stats" id="rivalry-stats">
+      <div class="rivalry-stat-box">
+        <div class="rivalry-stat-label">TOTAL POINTS (A)</div>
+        <div class="rivalry-stat-value" id="stat-pf-a">—</div>
+      </div>
+      <div class="rivalry-stat-box">
+        <div class="rivalry-stat-label">TOTAL POINTS (B)</div>
+        <div class="rivalry-stat-value" id="stat-pf-b">—</div>
+      </div>
+      <div class="rivalry-stat-box">
+        <div class="rivalry-stat-label">WIN % (A / B)</div>
+        <div class="rivalry-stat-value" id="stat-winpct">—</div>
+      </div>
+    </div>
+
+    <div class="rounds">
+      <h3>MATCH HISTORY</h3>
+      <div id="rounds-list"></div>
+    </div>
+
+    <button class="pixel-btn secondary reset-btn" onclick="resetPicks()">CHOOSE AGAIN</button>
+  </div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/rivalry-lane.js"></script>
+</body>
+</html>
