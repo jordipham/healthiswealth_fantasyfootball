@@ -1,0 +1,4018 @@
+{
+  "manager_profiles": {
+    "eric_tao": {
+      "owner_name": "Eric Tao",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 39,
+      "picks_kept": 42,
+      "retention_rate": 0.4941,
+      "best_value_picks": [
+        {
+          "year": 2018,
+          "round_num": 14,
+          "round_pick": 8,
+          "player_id": 14874,
+          "player_name": "Andrew Luck",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 327.92,
+          "data_complete": true,
+          "value_score": 4590.88
+        },
+        {
+          "year": 2019,
+          "round_num": 13,
+          "round_pick": 4,
+          "player_id": 3917315,
+          "player_name": "Kyler Murray",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 285.28,
+          "data_complete": true,
+          "value_score": 3708.6399999999994
+        },
+        {
+          "year": 2023,
+          "round_num": 12,
+          "round_pick": 6,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 289.1,
+          "data_complete": true,
+          "value_score": 3469.2000000000003
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2025,
+          "round_num": 2,
+          "round_pick": 10,
+          "player_id": 3116406,
+          "player_name": "Tyreek Hill",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 53.5,
+          "data_complete": true,
+          "value_score": 107.0
+        },
+        {
+          "year": 2018,
+          "round_num": 2,
+          "round_pick": 8,
+          "player_id": 13229,
+          "player_name": "Rob Gronkowski",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 131.2,
+          "data_complete": true,
+          "value_score": 262.4
+        },
+        {
+          "year": 2023,
+          "round_num": 3,
+          "round_pick": 9,
+          "player_id": 3116365,
+          "player_name": "Mark Andrews",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 135.4,
+          "data_complete": true,
+          "value_score": 406.20000000000005
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2018,
+          "round_num": 14,
+          "round_pick": 8,
+          "player_id": 14874,
+          "player_name": "Andrew Luck",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 327.92,
+          "data_complete": true,
+          "value_score": 4590.88
+        },
+        {
+          "year": 2023,
+          "round_num": 12,
+          "round_pick": 6,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 289.1,
+          "data_complete": true,
+          "value_score": 3469.2000000000003
+        },
+        {
+          "year": 2019,
+          "round_num": 13,
+          "round_pick": 4,
+          "player_id": 3917315,
+          "player_name": "Kyler Murray",
+          "drafted_by_canonical_id": "eric_tao",
+          "drafted_by_name": "Eric Tao",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 285.28,
+          "data_complete": true,
+          "value_score": 3708.6399999999994
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Tyreek Hill",
+          "times_drafted": 3,
+          "years": [
+            2019,
+            2020,
+            2025
+          ],
+          "combined_points_across_those_seasons": 570.7
+        },
+        {
+          "player_name": "Mark Andrews",
+          "times_drafted": 3,
+          "years": [
+            2020,
+            2023,
+            2025
+          ],
+          "combined_points_across_those_seasons": 436.5
+        },
+        {
+          "player_name": "Patrick Mahomes",
+          "times_drafted": 2,
+          "years": [
+            2020,
+            2025
+          ],
+          "combined_points_across_those_seasons": 660.08
+        }
+      ]
+    },
+    "yannis_bi": {
+      "owner_name": "Yannis Bi",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 36,
+      "picks_kept": 53,
+      "retention_rate": 0.6023,
+      "best_value_picks": [
+        {
+          "year": 2025,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4360310,
+          "player_name": "Trevor Lawrence",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 338.18,
+          "data_complete": true,
+          "value_score": 5072.7
+        },
+        {
+          "year": 2019,
+          "round_num": 15,
+          "round_pick": 5,
+          "player_id": 3918298,
+          "player_name": "Josh Allen",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 288.56,
+          "data_complete": true,
+          "value_score": 4328.4
+        },
+        {
+          "year": 2024,
+          "round_num": 10,
+          "round_pick": 5,
+          "player_id": 3917315,
+          "player_name": "Kyler Murray",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 297.24,
+          "data_complete": true,
+          "value_score": 2972.4
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2020,
+          "round_num": 3,
+          "round_pick": 10,
+          "player_id": 16733,
+          "player_name": "Odell Beckham Jr.",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 86.82,
+          "data_complete": true,
+          "value_score": 260.46
+        },
+        {
+          "year": 2020,
+          "round_num": 2,
+          "round_pick": 1,
+          "player_id": 3116385,
+          "player_name": "Joe Mixon",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 99.6,
+          "data_complete": true,
+          "value_score": 199.2
+        },
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 9,
+          "player_id": 4685382,
+          "player_name": "Omarion Hampton",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 135.7,
+          "data_complete": true,
+          "value_score": 407.09999999999997
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2025,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4360310,
+          "player_name": "Trevor Lawrence",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 338.18,
+          "data_complete": true,
+          "value_score": 5072.7
+        },
+        {
+          "year": 2021,
+          "round_num": 9,
+          "round_pick": 10,
+          "player_id": 4040715,
+          "player_name": "Jalen Hurts",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 312.16,
+          "data_complete": true,
+          "value_score": 2809.44
+        },
+        {
+          "year": 2024,
+          "round_num": 10,
+          "round_pick": 5,
+          "player_id": 3917315,
+          "player_name": "Kyler Murray",
+          "drafted_by_canonical_id": "yannis_bi",
+          "drafted_by_name": "Yannis Bi",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 297.24,
+          "data_complete": true,
+          "value_score": 2972.4
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Cooper Kupp",
+          "times_drafted": 2,
+          "years": [
+            2021,
+            2023
+          ],
+          "combined_points_across_those_seasons": 603.9
+        },
+        {
+          "player_name": "James Cook",
+          "times_drafted": 2,
+          "years": [
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 568.9
+        },
+        {
+          "player_name": "Josh Jacobs",
+          "times_drafted": 2,
+          "years": [
+            2020,
+            2022
+          ],
+          "combined_points_across_those_seasons": 559.6
+        }
+      ]
+    },
+    "jonathan_bi": {
+      "owner_name": "Jonathan Bi",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 37,
+      "picks_kept": 28,
+      "retention_rate": 0.3218,
+      "best_value_picks": [
+        {
+          "year": 2018,
+          "round_num": 16,
+          "round_pick": 6,
+          "player_id": 11237,
+          "player_name": "Matt Ryan",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 354.96,
+          "data_complete": true,
+          "value_score": 5679.36
+        },
+        {
+          "year": 2020,
+          "round_num": 11,
+          "round_pick": 1,
+          "player_id": 3918298,
+          "player_name": "Josh Allen",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 396.06,
+          "data_complete": true,
+          "value_score": 4356.66
+        },
+        {
+          "year": 2025,
+          "round_num": 12,
+          "round_pick": 13,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 297.06,
+          "data_complete": true,
+          "value_score": 3564.7200000000003
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 4,
+          "player_id": 4595348,
+          "player_name": "Malik Nabers",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 57.1,
+          "data_complete": true,
+          "value_score": 171.3
+        },
+        {
+          "year": 2020,
+          "round_num": 1,
+          "round_pick": 1,
+          "player_id": 3117251,
+          "player_name": "Christian McCaffrey",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 90.4,
+          "data_complete": true,
+          "value_score": 90.4
+        },
+        {
+          "year": 2018,
+          "round_num": 4,
+          "round_pick": 6,
+          "player_id": 12514,
+          "player_name": "LeSean McCoy",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 127.2,
+          "data_complete": true,
+          "value_score": 508.8
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2020,
+          "round_num": 11,
+          "round_pick": 1,
+          "player_id": 3918298,
+          "player_name": "Josh Allen",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 396.06,
+          "data_complete": true,
+          "value_score": 4356.66
+        },
+        {
+          "year": 2018,
+          "round_num": 16,
+          "round_pick": 6,
+          "player_id": 11237,
+          "player_name": "Matt Ryan",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 354.96,
+          "data_complete": true,
+          "value_score": 5679.36
+        },
+        {
+          "year": 2025,
+          "round_num": 12,
+          "round_pick": 13,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "jonathan_bi",
+          "drafted_by_name": "Jonathan Bi",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 297.06,
+          "data_complete": true,
+          "value_score": 3564.7200000000003
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Justin Jefferson",
+          "times_drafted": 2,
+          "years": [
+            2022,
+            2025
+          ],
+          "combined_points_across_those_seasons": 570.16
+        },
+        {
+          "player_name": "Christian McCaffrey",
+          "times_drafted": 2,
+          "years": [
+            2018,
+            2020
+          ],
+          "combined_points_across_those_seasons": 475.9
+        },
+        {
+          "player_name": "Carson Wentz",
+          "times_drafted": 2,
+          "years": [
+            2018,
+            2019
+          ],
+          "combined_points_across_those_seasons": 275.86
+        }
+      ]
+    },
+    "nicholas_yang": {
+      "owner_name": "Nicholas Yang",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 28,
+      "picks_kept": 53,
+      "retention_rate": 0.5521,
+      "best_value_picks": [
+        {
+          "year": 2018,
+          "round_num": 14,
+          "round_pick": 5,
+          "player_id": 5536,
+          "player_name": "Ben Roethlisberger",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 341.86,
+          "data_complete": true,
+          "value_score": 4786.04
+        },
+        {
+          "year": 2022,
+          "round_num": 9,
+          "round_pick": 10,
+          "player_id": 3915511,
+          "player_name": "Joe Burrow",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 350.7,
+          "data_complete": true,
+          "value_score": 3156.2999999999997
+        },
+        {
+          "year": 2020,
+          "round_num": 13,
+          "round_pick": 7,
+          "player_id": 2574808,
+          "player_name": "Robby Anderson",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 224.1,
+          "data_complete": true,
+          "value_score": 2913.2999999999997
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2024,
+          "round_num": 4,
+          "round_pick": 12,
+          "player_id": 4361370,
+          "player_name": "Chris Olave",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 76.7,
+          "data_complete": true,
+          "value_score": 306.8
+        },
+        {
+          "year": 2019,
+          "round_num": 4,
+          "round_pick": 9,
+          "player_id": 16731,
+          "player_name": "Brandin Cooks",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Ancheng Da"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 117.5,
+          "data_complete": true,
+          "value_score": 470.0
+        },
+        {
+          "year": 2022,
+          "round_num": 4,
+          "round_pick": 3,
+          "player_id": 4241372,
+          "player_name": "Marquise Brown",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 156.0,
+          "data_complete": true,
+          "value_score": 624.0
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2022,
+          "round_num": 9,
+          "round_pick": 10,
+          "player_id": 3915511,
+          "player_name": "Joe Burrow",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 350.7,
+          "data_complete": true,
+          "value_score": 3156.2999999999997
+        },
+        {
+          "year": 2018,
+          "round_num": 14,
+          "round_pick": 5,
+          "player_id": 5536,
+          "player_name": "Ben Roethlisberger",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 341.86,
+          "data_complete": true,
+          "value_score": 4786.04
+        },
+        {
+          "year": 2020,
+          "round_num": 8,
+          "round_pick": 4,
+          "player_id": 4035538,
+          "player_name": "David Montgomery",
+          "drafted_by_canonical_id": "nicholas_yang",
+          "drafted_by_name": "Nicholas Yang",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 264.8,
+          "data_complete": true,
+          "value_score": 2118.4
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Alvin Kamara",
+          "times_drafted": 4,
+          "years": [
+            2018,
+            2019,
+            2020,
+            2022
+          ],
+          "combined_points_across_those_seasons": 1192.22
+        },
+        {
+          "player_name": "Adam Thielen",
+          "times_drafted": 4,
+          "years": [
+            2018,
+            2020,
+            2021,
+            2023
+          ],
+          "combined_points_across_those_seasons": 992.1
+        },
+        {
+          "player_name": "Marquise Brown",
+          "times_drafted": 4,
+          "years": [
+            2021,
+            2022,
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 538.1
+        }
+      ]
+    },
+    "justin_lee": {
+      "owner_name": "Justin Lee",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 31,
+      "picks_kept": 45,
+      "retention_rate": 0.4839,
+      "best_value_picks": [
+        {
+          "year": 2018,
+          "round_num": 16,
+          "round_pick": 4,
+          "player_id": 16913,
+          "player_name": "James White",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 276.6,
+          "data_complete": true,
+          "value_score": 4425.6
+        },
+        {
+          "year": 2020,
+          "round_num": 15,
+          "round_pick": 4,
+          "player_id": 3052587,
+          "player_name": "Baker Mayfield",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 248.62,
+          "data_complete": true,
+          "value_score": 3729.3
+        },
+        {
+          "year": 2020,
+          "round_num": 16,
+          "round_pick": 7,
+          "player_id": 3121427,
+          "player_name": "Curtis Samuel",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 212.1,
+          "data_complete": true,
+          "value_score": 3393.6
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2021,
+          "round_num": 3,
+          "round_pick": 6,
+          "player_id": 4045163,
+          "player_name": "Miles Sanders",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 117.2,
+          "data_complete": true,
+          "value_score": 351.6
+        },
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 5,
+          "player_id": 4432708,
+          "player_name": "Marvin Harrison Jr.",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 127.8,
+          "data_complete": true,
+          "value_score": 383.4
+        },
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 7,
+          "player_id": 4596448,
+          "player_name": "Bucky Irving",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 138.5,
+          "data_complete": true,
+          "value_score": 415.5
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2018,
+          "round_num": 16,
+          "round_pick": 4,
+          "player_id": 16913,
+          "player_name": "James White",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 276.6,
+          "data_complete": true,
+          "value_score": 4425.6
+        },
+        {
+          "year": 2021,
+          "round_num": 8,
+          "round_pick": 7,
+          "player_id": 3115364,
+          "player_name": "Leonard Fournette",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 255.6,
+          "data_complete": true,
+          "value_score": 2044.8
+        },
+        {
+          "year": 2025,
+          "round_num": 9,
+          "round_pick": 1,
+          "player_id": 4239996,
+          "player_name": "Travis Etienne Jr.",
+          "drafted_by_canonical_id": "justin_lee",
+          "drafted_by_name": "Justin Lee",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 253.9,
+          "data_complete": true,
+          "value_score": 2285.1
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Amari Cooper",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2019,
+            2020
+          ],
+          "combined_points_across_those_seasons": 698.8
+        },
+        {
+          "player_name": "DeAndre Hopkins",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2020,
+            2021
+          ],
+          "combined_points_across_those_seasons": 621.3
+        },
+        {
+          "player_name": "Jerry Jeudy",
+          "times_drafted": 3,
+          "years": [
+            2020,
+            2022,
+            2023
+          ],
+          "combined_points_across_those_seasons": 503.6
+        }
+      ]
+    },
+    "ancheng_da": {
+      "owner_name": "Ancheng Da",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 29,
+      "picks_kept": 41,
+      "retention_rate": 0.4316,
+      "best_value_picks": [
+        {
+          "year": 2019,
+          "round_num": 16,
+          "round_pick": 4,
+          "player_id": 2969939,
+          "player_name": "Jameis Winston",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 305.36,
+          "data_complete": true,
+          "value_score": 4885.76
+        },
+        {
+          "year": 2023,
+          "round_num": 15,
+          "round_pick": 13,
+          "player_id": 4432577,
+          "player_name": "C.J. Stroud",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 276.02,
+          "data_complete": true,
+          "value_score": 4140.299999999999
+        },
+        {
+          "year": 2025,
+          "round_num": 11,
+          "round_pick": 9,
+          "player_id": 4431611,
+          "player_name": "Caleb Williams",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 318.18,
+          "data_complete": true,
+          "value_score": 3499.98
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2025,
+          "round_num": 4,
+          "round_pick": 13,
+          "player_id": 4241474,
+          "player_name": "Brian Robinson Jr.",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 62.5,
+          "data_complete": true,
+          "value_score": 250.0
+        },
+        {
+          "year": 2019,
+          "round_num": 2,
+          "round_pick": 4,
+          "player_id": 3120348,
+          "player_name": "JuJu Smith-Schuster",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Ancheng Da"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 113.2,
+          "data_complete": true,
+          "value_score": 226.4
+        },
+        {
+          "year": 2024,
+          "round_num": 1,
+          "round_pick": 3,
+          "player_id": 4258595,
+          "player_name": "Cole Kmet",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 120.4,
+          "data_complete": true,
+          "value_score": 120.4
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2023,
+          "round_num": 8,
+          "round_pick": 2,
+          "player_id": 2577417,
+          "player_name": "Dak Prescott",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 342.84,
+          "data_complete": true,
+          "value_score": 2742.72
+        },
+        {
+          "year": 2020,
+          "round_num": 8,
+          "round_pick": 2,
+          "player_id": 2976212,
+          "player_name": "Stefon Diggs",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 328.6,
+          "data_complete": true,
+          "value_score": 2628.8
+        },
+        {
+          "year": 2025,
+          "round_num": 11,
+          "round_pick": 9,
+          "player_id": 4431611,
+          "player_name": "Caleb Williams",
+          "drafted_by_canonical_id": "ancheng_da",
+          "drafted_by_name": "Ancheng Da",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 318.18,
+          "data_complete": true,
+          "value_score": 3499.98
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "JuJu Smith-Schuster",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2019,
+            2020
+          ],
+          "combined_points_across_those_seasons": 644.2
+        },
+        {
+          "player_name": "Aaron Jones",
+          "times_drafted": 3,
+          "years": [
+            2020,
+            2021,
+            2023
+          ],
+          "combined_points_across_those_seasons": 622.8
+        },
+        {
+          "player_name": "Kenyan Drake",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2019,
+            2020
+          ],
+          "combined_points_across_those_seasons": 612.6
+        }
+      ]
+    },
+    "ameya_gadkari": {
+      "owner_name": "Ameya Gadkari",
+      "total_picks": 124,
+      "picks_with_incomplete_data": 29,
+      "picks_kept": 65,
+      "retention_rate": 0.6842,
+      "best_value_picks": [
+        {
+          "year": 2023,
+          "round_num": 15,
+          "round_pick": 2,
+          "player_id": 12483,
+          "player_name": "Matthew Stafford",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 243.1,
+          "data_complete": true,
+          "value_score": 3646.5
+        },
+        {
+          "year": 2019,
+          "round_num": 13,
+          "round_pick": 10,
+          "player_id": 2330,
+          "player_name": "Tom Brady",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 263.68,
+          "data_complete": true,
+          "value_score": 3427.84
+        },
+        {
+          "year": 2019,
+          "round_num": 10,
+          "round_pick": 1,
+          "player_id": 2577417,
+          "player_name": "Dak Prescott",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 337.78,
+          "data_complete": true,
+          "value_score": 3377.7999999999997
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 13,
+          "player_id": 4685247,
+          "player_name": "Braelon Allen",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 15.3,
+          "data_complete": true,
+          "value_score": 45.900000000000006
+        },
+        {
+          "year": 2024,
+          "round_num": 1,
+          "round_pick": 7,
+          "player_id": 3117251,
+          "player_name": "Christian McCaffrey",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 47.8,
+          "data_complete": true,
+          "value_score": 47.8
+        },
+        {
+          "year": 2024,
+          "round_num": 4,
+          "round_pick": 1,
+          "player_id": -16025,
+          "player_name": "49ers D/ST",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 84.0,
+          "data_complete": true,
+          "value_score": 336.0
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2021,
+          "round_num": 8,
+          "round_pick": 6,
+          "player_id": 4038941,
+          "player_name": "Justin Herbert",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 380.76,
+          "data_complete": true,
+          "value_score": 3046.08
+        },
+        {
+          "year": 2020,
+          "round_num": 9,
+          "round_pick": 6,
+          "player_id": 2330,
+          "player_name": "Tom Brady",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 337.92,
+          "data_complete": true,
+          "value_score": 3041.28
+        },
+        {
+          "year": 2019,
+          "round_num": 10,
+          "round_pick": 1,
+          "player_id": 2577417,
+          "player_name": "Dak Prescott",
+          "drafted_by_canonical_id": "ameya_gadkari",
+          "drafted_by_name": "Ameya Gadkari",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 337.78,
+          "data_complete": true,
+          "value_score": 3377.7999999999997
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Davante Adams",
+          "times_drafted": 3,
+          "years": [
+            2019,
+            2021,
+            2025
+          ],
+          "combined_points_across_those_seasons": 779.9
+        },
+        {
+          "player_name": "Chris Carson",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2019,
+            2020
+          ],
+          "combined_points_across_those_seasons": 621.8
+        },
+        {
+          "player_name": "DJ Chark",
+          "times_drafted": 3,
+          "years": [
+            2022,
+            2023,
+            2024
+          ],
+          "combined_points_across_those_seasons": 213.7
+        }
+      ]
+    },
+    "robert_hong": {
+      "owner_name": "Robert Hong",
+      "total_picks": 109,
+      "picks_with_incomplete_data": 38,
+      "picks_kept": 42,
+      "retention_rate": 0.5915,
+      "best_value_picks": [
+        {
+          "year": 2025,
+          "round_num": 15,
+          "round_pick": 9,
+          "player_id": 12483,
+          "player_name": "Matthew Stafford",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 350.38,
+          "data_complete": true,
+          "value_score": 5255.7
+        },
+        {
+          "year": 2019,
+          "round_num": 14,
+          "round_pick": 10,
+          "player_id": 14881,
+          "player_name": "Russell Wilson",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 328.6,
+          "data_complete": true,
+          "value_score": 4600.400000000001
+        },
+        {
+          "year": 2018,
+          "round_num": 15,
+          "round_pick": 8,
+          "player_id": 2580,
+          "player_name": "Drew Brees",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 304.98,
+          "data_complete": true,
+          "value_score": 4574.700000000001
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2020,
+          "round_num": 4,
+          "round_pick": 6,
+          "player_id": 15825,
+          "player_name": "Le'Veon Bell",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 74.6,
+          "data_complete": true,
+          "value_score": 298.4
+        },
+        {
+          "year": 2018,
+          "round_num": 1,
+          "round_pick": 8,
+          "player_id": 3115364,
+          "player_name": "Leonard Fournette",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 120.4,
+          "data_complete": true,
+          "value_score": 120.4
+        },
+        {
+          "year": 2023,
+          "round_num": 2,
+          "round_pick": 14,
+          "player_id": 4239993,
+          "player_name": "Tee Higgins",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 137.6,
+          "data_complete": true,
+          "value_score": 275.2
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2025,
+          "round_num": 15,
+          "round_pick": 9,
+          "player_id": 12483,
+          "player_name": "Matthew Stafford",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Robert Hong"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 350.38,
+          "data_complete": true,
+          "value_score": 5255.7
+        },
+        {
+          "year": 2021,
+          "round_num": 10,
+          "round_pick": 1,
+          "player_id": 12483,
+          "player_name": "Matthew Stafford",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 329.74,
+          "data_complete": true,
+          "value_score": 3297.4
+        },
+        {
+          "year": 2019,
+          "round_num": 14,
+          "round_pick": 10,
+          "player_id": 14881,
+          "player_name": "Russell Wilson",
+          "drafted_by_canonical_id": "robert_hong",
+          "drafted_by_name": "Robert Hong",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 328.6,
+          "data_complete": true,
+          "value_score": 4600.400000000001
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Zach Ertz",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2019,
+            2020
+          ],
+          "combined_points_across_those_seasons": 573.4
+        },
+        {
+          "player_name": "Matthew Stafford",
+          "times_drafted": 2,
+          "years": [
+            2021,
+            2025
+          ],
+          "combined_points_across_those_seasons": 680.12
+        },
+        {
+          "player_name": "Russell Wilson",
+          "times_drafted": 2,
+          "years": [
+            2018,
+            2019
+          ],
+          "combined_points_across_those_seasons": 628.02
+        }
+      ]
+    },
+    "karthik_pittala": {
+      "owner_name": "Karthik Pittala",
+      "total_picks": 108,
+      "picks_with_incomplete_data": 29,
+      "picks_kept": 42,
+      "retention_rate": 0.5316,
+      "best_value_picks": [
+        {
+          "year": 2022,
+          "round_num": 14,
+          "round_pick": 2,
+          "player_id": 14880,
+          "player_name": "Kirk Cousins",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 291.58,
+          "data_complete": true,
+          "value_score": 4082.12
+        },
+        {
+          "year": 2019,
+          "round_num": 17,
+          "round_pick": 3,
+          "player_id": 3116365,
+          "player_name": "Mark Andrews",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Ameya Gadkari"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 207.2,
+          "data_complete": true,
+          "value_score": 3522.3999999999996
+        },
+        {
+          "year": 2019,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4036348,
+          "player_name": "Michael Gallup",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 212.7,
+          "data_complete": true,
+          "value_score": 3190.5
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2021,
+          "round_num": 4,
+          "round_pick": 12,
+          "player_id": 13982,
+          "player_name": "Julio Jones",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 80.4,
+          "data_complete": true,
+          "value_score": 321.6
+        },
+        {
+          "year": 2021,
+          "round_num": 3,
+          "round_pick": 1,
+          "player_id": 4242214,
+          "player_name": "Clyde Edwards-Helaire",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 117.6,
+          "data_complete": true,
+          "value_score": 352.79999999999995
+        },
+        {
+          "year": 2020,
+          "round_num": 3,
+          "round_pick": 8,
+          "player_id": 3040151,
+          "player_name": "George Kittle",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 125.1,
+          "data_complete": true,
+          "value_score": 375.29999999999995
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2021,
+          "round_num": 10,
+          "round_pick": 12,
+          "player_id": 3915511,
+          "player_name": "Joe Burrow",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 314.24,
+          "data_complete": true,
+          "value_score": 3142.4
+        },
+        {
+          "year": 2022,
+          "round_num": 14,
+          "round_pick": 2,
+          "player_id": 14880,
+          "player_name": "Kirk Cousins",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 291.58,
+          "data_complete": true,
+          "value_score": 4082.12
+        },
+        {
+          "year": 2021,
+          "round_num": 8,
+          "round_pick": 12,
+          "player_id": 3045147,
+          "player_name": "James Conner",
+          "drafted_by_canonical_id": "karthik_pittala",
+          "drafted_by_name": "Karthik Pittala",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 257.7,
+          "data_complete": true,
+          "value_score": 2061.6
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Michael Pittman Jr.",
+          "times_drafted": 3,
+          "years": [
+            2021,
+            2023,
+            2024
+          ],
+          "combined_points_across_those_seasons": 654.6
+        },
+        {
+          "player_name": "Robby Anderson",
+          "times_drafted": 3,
+          "years": [
+            2019,
+            2021,
+            2022
+          ],
+          "combined_points_across_those_seasons": 300.8
+        },
+        {
+          "player_name": "Russell Wilson",
+          "times_drafted": 2,
+          "years": [
+            2020,
+            2023
+          ],
+          "combined_points_across_those_seasons": 616.68
+        }
+      ]
+    },
+    "saurab_nooguri": {
+      "owner_name": "Saurab Nooguri",
+      "total_picks": 62,
+      "picks_with_incomplete_data": 21,
+      "picks_kept": 17,
+      "retention_rate": 0.4146,
+      "best_value_picks": [
+        {
+          "year": 2025,
+          "round_num": 12,
+          "round_pick": 10,
+          "player_id": 4431452,
+          "player_name": "Drake Maye",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 351.96,
+          "data_complete": true,
+          "value_score": 4223.5199999999995
+        },
+        {
+          "year": 2019,
+          "round_num": 10,
+          "round_pick": 3,
+          "player_id": 3916387,
+          "player_name": "Lamar Jackson",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 415.68,
+          "data_complete": true,
+          "value_score": 4156.8
+        },
+        {
+          "year": 2019,
+          "round_num": 15,
+          "round_pick": 8,
+          "player_id": 14880,
+          "player_name": "Kirk Cousins",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 244.42,
+          "data_complete": true,
+          "value_score": 3666.2999999999997
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2019,
+          "round_num": 3,
+          "round_pick": 8,
+          "player_id": 16460,
+          "player_name": "Adam Thielen",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Nicholas Yang"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 114.4,
+          "data_complete": true,
+          "value_score": 343.20000000000005
+        },
+        {
+          "year": 2025,
+          "round_num": 1,
+          "round_pick": 2,
+          "player_id": 4362081,
+          "player_name": "Cameron Dicker",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 167.0,
+          "data_complete": true,
+          "value_score": 167.0
+        },
+        {
+          "year": 2024,
+          "round_num": 2,
+          "round_pick": 13,
+          "player_id": 14880,
+          "player_name": "Kirk Cousins",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 176.32,
+          "data_complete": true,
+          "value_score": 352.64
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2019,
+          "round_num": 10,
+          "round_pick": 3,
+          "player_id": 3916387,
+          "player_name": "Lamar Jackson",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 415.68,
+          "data_complete": true,
+          "value_score": 4156.8
+        },
+        {
+          "year": 2025,
+          "round_num": 12,
+          "round_pick": 10,
+          "player_id": 4431452,
+          "player_name": "Drake Maye",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Justin Lee"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 351.96,
+          "data_complete": true,
+          "value_score": 4223.5199999999995
+        },
+        {
+          "year": 2023,
+          "round_num": 11,
+          "round_pick": 12,
+          "player_id": 2576414,
+          "player_name": "Raheem Mostert",
+          "drafted_by_canonical_id": "saurab_nooguri",
+          "drafted_by_name": "Saurab Nooguri",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 267.7,
+          "data_complete": true,
+          "value_score": 2944.7
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Kirk Cousins",
+          "times_drafted": 3,
+          "years": [
+            2019,
+            2023,
+            2024
+          ],
+          "combined_points_across_those_seasons": 420.74
+        },
+        {
+          "player_name": "Chargers D/ST",
+          "times_drafted": 2,
+          "years": [
+            2019,
+            2025
+          ],
+          "combined_points_across_those_seasons": 199.0
+        },
+        {
+          "player_name": "Evan Engram",
+          "times_drafted": 2,
+          "years": [
+            2019,
+            2025
+          ],
+          "combined_points_across_those_seasons": 109.4
+        }
+      ]
+    },
+    "jared_tao": {
+      "owner_name": "Jared Tao",
+      "total_picks": 91,
+      "picks_with_incomplete_data": 21,
+      "picks_kept": 46,
+      "retention_rate": 0.6571,
+      "best_value_picks": [
+        {
+          "year": 2021,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4374302,
+          "player_name": "Amon-Ra St. Brown",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 227.3,
+          "data_complete": true,
+          "value_score": 3409.5
+        },
+        {
+          "year": 2023,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4241416,
+          "player_name": "Chuba Hubbard",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 182.5,
+          "data_complete": true,
+          "value_score": 2737.5
+        },
+        {
+          "year": 2025,
+          "round_num": 11,
+          "round_pick": 12,
+          "player_id": 4569587,
+          "player_name": "Wan'Dale Robinson",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 217.9,
+          "data_complete": true,
+          "value_score": 2396.9
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2020,
+          "round_num": 1,
+          "round_pick": 2,
+          "player_id": 3929630,
+          "player_name": "Saquon Barkley",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 15.4,
+          "data_complete": true,
+          "value_score": 15.4
+        },
+        {
+          "year": 2020,
+          "round_num": 3,
+          "round_pick": 2,
+          "player_id": 2974858,
+          "player_name": "Kenny Golladay",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 65.8,
+          "data_complete": true,
+          "value_score": 197.39999999999998
+        },
+        {
+          "year": 2021,
+          "round_num": 2,
+          "round_pick": 10,
+          "player_id": 2576925,
+          "player_name": "Darren Waller",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 133.5,
+          "data_complete": true,
+          "value_score": 267.0
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2023,
+          "round_num": 9,
+          "round_pick": 3,
+          "player_id": 4258173,
+          "player_name": "Nico Collins",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 260.4,
+          "data_complete": true,
+          "value_score": 2343.6
+        },
+        {
+          "year": 2024,
+          "round_num": 9,
+          "round_pick": 5,
+          "player_id": 4241416,
+          "player_name": "Chuba Hubbard",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 241.6,
+          "data_complete": true,
+          "value_score": 2174.4
+        },
+        {
+          "year": 2021,
+          "round_num": 15,
+          "round_pick": 3,
+          "player_id": 4374302,
+          "player_name": "Amon-Ra St. Brown",
+          "drafted_by_canonical_id": "jared_tao",
+          "drafted_by_name": "Jared Tao",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 227.3,
+          "data_complete": true,
+          "value_score": 3409.5
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Chris Godwin",
+          "times_drafted": 4,
+          "years": [
+            2020,
+            2022,
+            2023,
+            2024
+          ],
+          "combined_points_across_those_seasons": 760.8
+        },
+        {
+          "player_name": "Josh Allen",
+          "times_drafted": 3,
+          "years": [
+            2023,
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 1136.3
+        },
+        {
+          "player_name": "DK Metcalf",
+          "times_drafted": 2,
+          "years": [
+            2020,
+            2023
+          ],
+          "combined_points_across_those_seasons": 496.7
+        }
+      ]
+    },
+    "andy_chen": {
+      "owner_name": "Andy Chen",
+      "total_picks": 60,
+      "picks_with_incomplete_data": 14,
+      "picks_kept": 32,
+      "retention_rate": 0.6957,
+      "best_value_picks": [
+        {
+          "year": 2024,
+          "round_num": 13,
+          "round_pick": 14,
+          "player_id": 4038941,
+          "player_name": "Justin Herbert",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 285.4,
+          "data_complete": true,
+          "value_score": 3710.2
+        },
+        {
+          "year": 2023,
+          "round_num": 14,
+          "round_pick": 9,
+          "player_id": 16757,
+          "player_name": "Derek Carr",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 241.12,
+          "data_complete": true,
+          "value_score": 3375.6800000000003
+        },
+        {
+          "year": 2022,
+          "round_num": 14,
+          "round_pick": 8,
+          "player_id": 2980453,
+          "player_name": "Jamaal Williams",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 225.9,
+          "data_complete": true,
+          "value_score": 3162.6
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2024,
+          "round_num": 3,
+          "round_pick": 4,
+          "player_id": 2577417,
+          "player_name": "Dak Prescott",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 116.52,
+          "data_complete": true,
+          "value_score": 349.56
+        },
+        {
+          "year": 2022,
+          "round_num": 4,
+          "round_pick": 8,
+          "player_id": 16731,
+          "player_name": "Brandin Cooks",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Jared Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 145.6,
+          "data_complete": true,
+          "value_score": 582.4
+        },
+        {
+          "year": 2021,
+          "round_num": 1,
+          "round_pick": 4,
+          "player_id": 3043078,
+          "player_name": "Derrick Henry",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 193.3,
+          "data_complete": true,
+          "value_score": 193.3
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2024,
+          "round_num": 13,
+          "round_pick": 14,
+          "player_id": 4038941,
+          "player_name": "Justin Herbert",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Karthik Pittala"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 285.4,
+          "data_complete": true,
+          "value_score": 3710.2
+        },
+        {
+          "year": 2022,
+          "round_num": 8,
+          "round_pick": 8,
+          "player_id": 2330,
+          "player_name": "Tom Brady",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Andy Chen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 271.66,
+          "data_complete": true,
+          "value_score": 2173.28
+        },
+        {
+          "year": 2023,
+          "round_num": 14,
+          "round_pick": 9,
+          "player_id": 16757,
+          "player_name": "Derek Carr",
+          "drafted_by_canonical_id": "andy_chen",
+          "drafted_by_name": "Andy Chen",
+          "ended_with": [
+            "Saurab Nooguri"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 241.12,
+          "data_complete": true,
+          "value_score": 3375.6800000000003
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Tee Higgins",
+          "times_drafted": 2,
+          "years": [
+            2021,
+            2022
+          ],
+          "combined_points_across_those_seasons": 440.0
+        },
+        {
+          "player_name": "David Montgomery",
+          "times_drafted": 2,
+          "years": [
+            2021,
+            2023
+          ],
+          "combined_points_across_those_seasons": 402.2
+        },
+        {
+          "player_name": "Devin Singletary",
+          "times_drafted": 2,
+          "years": [
+            2022,
+            2024
+          ],
+          "combined_points_across_those_seasons": 274.5
+        }
+      ]
+    },
+    "parth_shah": {
+      "owner_name": "Parth Shah",
+      "total_picks": 75,
+      "picks_with_incomplete_data": 26,
+      "picks_kept": 25,
+      "retention_rate": 0.5102,
+      "best_value_picks": [
+        {
+          "year": 2022,
+          "round_num": 13,
+          "round_pick": 9,
+          "player_id": 16757,
+          "player_name": "Derek Carr",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Ancheng Da"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 219.08,
+          "data_complete": true,
+          "value_score": 2848.04
+        },
+        {
+          "year": 2023,
+          "round_num": 13,
+          "round_pick": 5,
+          "player_id": 4372019,
+          "player_name": "Jerome Ford",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 211.2,
+          "data_complete": true,
+          "value_score": 2745.6
+        },
+        {
+          "year": 2023,
+          "round_num": 12,
+          "round_pick": 10,
+          "player_id": 4362249,
+          "player_name": "Jayden Reed",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 217.2,
+          "data_complete": true,
+          "value_score": 2606.3999999999996
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 8,
+          "player_id": 3121422,
+          "player_name": "Terry McLaurin",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 114.2,
+          "data_complete": true,
+          "value_score": 342.6
+        },
+        {
+          "year": 2025,
+          "round_num": 4,
+          "round_pick": 14,
+          "player_id": 4426348,
+          "player_name": "Jayden Daniels",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 114.28,
+          "data_complete": true,
+          "value_score": 457.12
+        },
+        {
+          "year": 2024,
+          "round_num": 3,
+          "round_pick": 8,
+          "player_id": 4239996,
+          "player_name": "Travis Etienne Jr.",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 130.2,
+          "data_complete": true,
+          "value_score": 390.59999999999997
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2022,
+          "round_num": 8,
+          "round_pick": 4,
+          "player_id": 4241478,
+          "player_name": "DeVonta Smith",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Yannis Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 254.6,
+          "data_complete": true,
+          "value_score": 2036.8
+        },
+        {
+          "year": 2022,
+          "round_num": 13,
+          "round_pick": 9,
+          "player_id": 16757,
+          "player_name": "Derek Carr",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Ancheng Da"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 219.08,
+          "data_complete": true,
+          "value_score": 2848.04
+        },
+        {
+          "year": 2023,
+          "round_num": 12,
+          "round_pick": 10,
+          "player_id": 4362249,
+          "player_name": "Jayden Reed",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": [
+            "Parth Shah"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 217.2,
+          "data_complete": true,
+          "value_score": 2606.3999999999996
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Terry McLaurin",
+          "times_drafted": 2,
+          "years": [
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 382.0
+        },
+        {
+          "player_name": "Justin Tucker",
+          "times_drafted": 2,
+          "years": [
+            2022,
+            2023
+          ],
+          "combined_points_across_those_seasons": 313.0
+        },
+        {
+          "player_name": "Pat Freiermuth",
+          "times_drafted": 2,
+          "years": [
+            2023,
+            2024
+          ],
+          "combined_points_across_those_seasons": 245.1
+        }
+      ]
+    },
+    "derek_wen": {
+      "owner_name": "Derek Wen",
+      "total_picks": 45,
+      "picks_with_incomplete_data": 10,
+      "picks_kept": 22,
+      "retention_rate": 0.6286,
+      "best_value_picks": [
+        {
+          "year": 2024,
+          "round_num": 14,
+          "round_pick": 6,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 324.46,
+          "data_complete": true,
+          "value_score": 4542.44
+        },
+        {
+          "year": 2024,
+          "round_num": 11,
+          "round_pick": 13,
+          "player_id": 4426348,
+          "player_name": "Jayden Daniels",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 355.82,
+          "data_complete": true,
+          "value_score": 3914.02
+        },
+        {
+          "year": 2025,
+          "round_num": 10,
+          "round_pick": 7,
+          "player_id": 4361579,
+          "player_name": "Javonte Williams",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 242.8,
+          "data_complete": true,
+          "value_score": 2428.0
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2024,
+          "round_num": 2,
+          "round_pick": 8,
+          "player_id": 4360438,
+          "player_name": "Brandon Aiyuk",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 62.4,
+          "data_complete": true,
+          "value_score": 124.8
+        },
+        {
+          "year": 2023,
+          "round_num": 3,
+          "round_pick": 10,
+          "player_id": 4248528,
+          "player_name": "Christian Watson",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 101.3,
+          "data_complete": true,
+          "value_score": 303.9
+        },
+        {
+          "year": 2024,
+          "round_num": 2,
+          "round_pick": 10,
+          "player_id": 3126486,
+          "player_name": "Deebo Samuel Sr.",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 153.6,
+          "data_complete": true,
+          "value_score": 307.2
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2024,
+          "round_num": 11,
+          "round_pick": 13,
+          "player_id": 4426348,
+          "player_name": "Jayden Daniels",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 355.82,
+          "data_complete": true,
+          "value_score": 3914.02
+        },
+        {
+          "year": 2024,
+          "round_num": 14,
+          "round_pick": 6,
+          "player_id": 3046779,
+          "player_name": "Jared Goff",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 324.46,
+          "data_complete": true,
+          "value_score": 4542.44
+        },
+        {
+          "year": 2025,
+          "round_num": 10,
+          "round_pick": 7,
+          "player_id": 4361579,
+          "player_name": "Javonte Williams",
+          "drafted_by_canonical_id": "derek_wen",
+          "drafted_by_name": "Derek Wen",
+          "ended_with": [
+            "Derek Wen"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 242.8,
+          "data_complete": true,
+          "value_score": 2428.0
+        }
+      ],
+      "signature_picks": []
+    },
+    "jordi_pham": {
+      "owner_name": "Jordi Pham",
+      "total_picks": 30,
+      "picks_with_incomplete_data": 7,
+      "picks_kept": 12,
+      "retention_rate": 0.5217,
+      "best_value_picks": [
+        {
+          "year": 2024,
+          "round_num": 10,
+          "round_pick": 11,
+          "player_id": 4241463,
+          "player_name": "Jerry Jeudy",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 240.9,
+          "data_complete": true,
+          "value_score": 2409.0
+        },
+        {
+          "year": 2025,
+          "round_num": 7,
+          "round_pick": 3,
+          "player_id": 4038941,
+          "player_name": "Justin Herbert",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 286.88,
+          "data_complete": true,
+          "value_score": 2008.1599999999999
+        },
+        {
+          "year": 2025,
+          "round_num": 11,
+          "round_pick": 13,
+          "player_id": 4569173,
+          "player_name": "Rhamondre Stevenson",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 178.8,
+          "data_complete": true,
+          "value_score": 1966.8000000000002
+        }
+      ],
+      "biggest_busts": [
+        {
+          "year": 2024,
+          "round_num": 2,
+          "round_pick": 11,
+          "player_id": 4361529,
+          "player_name": "Isiah Pacheco",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 56.9,
+          "data_complete": true,
+          "value_score": 113.8
+        },
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 14,
+          "player_id": 16737,
+          "player_name": "Mike Evans",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Eric Tao"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 84.8,
+          "data_complete": true,
+          "value_score": 254.39999999999998
+        },
+        {
+          "year": 2025,
+          "round_num": 3,
+          "round_pick": 1,
+          "player_id": 4432773,
+          "player_name": "Brian Thomas Jr.",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jonathan Bi"
+          ],
+          "was_kept_by_drafter": false,
+          "total_points": 138.8,
+          "data_complete": true,
+          "value_score": 416.40000000000003
+        }
+      ],
+      "best_steals": [
+        {
+          "year": 2024,
+          "round_num": 10,
+          "round_pick": 11,
+          "player_id": 4241463,
+          "player_name": "Jerry Jeudy",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 240.9,
+          "data_complete": true,
+          "value_score": 2409.0
+        },
+        {
+          "year": 2025,
+          "round_num": 11,
+          "round_pick": 13,
+          "player_id": 4569173,
+          "player_name": "Rhamondre Stevenson",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 178.8,
+          "data_complete": true,
+          "value_score": 1966.8000000000002
+        },
+        {
+          "year": 2025,
+          "round_num": 8,
+          "round_pick": 8,
+          "player_id": 4373678,
+          "player_name": "Khalil Shakir",
+          "drafted_by_canonical_id": "jordi_pham",
+          "drafted_by_name": "Jordi Pham",
+          "ended_with": [
+            "Jordi Pham"
+          ],
+          "was_kept_by_drafter": true,
+          "total_points": 166.4,
+          "data_complete": true,
+          "value_score": 1331.2
+        }
+      ],
+      "signature_picks": [
+        {
+          "player_name": "Rome Odunze",
+          "times_drafted": 2,
+          "years": [
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 291.0
+        },
+        {
+          "player_name": "Dalton Kincaid",
+          "times_drafted": 2,
+          "years": [
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 226.9
+        }
+      ]
+    }
+  },
+  "league_leaders": {
+    "most_loyal_managers": [
+      {
+        "owner_name": "Andy Chen",
+        "total_picks": 60,
+        "picks_with_incomplete_data": 14,
+        "picks_kept": 32,
+        "retention_rate": 0.6957,
+        "best_value_picks": [
+          {
+            "year": 2024,
+            "round_num": 13,
+            "round_pick": 14,
+            "player_id": 4038941,
+            "player_name": "Justin Herbert",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Karthik Pittala"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 285.4,
+            "data_complete": true,
+            "value_score": 3710.2
+          },
+          {
+            "year": 2023,
+            "round_num": 14,
+            "round_pick": 9,
+            "player_id": 16757,
+            "player_name": "Derek Carr",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 241.12,
+            "data_complete": true,
+            "value_score": 3375.6800000000003
+          },
+          {
+            "year": 2022,
+            "round_num": 14,
+            "round_pick": 8,
+            "player_id": 2980453,
+            "player_name": "Jamaal Williams",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Andy Chen"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 225.9,
+            "data_complete": true,
+            "value_score": 3162.6
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2024,
+            "round_num": 3,
+            "round_pick": 4,
+            "player_id": 2577417,
+            "player_name": "Dak Prescott",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Andy Chen"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 116.52,
+            "data_complete": true,
+            "value_score": 349.56
+          },
+          {
+            "year": 2022,
+            "round_num": 4,
+            "round_pick": 8,
+            "player_id": 16731,
+            "player_name": "Brandin Cooks",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 145.6,
+            "data_complete": true,
+            "value_score": 582.4
+          },
+          {
+            "year": 2021,
+            "round_num": 1,
+            "round_pick": 4,
+            "player_id": 3043078,
+            "player_name": "Derrick Henry",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Andy Chen"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 193.3,
+            "data_complete": true,
+            "value_score": 193.3
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2024,
+            "round_num": 13,
+            "round_pick": 14,
+            "player_id": 4038941,
+            "player_name": "Justin Herbert",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Karthik Pittala"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 285.4,
+            "data_complete": true,
+            "value_score": 3710.2
+          },
+          {
+            "year": 2022,
+            "round_num": 8,
+            "round_pick": 8,
+            "player_id": 2330,
+            "player_name": "Tom Brady",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Andy Chen"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 271.66,
+            "data_complete": true,
+            "value_score": 2173.28
+          },
+          {
+            "year": 2023,
+            "round_num": 14,
+            "round_pick": 9,
+            "player_id": 16757,
+            "player_name": "Derek Carr",
+            "drafted_by_canonical_id": "andy_chen",
+            "drafted_by_name": "Andy Chen",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 241.12,
+            "data_complete": true,
+            "value_score": 3375.6800000000003
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "Tee Higgins",
+            "times_drafted": 2,
+            "years": [
+              2021,
+              2022
+            ],
+            "combined_points_across_those_seasons": 440.0
+          },
+          {
+            "player_name": "David Montgomery",
+            "times_drafted": 2,
+            "years": [
+              2021,
+              2023
+            ],
+            "combined_points_across_those_seasons": 402.2
+          },
+          {
+            "player_name": "Devin Singletary",
+            "times_drafted": 2,
+            "years": [
+              2022,
+              2024
+            ],
+            "combined_points_across_those_seasons": 274.5
+          }
+        ]
+      },
+      {
+        "owner_name": "Ameya Gadkari",
+        "total_picks": 124,
+        "picks_with_incomplete_data": 29,
+        "picks_kept": 65,
+        "retention_rate": 0.6842,
+        "best_value_picks": [
+          {
+            "year": 2023,
+            "round_num": 15,
+            "round_pick": 2,
+            "player_id": 12483,
+            "player_name": "Matthew Stafford",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Andy Chen"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 243.1,
+            "data_complete": true,
+            "value_score": 3646.5
+          },
+          {
+            "year": 2019,
+            "round_num": 13,
+            "round_pick": 10,
+            "player_id": 2330,
+            "player_name": "Tom Brady",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 263.68,
+            "data_complete": true,
+            "value_score": 3427.84
+          },
+          {
+            "year": 2019,
+            "round_num": 10,
+            "round_pick": 1,
+            "player_id": 2577417,
+            "player_name": "Dak Prescott",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 337.78,
+            "data_complete": true,
+            "value_score": 3377.7999999999997
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2025,
+            "round_num": 3,
+            "round_pick": 13,
+            "player_id": 4685247,
+            "player_name": "Braelon Allen",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 15.3,
+            "data_complete": true,
+            "value_score": 45.900000000000006
+          },
+          {
+            "year": 2024,
+            "round_num": 1,
+            "round_pick": 7,
+            "player_id": 3117251,
+            "player_name": "Christian McCaffrey",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 47.8,
+            "data_complete": true,
+            "value_score": 47.8
+          },
+          {
+            "year": 2024,
+            "round_num": 4,
+            "round_pick": 1,
+            "player_id": -16025,
+            "player_name": "49ers D/ST",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 84.0,
+            "data_complete": true,
+            "value_score": 336.0
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2021,
+            "round_num": 8,
+            "round_pick": 6,
+            "player_id": 4038941,
+            "player_name": "Justin Herbert",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 380.76,
+            "data_complete": true,
+            "value_score": 3046.08
+          },
+          {
+            "year": 2020,
+            "round_num": 9,
+            "round_pick": 6,
+            "player_id": 2330,
+            "player_name": "Tom Brady",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 337.92,
+            "data_complete": true,
+            "value_score": 3041.28
+          },
+          {
+            "year": 2019,
+            "round_num": 10,
+            "round_pick": 1,
+            "player_id": 2577417,
+            "player_name": "Dak Prescott",
+            "drafted_by_canonical_id": "ameya_gadkari",
+            "drafted_by_name": "Ameya Gadkari",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 337.78,
+            "data_complete": true,
+            "value_score": 3377.7999999999997
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "Davante Adams",
+            "times_drafted": 3,
+            "years": [
+              2019,
+              2021,
+              2025
+            ],
+            "combined_points_across_those_seasons": 779.9
+          },
+          {
+            "player_name": "Chris Carson",
+            "times_drafted": 3,
+            "years": [
+              2018,
+              2019,
+              2020
+            ],
+            "combined_points_across_those_seasons": 621.8
+          },
+          {
+            "player_name": "DJ Chark",
+            "times_drafted": 3,
+            "years": [
+              2022,
+              2023,
+              2024
+            ],
+            "combined_points_across_those_seasons": 213.7
+          }
+        ]
+      },
+      {
+        "owner_name": "Jared Tao",
+        "total_picks": 91,
+        "picks_with_incomplete_data": 21,
+        "picks_kept": 46,
+        "retention_rate": 0.6571,
+        "best_value_picks": [
+          {
+            "year": 2021,
+            "round_num": 15,
+            "round_pick": 3,
+            "player_id": 4374302,
+            "player_name": "Amon-Ra St. Brown",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Parth Shah"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 227.3,
+            "data_complete": true,
+            "value_score": 3409.5
+          },
+          {
+            "year": 2023,
+            "round_num": 15,
+            "round_pick": 3,
+            "player_id": 4241416,
+            "player_name": "Chuba Hubbard",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 182.5,
+            "data_complete": true,
+            "value_score": 2737.5
+          },
+          {
+            "year": 2025,
+            "round_num": 11,
+            "round_pick": 12,
+            "player_id": 4569587,
+            "player_name": "Wan'Dale Robinson",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 217.9,
+            "data_complete": true,
+            "value_score": 2396.9
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2020,
+            "round_num": 1,
+            "round_pick": 2,
+            "player_id": 3929630,
+            "player_name": "Saquon Barkley",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 15.4,
+            "data_complete": true,
+            "value_score": 15.4
+          },
+          {
+            "year": 2020,
+            "round_num": 3,
+            "round_pick": 2,
+            "player_id": 2974858,
+            "player_name": "Kenny Golladay",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 65.8,
+            "data_complete": true,
+            "value_score": 197.39999999999998
+          },
+          {
+            "year": 2021,
+            "round_num": 2,
+            "round_pick": 10,
+            "player_id": 2576925,
+            "player_name": "Darren Waller",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 133.5,
+            "data_complete": true,
+            "value_score": 267.0
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2023,
+            "round_num": 9,
+            "round_pick": 3,
+            "player_id": 4258173,
+            "player_name": "Nico Collins",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 260.4,
+            "data_complete": true,
+            "value_score": 2343.6
+          },
+          {
+            "year": 2024,
+            "round_num": 9,
+            "round_pick": 5,
+            "player_id": 4241416,
+            "player_name": "Chuba Hubbard",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 241.6,
+            "data_complete": true,
+            "value_score": 2174.4
+          },
+          {
+            "year": 2021,
+            "round_num": 15,
+            "round_pick": 3,
+            "player_id": 4374302,
+            "player_name": "Amon-Ra St. Brown",
+            "drafted_by_canonical_id": "jared_tao",
+            "drafted_by_name": "Jared Tao",
+            "ended_with": [
+              "Parth Shah"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 227.3,
+            "data_complete": true,
+            "value_score": 3409.5
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "Chris Godwin",
+            "times_drafted": 4,
+            "years": [
+              2020,
+              2022,
+              2023,
+              2024
+            ],
+            "combined_points_across_those_seasons": 760.8
+          },
+          {
+            "player_name": "Josh Allen",
+            "times_drafted": 3,
+            "years": [
+              2023,
+              2024,
+              2025
+            ],
+            "combined_points_across_those_seasons": 1136.3
+          },
+          {
+            "player_name": "DK Metcalf",
+            "times_drafted": 2,
+            "years": [
+              2020,
+              2023
+            ],
+            "combined_points_across_those_seasons": 496.7
+          }
+        ]
+      }
+    ],
+    "biggest_roster_churners": [
+      {
+        "owner_name": "Jonathan Bi",
+        "total_picks": 124,
+        "picks_with_incomplete_data": 37,
+        "picks_kept": 28,
+        "retention_rate": 0.3218,
+        "best_value_picks": [
+          {
+            "year": 2018,
+            "round_num": 16,
+            "round_pick": 6,
+            "player_id": 11237,
+            "player_name": "Matt Ryan",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 354.96,
+            "data_complete": true,
+            "value_score": 5679.36
+          },
+          {
+            "year": 2020,
+            "round_num": 11,
+            "round_pick": 1,
+            "player_id": 3918298,
+            "player_name": "Josh Allen",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 396.06,
+            "data_complete": true,
+            "value_score": 4356.66
+          },
+          {
+            "year": 2025,
+            "round_num": 12,
+            "round_pick": 13,
+            "player_id": 3046779,
+            "player_name": "Jared Goff",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 297.06,
+            "data_complete": true,
+            "value_score": 3564.7200000000003
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2025,
+            "round_num": 3,
+            "round_pick": 4,
+            "player_id": 4595348,
+            "player_name": "Malik Nabers",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Justin Lee"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 57.1,
+            "data_complete": true,
+            "value_score": 171.3
+          },
+          {
+            "year": 2020,
+            "round_num": 1,
+            "round_pick": 1,
+            "player_id": 3117251,
+            "player_name": "Christian McCaffrey",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 90.4,
+            "data_complete": true,
+            "value_score": 90.4
+          },
+          {
+            "year": 2018,
+            "round_num": 4,
+            "round_pick": 6,
+            "player_id": 12514,
+            "player_name": "LeSean McCoy",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Ameya Gadkari"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 127.2,
+            "data_complete": true,
+            "value_score": 508.8
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2020,
+            "round_num": 11,
+            "round_pick": 1,
+            "player_id": 3918298,
+            "player_name": "Josh Allen",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 396.06,
+            "data_complete": true,
+            "value_score": 4356.66
+          },
+          {
+            "year": 2018,
+            "round_num": 16,
+            "round_pick": 6,
+            "player_id": 11237,
+            "player_name": "Matt Ryan",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 354.96,
+            "data_complete": true,
+            "value_score": 5679.36
+          },
+          {
+            "year": 2025,
+            "round_num": 12,
+            "round_pick": 13,
+            "player_id": 3046779,
+            "player_name": "Jared Goff",
+            "drafted_by_canonical_id": "jonathan_bi",
+            "drafted_by_name": "Jonathan Bi",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 297.06,
+            "data_complete": true,
+            "value_score": 3564.7200000000003
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "Justin Jefferson",
+            "times_drafted": 2,
+            "years": [
+              2022,
+              2025
+            ],
+            "combined_points_across_those_seasons": 570.16
+          },
+          {
+            "player_name": "Christian McCaffrey",
+            "times_drafted": 2,
+            "years": [
+              2018,
+              2020
+            ],
+            "combined_points_across_those_seasons": 475.9
+          },
+          {
+            "player_name": "Carson Wentz",
+            "times_drafted": 2,
+            "years": [
+              2018,
+              2019
+            ],
+            "combined_points_across_those_seasons": 275.86
+          }
+        ]
+      },
+      {
+        "owner_name": "Saurab Nooguri",
+        "total_picks": 62,
+        "picks_with_incomplete_data": 21,
+        "picks_kept": 17,
+        "retention_rate": 0.4146,
+        "best_value_picks": [
+          {
+            "year": 2025,
+            "round_num": 12,
+            "round_pick": 10,
+            "player_id": 4431452,
+            "player_name": "Drake Maye",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Justin Lee"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 351.96,
+            "data_complete": true,
+            "value_score": 4223.5199999999995
+          },
+          {
+            "year": 2019,
+            "round_num": 10,
+            "round_pick": 3,
+            "player_id": 3916387,
+            "player_name": "Lamar Jackson",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 415.68,
+            "data_complete": true,
+            "value_score": 4156.8
+          },
+          {
+            "year": 2019,
+            "round_num": 15,
+            "round_pick": 8,
+            "player_id": 14880,
+            "player_name": "Kirk Cousins",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Jonathan Bi"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 244.42,
+            "data_complete": true,
+            "value_score": 3666.2999999999997
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2019,
+            "round_num": 3,
+            "round_pick": 8,
+            "player_id": 16460,
+            "player_name": "Adam Thielen",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Nicholas Yang"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 114.4,
+            "data_complete": true,
+            "value_score": 343.20000000000005
+          },
+          {
+            "year": 2025,
+            "round_num": 1,
+            "round_pick": 2,
+            "player_id": 4362081,
+            "player_name": "Cameron Dicker",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 167.0,
+            "data_complete": true,
+            "value_score": 167.0
+          },
+          {
+            "year": 2024,
+            "round_num": 2,
+            "round_pick": 13,
+            "player_id": 14880,
+            "player_name": "Kirk Cousins",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 176.32,
+            "data_complete": true,
+            "value_score": 352.64
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2019,
+            "round_num": 10,
+            "round_pick": 3,
+            "player_id": 3916387,
+            "player_name": "Lamar Jackson",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Saurab Nooguri"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 415.68,
+            "data_complete": true,
+            "value_score": 4156.8
+          },
+          {
+            "year": 2025,
+            "round_num": 12,
+            "round_pick": 10,
+            "player_id": 4431452,
+            "player_name": "Drake Maye",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Justin Lee"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 351.96,
+            "data_complete": true,
+            "value_score": 4223.5199999999995
+          },
+          {
+            "year": 2023,
+            "round_num": 11,
+            "round_pick": 12,
+            "player_id": 2576414,
+            "player_name": "Raheem Mostert",
+            "drafted_by_canonical_id": "saurab_nooguri",
+            "drafted_by_name": "Saurab Nooguri",
+            "ended_with": [
+              "Eric Tao"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 267.7,
+            "data_complete": true,
+            "value_score": 2944.7
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "Kirk Cousins",
+            "times_drafted": 3,
+            "years": [
+              2019,
+              2023,
+              2024
+            ],
+            "combined_points_across_those_seasons": 420.74
+          },
+          {
+            "player_name": "Chargers D/ST",
+            "times_drafted": 2,
+            "years": [
+              2019,
+              2025
+            ],
+            "combined_points_across_those_seasons": 199.0
+          },
+          {
+            "player_name": "Evan Engram",
+            "times_drafted": 2,
+            "years": [
+              2019,
+              2025
+            ],
+            "combined_points_across_those_seasons": 109.4
+          }
+        ]
+      },
+      {
+        "owner_name": "Ancheng Da",
+        "total_picks": 124,
+        "picks_with_incomplete_data": 29,
+        "picks_kept": 41,
+        "retention_rate": 0.4316,
+        "best_value_picks": [
+          {
+            "year": 2019,
+            "round_num": 16,
+            "round_pick": 4,
+            "player_id": 2969939,
+            "player_name": "Jameis Winston",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Nicholas Yang"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 305.36,
+            "data_complete": true,
+            "value_score": 4885.76
+          },
+          {
+            "year": 2023,
+            "round_num": 15,
+            "round_pick": 13,
+            "player_id": 4432577,
+            "player_name": "C.J. Stroud",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Robert Hong"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 276.02,
+            "data_complete": true,
+            "value_score": 4140.299999999999
+          },
+          {
+            "year": 2025,
+            "round_num": 11,
+            "round_pick": 9,
+            "player_id": 4431611,
+            "player_name": "Caleb Williams",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Derek Wen"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 318.18,
+            "data_complete": true,
+            "value_score": 3499.98
+          }
+        ],
+        "biggest_busts": [
+          {
+            "year": 2025,
+            "round_num": 4,
+            "round_pick": 13,
+            "player_id": 4241474,
+            "player_name": "Brian Robinson Jr.",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Eric Tao"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 62.5,
+            "data_complete": true,
+            "value_score": 250.0
+          },
+          {
+            "year": 2019,
+            "round_num": 2,
+            "round_pick": 4,
+            "player_id": 3120348,
+            "player_name": "JuJu Smith-Schuster",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Ancheng Da"
+            ],
+            "was_kept_by_drafter": true,
+            "total_points": 113.2,
+            "data_complete": true,
+            "value_score": 226.4
+          },
+          {
+            "year": 2024,
+            "round_num": 1,
+            "round_pick": 3,
+            "player_id": 4258595,
+            "player_name": "Cole Kmet",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Nicholas Yang"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 120.4,
+            "data_complete": true,
+            "value_score": 120.4
+          }
+        ],
+        "best_steals": [
+          {
+            "year": 2023,
+            "round_num": 8,
+            "round_pick": 2,
+            "player_id": 2577417,
+            "player_name": "Dak Prescott",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Justin Lee"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 342.84,
+            "data_complete": true,
+            "value_score": 2742.72
+          },
+          {
+            "year": 2020,
+            "round_num": 8,
+            "round_pick": 2,
+            "player_id": 2976212,
+            "player_name": "Stefon Diggs",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Jared Tao"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 328.6,
+            "data_complete": true,
+            "value_score": 2628.8
+          },
+          {
+            "year": 2025,
+            "round_num": 11,
+            "round_pick": 9,
+            "player_id": 4431611,
+            "player_name": "Caleb Williams",
+            "drafted_by_canonical_id": "ancheng_da",
+            "drafted_by_name": "Ancheng Da",
+            "ended_with": [
+              "Derek Wen"
+            ],
+            "was_kept_by_drafter": false,
+            "total_points": 318.18,
+            "data_complete": true,
+            "value_score": 3499.98
+          }
+        ],
+        "signature_picks": [
+          {
+            "player_name": "JuJu Smith-Schuster",
+            "times_drafted": 3,
+            "years": [
+              2018,
+              2019,
+              2020
+            ],
+            "combined_points_across_those_seasons": 644.2
+          },
+          {
+            "player_name": "Aaron Jones",
+            "times_drafted": 3,
+            "years": [
+              2020,
+              2021,
+              2023
+            ],
+            "combined_points_across_those_seasons": 622.8
+          },
+          {
+            "player_name": "Kenyan Drake",
+            "times_drafted": 3,
+            "years": [
+              2018,
+              2019,
+              2020
+            ],
+            "combined_points_across_those_seasons": 612.6
+          }
+        ]
+      }
+    ],
+    "best_picks_in_league_history": [
+      {
+        "year": 2018,
+        "round_num": 16,
+        "round_pick": 6,
+        "player_id": 11237,
+        "player_name": "Matt Ryan",
+        "drafted_by_canonical_id": "jonathan_bi",
+        "drafted_by_name": "Jonathan Bi",
+        "ended_with": [
+          "Jonathan Bi"
+        ],
+        "was_kept_by_drafter": true,
+        "total_points": 354.96,
+        "data_complete": true,
+        "value_score": 5679.36
+      },
+      {
+        "year": 2025,
+        "round_num": 15,
+        "round_pick": 9,
+        "player_id": 12483,
+        "player_name": "Matthew Stafford",
+        "drafted_by_canonical_id": "robert_hong",
+        "drafted_by_name": "Robert Hong",
+        "ended_with": [
+          "Robert Hong"
+        ],
+        "was_kept_by_drafter": true,
+        "total_points": 350.38,
+        "data_complete": true,
+        "value_score": 5255.7
+      },
+      {
+        "year": 2025,
+        "round_num": 15,
+        "round_pick": 3,
+        "player_id": 4360310,
+        "player_name": "Trevor Lawrence",
+        "drafted_by_canonical_id": "yannis_bi",
+        "drafted_by_name": "Yannis Bi",
+        "ended_with": [
+          "Nicholas Yang"
+        ],
+        "was_kept_by_drafter": false,
+        "total_points": 338.18,
+        "data_complete": true,
+        "value_score": 5072.7
+      }
+    ],
+    "worst_busts_in_league_history": [
+      {
+        "year": 2025,
+        "round_num": 3,
+        "round_pick": 13,
+        "player_id": 4685247,
+        "player_name": "Braelon Allen",
+        "drafted_by_canonical_id": "ameya_gadkari",
+        "drafted_by_name": "Ameya Gadkari",
+        "ended_with": [
+          "Ameya Gadkari"
+        ],
+        "was_kept_by_drafter": true,
+        "total_points": 15.3,
+        "data_complete": true,
+        "value_score": 45.900000000000006
+      },
+      {
+        "year": 2020,
+        "round_num": 1,
+        "round_pick": 2,
+        "player_id": 3929630,
+        "player_name": "Saquon Barkley",
+        "drafted_by_canonical_id": "jared_tao",
+        "drafted_by_name": "Jared Tao",
+        "ended_with": [
+          "Jared Tao"
+        ],
+        "was_kept_by_drafter": true,
+        "total_points": 15.4,
+        "data_complete": true,
+        "value_score": 15.4
+      },
+      {
+        "year": 2024,
+        "round_num": 1,
+        "round_pick": 7,
+        "player_id": 3117251,
+        "player_name": "Christian McCaffrey",
+        "drafted_by_canonical_id": "ameya_gadkari",
+        "drafted_by_name": "Ameya Gadkari",
+        "ended_with": [
+          "Ameya Gadkari"
+        ],
+        "was_kept_by_drafter": true,
+        "total_points": 47.8,
+        "data_complete": true,
+        "value_score": 47.8
+      }
+    ]
+  },
+  "notes": {
+    "picks_with_no_recoverable_landing_spot": 395,
+    "explanation": "These players were drafted, dropped, and never picked up by anyone by season's end - ESPN's API does not expose retroactive week-by-week rosters, so no point total is recoverable for them.",
+    "value_score_formula": "total_points * round_num (a simplification - rewards late-round picks that produced real points more than identical output from an early pick)"
+  }
+}
