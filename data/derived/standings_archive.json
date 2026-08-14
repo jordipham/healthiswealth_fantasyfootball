@@ -1,0 +1,982 @@
+{
+  "2018": {
+    "league_size": 8,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 1,
+        "owners_display": "Jonathan Bi",
+        "team_name": "SUPER ANGRY HIPPO",
+        "record": "10-2-0",
+        "points_for": 1854.6799999999998,
+        "points_against": 1503.98,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 3,
+        "owners_display": "Nicholas Yang",
+        "team_name": "Team SAURAB",
+        "record": "9-3-0",
+        "points_for": 1896.1799999999998,
+        "points_against": 1570.12,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 4,
+        "owners_display": "Robert Hong",
+        "team_name": "Team Hong",
+        "record": "6-6-0",
+        "points_for": 1462.34,
+        "points_against": 1609.4,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 2,
+        "owners_display": "Justin Lee",
+        "team_name": "Team NUK",
+        "record": "6-6-0",
+        "points_for": 1563.38,
+        "points_against": 1393.04,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Eric Tao",
+        "team_name": "Team Tao",
+        "record": "5-7-0",
+        "points_for": 1476.52,
+        "points_against": 1605.7,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 8,
+        "owners_display": "Yannis Bi",
+        "team_name": "ha HAA",
+        "record": "2-10-0",
+        "points_for": 1438.28,
+        "points_against": 1699.52,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 7,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "5-7-0",
+        "points_for": 1455.58,
+        "points_against": 1613.36,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 5,
+        "owners_display": "Ancheng Da",
+        "team_name": "Naga Heirens",
+        "record": "5-7-0",
+        "points_for": 1610.46,
+        "points_against": 1762.3,
+        "is_champion": false
+      }
+    ]
+  },
+  "2019": {
+    "league_size": 10,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 5,
+        "owners_display": "Justin Lee",
+        "team_name": "CANT GUARD  MIKE",
+        "record": "6-7-0",
+        "points_for": 1694.0600000000004,
+        "points_against": 1809.32,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 3,
+        "owners_display": "Eric Tao",
+        "team_name": "Austin Pooper",
+        "record": "10-3-0",
+        "points_for": 1952.6999999999996,
+        "points_against": 1649.58,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 1,
+        "owners_display": "Robert Hong",
+        "team_name": "Team Chair",
+        "record": "10-3-0",
+        "points_for": 2011.3199999999997,
+        "points_against": 1685.02,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 2,
+        "owners_display": "Yannis Bi",
+        "team_name": "my heart will kerryon",
+        "record": "6-7-0",
+        "points_for": 1699.5400000000002,
+        "points_against": 1715.72,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Jonathan Bi",
+        "team_name": "MY  BOY EDELMAN",
+        "record": "6-7-0",
+        "points_for": 1807.76,
+        "points_against": 1805.4,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 4,
+        "owners_display": "Nicholas Yang",
+        "team_name": " My Friend Greg",
+        "record": "7-6-0",
+        "points_for": 1631.5800000000002,
+        "points_against": 1854.28,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 7,
+        "owners_display": "Saurab Nooguri",
+        "team_name": "Nocturnal Nooguris",
+        "record": "6-7-0",
+        "points_for": 1741.4000000000003,
+        "points_against": 1626.94,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 9,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "5-8-0",
+        "points_for": 1629.3200000000002,
+        "points_against": 1774.6,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 8,
+        "owners_display": "Karthik Pittala",
+        "team_name": "Daddy Patty",
+        "record": "6-7-0",
+        "points_for": 1728.56,
+        "points_against": 1673.2,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 10,
+        "owners_display": "Ancheng Da",
+        "team_name": "Naga Heirens",
+        "record": "3-10-0",
+        "points_for": 1395.9399999999998,
+        "points_against": 1698.12,
+        "is_champion": false
+      }
+    ]
+  },
+  "2020": {
+    "league_size": 10,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 4,
+        "owners_display": "Jared Tao",
+        "team_name": "Easy Breesy Beautiful",
+        "record": "7-6-0",
+        "points_for": 1765.1200000000001,
+        "points_against": 1777.74,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 6,
+        "owners_display": "Jonathan Bi",
+        "team_name": "kelce my big boi",
+        "record": "6-7-0",
+        "points_for": 1938.04,
+        "points_against": 1912.38,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 2,
+        "owners_display": "Nicholas Yang",
+        "team_name": "ALVIN KAMARA FOREVER",
+        "record": "8-5-0",
+        "points_for": 1859.04,
+        "points_against": 1700.72,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 1,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "10-3-0",
+        "points_for": 1608.38,
+        "points_against": 1569.74,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 5,
+        "owners_display": "Robert Hong",
+        "team_name": "Nick Yang",
+        "record": "7-6-0",
+        "points_for": 1637.56,
+        "points_against": 1645.32,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 3,
+        "owners_display": "Ancheng Da",
+        "team_name": "Fantasy Football Feam",
+        "record": "7-6-0",
+        "points_for": 1640.0800000000002,
+        "points_against": 1686.78,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 9,
+        "owners_display": "Yannis Bi",
+        "team_name": "my heart will kerryon",
+        "record": "5-8-0",
+        "points_for": 1702.5000000000002,
+        "points_against": 1745.02,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 7,
+        "owners_display": "Justin Lee",
+        "team_name": "K1 SPEED \ud83c\udfc3\ud83c\udffd\u200d\u2642\ufe0f\ud83c\udf51",
+        "record": "6-7-0",
+        "points_for": 1861.2000000000003,
+        "points_against": 1866.42,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 10,
+        "owners_display": "Eric Tao",
+        "team_name": "Pat Mahomes",
+        "record": "3-10-0",
+        "points_for": 1789.7000000000003,
+        "points_against": 1900.98,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 8,
+        "owners_display": "Karthik Pittala",
+        "team_name": "Daddy Patty",
+        "record": "6-7-0",
+        "points_for": 1698.1999999999998,
+        "points_against": 1694.72,
+        "is_champion": false
+      }
+    ]
+  },
+  "2021": {
+    "league_size": 12,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 2,
+        "owners_display": "Yannis Bi",
+        "team_name": "super cooper",
+        "record": "11-3-0",
+        "points_for": 1899.7599999999998,
+        "points_against": 1590.3,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 4,
+        "owners_display": "Parth Shah",
+        "team_name": "Church of the Sun God",
+        "record": "8-6-0",
+        "points_for": 1575.82,
+        "points_against": 1533.2,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 1,
+        "owners_display": "Ancheng Da",
+        "team_name": "THE AARON  JONES HORIZON",
+        "record": "11-3-0",
+        "points_for": 1866.9599999999998,
+        "points_against": 1573.4,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 3,
+        "owners_display": "Jared Tao",
+        "team_name": "Easy Breesy Beautiful",
+        "record": "10-4-0",
+        "points_for": 1673.8,
+        "points_against": 1541.88,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Nicholas Yang",
+        "team_name": "ALVIN KAMARA FOREVER",
+        "record": "7-7-0",
+        "points_for": 1776.7600000000002,
+        "points_against": 1905.52,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 5,
+        "owners_display": "Andy Chen",
+        "team_name": "fantasy footballvirgin ",
+        "record": "7-7-0",
+        "points_for": 1685.06,
+        "points_against": 1636.4,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 9,
+        "owners_display": "Karthik Pittala",
+        "team_name": "Greg The Leg",
+        "record": "5-9-0",
+        "points_for": 1608.46,
+        "points_against": 1635.72,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 12,
+        "owners_display": "Justin Lee",
+        "team_name": "DAKKY ATTACKY",
+        "record": "3-11-0",
+        "points_for": 1372.0599999999997,
+        "points_against": 1731.46,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 8,
+        "owners_display": "Jonathan Bi",
+        "team_name": "KELCE MY BIG BOI",
+        "record": "6-8-0",
+        "points_for": 1709.5399999999995,
+        "points_against": 1802.14,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 10,
+        "owners_display": "Eric Tao",
+        "team_name": "DRAMA QUEENS",
+        "record": "5-9-0",
+        "points_for": 1602.4399999999998,
+        "points_against": 1698.94,
+        "is_champion": false
+      },
+      {
+        "final_standing": 11,
+        "regular_season_seed": 11,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "4-10-0",
+        "points_for": 1397.3400000000001,
+        "points_against": 1671.02,
+        "is_champion": false
+      },
+      {
+        "final_standing": 12,
+        "regular_season_seed": 7,
+        "owners_display": "Robert Hong",
+        "team_name": "Jonathan Taylor",
+        "record": "7-7-0",
+        "points_for": 1847.04,
+        "points_against": 1695.06,
+        "is_champion": false
+      }
+    ]
+  },
+  "2022": {
+    "league_size": 12,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 2,
+        "owners_display": "Jonathan Bi",
+        "team_name": "MY NAME jeff",
+        "record": "9-5-0",
+        "points_for": 1582.2199999999998,
+        "points_against": 1580.1,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 5,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "7-7-0",
+        "points_for": 1674.92,
+        "points_against": 1671.74,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 3,
+        "owners_display": "Yannis Bi",
+        "team_name": "let's ride",
+        "record": "9-5-0",
+        "points_for": 1777.44,
+        "points_against": 1579.52,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 1,
+        "owners_display": "Jared Tao",
+        "team_name": "ABCD EFU",
+        "record": "10-4-0",
+        "points_for": 1633.44,
+        "points_against": 1448.56,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Nicholas Yang",
+        "team_name": "ZEKE The Freak",
+        "record": "7-7-0",
+        "points_for": 1621.0199999999998,
+        "points_against": 1511.16,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 4,
+        "owners_display": "Parth Shah",
+        "team_name": "The Eks Factor ",
+        "record": "8-6-0",
+        "points_for": 1818.3400000000001,
+        "points_against": 1650.86,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 7,
+        "owners_display": "Robert Hong",
+        "team_name": "Sa quon",
+        "record": "7-7-0",
+        "points_for": 1615.9199999999998,
+        "points_against": 1617.0,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 8,
+        "owners_display": "Ancheng Da",
+        "team_name": "THE GHOST OF JAMARR CHASE",
+        "record": "7-7-0",
+        "points_for": 1564.06,
+        "points_against": 1510.66,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 11,
+        "owners_display": "Karthik Pittala",
+        "team_name": "Adams Family",
+        "record": "5-9-0",
+        "points_for": 1538.72,
+        "points_against": 1688.06,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 9,
+        "owners_display": "Eric Tao",
+        "team_name": "The Potatoes",
+        "record": "7-7-0",
+        "points_for": 1526.26,
+        "points_against": 1657.08,
+        "is_champion": false
+      },
+      {
+        "final_standing": 11,
+        "regular_season_seed": 10,
+        "owners_display": "Justin Lee",
+        "team_name": "K1 SPEED",
+        "record": "5-9-0",
+        "points_for": 1484.94,
+        "points_against": 1657.8,
+        "is_champion": false
+      },
+      {
+        "final_standing": 12,
+        "regular_season_seed": 12,
+        "owners_display": "Andy Chen",
+        "team_name": "Divorced Zaddy",
+        "record": "3-11-0",
+        "points_for": 1472.94,
+        "points_against": 1737.68,
+        "is_champion": false
+      }
+    ]
+  },
+  "2023": {
+    "league_size": 14,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 4,
+        "owners_display": "Parth Shah",
+        "team_name": "One Lamb Army",
+        "record": "8-6-0",
+        "points_for": 1584.9999999999998,
+        "points_against": 1446.26,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 6,
+        "owners_display": "Jonathan Bi",
+        "team_name": "SUPER GOD JARED GOFF",
+        "record": "8-6-0",
+        "points_for": 1497.1,
+        "points_against": 1479.86,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 8,
+        "owners_display": "Nicholas Yang",
+        "team_name": "ZEKE THE FREAK",
+        "record": "7-7-0",
+        "points_for": 1627.4199999999998,
+        "points_against": 1580.02,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 2,
+        "owners_display": "Jared Tao",
+        "team_name": "All-in on Allen",
+        "record": "9-5-0",
+        "points_for": 1685.94,
+        "points_against": 1614.9,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 5,
+        "owners_display": "Eric Tao",
+        "team_name": "Toney Time",
+        "record": "8-6-0",
+        "points_for": 1576.6799999999996,
+        "points_against": 1556.12,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 3,
+        "owners_display": "Robert Hong",
+        "team_name": "JJ2K",
+        "record": "8-6-0",
+        "points_for": 1613.3600000000001,
+        "points_against": 1547.3,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 1,
+        "owners_display": "Ancheng Da",
+        "team_name": "6'5\" MCDONALDS MIKE",
+        "record": "9-5-0",
+        "points_for": 1742.94,
+        "points_against": 1657.6,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 7,
+        "owners_display": "Karthik Pittala",
+        "team_name": "Ma-Homies",
+        "record": "7-7-0",
+        "points_for": 1648.8400000000001,
+        "points_against": 1599.28,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 9,
+        "owners_display": "Andy Chen",
+        "team_name": "MONTY TAKE MY THIGH",
+        "record": "7-7-0",
+        "points_for": 1621.52,
+        "points_against": 1652.6,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 12,
+        "owners_display": "Saurab Nooguri",
+        "team_name": "Achance to Win",
+        "record": "5-9-0",
+        "points_for": 1443.48,
+        "points_against": 1636.82,
+        "is_champion": false
+      },
+      {
+        "final_standing": 11,
+        "regular_season_seed": 10,
+        "owners_display": "Yannis Bi",
+        "team_name": "all-in on allen",
+        "record": "7-7-0",
+        "points_for": 1616.4799999999998,
+        "points_against": 1610.64,
+        "is_champion": false
+      },
+      {
+        "final_standing": 12,
+        "regular_season_seed": 11,
+        "owners_display": "Derek Wen",
+        "team_name": "DERRICK HENRY STIFFARM",
+        "record": "6-8-0",
+        "points_for": 1370.04,
+        "points_against": 1522.5,
+        "is_champion": false
+      },
+      {
+        "final_standing": 13,
+        "regular_season_seed": 13,
+        "owners_display": "Justin Lee",
+        "team_name": "DAK ATTACK TIME",
+        "record": "5-9-0",
+        "points_for": 1410.2399999999998,
+        "points_against": 1599.28,
+        "is_champion": false
+      },
+      {
+        "final_standing": 14,
+        "regular_season_seed": 14,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "4-10-0",
+        "points_for": 1529.94,
+        "points_against": 1465.8,
+        "is_champion": false
+      }
+    ]
+  },
+  "2024": {
+    "league_size": 14,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 5,
+        "owners_display": "Justin Lee",
+        "team_name": "SUPER SONIC GIBBS \u26a1\ufe0f",
+        "record": "7-7-0",
+        "points_for": 1679.3599999999997,
+        "points_against": 1660.48,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 3,
+        "owners_display": "Jonathan Bi",
+        "team_name": "SUPER GOD JARED GOFF",
+        "record": "9-5-0",
+        "points_for": 1813.5400000000002,
+        "points_against": 1629.0,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 1,
+        "owners_display": "Jared Tao",
+        "team_name": "All-in on Allen",
+        "record": "10-4-0",
+        "points_for": 1712.3,
+        "points_against": 1570.82,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 2,
+        "owners_display": "Eric Tao",
+        "team_name": "Justins Bums",
+        "record": "9-5-0",
+        "points_for": 1606.7600000000002,
+        "points_against": 1518.76,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Karthik Pittala",
+        "team_name": "KING \ud83d\udc51",
+        "record": "7-7-0",
+        "points_for": 1662.6599999999999,
+        "points_against": 1678.36,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 7,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "The  Yams ",
+        "record": "7-7-0",
+        "points_for": 1655.7999999999997,
+        "points_against": 1487.02,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 4,
+        "owners_display": "Saurab Nooguri",
+        "team_name": "\ud83e\udd47R BARKLEY 1 \ud83e\udd47",
+        "record": "8-6-0",
+        "points_for": 1590.5000000000002,
+        "points_against": 1538.68,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 8,
+        "owners_display": "Parth Shah",
+        "team_name": "SCARY TERRY",
+        "record": "7-7-0",
+        "points_for": 1582.86,
+        "points_against": 1591.0,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 11,
+        "owners_display": "Yannis Bi",
+        "team_name": "JAMO SZN",
+        "record": "6-8-0",
+        "points_for": 1577.48,
+        "points_against": 1475.72,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 10,
+        "owners_display": "Ancheng Da",
+        "team_name": "RAHEEM ASCENDS",
+        "record": "7-7-0",
+        "points_for": 1474.8799999999999,
+        "points_against": 1648.32,
+        "is_champion": false
+      },
+      {
+        "final_standing": 11,
+        "regular_season_seed": 12,
+        "owners_display": "Nicholas Yang",
+        "team_name": "ZEKE THE FREAK",
+        "record": "6-8-0",
+        "points_for": 1471.06,
+        "points_against": 1469.72,
+        "is_champion": false
+      },
+      {
+        "final_standing": 12,
+        "regular_season_seed": 9,
+        "owners_display": "Andy Chen",
+        "team_name": "Najees in Harris",
+        "record": "7-7-0",
+        "points_for": 1512.88,
+        "points_against": 1552.28,
+        "is_champion": false
+      },
+      {
+        "final_standing": 13,
+        "regular_season_seed": 14,
+        "owners_display": "Jordi Pham",
+        "team_name": "ALWAYS SIZZLE YOUR BACON",
+        "record": "3-11-0",
+        "points_for": 1441.1000000000001,
+        "points_against": 1724.64,
+        "is_champion": false
+      },
+      {
+        "final_standing": 14,
+        "regular_season_seed": 13,
+        "owners_display": "Derek Wen",
+        "team_name": "JD VANCE \ud83d\udca5",
+        "record": "5-9-0",
+        "points_for": 1315.1999999999998,
+        "points_against": 1551.58,
+        "is_champion": false
+      }
+    ]
+  },
+  "2025": {
+    "league_size": 14,
+    "standings": [
+      {
+        "final_standing": 1,
+        "regular_season_seed": 1,
+        "owners_display": "Eric Tao",
+        "team_name": "ARich AWAITING AREA",
+        "record": "10-4-0",
+        "points_for": 1773.88,
+        "points_against": 1473.64,
+        "is_champion": true
+      },
+      {
+        "final_standing": 2,
+        "regular_season_seed": 2,
+        "owners_display": "Justin Lee",
+        "team_name": "ALL ABOARD THE MAYEFLOWER",
+        "record": "10-4-0",
+        "points_for": 1591.6600000000003,
+        "points_against": 1476.38,
+        "is_champion": false
+      },
+      {
+        "final_standing": 3,
+        "regular_season_seed": 3,
+        "owners_display": "Derek Wen",
+        "team_name": "amon ur couch ra doggin",
+        "record": "10-4-0",
+        "points_for": 1687.72,
+        "points_against": 1454.66,
+        "is_champion": false
+      },
+      {
+        "final_standing": 4,
+        "regular_season_seed": 5,
+        "owners_display": "Jared Tao",
+        "team_name": "All-in on Allen",
+        "record": "8-6-0",
+        "points_for": 1666.94,
+        "points_against": 1530.58,
+        "is_champion": false
+      },
+      {
+        "final_standing": 5,
+        "regular_season_seed": 6,
+        "owners_display": "Nicholas Yang",
+        "team_name": "THE TET RIS EFFECT ",
+        "record": "8-6-0",
+        "points_for": 1454.9799999999998,
+        "points_against": 1553.24,
+        "is_champion": false
+      },
+      {
+        "final_standing": 6,
+        "regular_season_seed": 7,
+        "owners_display": "Saurab Nooguri",
+        "team_name": "Christian McCalfInjury",
+        "record": "7-7-0",
+        "points_for": 1586.2399999999998,
+        "points_against": 1648.78,
+        "is_champion": false
+      },
+      {
+        "final_standing": 7,
+        "regular_season_seed": 4,
+        "owners_display": "Ameya Gadkari",
+        "team_name": "Certified London Boy",
+        "record": "8-6-0",
+        "points_for": 1675.82,
+        "points_against": 1601.32,
+        "is_champion": false
+      },
+      {
+        "final_standing": 8,
+        "regular_season_seed": 8,
+        "owners_display": "Robert Hong",
+        "team_name": "3.5 BLACKS",
+        "record": "7-7-0",
+        "points_for": 1553.6200000000003,
+        "points_against": 1588.28,
+        "is_champion": false
+      },
+      {
+        "final_standing": 9,
+        "regular_season_seed": 11,
+        "owners_display": "Yannis Bi",
+        "team_name": "\ud83d\ude4f\ud83d\ude4fONE NATION UNDER PUKA \ud83d\ude4f\ud83d\ude4f",
+        "record": "5-9-0",
+        "points_for": 1678.28,
+        "points_against": 1639.3,
+        "is_champion": false
+      },
+      {
+        "final_standing": 10,
+        "regular_season_seed": 13,
+        "owners_display": "Ancheng Da",
+        "team_name": "6 spittings = 1 drunk drive",
+        "record": "4-10-0",
+        "points_for": 1440.52,
+        "points_against": 1653.78,
+        "is_champion": false
+      },
+      {
+        "final_standing": 11,
+        "regular_season_seed": 9,
+        "owners_display": "Jonathan Bi",
+        "team_name": "FASTEST WR IN THE NFL",
+        "record": "6-8-0",
+        "points_for": 1606.3000000000002,
+        "points_against": 1667.84,
+        "is_champion": false
+      },
+      {
+        "final_standing": 12,
+        "regular_season_seed": 12,
+        "owners_display": "Parth Shah",
+        "team_name": "0.0dunze no more",
+        "record": "5-9-0",
+        "points_for": 1429.98,
+        "points_against": 1595.64,
+        "is_champion": false
+      },
+      {
+        "final_standing": 13,
+        "regular_season_seed": 10,
+        "owners_display": "Jordi Pham",
+        "team_name": "Jordi's Jaded Team",
+        "record": "6-8-0",
+        "points_for": 1475.1000000000001,
+        "points_against": 1540.24,
+        "is_champion": false
+      },
+      {
+        "final_standing": 14,
+        "regular_season_seed": 14,
+        "owners_display": "Karthik Pittala",
+        "team_name": "The Jackson 9 ",
+        "record": "4-10-0",
+        "points_for": 1411.6799999999996,
+        "points_against": 1609.04,
+        "is_champion": false
+      }
+    ]
+  }
+}

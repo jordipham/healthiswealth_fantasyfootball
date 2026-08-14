@@ -141,6 +141,8 @@
         "ties": 0,
         "trades": 31,
         "acquisitions": 309,
+        "points_for": 13389.76,
+        "points_against": 13055.74,
         "last_place_finishes": 0,
         "years_played": [
           2018,
@@ -155,6 +157,7 @@
         "co_ownership_history": [],
         "last_championship_year": 2021,
         "win_pct": 0.4722,
+        "avg_points_per_match": 123.98,
         "championship_drought": 4
       },
       "robert_hong": {
@@ -165,6 +168,8 @@
         "ties": 0,
         "trades": 14,
         "acquisitions": 277,
+        "points_for": 11741.16,
+        "points_against": 11387.38,
         "last_place_finishes": 1,
         "years_played": [
           2018,
@@ -186,6 +191,7 @@
         ],
         "last_championship_year": null,
         "win_pct": 0.5532,
+        "avg_points_per_match": 124.91,
         "championship_drought": "never won"
       },
       "ameya_gadkari": {
@@ -196,6 +202,8 @@
         "ties": 0,
         "trades": 18,
         "acquisitions": 69,
+        "points_for": 12627.1,
+        "points_against": 12854.6,
         "last_place_finishes": 1,
         "years_played": [
           2018,
@@ -210,6 +218,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.463,
+        "avg_points_per_match": 116.92,
         "championship_drought": "never won"
       },
       "justin_lee": {
@@ -220,6 +229,8 @@
         "ties": 0,
         "trades": 39,
         "acquisitions": 221,
+        "points_for": 12656.9,
+        "points_against": 13194.18,
         "last_place_finishes": 0,
         "years_played": [
           2018,
@@ -234,6 +245,7 @@
         "co_ownership_history": [],
         "last_championship_year": 2024,
         "win_pct": 0.4444,
+        "avg_points_per_match": 117.19,
         "championship_drought": 1
       },
       "eric_tao": {
@@ -244,6 +256,8 @@
         "ties": 0,
         "trades": 71,
         "acquisitions": 429,
+        "points_for": 13304.94,
+        "points_against": 13060.8,
         "last_place_finishes": 0,
         "years_played": [
           2018,
@@ -258,6 +272,7 @@
         "co_ownership_history": [],
         "last_championship_year": 2025,
         "win_pct": 0.5278,
+        "avg_points_per_match": 123.19,
         "championship_drought": 0
       },
       "ancheng_da": {
@@ -268,6 +283,8 @@
         "ties": 0,
         "trades": 42,
         "acquisitions": 223,
+        "points_for": 12735.84,
+        "points_against": 13190.96,
         "last_place_finishes": 2,
         "years_played": [
           2018,
@@ -282,6 +299,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.4907,
+        "avg_points_per_match": 117.92,
         "championship_drought": "never won"
       },
       "jonathan_bi": {
@@ -292,6 +310,8 @@
         "ties": 0,
         "trades": 76,
         "acquisitions": 322,
+        "points_for": 13809.18,
+        "points_against": 13380.7,
         "last_place_finishes": 0,
         "years_played": [
           2018,
@@ -321,6 +341,7 @@
         ],
         "last_championship_year": 2022,
         "win_pct": 0.5556,
+        "avg_points_per_match": 127.86,
         "championship_drought": 3
       },
       "nicholas_yang": {
@@ -331,6 +352,8 @@
         "ties": 0,
         "trades": 27,
         "acquisitions": 180,
+        "points_for": 13338.04,
+        "points_against": 13144.78,
         "last_place_finishes": 0,
         "years_played": [
           2018,
@@ -345,6 +368,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.5463,
+        "avg_points_per_match": 123.5,
         "championship_drought": "never won"
       },
       "saurab_nooguri": {
@@ -355,6 +379,8 @@
         "ties": 0,
         "trades": 25,
         "acquisitions": 108,
+        "points_for": 6361.62,
+        "points_against": 6451.22,
         "last_place_finishes": 0,
         "years_played": [
           2019,
@@ -380,6 +406,7 @@
         ],
         "last_championship_year": null,
         "win_pct": 0.4727,
+        "avg_points_per_match": 115.67,
         "championship_drought": "never won"
       },
       "karthik_pittala": {
@@ -390,6 +417,8 @@
         "ties": 0,
         "trades": 33,
         "acquisitions": 283,
+        "points_for": 11297.12,
+        "points_against": 11578.38,
         "last_place_finishes": 2,
         "years_played": [
           2019,
@@ -403,6 +432,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.4167,
+        "avg_points_per_match": 117.68,
         "championship_drought": "never won"
       },
       "jared_tao": {
@@ -413,6 +443,8 @@
         "ties": 0,
         "trades": 6,
         "acquisitions": 114,
+        "points_for": 10137.54,
+        "points_against": 9484.48,
         "last_place_finishes": 0,
         "years_played": [
           2020,
@@ -425,6 +457,7 @@
         "co_ownership_history": [],
         "last_championship_year": 2020,
         "win_pct": 0.6506,
+        "avg_points_per_match": 122.14,
         "championship_drought": 5
       },
       "parth_shah": {
@@ -435,6 +468,8 @@
         "ties": 0,
         "trades": 17,
         "acquisitions": 168,
+        "points_for": 7992.0,
+        "points_against": 7816.96,
         "last_place_finishes": 0,
         "years_played": [
           2021,
@@ -446,6 +481,7 @@
         "co_ownership_history": [],
         "last_championship_year": 2023,
         "win_pct": 0.5143,
+        "avg_points_per_match": 114.17,
         "championship_drought": 2
       },
       "andy_chen": {
@@ -456,6 +492,8 @@
         "ties": 0,
         "trades": 3,
         "acquisitions": 86,
+        "points_for": 6292.4,
+        "points_against": 6578.96,
         "last_place_finishes": 1,
         "years_played": [
           2021,
@@ -466,6 +504,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.4286,
+        "avg_points_per_match": 112.36,
         "championship_drought": "never won"
       },
       "derek_wen": {
@@ -476,6 +515,8 @@
         "ties": 0,
         "trades": 5,
         "acquisitions": 52,
+        "points_for": 4372.96,
+        "points_against": 4528.74,
         "last_place_finishes": 1,
         "years_played": [
           2023,
@@ -485,6 +526,7 @@
         "co_ownership_history": [],
         "last_championship_year": null,
         "win_pct": 0.5,
+        "avg_points_per_match": 104.12,
         "championship_drought": "never won"
       },
       "jordi_pham": {
@@ -495,6 +537,8 @@
         "ties": 0,
         "trades": 13,
         "acquisitions": 56,
+        "points_for": 2916.2,
+        "points_against": 3264.88,
         "last_place_finishes": 0,
         "years_played": [
           2024,
@@ -511,6 +555,7 @@
         ],
         "last_championship_year": null,
         "win_pct": 0.3214,
+        "avg_points_per_match": 104.15,
         "championship_drought": "never won"
       }
     },
@@ -524,6 +569,8 @@
           "ties": 0,
           "trades": 39,
           "acquisitions": 221,
+          "points_for": 12656.9,
+          "points_against": 13194.18,
           "last_place_finishes": 0,
           "years_played": [
             2018,
@@ -538,6 +585,7 @@
           "co_ownership_history": [],
           "last_championship_year": 2024,
           "win_pct": 0.4444,
+          "avg_points_per_match": 117.19,
           "championship_drought": 1
         },
         {
@@ -548,6 +596,8 @@
           "ties": 0,
           "trades": 76,
           "acquisitions": 322,
+          "points_for": 13809.18,
+          "points_against": 13380.7,
           "last_place_finishes": 0,
           "years_played": [
             2018,
@@ -577,6 +627,7 @@
           ],
           "last_championship_year": 2022,
           "win_pct": 0.5556,
+          "avg_points_per_match": 127.86,
           "championship_drought": 3
         }
       ],
@@ -589,6 +640,8 @@
           "ties": 0,
           "trades": 6,
           "acquisitions": 114,
+          "points_for": 10137.54,
+          "points_against": 9484.48,
           "last_place_finishes": 0,
           "years_played": [
             2020,
@@ -601,6 +654,7 @@
           "co_ownership_history": [],
           "last_championship_year": 2020,
           "win_pct": 0.6506,
+          "avg_points_per_match": 122.14,
           "championship_drought": 5
         }
       ],
@@ -613,6 +667,8 @@
           "ties": 0,
           "trades": 13,
           "acquisitions": 56,
+          "points_for": 2916.2,
+          "points_against": 3264.88,
           "last_place_finishes": 0,
           "years_played": [
             2024,
@@ -629,6 +685,7 @@
           ],
           "last_championship_year": null,
           "win_pct": 0.3214,
+          "avg_points_per_match": 104.15,
           "championship_drought": "never won"
         }
       ],
@@ -641,6 +698,8 @@
           "ties": 0,
           "trades": 76,
           "acquisitions": 322,
+          "points_for": 13809.18,
+          "points_against": 13380.7,
           "last_place_finishes": 0,
           "years_played": [
             2018,
@@ -670,6 +729,7 @@
           ],
           "last_championship_year": 2022,
           "win_pct": 0.5556,
+          "avg_points_per_match": 127.86,
           "championship_drought": 3
         }
       ],
@@ -682,6 +742,8 @@
           "ties": 0,
           "trades": 42,
           "acquisitions": 223,
+          "points_for": 12735.84,
+          "points_against": 13190.96,
           "last_place_finishes": 2,
           "years_played": [
             2018,
@@ -696,6 +758,7 @@
           "co_ownership_history": [],
           "last_championship_year": null,
           "win_pct": 0.4907,
+          "avg_points_per_match": 117.92,
           "championship_drought": "never won"
         },
         {
@@ -706,6 +769,8 @@
           "ties": 0,
           "trades": 33,
           "acquisitions": 283,
+          "points_for": 11297.12,
+          "points_against": 11578.38,
           "last_place_finishes": 2,
           "years_played": [
             2019,
@@ -719,6 +784,7 @@
           "co_ownership_history": [],
           "last_championship_year": null,
           "win_pct": 0.4167,
+          "avg_points_per_match": 117.68,
           "championship_drought": "never won"
         }
       ]

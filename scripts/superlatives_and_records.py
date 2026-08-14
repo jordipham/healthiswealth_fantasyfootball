@@ -237,6 +237,8 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
                 "ties": 0,
                 "trades": 0,
                 "acquisitions": 0,
+                "points_for": 0.0,
+                "points_against": 0.0,
                 "last_place_finishes": 0,
                 "years_played": [],
                 "co_ownership_history": [],  # narrative only, not stat-affecting
@@ -264,6 +266,8 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
                 c["ties"] += team.get("ties", 0) or 0
                 c["trades"] += team.get("trades", 0) or 0
                 c["acquisitions"] += team.get("acquisitions", 0) or 0
+                c["points_for"] += team.get("points_for", 0) or 0
+                c["points_against"] += team.get("points_against", 0) or 0
                 c["years_played"].append(yr)
 
                 if team.get("final_standing") == 1:
@@ -294,6 +298,9 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
     for canonical_id, c in careers.items():
         games = c["wins"] + c["losses"] + c["ties"]
         c["win_pct"] = round(c["wins"] / games, 4) if games else None
+        c["points_for"] = round(c["points_for"], 2)
+        c["points_against"] = round(c["points_against"], 2)
+        c["avg_points_per_match"] = round(c["points_for"] / games, 2) if games else None
         c["years_played"] = sorted(set(c["years_played"]))
         c["co_ownership_history"] = sorted(c["co_ownership_history"], key=lambda x: x["year"])
 

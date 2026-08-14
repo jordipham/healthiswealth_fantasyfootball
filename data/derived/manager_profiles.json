@@ -1,0 +1,816 @@
+{
+  "yannis_bi": {
+    "owner_name": "Yannis Bi",
+    "career": {
+      "owner_name": "Yannis Bi",
+      "championships": 1,
+      "wins": 51,
+      "losses": 57,
+      "ties": 0,
+      "trades": 31,
+      "acquisitions": 309,
+      "points_for": 13389.76,
+      "points_against": 13055.74,
+      "last_place_finishes": 0,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": 2021,
+      "win_pct": 0.4722,
+      "avg_points_per_match": 123.98,
+      "championship_drought": 4
+    },
+    "championship_years": [
+      2021
+    ],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 18,
+      "playoff_losses": 5
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Eric Tao",
+        "losses_to_them": 9,
+        "wins_over_them": 3
+      },
+      "favorite_opponent": {
+        "opponent": "Karthik Pittala",
+        "wins_over_them": 9,
+        "losses_to_them": 1
+      },
+      "longest_running_rivalry": {
+        "opponent": "Ancheng Da",
+        "total_games": 13
+      }
+    }
+  },
+  "ameya_gadkari": {
+    "owner_name": "Ameya Gadkari",
+    "career": {
+      "owner_name": "Ameya Gadkari",
+      "championships": 0,
+      "wins": 50,
+      "losses": 58,
+      "ties": 0,
+      "trades": 18,
+      "acquisitions": 69,
+      "points_for": 12627.1,
+      "points_against": 12854.6,
+      "last_place_finishes": 1,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.463,
+      "avg_points_per_match": 116.92,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 9,
+      "playoff_losses": 14
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Nicholas Yang",
+        "losses_to_them": 9,
+        "wins_over_them": 2
+      },
+      "favorite_opponent": {
+        "opponent": "Karthik Pittala",
+        "wins_over_them": 8,
+        "losses_to_them": 3
+      },
+      "longest_running_rivalry": {
+        "opponent": "Robert Hong",
+        "total_games": 13
+      }
+    }
+  },
+  "eric_tao": {
+    "owner_name": "Eric Tao",
+    "career": {
+      "owner_name": "Eric Tao",
+      "championships": 1,
+      "wins": 57,
+      "losses": 51,
+      "ties": 0,
+      "trades": 71,
+      "acquisitions": 429,
+      "points_for": 13304.94,
+      "points_against": 13060.8,
+      "last_place_finishes": 0,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": 2025,
+      "win_pct": 0.5278,
+      "avg_points_per_match": 123.19,
+      "championship_drought": 0
+    },
+    "championship_years": [
+      2025
+    ],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 13,
+      "playoff_losses": 10
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Jonathan Bi",
+        "losses_to_them": 8,
+        "wins_over_them": 6
+      },
+      "favorite_opponent": {
+        "opponent": "Justin Lee",
+        "wins_over_them": 9,
+        "losses_to_them": 7
+      },
+      "longest_running_rivalry": {
+        "opponent": "Justin Lee",
+        "total_games": 16
+      }
+    }
+  },
+  "ancheng_da": {
+    "owner_name": "Ancheng Da",
+    "career": {
+      "owner_name": "Ancheng Da",
+      "championships": 0,
+      "wins": 53,
+      "losses": 55,
+      "ties": 0,
+      "trades": 42,
+      "acquisitions": 223,
+      "points_for": 12735.84,
+      "points_against": 13190.96,
+      "last_place_finishes": 2,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.4907,
+      "avg_points_per_match": 117.92,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 9,
+      "playoff_losses": 14
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Robert Hong",
+        "losses_to_them": 9,
+        "wins_over_them": 5
+      },
+      "favorite_opponent": {
+        "opponent": "Eric Tao",
+        "wins_over_them": 6,
+        "losses_to_them": 6
+      },
+      "longest_running_rivalry": {
+        "opponent": "Robert Hong",
+        "total_games": 14
+      }
+    }
+  },
+  "nicholas_yang": {
+    "owner_name": "Nicholas Yang",
+    "career": {
+      "owner_name": "Nicholas Yang",
+      "championships": 0,
+      "wins": 59,
+      "losses": 49,
+      "ties": 0,
+      "trades": 27,
+      "acquisitions": 180,
+      "points_for": 13338.04,
+      "points_against": 13144.78,
+      "last_place_finishes": 0,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.5463,
+      "avg_points_per_match": 123.5,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 12,
+      "playoff_losses": 11
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Jonathan Bi",
+        "losses_to_them": 8,
+        "wins_over_them": 7
+      },
+      "favorite_opponent": {
+        "opponent": "Ameya Gadkari",
+        "wins_over_them": 9,
+        "losses_to_them": 2
+      },
+      "longest_running_rivalry": {
+        "opponent": "Jonathan Bi",
+        "total_games": 15
+      }
+    }
+  },
+  "robert_hong": {
+    "owner_name": "Robert Hong",
+    "career": {
+      "owner_name": "Robert Hong",
+      "championships": 0,
+      "wins": 52,
+      "losses": 42,
+      "ties": 0,
+      "trades": 14,
+      "acquisitions": 277,
+      "points_for": 11741.16,
+      "points_against": 11387.38,
+      "last_place_finishes": 1,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "co_ownership_history": [
+        {
+          "year": 2024,
+          "co_owners": [
+            "Jordi Pham"
+          ],
+          "received_credit": false
+        }
+      ],
+      "last_championship_year": null,
+      "win_pct": 0.5532,
+      "avg_points_per_match": 124.91,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 7,
+      "playoff_wins": 7,
+      "playoff_losses": 13
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Ameya Gadkari",
+        "losses_to_them": 7,
+        "wins_over_them": 6
+      },
+      "favorite_opponent": {
+        "opponent": "Ancheng Da",
+        "wins_over_them": 9,
+        "losses_to_them": 5
+      },
+      "longest_running_rivalry": {
+        "opponent": "Ancheng Da",
+        "total_games": 14
+      }
+    }
+  },
+  "justin_lee": {
+    "owner_name": "Justin Lee",
+    "career": {
+      "owner_name": "Justin Lee",
+      "championships": 2,
+      "wins": 48,
+      "losses": 60,
+      "ties": 0,
+      "trades": 39,
+      "acquisitions": 221,
+      "points_for": 12656.9,
+      "points_against": 13194.18,
+      "last_place_finishes": 0,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": 2024,
+      "win_pct": 0.4444,
+      "avg_points_per_match": 117.19,
+      "championship_drought": 1
+    },
+    "championship_years": [
+      2019,
+      2024
+    ],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 14,
+      "playoff_losses": 9
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Eric Tao",
+        "losses_to_them": 9,
+        "wins_over_them": 7
+      },
+      "favorite_opponent": {
+        "opponent": "Ameya Gadkari",
+        "wins_over_them": 7,
+        "losses_to_them": 6
+      },
+      "longest_running_rivalry": {
+        "opponent": "Eric Tao",
+        "total_games": 16
+      }
+    }
+  },
+  "karthik_pittala": {
+    "owner_name": "Karthik Pittala",
+    "career": {
+      "owner_name": "Karthik Pittala",
+      "championships": 0,
+      "wins": 40,
+      "losses": 56,
+      "ties": 0,
+      "trades": 33,
+      "acquisitions": 283,
+      "points_for": 11297.12,
+      "points_against": 11578.38,
+      "last_place_finishes": 2,
+      "years_played": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.4167,
+      "avg_points_per_match": 117.68,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 7,
+      "playoff_wins": 10,
+      "playoff_losses": 11
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Yannis Bi",
+        "losses_to_them": 9,
+        "wins_over_them": 1
+      },
+      "favorite_opponent": {
+        "opponent": "Justin Lee",
+        "wins_over_them": 9,
+        "losses_to_them": 2
+      },
+      "longest_running_rivalry": {
+        "opponent": "Eric Tao",
+        "total_games": 13
+      }
+    }
+  },
+  "jonathan_bi": {
+    "owner_name": "Jonathan Bi",
+    "career": {
+      "owner_name": "Jonathan Bi",
+      "championships": 2,
+      "wins": 60,
+      "losses": 48,
+      "ties": 0,
+      "trades": 76,
+      "acquisitions": 322,
+      "points_for": 13809.18,
+      "points_against": 13380.7,
+      "last_place_finishes": 0,
+      "years_played": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [
+        {
+          "year": 2020,
+          "co_owners": [
+            "Saurab Nooguri"
+          ],
+          "received_credit": true
+        },
+        {
+          "year": 2021,
+          "co_owners": [
+            "Saurab Nooguri"
+          ],
+          "received_credit": true
+        }
+      ],
+      "last_championship_year": 2022,
+      "win_pct": 0.5556,
+      "avg_points_per_match": 127.86,
+      "championship_drought": 3
+    },
+    "championship_years": [
+      2018,
+      2022
+    ],
+    "playoff_record": {
+      "playoff_appearances": 8,
+      "playoff_wins": 16,
+      "playoff_losses": 7
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Nicholas Yang",
+        "losses_to_them": 7,
+        "wins_over_them": 8
+      },
+      "favorite_opponent": {
+        "opponent": "Nicholas Yang",
+        "wins_over_them": 8,
+        "losses_to_them": 7
+      },
+      "longest_running_rivalry": {
+        "opponent": "Nicholas Yang",
+        "total_games": 15
+      }
+    }
+  },
+  "saurab_nooguri": {
+    "owner_name": "Saurab Nooguri",
+    "career": {
+      "owner_name": "Saurab Nooguri",
+      "championships": 0,
+      "wins": 26,
+      "losses": 29,
+      "ties": 0,
+      "trades": 25,
+      "acquisitions": 108,
+      "points_for": 6361.62,
+      "points_against": 6451.22,
+      "last_place_finishes": 0,
+      "years_played": [
+        2019,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [
+        {
+          "year": 2020,
+          "co_owners": [
+            "Jonathan Bi"
+          ],
+          "received_credit": false
+        },
+        {
+          "year": 2021,
+          "co_owners": [
+            "Jonathan Bi"
+          ],
+          "received_credit": false
+        }
+      ],
+      "last_championship_year": null,
+      "win_pct": 0.4727,
+      "avg_points_per_match": 115.67,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 4,
+      "playoff_wins": 6,
+      "playoff_losses": 6
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Justin Lee",
+        "losses_to_them": 5,
+        "wins_over_them": 2
+      },
+      "favorite_opponent": {
+        "opponent": "Yannis Bi",
+        "wins_over_them": 5,
+        "losses_to_them": 2
+      },
+      "longest_running_rivalry": {
+        "opponent": "Justin Lee",
+        "total_games": 7
+      }
+    }
+  },
+  "jared_tao": {
+    "owner_name": "Jared Tao",
+    "career": {
+      "owner_name": "Jared Tao",
+      "championships": 1,
+      "wins": 54,
+      "losses": 29,
+      "ties": 0,
+      "trades": 6,
+      "acquisitions": 114,
+      "points_for": 10137.54,
+      "points_against": 9484.48,
+      "last_place_finishes": 0,
+      "years_played": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": 2020,
+      "win_pct": 0.6506,
+      "avg_points_per_match": 122.14,
+      "championship_drought": 5
+    },
+    "championship_years": [
+      2020
+    ],
+    "playoff_record": {
+      "playoff_appearances": 6,
+      "playoff_wins": 9,
+      "playoff_losses": 9
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Jonathan Bi",
+        "losses_to_them": 5,
+        "wins_over_them": 4
+      },
+      "favorite_opponent": {
+        "opponent": "Karthik Pittala",
+        "wins_over_them": 8,
+        "losses_to_them": 1
+      },
+      "longest_running_rivalry": {
+        "opponent": "Yannis Bi",
+        "total_games": 10
+      }
+    }
+  },
+  "parth_shah": {
+    "owner_name": "Parth Shah",
+    "career": {
+      "owner_name": "Parth Shah",
+      "championships": 1,
+      "wins": 36,
+      "losses": 34,
+      "ties": 0,
+      "trades": 17,
+      "acquisitions": 168,
+      "points_for": 7992.0,
+      "points_against": 7816.96,
+      "last_place_finishes": 0,
+      "years_played": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": 2023,
+      "win_pct": 0.5143,
+      "avg_points_per_match": 114.17,
+      "championship_drought": 2
+    },
+    "championship_years": [
+      2023
+    ],
+    "playoff_record": {
+      "playoff_appearances": 5,
+      "playoff_wins": 7,
+      "playoff_losses": 8
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Yannis Bi",
+        "losses_to_them": 6,
+        "wins_over_them": 1
+      },
+      "favorite_opponent": {
+        "opponent": "Karthik Pittala",
+        "wins_over_them": 5,
+        "losses_to_them": 3
+      },
+      "longest_running_rivalry": {
+        "opponent": "Ameya Gadkari",
+        "total_games": 9
+      }
+    }
+  },
+  "andy_chen": {
+    "owner_name": "Andy Chen",
+    "career": {
+      "owner_name": "Andy Chen",
+      "championships": 0,
+      "wins": 24,
+      "losses": 32,
+      "ties": 0,
+      "trades": 3,
+      "acquisitions": 86,
+      "points_for": 6292.4,
+      "points_against": 6578.96,
+      "last_place_finishes": 1,
+      "years_played": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.4286,
+      "avg_points_per_match": 112.36,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 4,
+      "playoff_wins": 5,
+      "playoff_losses": 7
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Parth Shah",
+        "losses_to_them": 5,
+        "wins_over_them": 0
+      },
+      "favorite_opponent": {
+        "opponent": "Justin Lee",
+        "wins_over_them": 4,
+        "losses_to_them": 3
+      },
+      "longest_running_rivalry": {
+        "opponent": "Nicholas Yang",
+        "total_games": 8
+      }
+    }
+  },
+  "derek_wen": {
+    "owner_name": "Derek Wen",
+    "career": {
+      "owner_name": "Derek Wen",
+      "championships": 0,
+      "wins": 21,
+      "losses": 21,
+      "ties": 0,
+      "trades": 5,
+      "acquisitions": 52,
+      "points_for": 4372.96,
+      "points_against": 4528.74,
+      "last_place_finishes": 1,
+      "years_played": [
+        2023,
+        2024,
+        2025
+      ],
+      "co_ownership_history": [],
+      "last_championship_year": null,
+      "win_pct": 0.5,
+      "avg_points_per_match": 104.12,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 3,
+      "playoff_wins": 3,
+      "playoff_losses": 6
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Yannis Bi",
+        "losses_to_them": 3,
+        "wins_over_them": 1
+      },
+      "favorite_opponent": {
+        "opponent": "Ameya Gadkari",
+        "wins_over_them": 6,
+        "losses_to_them": 0
+      },
+      "longest_running_rivalry": {
+        "opponent": "Ameya Gadkari",
+        "total_games": 6
+      }
+    }
+  },
+  "jordi_pham": {
+    "owner_name": "Jordi Pham",
+    "career": {
+      "owner_name": "Jordi Pham",
+      "championships": 0,
+      "wins": 9,
+      "losses": 19,
+      "ties": 0,
+      "trades": 13,
+      "acquisitions": 56,
+      "points_for": 2916.2,
+      "points_against": 3264.88,
+      "last_place_finishes": 0,
+      "years_played": [
+        2024,
+        2025
+      ],
+      "co_ownership_history": [
+        {
+          "year": 2024,
+          "co_owners": [
+            "Robert Hong"
+          ],
+          "received_credit": true
+        }
+      ],
+      "last_championship_year": null,
+      "win_pct": 0.3214,
+      "avg_points_per_match": 104.15,
+      "championship_drought": "never won"
+    },
+    "championship_years": [],
+    "playoff_record": {
+      "playoff_appearances": 2,
+      "playoff_wins": 3,
+      "playoff_losses": 3
+    },
+    "rivalry_highlights": {
+      "toughest_rival": {
+        "opponent": "Ancheng Da",
+        "losses_to_them": 3,
+        "wins_over_them": 1
+      },
+      "favorite_opponent": {
+        "opponent": "Parth Shah",
+        "wins_over_them": 2,
+        "losses_to_them": 1
+      },
+      "longest_running_rivalry": {
+        "opponent": "Derek Wen",
+        "total_games": 4
+      }
+    }
+  }
+}
