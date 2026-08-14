@@ -173,6 +173,7 @@ def main():
     for cid, info in canonical_owners.items():
         profiles[cid] = {
             "owner_name": info["display_name"],
+            "status": info.get("status", "active"),
             "career": career_records.get(cid, {}),
             "championship_years": sorted(championship_years.get(cid, [])),
             "playoff_record": playoff_records.get(cid, {}),

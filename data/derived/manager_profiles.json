@@ -1,6 +1,7 @@
 {
   "yannis_bi": {
     "owner_name": "Yannis Bi",
+    "status": "active",
     "career": {
       "owner_name": "Yannis Bi",
       "championships": 1,
@@ -55,6 +56,7 @@
   },
   "ameya_gadkari": {
     "owner_name": "Ameya Gadkari",
+    "status": "active",
     "career": {
       "owner_name": "Ameya Gadkari",
       "championships": 0,
@@ -107,6 +109,7 @@
   },
   "eric_tao": {
     "owner_name": "Eric Tao",
+    "status": "active",
     "career": {
       "owner_name": "Eric Tao",
       "championships": 1,
@@ -161,6 +164,7 @@
   },
   "ancheng_da": {
     "owner_name": "Ancheng Da",
+    "status": "active",
     "career": {
       "owner_name": "Ancheng Da",
       "championships": 0,
@@ -213,6 +217,7 @@
   },
   "nicholas_yang": {
     "owner_name": "Nicholas Yang",
+    "status": "active",
     "career": {
       "owner_name": "Nicholas Yang",
       "championships": 0,
@@ -265,6 +270,7 @@
   },
   "robert_hong": {
     "owner_name": "Robert Hong",
+    "status": "retired",
     "career": {
       "owner_name": "Robert Hong",
       "championships": 0,
@@ -324,6 +330,7 @@
   },
   "justin_lee": {
     "owner_name": "Justin Lee",
+    "status": "active",
     "career": {
       "owner_name": "Justin Lee",
       "championships": 2,
@@ -379,6 +386,7 @@
   },
   "karthik_pittala": {
     "owner_name": "Karthik Pittala",
+    "status": "active",
     "career": {
       "owner_name": "Karthik Pittala",
       "championships": 0,
@@ -430,6 +438,7 @@
   },
   "jonathan_bi": {
     "owner_name": "Jonathan Bi",
+    "status": "active",
     "career": {
       "owner_name": "Jonathan Bi",
       "championships": 2,
@@ -500,6 +509,7 @@
   },
   "saurab_nooguri": {
     "owner_name": "Saurab Nooguri",
+    "status": "active",
     "career": {
       "owner_name": "Saurab Nooguri",
       "championships": 0,
@@ -563,6 +573,7 @@
   },
   "jared_tao": {
     "owner_name": "Jared Tao",
+    "status": "active",
     "career": {
       "owner_name": "Jared Tao",
       "championships": 1,
@@ -615,6 +626,7 @@
   },
   "parth_shah": {
     "owner_name": "Parth Shah",
+    "status": "active",
     "career": {
       "owner_name": "Parth Shah",
       "championships": 1,
@@ -666,6 +678,7 @@
   },
   "andy_chen": {
     "owner_name": "Andy Chen",
+    "status": "retired",
     "career": {
       "owner_name": "Andy Chen",
       "championships": 0,
@@ -714,6 +727,7 @@
   },
   "derek_wen": {
     "owner_name": "Derek Wen",
+    "status": "active",
     "career": {
       "owner_name": "Derek Wen",
       "championships": 0,
@@ -761,6 +775,7 @@
   },
   "jordi_pham": {
     "owner_name": "Jordi Pham",
+    "status": "retired",
     "career": {
       "owner_name": "Jordi Pham",
       "championships": 0,

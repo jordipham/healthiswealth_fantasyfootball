@@ -193,7 +193,10 @@ def main():
     for cid, info in canonical_owners.items():
         master[cid] = {
             "owner_name": info["display_name"],
+
             "raw_owner_ids": info["owner_ids"],
+
+            "status": info.get("status", "active"),
 
             "career_totals": career_records.get(cid, {}),
 
