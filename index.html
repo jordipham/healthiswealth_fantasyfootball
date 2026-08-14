@@ -4,14 +4,97 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-  <title>Health Is Wealth</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏈</text></svg>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health is Wealth — Fantasy Football League</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <nav><!-- links to other pages --></nav>
-  <main><!-- homepage content --></main>
-  <script src="js/main.js"></script>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="home"></site-nav>
+
+<div class="cabinet">
+  <div class="bezel">
+    <div class="screen">
+      <div class="football"></div>
+      <div class="screen-ticker">
+        <span id="ticker-text">LOADING...</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="control-panel">
+    <div class="joystick-unit">
+      <div class="joystick-base"><div class="joystick-stick"></div></div>
+      <div class="button-cluster">
+        <div class="arcade-btn red"></div>
+        <div class="arcade-btn blue"></div>
+        <div class="arcade-btn red"></div>
+      </div>
+    </div>
+    <div class="joystick-unit">
+      <div class="joystick-base"><div class="joystick-stick"></div></div>
+      <div class="button-cluster">
+        <div class="arcade-btn blue"></div>
+        <div class="arcade-btn red"></div>
+        <div class="arcade-btn blue"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="coin-door">
+    <div class="coin-slot"></div>
+    <a href="managers.html" class="insert-coin">INSERT COIN TO CONTINUE</a>
+    <div class="coin-hint">CLICK TO ENTER</div>
+  </div>
+</div>
+
+<div class="teasers">
+  <div class="teaser-card">
+    <h3>REIGNING CHAMPION</h3>
+    <p id="champ-name">—</p>
+    <div class="stat" id="champ-year">—</div>
+  </div>
+
+  <div class="teaser-card">
+    <h3>FIERCEST RIVALRY</h3>
+    <p id="rivalry-desc">—</p>
+    <div class="stat">VIEW &gt;</div>
+  </div>
+
+  <div class="teaser-card">
+    <h3>CHAMPIONSHIP DROUGHT</h3>
+    <p id="drought-name">—</p>
+    <div class="stat" id="drought-seasons">—</div>
+  </div>
+
+  <a href="#" class="teaser-card link-card">
+    <h3>WEEKLY SURVEY</h3>
+    <p>Tell us how this week went</p>
+    <div class="stat">TAKE SURVEY &gt;</div>
+  </a>
+
+  <a href="#" class="teaser-card link-card">
+    <h3>WEEKLY NEWS UPDATE</h3>
+    <p>This week's league recap</p>
+    <div class="stat">READ NOW &gt;</div>
+  </a>
+
+  <!-- MANUALLY UPDATE THIS CARD EACH WEEK -->
+  <div class="teaser-card">
+    <h3>MATCHUP OF THE WEEK</h3>
+    <p>Jonathan Bi vs. Justin Lee</p>
+    <div class="stat">WEEK 7</div>
+  </div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
 

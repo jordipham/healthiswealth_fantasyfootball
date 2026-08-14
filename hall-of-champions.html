@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hall of Champions — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/hall-of-champions.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="champions"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 14px;">HALL OF CHAMPIONS</h1>
+  <div class="subtitle">SELECT A SAVE FILE</div>
+</div>
+
+<div class="slots" id="slots"></div>
+
+<div class="detail" id="detail">
+  <div class="panel">
+    <div class="detail-header">
+      <div id="d-avatar"></div>
+      <div>
+        <div class="detail-title" id="d-title">—</div>
+        <div class="detail-team" id="d-team">—</div>
+      </div>
+    </div>
+
+    <div class="detail-stat-grid">
+      <div class="detail-stat-box"><div class="detail-stat-label">FINAL RECORD</div><div class="detail-stat-value" id="d-record">—</div></div>
+      <div class="detail-stat-box"><div class="detail-stat-label">POINTS FOR</div><div class="detail-stat-value" id="d-pf">—</div></div>
+      <div class="detail-stat-box"><div class="detail-stat-label">POINTS AGAINST</div><div class="detail-stat-value" id="d-pa">—</div></div>
+    </div>
+
+    <div class="section-title">TOP PERFORMERS</div>
+    <div id="performers-list"></div>
+
+    <div class="section-title">CHAMPIONSHIP RUN</div>
+    <div class="bracket" id="bracket"></div>
+
+    <button class="pixel-btn secondary close-btn" onclick="closeDetail()">CLOSE</button>
+  </div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/hall-of-champions.js"></script>
+</body>
+</html>

@@ -1,3 +1,5 @@
+// JAVASCRIPT FOR DRAFT DAY PAGE
+
 /*
   js/draft-day.js
 
@@ -78,7 +80,9 @@ function renderGrid() {
     const card = document.createElement("div");
     card.className = "card" + (m.status === "retired" ? " retired" : "");
     card.onclick = () => {
-      document.querySelectorAll(".card").forEach(c => c.classList.remove("active-pick"));
+      document
+        .querySelectorAll(".card")
+        .forEach((c) => c.classList.remove("active-pick"));
       card.classList.add("active-pick");
       showInventory(canonicalId, m, draftProfile);
     };
@@ -110,30 +114,55 @@ function buildItemCard(pick) {
 }
 
 function showInventory(canonicalId, managerMeta, draftProfile) {
-  document.getElementById("inv-name").textContent = `${managerMeta.owner_name.toUpperCase()} — DRAFT LOG`;
+  document.getElementById("inv-name").textContent =
+    `${managerMeta.owner_name.toUpperCase()} — DRAFT LOG`;
+
+  // retention_rate = picks_kept / (picks with a KNOWN outcome), NOT
+  // picks_kept / total_picks. Picks with no recoverable landing spot
+  // (dropped by everyone, untraceable) are excluded from both the
+  // numerator and denominator - so the displayed fraction must use
+  // that same reduced denominator, or the shown numbers won't match
+  // the percentage next to them.
+  const knownOutcomePicks =
+    draftProfile.total_picks - draftProfile.picks_with_incomplete_data;
   document.getElementById("inv-retention").textContent =
-    `RETENTION RATE: ${(draftProfile.retention_rate * 100).toFixed(1)}% (${draftProfile.picks_kept}/${draftProfile.total_picks} PICKS KEPT)`;
+    `RETENTION RATE: ${(draftProfile.retention_rate * 100).toFixed(1)}% (${draftProfile.picks_kept}/${knownOutcomePicks} PICKS KEPT)`;
   document.getElementById("inv-incomplete").textContent =
     draftProfile.picks_with_incomplete_data > 0
       ? `${draftProfile.picks_with_incomplete_data} PICKS HAVE NO RECOVERABLE OUTCOME (DROPPED & NEVER RECLAIMED BY ANYONE) — SEE FAQ`
       : "";
 
   const sections = [
-    { id: "best-value-list", data: draftProfile.best_value_picks, empty: "No complete-data picks available." },
-    { id: "best-steals-list", data: draftProfile.best_steals, empty: "No late-round steals found (round 8+)." },
-    { id: "biggest-busts-list", data: draftProfile.biggest_busts, empty: "No early-round busts found (round 1-4)." },
+    {
+      id: "best-value-list",
+      data: draftProfile.best_value_picks,
+      empty: "No complete-data picks available.",
+    },
+    {
+      id: "best-steals-list",
+      data: draftProfile.best_steals,
+      empty: "No late-round steals found (round 8+).",
+    },
+    {
+      id: "biggest-busts-list",
+      data: draftProfile.biggest_busts,
+      empty: "No early-round busts found (round 1-4).",
+    },
   ];
 
   sections.forEach(({ id, data, empty }) => {
     const el = document.getElementById(id);
-    el.innerHTML = data && data.length
-      ? data.map(buildItemCard).join("")
-      : `<p class="item-meta">${empty}</p>`;
+    el.innerHTML =
+      data && data.length
+        ? data.map(buildItemCard).join("")
+        : `<p class="item-meta">${empty}</p>`;
   });
 
   const sigList = document.getElementById("signature-picks-list");
   if (draftProfile.signature_picks && draftProfile.signature_picks.length) {
-    sigList.innerHTML = draftProfile.signature_picks.map(sp => `
+    sigList.innerHTML = draftProfile.signature_picks
+      .map(
+        (sp) => `
       <div class="signature-item">
         <div class="signature-name">${sp.player_name}</div>
         <div class="signature-meta">
@@ -141,46 +170,51 @@ function showInventory(canonicalId, managerMeta, draftProfile) {
           Combined: ${sp.combined_points_across_those_seasons.toFixed(2)} pts across those seasons
         </div>
       </div>
-    `).join("");
+    `,
+      )
+      .join("");
   } else {
     sigList.innerHTML = `<p class="item-meta">No player drafted more than once by this manager.</p>`;
   }
 
   document.getElementById("inventory-wrap").classList.add("open");
-  document.getElementById("inventory-wrap").scrollIntoView({ behavior: "smooth" });
+  document
+    .getElementById("inventory-wrap")
+    .scrollIntoView({ behavior: "smooth" });
 }
 
 /* ============ FAQ ============ */
 const FAQ_ITEMS = [
   {
-    q: "What does \"value score\" actually mean?",
-    a: "value_score = total_points × round_num. This is a deliberate simplification, not an official stat - it rewards a late-round pick that produced real points more than the identical output from an early pick. A round-14 pick scoring 150 points ranks higher than a round-2 pick scoring the same 150, since finding that production that late is the more impressive feat."
+    q: 'What does "value score" actually mean?',
+    a: "value_score = total_points × round_num. This is a deliberate simplification, not an official stat - it rewards a late-round pick that produced real points more than the identical output from an early pick. A round-14 pick scoring 150 points ranks higher than a round-2 pick scoring the same 150, since finding that production that late is the more impressive feat.",
   },
   {
     q: "How are Best Steals and Biggest Busts different from just sorting by value score?",
-    a: "They're deliberately stricter, separate categories rather than opposite ends of one blended list. BEST STEALS = highest total_points among round 8+ picks only. BIGGEST BUSTS = lowest total_points among round 1-4 picks only. This isolates \"found a gem late\" and \"reached badly early\" as distinct stories, instead of mixing in irrelevant late-round dart throws that were never expected to produce anything."
+    a: 'They\'re deliberately stricter, separate categories rather than opposite ends of one blended list. BEST STEALS = highest total_points among round 8+ picks only. BIGGEST BUSTS = lowest total_points among round 1-4 picks only. This isolates "found a gem late" and "reached badly early" as distinct stories, instead of mixing in irrelevant late-round dart throws that were never expected to produce anything.',
   },
   {
     q: "What counts as a Signature Pick?",
-    a: "A player the same manager drafted 2 or more separate times across different years - a genuine re-draft after previously letting them go, not a keeper renewal. Matched by the player's unique ID, not their name, since ESPN's own data has real formatting inconsistencies across years (e.g. \"DJ Chark\" vs \"DJ Chark Jr.\") that would cause false negatives if matched by name alone."
+    a: 'A player the same manager drafted 2 or more separate times across different years - a genuine re-draft after previously letting them go, not a keeper renewal. Matched by the player\'s unique ID, not their name, since ESPN\'s own data has real formatting inconsistencies across years (e.g. "DJ Chark" vs "DJ Chark Jr.") that would cause false negatives if matched by name alone.',
   },
   {
     q: "What does Retention Rate measure, exactly?",
-    a: "The percentage of a manager's draft picks that were still on THEIR OWN roster at the end of that same season. It measures \"still rostered at season's end,\" not \"never touched all year\" - a player drafted, dropped in week 4, then re-added by the same manager in week 10 still counts as kept. It's a proxy for draft-day conviction and roster patience, not a perfect week-by-week loyalty tracker."
+    a: 'The percentage of a manager\'s draft picks that were still on THEIR OWN roster at the end of that same season. It measures "still rostered at season\'s end," not "never touched all year" - a player drafted, dropped in week 4, then re-added by the same manager in week 10 still counts as kept. It\'s a proxy for draft-day conviction and roster patience, not a perfect week-by-week loyalty tracker.',
   },
   {
     q: "Why do some picks have no points or outcome shown?",
-    a: "Some players were drafted, dropped at some point in the season, and never picked up by anyone else in the league before the season ended. Since this data only captures a snapshot of each team's FINAL roster, a player who vanished from every team's roster has no recoverable point total - not a bug, just an honest gap. Real examples confirmed in this league's data: Le'Veon Bell (2018, held out the season), Michael Thomas (2020, injuries), Nick Chubb (2023, season-ending injury)."
+    a: "Some players were drafted, dropped at some point in the season, and never picked up by anyone else in the league before the season ended. Since this data only captures a snapshot of each team's FINAL roster, a player who vanished from every team's roster has no recoverable point total - not a bug, just an honest gap. Real examples confirmed in this league's data: Le'Veon Bell (2018, held out the season), Michael Thomas (2020, injuries), Nick Chubb (2023, season-ending injury).",
   },
   {
-    q: "\"Ended With\" shows a different manager than who drafted the player - what happened?",
-    a: "That player was traded or claimed off waivers by someone else at some point during the season. The points shown are the player's FULL SEASON total regardless of who had them week-to-week - so this isn't necessarily \"credit\" to whoever ended with them, just an honest record of where they landed by season's end."
+    q: '"Ended With" shows a different manager than who drafted the player - what happened?',
+    a: "That player was traded or claimed off waivers by someone else at some point during the season. The points shown are the player's FULL SEASON total regardless of who had them week-to-week - so this isn't necessarily \"credit\" to whoever ended with them, just an honest record of where they landed by season's end.",
   },
 ];
 
 function renderFaq() {
   const wrap = document.getElementById("faq-list");
-  wrap.innerHTML = FAQ_ITEMS.map((item, i) => `
+  wrap.innerHTML = FAQ_ITEMS.map(
+    (item, i) => `
     <div class="faq-item">
       <div class="faq-question" onclick="toggleFaq(${i})">
         <span>${item.q}</span>
@@ -188,7 +222,8 @@ function renderFaq() {
       </div>
       <div class="faq-answer" id="faq-answer-${i}">${item.a}</div>
     </div>
-  `).join("");
+  `,
+  ).join("");
 }
 
 function toggleFaq(i) {
