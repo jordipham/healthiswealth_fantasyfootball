@@ -15,6 +15,11 @@
 const PAGES = [
   { id: "home", label: "HOME", href: "index.html" },
   {
+    id: "managers",
+    label: "MANAGERS",
+    href: "managers.html",
+  },
+  {
     id: "champions",
     label: "HALL OF CHAMPIONS",
     href: "hall-of-champions.html",
@@ -38,11 +43,6 @@ const PAGES = [
     id: "standings",
     label: "ARCHIVED STANDINGS",
     href: "standings.html",
-  },
-  {
-    id: "managers",
-    label: "MANAGERS",
-    href: "managers.html",
   },
 ];
 

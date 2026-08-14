@@ -1,0 +1,173 @@
+/* Draft Day Recaps CSS */
+
+/*
+  css/draft-day.css
+  Styles specific to the Draft Day Recaps page only.
+  Relies on css/style.css (loaded first) for shared variables/base styles.
+*/
+
+.subtitle {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+/* ============ LEGEND ============ */
+.legend-panel {
+  max-width: 900px;
+  margin: 30px auto 0;
+  padding: 0 16px;
+}
+.legend-panel .panel { padding: 16px 20px; }
+.legend-title { font-size: 10px; color: var(--pink); margin-bottom: 12px; }
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  font-family: monospace;
+  font-size: 10px;
+}
+.legend-item { display: flex; gap: 8px; align-items: flex-start; }
+.legend-swatch {
+  width: 14px; height: 14px; border: 2px solid #000;
+  flex-shrink: 0; margin-top: 2px;
+}
+.legend-swatch.legendary { background: var(--gold); }
+.legend-swatch.rare { background: var(--blue); }
+.legend-swatch.common { background: #888; }
+.legend-swatch.junk { background: #444; }
+.legend-desc { color: var(--text-body); line-height: 1.5; }
+.legend-desc b { color: #e8e8e8; }
+
+/* ============ MANAGER GRID ============ */
+.grid {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  text-align: center;
+  padding: 20px 14px;
+  cursor: pointer;
+  transition: border-color 0.1s;
+}
+.card:hover { border-color: var(--gold); }
+.card.retired { opacity: 0.55; filter: grayscale(1); }
+.card.active-pick { border-color: var(--green); }
+
+.avatar-placeholder {
+  width: 80px; height: 80px;
+  background: #333; border: 2px solid #000;
+  margin: 0 auto 14px;
+  position: relative; display: flex;
+  align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.avatar-placeholder .placeholder-text { font-size: 9px; color: #666; }
+.card-name { font-size: 10px; color: #e8e8e8; }
+.card-status {
+  font-family: monospace; font-size: 8px;
+  color: var(--text-dim); margin-top: 8px;
+}
+
+/* ============ INVENTORY ============ */
+.inventory-wrap { max-width: 900px; margin: 20px auto; padding: 0 16px; display: none; }
+.inventory-wrap.open { display: block; }
+.inv-title { text-align: center; font-size: 12px; color: var(--pink); margin-bottom: 6px; }
+.inv-sub {
+  text-align: center; font-family: monospace;
+  font-size: 9px; color: var(--text-dim); margin-bottom: 4px;
+}
+.inv-incomplete-note {
+  text-align: center; font-family: monospace;
+  font-size: 8px; color: #666; margin-bottom: 20px;
+}
+
+.inv-section { margin-bottom: 28px; }
+.inv-section-title {
+  font-size: 9px; color: var(--gold);
+  margin-bottom: 10px; border-bottom: 1px dashed #333; padding-bottom: 6px;
+}
+
+.inventory {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 12px;
+}
+.item { border: 3px solid; padding: 14px; background: var(--bg-panel); }
+.item.legendary { border-color: var(--gold); box-shadow: 0 0 0 2px var(--bg-panel), 0 0 0 4px var(--gold); }
+.item.rare { border-color: var(--blue); }
+.item.common { border-color: #888; }
+.item.junk { border-color: #444; opacity: 0.7; }
+
+.rarity-tag { font-size: 7px; margin-bottom: 8px; }
+.legendary .rarity-tag { color: var(--gold); }
+.rare .rarity-tag { color: var(--blue); }
+.common .rarity-tag { color: #888; }
+.junk .rarity-tag { color: #666; }
+
+.item-name { font-size: 10px; margin-bottom: 8px; }
+.item-meta { font-family: monospace; font-size: 9px; color: var(--text-dim); line-height: 1.6; }
+.item-points { font-family: monospace; font-size: 12px; color: var(--green); margin-top: 8px; }
+.junk .item-points { color: #ff6666; }
+.item-moved { font-family: monospace; font-size: 8px; color: var(--pink); margin-top: 4px; }
+
+.signature-item {
+  background: var(--bg-panel); border: 3px solid var(--pink);
+  padding: 14px; font-family: monospace;
+}
+.signature-name { font-family: 'Press Start 2P', monospace; font-size: 10px; color: var(--pink); margin-bottom: 8px; }
+.signature-meta { font-size: 9px; color: var(--text-body); line-height: 1.6; }
+
+.close-btn { display: block; margin: 24px auto 0; }
+
+/* ============ FAQ ============ */
+.faq {
+  max-width: 900px;
+  margin: 50px auto 40px;
+  padding: 0 16px;
+}
+.faq-title {
+  font-size: 13px; color: var(--gold);
+  text-align: center; margin-bottom: 20px;
+}
+.faq-item {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.faq-question {
+  padding: 12px 16px;
+  font-size: 9px;
+  color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-question:hover { color: var(--green); }
+.faq-arrow { color: var(--green); }
+.faq-answer {
+  display: none;
+  padding: 0 16px 16px;
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+.faq-answer.open { display: block; }
+
+/* ============ MOBILE ============ */
+@media (max-width: 600px) {
+  .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+  .avatar-placeholder { width: 60px; height: 60px; }
+  .card-name { font-size: 8px; }
+  .inventory { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+  .legend-grid { grid-template-columns: 1fr; }
+}

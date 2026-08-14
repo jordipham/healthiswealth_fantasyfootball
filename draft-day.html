@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draft Day Recaps — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/draft-day.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="draft"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 14px;">DRAFT DAY RECAPS</h1>
+  <div class="subtitle">SELECT A MANAGER TO OPEN THEIR INVENTORY</div>
+</div>
+
+<div class="legend-panel">
+  <div class="panel">
+    <div class="legend-title">LEGEND — WHAT AM I LOOKING AT?</div>
+    <div class="legend-grid">
+      <div class="legend-item">
+        <div class="legend-swatch legendary"></div>
+        <div class="legend-desc"><b>Legendary</b> — elite value score (4,000+). A very late pick that massively outproduced its draft slot.</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-swatch rare"></div>
+        <div class="legend-desc"><b>Rare</b> — strong value score (2,500–4,000). Solid production relative to where they were drafted.</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-swatch common"></div>
+        <div class="legend-desc"><b>Common</b> — moderate value score (500–2,500). Roughly expected output for the slot.</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-swatch junk"></div>
+        <div class="legend-desc"><b>Junk</b> — low value score (under 500). Usually an early pick that underproduced badly.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="inventory-wrap" id="inventory-wrap">
+  <div class="inv-title" id="inv-name">—</div>
+  <div class="inv-sub" id="inv-retention">—</div>
+  <div class="inv-incomplete-note" id="inv-incomplete"></div>
+
+  <div class="inv-section">
+    <div class="inv-section-title">★ BEST VALUE PICKS</div>
+    <div class="inventory" id="best-value-list"></div>
+  </div>
+
+  <div class="inv-section">
+    <div class="inv-section-title">◆ BEST STEALS (ROUND 8+)</div>
+    <div class="inventory" id="best-steals-list"></div>
+  </div>
+
+  <div class="inv-section">
+    <div class="inv-section-title">✕ BIGGEST BUSTS (ROUND 1-4)</div>
+    <div class="inventory" id="biggest-busts-list"></div>
+  </div>
+
+  <div class="inv-section">
+    <div class="inv-section-title">♦ SIGNATURE PICKS (DRAFTED 2+ TIMES)</div>
+    <div class="inventory" id="signature-picks-list"></div>
+  </div>
+</div>
+
+<div class="faq">
+  <div class="faq-title">FAQ — HOW WAS THIS CALCULATED?</div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/draft-day.js"></script>
+</body>
+</html>
