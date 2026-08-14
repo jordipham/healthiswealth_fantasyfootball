@@ -1,0 +1,68 @@
+<!-- MAIN PAGE CONSTRUCTION FOR MANAGER PROFILES -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet Your Managers — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/managers.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="managers"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 14px;">MEET YOUR MANAGERS</h1>
+  <div class="subtitle">SELECT A TEAM CARD</div>
+</div>
+
+<div class="section-heading">ACTIVE MANAGERS</div>
+<div class="grid" id="active-grid"></div>
+
+<div class="section-heading">RETIRED MANAGERS</div>
+<div class="grid" id="retired-grid"></div>
+
+<div class="profile" id="profile">
+  <div class="panel">
+    <div class="profile-header">
+      <div id="p-avatar-wrap"></div>
+      <div>
+        <div class="profile-name" id="p-name">—</div>
+        <div class="profile-status" id="p-status">—</div>
+        <div class="profile-rings" id="p-rings">—</div>
+      </div>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-box"><div class="stat-label">REGULAR SEASON</div><div class="stat-value" id="p-record">—</div></div>
+      <div class="stat-box"><div class="stat-label">PLAYOFF RECORD</div><div class="stat-value" id="p-playoff">—</div></div>
+      <div class="stat-box"><div class="stat-label">WIN %</div><div class="stat-value" id="p-winpct">—</div></div>
+      <div class="stat-box"><div class="stat-label">AVG PTS/MATCH</div><div class="stat-value" id="p-avg">—</div></div>
+      <div class="stat-box"><div class="stat-label">TOTAL POINTS FOR</div><div class="stat-value" id="p-pf">—</div></div>
+      <div class="stat-box"><div class="stat-label">TOTAL POINTS AGAINST</div><div class="stat-value" id="p-pa">—</div></div>
+      <div class="stat-box"><div class="stat-label">TRADES MADE</div><div class="stat-value" id="p-trades">—</div></div>
+      <div class="stat-box"><div class="stat-label">YEARS PLAYED</div><div class="stat-value" id="p-years">—</div></div>
+      <div class="stat-box"><div class="stat-label">LAST PLACE FINISHES</div><div class="stat-value" id="p-lastplace">—</div></div>
+      <div class="stat-box"><div class="stat-label">CHAMPIONSHIP DROUGHT</div><div class="stat-value" id="p-drought">—</div></div>
+    </div>
+
+    <div class="section-title">RIVALRY HIGHLIGHTS</div>
+    <div class="rival-line">TOUGHEST RIVAL: <span id="p-toughest">—</span></div>
+    <div class="rival-line">FAVORITE OPPONENT: <span id="p-favorite">—</span></div>
+    <div class="rival-line">LONGEST-RUNNING RIVALRY: <span id="p-longest">—</span></div>
+
+    <button class="pixel-btn secondary close-btn" onclick="closeProfile()">CLOSE</button>
+  </div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/managers.js"></script>
+</body>
+</html>

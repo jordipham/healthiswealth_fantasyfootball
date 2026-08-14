@@ -1,0 +1,193 @@
+/* STYLE SHEET FOR MANAGER PROFILES PAGE */
+
+/*
+  css/managers.css
+
+  Styles specific to the Meet Your Managers page only.
+  Relies on variables and base styles already defined in css/style.css
+  (loaded first in managers.html).
+*/
+
+.subtitle {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.section-heading {
+  max-width: 900px;
+  margin: 36px auto 16px;
+  padding: 0 16px;
+  font-size: 12px;
+  color: var(--pink);
+  border-bottom: 2px dashed #333;
+  padding-bottom: 10px;
+}
+
+/* ============ MANAGER GRID ============ */
+.grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  text-align: center;
+  padding: 20px 14px;
+  cursor: pointer;
+  transition: border-color 0.1s;
+}
+.card:hover { border-color: var(--gold); }
+
+.card.retired {
+  opacity: 0.55;
+  filter: grayscale(1);
+}
+
+/* PHOTO PLACEHOLDER - swap the background-color box below for a real
+   <img src="images/managers/<id>.jpg"> once photos are collected.
+   Keeping this as a plain div for now so the grid stays visually
+   consistent (same size/shape) whether or not a photo exists yet. */
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  background: #333;
+  border: 2px solid #000;
+  margin: 0 auto 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.avatar-placeholder .placeholder-text {
+  font-size: 9px;
+  color: #666;
+}
+
+.card-name {
+  font-size: 10px;
+  color: #e8e8e8;
+}
+.card-tag {
+  font-family: monospace;
+  font-size: 9px;
+  color: var(--green);
+  margin-top: 8px;
+}
+.card.retired .card-tag { color: var(--text-dim); }
+
+/* ============ EXPANDED PROFILE DETAIL ============ */
+.profile {
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: none;
+}
+.profile.open { display: block; }
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 2px dashed #333;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+/* Same placeholder pattern as the grid avatar, just larger for the
+   detail view. */
+.profile-avatar-placeholder {
+  width: 70px;
+  height: 70px;
+  background: #333;
+  border: 2px solid #000;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.profile-avatar-placeholder .placeholder-text {
+  font-size: 8px;
+  color: #666;
+}
+
+.profile-name {
+  font-size: 14px;
+  color: var(--gold);
+}
+.profile-status {
+  font-family: monospace;
+  font-size: 9px;
+  color: var(--text-dim);
+  margin-top: 6px;
+}
+.profile-rings {
+  font-size: 16px;
+  margin-top: 8px;
+}
+.profile-rings.none {
+  font-family: monospace;
+  font-size: 10px;
+  color: var(--text-dim);
+  font-style: normal;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  font-family: monospace;
+}
+.stat-box {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 10px 12px;
+}
+.stat-label {
+  font-size: 8px;
+  color: var(--text-dim);
+}
+.stat-value {
+  font-size: 13px;
+  color: var(--green);
+  margin-top: 6px;
+}
+
+.section-title {
+  font-size: 9px;
+  color: var(--pink);
+  margin: 20px 0 10px;
+}
+.rival-line {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-body);
+  margin-bottom: 6px;
+}
+
+.close-btn {
+  display: block;
+  margin: 20px auto 0;
+}
+
+/* ============ MOBILE ============ */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  .avatar-placeholder { width: 60px; height: 60px; }
+  .card-name { font-size: 8px; }
+
+  .profile-name { font-size: 11px; }
+  .profile-avatar-placeholder { width: 54px; height: 54px; }
+}
