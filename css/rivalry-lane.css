@@ -46,6 +46,11 @@
 .card:hover { border-color: var(--gold); }
 
 .card.retired { opacity: 0.55; filter: grayscale(1); }
+.card.retired.picked1,
+.card.retired.picked2 {
+  opacity: 1;
+  filter: none;
+}
 .card.picked1 { border-color: var(--blue); background: #101a30; }
 .card.picked2 { border-color: var(--red); background: #300f0f; }
 .card.disabled { pointer-events: none; opacity: 0.3; }
