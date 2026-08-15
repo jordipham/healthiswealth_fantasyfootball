@@ -1,3 +1,5 @@
+/* Hall of Champions CSS */
+
 /*
   css/hall-of-champions.css
   Styles specific to Hall of Champions only.
@@ -6,7 +8,7 @@
 
 .subtitle {
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-dim);
   margin-top: 8px;
 }
@@ -35,10 +37,10 @@
 .slot.selected { border-color: var(--green); }
 
 .slot-left { display: flex; align-items: center; gap: 16px; }
-.slot-num { font-size: 10px; color: #666; }
-.slot-info .champ { font-size: 12px; color: var(--green); }
-.slot-info .year { font-family: monospace; font-size: 10px; color: var(--text-dim); margin-top: 6px; }
-.slot-arrow { font-size: 16px; color: var(--gold); }
+.slot-num { font-size: 14px; color: #666; }
+.slot-info .champ { font-size: 16px; color: var(--green); }
+.slot-info .year { font-family: monospace; font-size: 14px; color: var(--text-dim); margin-top: 6px; }
+.slot-arrow { font-size: 22px; color: var(--gold); }
 
 /* ============ DETAIL PANEL ============ */
 .detail {
@@ -58,16 +60,16 @@
   margin-bottom: 16px;
 }
 .detail-avatar-placeholder {
-  width: 70px; height: 70px;
+  width: 95px; height: 95px;
   background: #333; border: 2px solid #000;
   flex-shrink: 0;
   position: relative; display: flex;
   align-items: center; justify-content: center;
   overflow: hidden;
 }
-.detail-avatar-placeholder .placeholder-text { font-size: 8px; color: #666; }
-.detail-title { font-size: 14px; color: var(--gold); }
-.detail-team { font-family: monospace; font-size: 10px; color: var(--text-dim); margin-top: 6px; }
+.detail-avatar-placeholder .placeholder-text { font-size: 11px; color: #666; }
+.detail-title { font-size: 19px; color: var(--gold); }
+.detail-team { font-family: monospace; font-size: 14px; color: var(--text-dim); margin-top: 6px; }
 
 .detail-stat-grid {
   display: grid;
@@ -77,15 +79,15 @@
   margin-bottom: 20px;
 }
 .detail-stat-box { background: var(--bg-panel); border: 2px solid #333; padding: 10px 12px; }
-.detail-stat-label { font-size: 8px; color: var(--text-dim); }
-.detail-stat-value { font-size: 13px; color: var(--green); margin-top: 6px; }
+.detail-stat-label { font-size: 11px; color: var(--text-dim); }
+.detail-stat-value { font-size: 18px; color: var(--green); margin-top: 6px; }
 
-.section-title { font-size: 10px; color: var(--pink); margin: 22px 0 12px; border-bottom: 1px dashed #333; padding-bottom: 8px; }
+.section-title { font-size: 14px; color: var(--pink); margin: 22px 0 12px; border-bottom: 1px dashed #333; padding-bottom: 8px; }
 
 /* ============ TOP PERFORMERS ============ */
 .performer {
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-body);
   background: var(--bg-panel);
   border: 2px solid #333;
@@ -99,9 +101,8 @@
 
 /* ============ BRACKET RECONSTRUCTION ============ */
 .bracket { display: flex; flex-direction: column; gap: 14px; }
-.bracket-round { }
 .bracket-round-label {
-  font-size: 8px; color: var(--text-dim);
+  font-size: 11px; color: var(--text-dim);
   margin-bottom: 8px; letter-spacing: 1px;
 }
 .bracket-game {
@@ -109,7 +110,7 @@
   border: 2px solid #333;
   padding: 10px 14px;
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,22 +123,22 @@
   gap: 6px;
 }
 .bracket-game .seed {
-  font-size: 8px;
+  font-size: 11px;
   color: #666;
   border: 1px solid #444;
   padding: 1px 4px;
 }
 .bracket-game .winner-name { color: var(--green); }
 .bracket-game .loser-name { color: var(--text-dim); }
-.bracket-game .score { color: #888; font-size: 9px; }
+.bracket-game .score { color: #888; font-size: 12px; }
 
 .close-btn { display: block; margin: 24px auto 0; }
 
 /* ============ MOBILE ============ */
 @media (max-width: 600px) {
   .slot { padding: 12px 14px; }
-  .slot-info .champ { font-size: 10px; }
-  .detail-title { font-size: 11px; }
-  .detail-avatar-placeholder { width: 54px; height: 54px; }
-  .bracket-game { font-size: 9px; }
+  .slot-info .champ { font-size: 14px; }
+  .detail-title { font-size: 15px; }
+  .detail-avatar-placeholder { width: 73px; height: 73px; }
+  .bracket-game { font-size: 12px; }
 }

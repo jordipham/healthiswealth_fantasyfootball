@@ -61,7 +61,7 @@
 }
 .screen-ticker span {
   display: inline-block; white-space: nowrap;
-  font-size: 9px; color: var(--pink);
+  font-size: 12px; color: var(--pink);
   animation: scroll 22s linear infinite;
   padding-left: 100%;
 }
@@ -139,7 +139,7 @@
   margin: 0 auto 14px;
 }
 .insert-coin {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--green);
   animation: blink 1s steps(1) infinite;
   cursor: pointer;
@@ -148,7 +148,7 @@
 }
 .insert-coin:hover { color: var(--gold); }
 @keyframes blink { 50% { opacity: 0; } }
-.coin-hint { font-family: monospace; font-size: 9px; color: #666; margin-top: 10px; }
+.coin-hint { font-family: monospace; font-size: 12px; color: #666; margin-top: 10px; }
 
 /* ============ TEASER CARDS ============ */
 .teasers {
@@ -160,9 +160,9 @@
   gap: 16px;
 }
 .teaser-card { background: var(--bg-panel); border: 3px solid var(--border-dim); padding: 16px; display: block; text-decoration: none; }
-.teaser-card h3 { font-size: 10px; color: var(--gold); margin-bottom: 10px; }
-.teaser-card p { font-family: monospace; font-size: 12px; color: var(--text-body); line-height: 1.6; }
-.teaser-card .stat { font-size: 16px; color: var(--green); margin-top: 8px; }
+.teaser-card h3 { font-size: 14px; color: var(--gold); margin-bottom: 10px; }
+.teaser-card p { font-family: monospace; font-size: 16px; color: var(--text-body); line-height: 1.6; }
+.teaser-card .stat { font-size: 22px; color: var(--green); margin-top: 8px; }
 
 .teaser-card.link-card {
   border-color: var(--pink);
@@ -185,8 +185,8 @@
   .arcade-btn { width: 16px; height: 16px; }
 
   .coin-slot { width: 44px; }
-  .insert-coin { font-size: 10px; }
-  .coin-hint { font-size: 8px; }
+  .insert-coin { font-size: 14px; }
+  .coin-hint { font-size: 11px; }
 }
 
 @media (max-width: 380px) {

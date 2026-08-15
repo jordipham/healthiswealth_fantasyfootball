@@ -56,13 +56,13 @@ body {
   text-align: center;
 }
 .title-bar h1 {
-  font-size: 18px;
+  font-size: 24px;
   color: var(--gold);
   letter-spacing: 2px;
 }
 .title-bar .motto {
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-dim);
   margin-top: 8px;
   letter-spacing: 1px;
@@ -81,7 +81,7 @@ body {
 .nav-link {
   color: var(--green);
   text-decoration: none;
-  font-size: 9px;
+  font-size: 12px;
   padding: 8px 10px;
   border: 2px solid #333;
   background: var(--bg-panel);
@@ -96,7 +96,7 @@ body {
 /* ============ PIXEL BUTTON (reusable anywhere) ============ */
 .pixel-btn {
   font-family: 'Press Start 2P', monospace;
-  font-size: 11px;
+  font-size: 15px;
   background: var(--gold);
   color: #1a1a2e;
   border: 3px solid #1a1a2e;
@@ -124,9 +124,9 @@ body {
 
 /* ============ SHARED MOBILE BREAKPOINT ============ */
 @media (max-width: 600px) {
-  .title-bar h1 { font-size: 13px; }
-  .title-bar .motto { font-size: 9px; }
-  .nav-link { font-size: 8px; padding: 6px 8px; }
+  .title-bar h1 { font-size: 18px; }
+  .title-bar .motto { font-size: 12px; }
+  .nav-link { font-size: 11px; padding: 6px 8px; }
 }
 
 /* END PAGE */

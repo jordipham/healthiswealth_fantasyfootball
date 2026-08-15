@@ -8,7 +8,7 @@
 
 .subtitle {
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-dim);
   margin-top: 8px;
 }
@@ -66,36 +66,36 @@
 .card.active-pick { border-color: var(--green); }
 
 .avatar-placeholder {
-  width: 80px; height: 80px;
+  width: 110px; height: 110px;
   background: #333; border: 2px solid #000;
   margin: 0 auto 14px;
   position: relative; display: flex;
   align-items: center; justify-content: center;
   overflow: hidden;
 }
-.avatar-placeholder .placeholder-text { font-size: 9px; color: #666; }
-.card-name { font-size: 10px; color: #e8e8e8; }
+.avatar-placeholder .placeholder-text { font-size: 12px; color: #666; }
+.card-name { font-size: 14px; color: #e8e8e8; }
 .card-status {
-  font-family: monospace; font-size: 8px;
+  font-family: monospace; font-size: 11px;
   color: var(--text-dim); margin-top: 8px;
 }
 
 /* ============ INVENTORY ============ */
 .inventory-wrap { max-width: 900px; margin: 20px auto; padding: 0 16px; display: none; }
 .inventory-wrap.open { display: block; }
-.inv-title { text-align: center; font-size: 12px; color: var(--pink); margin-bottom: 6px; }
+.inv-title { text-align: center; font-size: 16px; color: var(--pink); margin-bottom: 6px; }
 .inv-sub {
   text-align: center; font-family: monospace;
-  font-size: 9px; color: var(--text-dim); margin-bottom: 4px;
+  font-size: 12px; color: var(--text-dim); margin-bottom: 4px;
 }
 .inv-incomplete-note {
   text-align: center; font-family: monospace;
-  font-size: 8px; color: #666; margin-bottom: 20px;
+  font-size: 11px; color: #666; margin-bottom: 20px;
 }
 
 .inv-section { margin-bottom: 28px; }
 .inv-section-title {
-  font-size: 9px; color: var(--gold);
+  font-size: 12px; color: var(--gold);
   margin-bottom: 10px; border-bottom: 1px dashed #333; padding-bottom: 6px;
 }
 
@@ -112,7 +112,7 @@
 .item.qb-item { border-color: var(--pink); }
 .item.star-item { border-color: var(--green); }
 
-.rarity-tag { font-size: 7px; margin-bottom: 8px; }
+.rarity-tag { font-size: 9px; margin-bottom: 8px; }
 .legendary .rarity-tag { color: var(--gold); }
 .rare .rarity-tag { color: var(--blue); }
 .common .rarity-tag { color: #888; }
@@ -120,18 +120,18 @@
 .qb-item .rarity-tag { color: var(--pink); }
 .star-item .rarity-tag { color: var(--green); }
 
-.item-name { font-size: 10px; margin-bottom: 8px; }
-.item-meta { font-family: monospace; font-size: 9px; color: var(--text-dim); line-height: 1.6; }
-.item-points { font-family: monospace; font-size: 12px; color: var(--green); margin-top: 8px; }
+.item-name { font-size: 14px; margin-bottom: 8px; }
+.item-meta { font-family: monospace; font-size: 12px; color: var(--text-dim); line-height: 1.6; }
+.item-points { font-family: monospace; font-size: 16px; color: var(--green); margin-top: 8px; }
 .junk .item-points { color: #ff6666; }
-.item-moved { font-family: monospace; font-size: 8px; color: var(--pink); margin-top: 4px; }
+.item-moved { font-family: monospace; font-size: 11px; color: var(--pink); margin-top: 4px; }
 
 .signature-item {
   background: var(--bg-panel); border: 3px solid var(--pink);
   padding: 14px; font-family: monospace;
 }
-.signature-name { font-family: 'Press Start 2P', monospace; font-size: 10px; color: var(--pink); margin-bottom: 8px; }
-.signature-meta { font-size: 9px; color: var(--text-body); line-height: 1.6; }
+.signature-name { font-family: 'Press Start 2P', monospace; font-size: 14px; color: var(--pink); margin-bottom: 8px; }
+.signature-meta { font-size: 12px; color: var(--text-body); line-height: 1.6; }
 
 .close-btn { display: block; margin: 24px auto 0; }
 
@@ -142,7 +142,7 @@
   padding: 0 16px;
 }
 .faq-title {
-  font-size: 13px; color: var(--gold);
+  font-size: 18px; color: var(--gold);
   text-align: center; margin-bottom: 20px;
 }
 .faq-item {
@@ -153,7 +153,7 @@
 }
 .faq-question {
   padding: 12px 16px;
-  font-size: 9px;
+  font-size: 12px;
   color: #e8e8e8;
   display: flex;
   justify-content: space-between;
@@ -165,7 +165,7 @@
   display: none;
   padding: 0 16px 16px;
   font-family: monospace;
-  font-size: 11px;
+  font-size: 15px;
   color: var(--text-body);
   line-height: 1.7;
 }
@@ -174,8 +174,8 @@
 /* ============ MOBILE ============ */
 @media (max-width: 600px) {
   .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
-  .avatar-placeholder { width: 60px; height: 60px; }
-  .card-name { font-size: 8px; }
+  .avatar-placeholder { width: 80px; height: 80px; }
+  .card-name { font-size: 11px; }
   .inventory { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
   .legend-grid { grid-template-columns: 1fr; }
 }
