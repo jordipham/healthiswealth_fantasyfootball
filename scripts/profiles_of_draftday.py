@@ -54,7 +54,7 @@ OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "draft_day_profi
 MIN_ROUND_FOR_BUST = 4
 MIN_ROUND_FOR_STEAL = 8
 MIN_TIMES_FOR_SIGNATURE = 2
-TOP_N = 7
+TOP_N = 5
 QB_POSITION = "QB"
 
 
@@ -214,6 +214,11 @@ def build_manager_profiles(pick_records):
         early_picks = [p for p in non_qb_complete if p.get("round_num") and p["round_num"] <= MIN_ROUND_FOR_BUST and p["total_points"] is not None]
         busts = sorted(early_picks, key=lambda p: p["total_points"])[:TOP_N]
 
+        # Stars: same early-round pool as Busts (rounds 1-4, non-QB),
+        # just sorted the opposite direction - the picks that lived up
+        # to (or exceeded) their early draft slot, instead of busted.
+        stars = sorted(early_picks, key=lambda p: p["total_points"], reverse=True)[:TOP_N]
+
         late_picks = [p for p in non_qb_complete if p.get("round_num") and p["round_num"] >= MIN_ROUND_FOR_STEAL and p["total_points"] is not None]
         steals = sorted(late_picks, key=lambda p: p["total_points"], reverse=True)[:TOP_N]
 
@@ -251,6 +256,7 @@ def build_manager_profiles(pick_records):
             "retention_rate": retention_rate,
             "best_value_picks": best_value,
             "biggest_busts": busts,
+            "stars": stars,
             "best_steals": steals,
             "captain_at_the_helm": captain_at_the_helm,
             "signature_picks": signature,
@@ -331,4 +337,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-    

@@ -110,6 +110,7 @@
 .item.common { border-color: #888; }
 .item.junk { border-color: #444; opacity: 0.7; }
 .item.qb-item { border-color: var(--pink); }
+.item.star-item { border-color: var(--green); }
 
 .rarity-tag { font-size: 7px; margin-bottom: 8px; }
 .legendary .rarity-tag { color: var(--gold); }
@@ -117,6 +118,7 @@
 .common .rarity-tag { color: #888; }
 .junk .rarity-tag { color: #666; }
 .qb-item .rarity-tag { color: var(--pink); }
+.star-item .rarity-tag { color: var(--green); }
 
 .item-name { font-size: 10px; margin-bottom: 8px; }
 .item-meta { font-family: monospace; font-size: 9px; color: var(--text-dim); line-height: 1.6; }

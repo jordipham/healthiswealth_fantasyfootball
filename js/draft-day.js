@@ -123,9 +123,37 @@ function buildItemCard(pick) {
 }
 
 /*
-  QB cards get their own renderer, deliberately WITHOUT a rarity tier
-  color/tag - QBs are excluded from the Legendary/Rare/Common/Junk
-  system entirely (see notes.qb_exclusion_note in the JSON), so
+  Stars get their own renderer too, same reasoning as QB cards: the
+  rarity system is based on value_score, which can NEVER reward a
+  round-1 pick fairly - value_score = total_points x round_num, so
+  for round_num=1 that's just total_points with no multiplier at all.
+  A genuinely dominant round-1 season (e.g. 370+ points) can easily
+  fall into "Junk" territory, since the thresholds are calibrated
+  against the whole round 1-17 pool where multipliers do the heavy
+  lifting. Showing a rarity tag here would directly contradict the
+  "Star" label, so this section is deliberately about raw production,
+  not value-relative-to-slot.
+*/
+function buildStarItemCard(pick) {
+  const movedNote = pick.was_kept_by_drafter
+    ? ""
+    : `<div class="item-moved">MOVED TO: ${(pick.ended_with || []).join(" & ") || "UNKNOWN"}</div>`;
+
+  return `
+    <div class="item star-item">
+      <div class="rarity-tag">⭐ EARLY-ROUND HIT</div>
+      <div class="item-name">${pick.player_name}</div>
+      <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
+      <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
+      ${movedNote}
+    </div>
+  `;
+}
+
+/*
+  QB cards get their own renderer too, deliberately WITHOUT a rarity
+  tier color/tag - QBs are excluded from the Legendary/Rare/Common/
+  Junk system entirely (see notes.qb_exclusion_note in the JSON), so
   showing a rarity badge here would contradict that framing.
 */
 function buildQbItemCard(pick) {
@@ -135,7 +163,7 @@ function buildQbItemCard(pick) {
 
   return `
     <div class="item qb-item">
-      <div class="rarity-tag">⚡ QB 01</div>
+      <div class="rarity-tag">⚡ QB SEASON</div>
       <div class="item-name">${pick.player_name}</div>
       <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
       <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
@@ -169,6 +197,12 @@ function showInventory(canonicalId, managerMeta, draftProfile) {
       data: draftProfile.best_value_picks,
       empty: "No complete-data picks available.",
       renderer: buildItemCard,
+    },
+    {
+      id: "stars-list",
+      data: draftProfile.stars,
+      empty: "No early-round hits found (round 1-4).",
+      renderer: buildStarItemCard,
     },
     {
       id: "best-steals-list",
@@ -232,6 +266,14 @@ const FAQ_ITEMS = [
   {
     q: "How are Best Steals and Biggest Busts different from just sorting by value score?",
     a: 'They\'re deliberately stricter, separate categories rather than opposite ends of one blended list. BEST STEALS = highest total_points among round 8+ picks only. BIGGEST BUSTS = lowest total_points among round 1-4 picks only. This isolates "found a gem late" and "reached badly early" as distinct stories, instead of mixing in irrelevant late-round dart throws that were never expected to produce anything.',
+  },
+  {
+    q: "What's the difference between Stars and Biggest Busts?",
+    a: "Same pool, opposite ends: both draw from round 1-4 non-QB picks only, since that's \"early draft capital.\" STARS = highest total_points in that pool (the pick lived up to, or exceeded, its early slot). BIGGEST BUSTS = lowest total_points in that same pool. Together they show the full range of outcomes for a manager's early-round decisions, good and bad.",
+  },
+  {
+    q: "Why don't Stars show a rarity tag (Legendary/Rare/Common/Junk)?",
+    a: 'Because value_score = total_points x round_num, a round-1 pick gets NO multiplier at all - their value_score is just their raw points. Since the rarity tiers are calibrated against the whole round 1-17 pool (where multipliers do most of the work), even a dominant round-1 season can fall into "Junk" territory by this formula, despite being one of the best performances that manager had. That\'s a real contradiction, not a display bug - so Stars gets its own badge instead of a rarity color that would actively mislead.',
   },
   {
     q: "What counts as a Signature Pick?",
