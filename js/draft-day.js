@@ -17,7 +17,16 @@ const DRAFT_DATA_PATH = "data/derived/draft_day_profiler.json";
 const PROFILES_DATA_PATH = "data/derived/manager_profiles.json";
 const PHOTO_PATH = (canonicalId) => `images/draft_day/${canonicalId}.jpg`;
 
-const RARITY_THRESHOLDS = { junk: 500, common: 2500, rare: 4000 };
+/*
+  RARITY THRESHOLDS - re-calibrated after QBs were excluded from this
+  pool. The OLD thresholds (500/2500/4000) were set from a sample that
+  included QBs, which inflate value_score structurally - once QBs were
+  removed, 77% of all remaining picks fell into "Common" and
+  "Legendary" nearly vanished (1 out of 939 picks). These new
+  thresholds are set from the REAL non-QB distribution (939 picks):
+  25th pct ~629, median ~1074, 75th pct ~1620, 90th pct ~2056.
+*/
+const RARITY_THRESHOLDS = { junk: 400, common: 1000, rare: 1800 };
 
 function getRarity(valueScore) {
   if (valueScore === null || valueScore === undefined) return "common";
@@ -113,6 +122,28 @@ function buildItemCard(pick) {
   `;
 }
 
+/*
+  QB cards get their own renderer, deliberately WITHOUT a rarity tier
+  color/tag - QBs are excluded from the Legendary/Rare/Common/Junk
+  system entirely (see notes.qb_exclusion_note in the JSON), so
+  showing a rarity badge here would contradict that framing.
+*/
+function buildQbItemCard(pick) {
+  const movedNote = pick.was_kept_by_drafter
+    ? ""
+    : `<div class="item-moved">MOVED TO: ${(pick.ended_with || []).join(" & ") || "UNKNOWN"}</div>`;
+
+  return `
+    <div class="item qb-item">
+      <div class="rarity-tag">⚡ QB SEASON</div>
+      <div class="item-name">${pick.player_name}</div>
+      <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
+      <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
+      ${movedNote}
+    </div>
+  `;
+}
+
 function showInventory(canonicalId, managerMeta, draftProfile) {
   document.getElementById("inv-name").textContent =
     `${managerMeta.owner_name.toUpperCase()} — DRAFT LOG`;
@@ -137,24 +168,33 @@ function showInventory(canonicalId, managerMeta, draftProfile) {
       id: "best-value-list",
       data: draftProfile.best_value_picks,
       empty: "No complete-data picks available.",
+      renderer: buildItemCard,
     },
     {
       id: "best-steals-list",
       data: draftProfile.best_steals,
       empty: "No late-round steals found (round 8+).",
+      renderer: buildItemCard,
     },
     {
       id: "biggest-busts-list",
       data: draftProfile.biggest_busts,
       empty: "No early-round busts found (round 1-4).",
+      renderer: buildItemCard,
+    },
+    {
+      id: "captain-list",
+      data: draftProfile.captain_at_the_helm,
+      empty: "No QB picks with a known outcome found.",
+      renderer: buildQbItemCard,
     },
   ];
 
-  sections.forEach(({ id, data, empty }) => {
+  sections.forEach(({ id, data, empty, renderer }) => {
     const el = document.getElementById(id);
     el.innerHTML =
       data && data.length
-        ? data.map(buildItemCard).join("")
+        ? data.map(renderer).join("")
         : `<p class="item-meta">${empty}</p>`;
   });
 
@@ -208,6 +248,10 @@ const FAQ_ITEMS = [
   {
     q: '"Ended With" shows a different manager than who drafted the player - what happened?',
     a: "That player was traded or claimed off waivers by someone else at some point during the season. The points shown are the player's FULL SEASON total regardless of who had them week-to-week - so this isn't necessarily \"credit\" to whoever ended with them, just an honest record of where they landed by season's end.",
+  },
+  {
+    q: "Why don't QBs show up in Best Value, Best Steals, or Biggest Busts?",
+    a: 'QBs are deliberately excluded from those three categories. QBs are typically drafted late (a common "wait on QB" strategy) but score heavily due to how fantasy points are weighted - so value_score\'s round-lateness bonus structurally favored QBs regardless of actual skill in identifying them. Nearly every "Legendary" pick was a QB before this fix, which wasn\'t a meaningful signal. QBs get their own "Captain at the Helm" section instead, ranked purely by total_points - a fair, apples-to-apples comparison between QB seasons without the round-based bias.',
   },
 ];
 

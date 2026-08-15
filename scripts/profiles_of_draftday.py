@@ -3,14 +3,27 @@ compute_draft_day_profiler.py
 
 Reads data/league_history.json + owner_map.json + co_owner_overrides.json,
 produces data/derived/draft_day_profiler.json - a per-manager draft
-identity profile combining three angles:
+identity profile combining four angles:
 
   1. Draft value  - best value picks & biggest busts (round vs points)
-  2. Retention     - kept vs dropped/traded away by season's end
-  3. Signature picks - players drafted multiple times across years
+     ** QBs ARE EXCLUDED from this category. ** QBs are typically
+     drafted late (common "wait on QB" strategy) but score heavily due
+     to how fantasy points are weighted - so value_score's round_num
+     multiplier structurally favors QBs regardless of actual skill in
+     identifying them. Mixing them in made "Legendary" picks skew
+     almost entirely QB, which isn't a meaningful signal.
+  2. Captain at the Helm - QBs get their OWN category instead, ranked
+     by raw total_points (not value_score - round-lateness bias is
+     exactly what's being removed, so points-only is the fair,
+     apples-to-apples comparison between QB seasons).
+  3. Retention     - kept vs dropped/traded away by season's end
+  4. Signature picks - players drafted multiple times across years
+     (QBs remain eligible here - repeat-drafting is a personality/
+     loyalty signal, not a value-mismatch issue, so no bias to remove)
 
 Plus a league-wide "leaders" section (most loyal, biggest churner,
-best pick ever, biggest bust ever).
+best pick ever [non-QB], biggest bust ever [non-QB], best QB campaign
+ever).
 
 Co-ownership handling: every pick and every roster is resolved to its
 CREDITED owner(s) for that year via team_id, respecting the manual
@@ -18,9 +31,9 @@ exclusions in co_owner_overrides.json (training co-owners get no
 credit for picks made or players kept on that team/year).
 
 Known limitation: a player drafted, dropped, and never picked up by
-ANYONE by season's end has no recoverable point total in this data -
-box_scores() (needed for that) is current-season-only per ESPN's API,
-confirmed via earlier testing. These picks are flagged explicitly
+ANYONE by season's end has no recoverable point total OR POSITION in
+this data - position comes from final_roster, which only exists for
+picks with a known landing spot. These picks are flagged explicitly
 rather than silently skipped.
 
 Pure read/compute/write - no ESPN API calls.
@@ -38,10 +51,11 @@ OWNER_MAP_PATH = os.path.join(SCRIPT_DIR, "owner_map.json")
 OVERRIDES_PATH = os.path.join(SCRIPT_DIR, "co_owner_overrides.json")
 OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "draft_day_profiler.json")
 
-MIN_ROUND_FOR_BUST = 4     # rounds 1-4 count as "early" for bust detection
-MIN_ROUND_FOR_STEAL = 8    # rounds 8+ count as "late" for steal detection
-MIN_TIMES_FOR_SIGNATURE = 2  # drafted at least this many times to count as "signature"
+MIN_ROUND_FOR_BUST = 4
+MIN_ROUND_FOR_STEAL = 8
+MIN_TIMES_FOR_SIGNATURE = 2
 TOP_N = 3
+QB_POSITION = "QB"
 
 
 # ---------------------------------------------------------------------------
@@ -92,15 +106,10 @@ def resolve_credited_owners(team, year, id_to_canonical, canonical_owners, exclu
 
 
 # ---------------------------------------------------------------------------
-# Build per-year lookups: player_id -> (team_id, total_points) at season's end
+# Build per-year lookups: player_id -> (team_id, total_points, position) at season's end
 # ---------------------------------------------------------------------------
 
 def build_final_landing_spots(season_data):
-    """
-    Scans every team's final_roster for a season and maps each player_id
-    to wherever they actually ended up (which may differ from who
-    drafted them - dropped/traded/picked up elsewhere).
-    """
     landing = {}
     for team in season_data.get("teams", []):
         tid = team.get("team_id")
@@ -135,22 +144,22 @@ def build_pick_records(history, id_to_canonical, canonical_owners, exclusions):
 
             drafted_by = resolve_credited_owners(drafted_team, yr, id_to_canonical, canonical_owners, exclusions)
             if not drafted_by:
-                continue  # excluded co-owner drafted this - no credit, skip
+                continue
 
             player_id = pick.get("player_id")
             landing = landing_spots.get(player_id)
 
             if landing is None:
-                # Dropped and never picked up by anyone by season's end -
-                # no recoverable point total in this data.
                 ended_with = None
                 total_points = None
+                position = None
                 was_kept = False
                 data_complete = False
             else:
                 ended_team = teams_by_id.get(landing["team_id"])
                 ended_with = resolve_credited_owners(ended_team, yr, id_to_canonical, canonical_owners, exclusions) if ended_team else []
                 total_points = landing["total_points"]
+                position = landing["position"]
                 was_kept = (landing["team_id"] == drafted_team_id)
                 data_complete = True
 
@@ -161,6 +170,7 @@ def build_pick_records(history, id_to_canonical, canonical_owners, exclusions):
                     "round_pick": pick.get("round_pick"),
                     "player_id": player_id,
                     "player_name": pick.get("player_name"),
+                    "position": position,
                     "drafted_by_canonical_id": cid,
                     "drafted_by_name": name,
                     "ended_with": [n for _, n in ended_with] if landing else None,
@@ -174,7 +184,7 @@ def build_pick_records(history, id_to_canonical, canonical_owners, exclusions):
 
 
 # ---------------------------------------------------------------------------
-# Per-manager profile: value picks, retention, signature picks
+# Per-manager profile: value picks, QB spotlight, retention, signature picks
 # ---------------------------------------------------------------------------
 
 def build_manager_profiles(pick_records):
@@ -191,23 +201,31 @@ def build_manager_profiles(pick_records):
         total_picks = len(picks)
         kept = sum(1 for p in complete_picks if p["was_kept_by_drafter"])
         incomplete = total_picks - len(complete_picks)
-
-        # Retention rate is computed only over picks with a known landing spot
         retention_rate = round(kept / len(complete_picks), 4) if complete_picks else None
 
-        # Best value: highest value_score
-        valued = [p for p in complete_picks if p["value_score"] is not None]
+        # Non-QB pool for value/steal/bust categories - QBs structurally
+        # inflate value_score regardless of actual draft skill, per the
+        # module docstring above.
+        non_qb_complete = [p for p in complete_picks if p["position"] != QB_POSITION]
+
+        valued = [p for p in non_qb_complete if p["value_score"] is not None]
         best_value = sorted(valued, key=lambda p: p["value_score"], reverse=True)[:TOP_N]
 
-        # Biggest busts: early round (<= MIN_ROUND_FOR_BUST), lowest points
-        early_picks = [p for p in complete_picks if p.get("round_num") and p["round_num"] <= MIN_ROUND_FOR_BUST and p["total_points"] is not None]
+        early_picks = [p for p in non_qb_complete if p.get("round_num") and p["round_num"] <= MIN_ROUND_FOR_BUST and p["total_points"] is not None]
         busts = sorted(early_picks, key=lambda p: p["total_points"])[:TOP_N]
 
-        # Best steals: late round (>= MIN_ROUND_FOR_STEAL), highest points
-        late_picks = [p for p in complete_picks if p.get("round_num") and p["round_num"] >= MIN_ROUND_FOR_STEAL and p["total_points"] is not None]
+        late_picks = [p for p in non_qb_complete if p.get("round_num") and p["round_num"] >= MIN_ROUND_FOR_STEAL and p["total_points"] is not None]
         steals = sorted(late_picks, key=lambda p: p["total_points"], reverse=True)[:TOP_N]
 
-        # Signature picks: same player_id drafted multiple times by this manager
+        # Captain at the Helm: QB-only pool, ranked by raw total_points -
+        # NOT value_score, since round-lateness bias is exactly what's
+        # being removed. This is "who had the best QB season", full stop.
+        qb_picks = [p for p in complete_picks if p["position"] == QB_POSITION and p["total_points"] is not None]
+        captain_at_the_helm = sorted(qb_picks, key=lambda p: p["total_points"], reverse=True)[:TOP_N]
+
+        # Signature picks: unaffected by the QB bias issue - repeat-drafting
+        # is a loyalty/personality signal regardless of position, so QBs
+        # stay eligible here.
         by_player = defaultdict(list)
         for p in picks:
             by_player[p["player_id"]].append(p)
@@ -218,6 +236,7 @@ def build_manager_profiles(pick_records):
                 career_points = sum(p["total_points"] for p in instances if p["total_points"] is not None)
                 signature.append({
                     "player_name": instances[0]["player_name"],
+                    "position": instances[0]["position"],
                     "times_drafted": len(instances),
                     "years": sorted(p["year"] for p in instances),
                     "combined_points_across_those_seasons": round(career_points, 2),
@@ -233,6 +252,7 @@ def build_manager_profiles(pick_records):
             "best_value_picks": best_value,
             "biggest_busts": busts,
             "best_steals": steals,
+            "captain_at_the_helm": captain_at_the_helm,
             "signature_picks": signature,
         }
 
@@ -253,16 +273,22 @@ def build_league_leaders(profiles, pick_records):
     biggest_churner = top_by(with_retention, "retention_rate", reverse=False)
 
     complete = [r for r in pick_records if r["data_complete"] and r["value_score"] is not None]
-    best_pick_ever = sorted(complete, key=lambda r: r["value_score"], reverse=True)[:TOP_N]
+    non_qb_complete = [r for r in complete if r["position"] != QB_POSITION]
 
-    early_complete = [r for r in complete if r.get("round_num") and r["round_num"] <= MIN_ROUND_FOR_BUST]
-    worst_bust_ever = sorted(early_complete, key=lambda r: r["total_points"])[:TOP_N]
+    best_pick_ever = sorted(non_qb_complete, key=lambda r: r["value_score"], reverse=True)[:TOP_N]
+
+    early_non_qb = [r for r in non_qb_complete if r.get("round_num") and r["round_num"] <= MIN_ROUND_FOR_BUST]
+    worst_bust_ever = sorted(early_non_qb, key=lambda r: r["total_points"])[:TOP_N]
+
+    qb_complete = [r for r in pick_records if r["data_complete"] and r["position"] == QB_POSITION and r["total_points"] is not None]
+    best_qb_campaign_ever = sorted(qb_complete, key=lambda r: r["total_points"], reverse=True)[:TOP_N]
 
     return {
         "most_loyal_managers": most_loyal,
         "biggest_roster_churners": biggest_churner,
         "best_picks_in_league_history": best_pick_ever,
         "worst_busts_in_league_history": worst_bust_ever,
+        "best_qb_campaigns_in_league_history": best_qb_campaign_ever,
     }
 
 
@@ -288,8 +314,9 @@ def main():
         "league_leaders": leaders,
         "notes": {
             "picks_with_no_recoverable_landing_spot": incomplete_count,
-            "explanation": "These players were drafted, dropped, and never picked up by anyone by season's end - ESPN's API does not expose retroactive week-by-week rosters, so no point total is recoverable for them.",
+            "explanation": "These players were drafted, dropped, and never picked up by anyone by season's end - ESPN's API does not expose retroactive week-by-week rosters, so no point total OR POSITION is recoverable for them.",
             "value_score_formula": "total_points * round_num (a simplification - rewards late-round picks that produced real points more than identical output from an early pick)",
+            "qb_exclusion_note": "QBs are EXCLUDED from best_value_picks, best_steals, and biggest_busts (both per-manager and league-wide). QBs are typically drafted late but score heavily due to fantasy point weighting, so value_score structurally favors them regardless of actual draft skill. QBs get their own 'captain_at_the_helm' category instead, ranked by raw total_points.",
         },
     }
 
