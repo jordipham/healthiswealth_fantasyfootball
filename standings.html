@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Standings — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/standings.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="standings"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">PAST STANDINGS</h1>
+  <div class="subtitle">FINAL RESULTS BY SEASON</div>
+</div>
+
+<div class="year-strip" id="year-strip"></div>
+
+<div class="results">
+  <div class="results-title" id="results-title">—</div>
+
+  <div class="header-row">
+    <span class="h-place" onclick="sortBy('final_standing')">RK <span class="sort-arrow" id="arrow-place"></span></span>
+    <span class="h-name" onclick="sortBy('owners_display')">MANAGER <span class="sort-arrow" id="arrow-name"></span></span>
+    <span class="h-team" onclick="sortBy('team_name')">TEAM <span class="sort-arrow" id="arrow-team"></span></span>
+    <span class="h-record">RECORD</span>
+    <span class="h-pf" onclick="sortBy('points_for')">PF <span class="sort-arrow" id="arrow-pf"></span></span>
+    <span class="h-pa" onclick="sortBy('points_against')">PA <span class="sort-arrow" id="arrow-pa"></span></span>
+  </div>
+
+  <div id="rows"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/standings.js"></script>
+</body>
+</html>

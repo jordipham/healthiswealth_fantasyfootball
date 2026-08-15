@@ -1,0 +1,100 @@
+/*
+  css/standings.css
+  Styles specific to the Past Standings page only.
+  Relies on css/style.css (loaded first) for shared variables/base styles.
+*/
+
+.subtitle {
+  font-family: monospace;
+  font-size: 15px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+/* ============ YEAR SELECTOR STRIP ============ */
+.year-strip {
+  max-width: 900px;
+  margin: 24px auto 0;
+  padding: 0 16px;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.year-tab {
+  font-size: 12px;
+  padding: 10px 14px;
+  background: var(--bg-panel);
+  border: 2px solid var(--border-dim);
+  color: var(--text-dim);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.year-tab:hover { border-color: var(--gold); }
+.year-tab.active { border-color: var(--gold); color: var(--gold); }
+
+/* ============ RESULTS TABLE ============ */
+.results {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.results-title {
+  text-align: center;
+  font-size: 16px;
+  color: var(--pink);
+  margin-bottom: 16px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+  border-bottom: 2px solid var(--border-dim);
+  margin-bottom: 6px;
+}
+.header-row span { cursor: pointer; user-select: none; }
+.header-row span:hover { color: var(--gold); }
+.h-place { width: 40px; }
+.h-name { flex: 2; min-width: 100px; }
+.h-team { flex: 2; min-width: 100px; }
+.h-record { width: 90px; text-align: right; }
+.h-pf { width: 80px; text-align: right; }
+.h-pa { width: 80px; text-align: right; }
+.sort-arrow { color: var(--green); }
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 12px 16px;
+  margin-bottom: 5px;
+  font-family: monospace;
+}
+.row.champ { border-color: var(--gold); }
+.place { font-size: 15px; color: #666; width: 40px; }
+.row.champ .place { color: var(--gold); }
+.name { flex: 2; min-width: 100px; font-size: 14px; }
+.team { flex: 2; min-width: 100px; font-size: 12px; color: var(--text-dim); }
+.record { font-size: 13px; color: var(--text-dim); width: 90px; text-align: right; }
+.pf { font-size: 13px; color: var(--green); width: 80px; text-align: right; }
+.pa { font-size: 13px; color: #ff6666; width: 80px; text-align: right; }
+
+.champ-tag { font-size: 11px; color: var(--gold); margin-left: 6px; }
+
+/* ============ MOBILE ============ */
+@media (max-width: 600px) {
+  .year-tab { font-size: 10px; padding: 8px 10px; }
+  .results-title { font-size: 13px; }
+  .header-row, .row { padding: 8px 10px; gap: 6px; font-size: 10px; }
+  .name, .team { font-size: 10px; }
+  .record, .pf, .pa, .h-record, .h-pf, .h-pa { width: 56px; font-size: 9px; }
+  .h-team, .team { display: none; }
+}
