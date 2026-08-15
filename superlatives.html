@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Superlatives — Health is Wealth</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%8F%88</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/superlatives.css">
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="superlatives"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">SUPERLATIVES</h1>
+  <div class="subtitle">RECORDS &amp; LEADERBOARDS</div>
+</div>
+
+<div class="section-tabs" id="section-tabs">
+  <div class="section-tab active" onclick="showSection('season', this)">SEASON RECORDS</div>
+  <div class="section-tab" onclick="showSection('career', this)">CAREER LEADERS</div>
+  <div class="section-tab" onclick="showSection('rivalry', this)">RIVALRY RECORDS</div>
+  <div class="section-tab" onclick="showSection('draft', this)">DRAFT RECORDS</div>
+</div>
+
+<div class="section-content active" id="section-season">
+  <div class="category-banners" id="season-banners"></div>
+  <div id="season-boards"></div>
+</div>
+
+<div class="section-content" id="section-career">
+  <div id="career-boards"></div>
+</div>
+
+<div class="section-content" id="section-rivalry">
+  <div id="rivalry-boards"></div>
+</div>
+
+<div class="section-content" id="section-draft">
+  <div id="draft-boards"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/superlatives.js"></script>
+</body>
+</html>

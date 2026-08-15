@@ -1,0 +1,149 @@
+/*
+  css/superlatives.css
+  Styles specific to the Superlatives page only.
+  Relies on css/style.css (loaded first) for shared variables/base styles.
+*/
+
+.subtitle {
+  font-family: monospace;
+  font-size: 15px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+/* ============ SECTION TABS (top level) ============ */
+.section-tabs {
+  max-width: 900px;
+  margin: 24px auto 0;
+  padding: 0 16px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-tab {
+  font-size: 12px;
+  padding: 12px 18px;
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  color: var(--text-dim);
+  cursor: pointer;
+}
+.section-tab:hover { border-color: var(--gold); }
+.section-tab.active { border-color: var(--gold); color: var(--gold); }
+
+.section-content { display: none; max-width: 900px; margin: 24px auto; padding: 0 16px; }
+.section-content.active { display: block; }
+
+/* ============ CATEGORY BANNERS (Season Records only - 14 categories) ============ */
+.category-banners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.category-banner {
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  padding: 14px 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+.category-banner:hover { border-color: var(--gold); }
+.category-banner.active { border-color: var(--green); color: var(--green); }
+
+.category-board { display: none; }
+.category-board.active { display: block; }
+.board-title { font-size: 16px; color: var(--pink); margin-bottom: 12px; text-align: center; }
+
+/* ============ SINGLE-MANAGER STAT ENTRY (Season + Career) ============ */
+.stat-entry {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 12px 16px;
+  margin-bottom: 6px;
+}
+.stat-entry.top { border-color: var(--gold); }
+.stat-rank { font-size: 15px; color: var(--gold); width: 30px; }
+.stat-info { flex: 1; font-family: monospace; }
+.stat-name { font-size: 17px; color: #e8e8e8; }
+.stat-meta { font-size: 13px; color: var(--text-dim); margin-top: 4px; }
+.stat-value { font-size: 20px; color: var(--green); }
+
+/* ============ CAREER / RIVALRY / DRAFT SECTION - stacked mini-leaderboards ============ */
+.mini-board { margin-bottom: 24px; }
+.mini-board-title {
+  font-size: 15px;
+  color: var(--gold);
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #333;
+  padding-bottom: 6px;
+}
+
+/* ============ RIVALRY ENTRY - two-sided vs. treatment ============ */
+.rivalry-entry {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  font-family: monospace;
+}
+.rivalry-vs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rivalry-vs .losing-side { color: var(--text-dim); }
+.rivalry-vs .winning-side { color: var(--green); }
+.rivalry-vs .tied-side { color: var(--text-body); }
+.rivalry-vs .vs-mark { color: var(--pink); font-size: 13px; padding: 0 10px; }
+.rivalry-meta { font-size: 13px; color: var(--text-dim); margin-top: 8px; text-align: center; }
+
+/* ============ DRAFT ENTRY - player + manager + stat, three-part ============ */
+.draft-entry {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  font-family: monospace;
+}
+.draft-player { font-size: 17px; color: var(--gold); }
+.draft-drafted-by { font-size: 14px; color: var(--text-body); margin-top: 6px; }
+.draft-stat-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.draft-points { color: var(--green); }
+
+/* ============ DRAFT MANAGER ENTRY (retention-based, no player involved) ============ */
+.draft-manager-entry {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 12px 16px;
+  margin-bottom: 6px;
+  font-family: monospace;
+}
+.draft-manager-name { flex: 1; font-size: 17px; color: #e8e8e8; }
+.draft-manager-stat { font-size: 20px; color: var(--green); }
+
+/* ============ MOBILE ============ */
+@media (max-width: 600px) {
+  .section-tab { font-size: 10px; padding: 8px 12px; }
+  .category-banner { font-size: 9px; padding: 10px 6px; }
+  .stat-name, .draft-player, .draft-manager-name { font-size: 13px; }
+  .stat-value, .draft-manager-stat { font-size: 15px; }
+  .rivalry-vs { font-size: 13px; }
+}

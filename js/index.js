@@ -83,6 +83,7 @@ function renderTicker(hallData, rivalryData, profilesData) {
       ? `LONGEST DROUGHT: ${longestDrought.career.championship_drought} SEASONS (${longestDrought.owner_name.toUpperCase()})`
       : null,
     `${rivalryData.matchups.length} RIVALRIES TRACKED`,
+    `LEAGUE HISTORY BOOK EST. BY JORDI`,
   ].filter(Boolean);
 
   document.getElementById("ticker-text").textContent =
