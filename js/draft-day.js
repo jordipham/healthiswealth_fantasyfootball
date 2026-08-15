@@ -135,7 +135,7 @@ function buildQbItemCard(pick) {
 
   return `
     <div class="item qb-item">
-      <div class="rarity-tag">⚡ QB SEASON</div>
+      <div class="rarity-tag">⚡ QB 01</div>
       <div class="item-name">${pick.player_name}</div>
       <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
       <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>

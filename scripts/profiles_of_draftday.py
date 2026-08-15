@@ -54,7 +54,7 @@ OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "derived", "draft_day_profi
 MIN_ROUND_FOR_BUST = 4
 MIN_ROUND_FOR_STEAL = 8
 MIN_TIMES_FOR_SIGNATURE = 2
-TOP_N = 3
+TOP_N = 7
 QB_POSITION = "QB"
 
 
