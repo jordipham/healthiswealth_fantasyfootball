@@ -1,5 +1,7 @@
 // Rivalry Lane JavaScript
 
+// Rivalry Lane JavaScript
+
 /*
   js/rivalry-lane.js
 
@@ -159,17 +161,29 @@ function showVs() {
   document.getElementById("health-fill-b").style.width = pctB + "%";
   document.getElementById("health-count-a").textContent = winsA;
   document.getElementById("health-count-b").textContent = winsB;
+  document.getElementById("health-label-a").textContent = pickedA.toUpperCase();
+  document.getElementById("health-label-b").textContent = pickedB.toUpperCase();
 
   document.getElementById("record-summary").textContent =
     `${totalGames} ALL-TIME MEETING${totalGames === 1 ? "" : "S"}${matchup.ties ? ` · ${matchup.ties} TIE${matchup.ties === 1 ? "" : "S"}` : ""}`;
 
   document.getElementById("stat-pf-a").textContent = pointsA.toLocaleString();
   document.getElementById("stat-pf-b").textContent = pointsB.toLocaleString();
+
+  // FIX: win_pct_a in the JSON always belongs to whichever manager the
+  // JSON calls "manager_a" - NOT necessarily whoever the user clicked
+  // first. Must resolve through aIsManagerA the same way wins/points
+  // already do above, or the percentages get swapped whenever click
+  // order differs from the JSON's stored manager_a/manager_b order.
+  const winPctManagerA = matchup.win_pct_a;
+  const winPctManagerB = totalGames
+    ? 1 - matchup.win_pct_a - matchup.ties / totalGames
+    : 0;
+  const winPctA = aIsManagerA ? winPctManagerA : winPctManagerB;
+  const winPctB = aIsManagerA ? winPctManagerB : winPctManagerA;
+
   document.getElementById("stat-winpct").textContent =
-    (matchup.win_pct_a * 100).toFixed(1) +
-    "% / " +
-    ((1 - matchup.win_pct_a - matchup.ties / totalGames) * 100).toFixed(1) +
-    "%";
+    (winPctA * 100).toFixed(1) + "% / " + (winPctB * 100).toFixed(1) + "%";
 
   const list = document.getElementById("rounds-list");
   list.innerHTML = "";
