@@ -243,6 +243,11 @@ function showInventory(canonicalId, managerMeta, draftProfile) {
       <div class="era-tab" id="era-tab-snake" onclick="switchEra('snake')">SNAKE DRAFT</div>
       <div class="era-tab" id="era-tab-auction" onclick="switchEra('auction')">AUCTION DRAFT</div>
     `;
+    // Explicitly hide the static label - it's only for single-era fallback
+    // cases. Without this, a leftover label from a PREVIOUSLY selected
+    // single-era manager stays stuck on screen for this manager, since
+    // this branch never touched it before.
+    document.getElementById("era-static-label").style.display = "none";
     renderEraSection("snake", draftProfile.eras.snake);
     renderEraSection("auction", draftProfile.eras.auction);
     // Default to most recent era with data
