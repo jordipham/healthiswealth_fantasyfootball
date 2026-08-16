@@ -47,8 +47,12 @@ async function init() {
 }
 
 function showSection(id, el) {
-  document.querySelectorAll(".section-tab").forEach(t => t.classList.remove("active"));
-  document.querySelectorAll(".section-content").forEach(s => s.classList.remove("active"));
+  document
+    .querySelectorAll(".section-tab")
+    .forEach((t) => t.classList.remove("active"));
+  document
+    .querySelectorAll(".section-content")
+    .forEach((s) => s.classList.remove("active"));
   el.classList.add("active");
   document.getElementById("section-" + id).classList.add("active");
 }
@@ -63,16 +67,36 @@ function showSection(id, el) {
 const SEASON_CATEGORIES = [
   { key: "highest_points_for", label: "HIGHEST PTS FOR", type: "single" },
   { key: "lowest_points_for", label: "LOWEST PTS FOR", type: "single" },
-  { key: "highest_points_against", label: "HIGHEST PTS AGAINST", type: "single" },
+  {
+    key: "highest_points_against",
+    label: "HIGHEST PTS AGAINST",
+    type: "single",
+  },
   { key: "lowest_points_against", label: "LOWEST PTS AGAINST", type: "single" },
   { key: "best_record", label: "BEST RECORD", type: "single" },
   { key: "worst_record", label: "WORST RECORD", type: "single" },
   { key: "longest_win_streak", label: "LONGEST WIN STREAK", type: "single" },
-  { key: "longest_losing_streak", label: "LONGEST LOSE STREAK", type: "single" },
+  {
+    key: "longest_losing_streak",
+    label: "LONGEST LOSE STREAK",
+    type: "single",
+  },
   { key: "most_trades_season", label: "MOST TRADES (SEASON)", type: "single" },
-  { key: "most_acquisitions_season", label: "MOST ACQUISITIONS", type: "single" },
-  { key: "highest_single_week_score", label: "HIGHEST WEEK SCORE", type: "weekly" },
-  { key: "lowest_single_week_score", label: "LOWEST WEEK SCORE", type: "weekly" },
+  {
+    key: "most_acquisitions_season",
+    label: "MOST ACQUISITIONS",
+    type: "single",
+  },
+  {
+    key: "highest_single_week_score",
+    label: "HIGHEST WEEK SCORE",
+    type: "weekly",
+  },
+  {
+    key: "lowest_single_week_score",
+    label: "LOWEST WEEK SCORE",
+    type: "weekly",
+  },
   { key: "biggest_blowout", label: "BIGGEST BLOWOUT", type: "matchup" },
   { key: "closest_game", label: "CLOSEST GAME", type: "matchup" },
 ];
@@ -129,8 +153,12 @@ function renderSeasonRecords() {
     banner.className = "category-banner" + (i === 0 ? " active" : "");
     banner.textContent = cat.label;
     banner.onclick = () => {
-      document.querySelectorAll("#season-banners .category-banner").forEach(b => b.classList.remove("active"));
-      document.querySelectorAll("#season-boards .category-board").forEach(b => b.classList.remove("active"));
+      document
+        .querySelectorAll("#season-banners .category-banner")
+        .forEach((b) => b.classList.remove("active"));
+      document
+        .querySelectorAll("#season-boards .category-board")
+        .forEach((b) => b.classList.remove("active"));
       banner.classList.add("active");
       document.getElementById("board-" + cat.key).classList.add("active");
     };
@@ -139,9 +167,10 @@ function renderSeasonRecords() {
     const board = document.createElement("div");
     board.className = "category-board" + (i === 0 ? " active" : "");
     board.id = "board-" + cat.key;
-    board.innerHTML = `<div class="board-title">— ${cat.label} —</div>` +
+    board.innerHTML =
+      `<div class="board-title">— ${cat.label} —</div>` +
       (entries.length
-        ? entries.map(e => renderSeasonEntry(e, cat.type)).join("")
+        ? entries.map((e) => renderSeasonEntry(e, cat.type)).join("")
         : `<p class="stat-meta">No data available.</p>`);
     boards.appendChild(board);
   });
@@ -153,20 +182,47 @@ function renderSeasonRecords() {
    =========================================================== */
 
 const CAREER_CATEGORIES = [
-  { key: "most_championships", label: "🏆 MOST CHAMPIONSHIPS", valueField: "championships", format: v => v },
-  { key: "best_career_win_pct", label: "📈 BEST CAREER WIN %", valueField: "win_pct", format: v => (v * 100).toFixed(1) + "%" },
-  { key: "worst_career_win_pct", label: "📉 WORST CAREER WIN %", valueField: "win_pct", format: v => (v * 100).toFixed(1) + "%" },
-  { key: "most_trades_career", label: "🔄 MOST CAREER TRADES", valueField: "trades", format: v => v },
-  { key: "most_last_place_finishes", label: "💀 MOST LAST-PLACE FINISHES", valueField: "last_place_finishes", format: v => v },
+  {
+    key: "most_championships",
+    label: "🏆 MOST CHAMPIONSHIPS",
+    valueField: "championships",
+    format: (v) => v,
+  },
+  {
+    key: "best_career_win_pct",
+    label: "📈 BEST CAREER WIN %",
+    valueField: "win_pct",
+    format: (v) => (v * 100).toFixed(1) + "%",
+  },
+  {
+    key: "worst_career_win_pct",
+    label: "📉 WORST CAREER WIN %",
+    valueField: "win_pct",
+    format: (v) => (v * 100).toFixed(1) + "%",
+  },
+  {
+    key: "most_trades_career",
+    label: "🔄 MOST CAREER TRADES",
+    valueField: "trades",
+    format: (v) => v,
+  },
+  {
+    key: "most_last_place_finishes",
+    label: "💀 MOST LAST-PLACE FINISHES",
+    valueField: "last_place_finishes",
+    format: (v) => v,
+  },
 ];
 
 function renderCareerLeaders() {
   const container = document.getElementById("career-boards");
   const leaders = superlativesData.career_records.leaders;
 
-  container.innerHTML = CAREER_CATEGORIES.map(cat => {
+  container.innerHTML = CAREER_CATEGORIES.map((cat) => {
     const entries = leaders[cat.key] || [];
-    const rows = entries.map(e => `
+    const rows = entries
+      .map(
+        (e) => `
       <div class="stat-entry">
         <div class="stat-info">
           <div class="stat-name">${e.owner_name}</div>
@@ -174,7 +230,9 @@ function renderCareerLeaders() {
         </div>
         <span class="stat-value">${cat.format(e[cat.valueField])}</span>
       </div>
-    `).join("");
+    `,
+      )
+      .join("");
 
     return `
       <div class="mini-board">
@@ -192,16 +250,42 @@ function renderCareerLeaders() {
    =========================================================== */
 
 const RIVALRY_CATEGORIES = [
-  { key: "most_lopsided_rivalries", label: "⚔️ MOST LOPSIDED RIVALRY", type: "pair" },
+  {
+    key: "most_lopsided_rivalries",
+    label: "⚔️ MOST LOPSIDED RIVALRY",
+    type: "pair",
+  },
   { key: "closest_rivalries", label: "🤝 CLOSEST RIVALRY", type: "pair" },
-  { key: "longest_running_rivalries", label: "📅 LONGEST-RUNNING RIVALRY", type: "pair" },
-  { key: "biggest_single_game_blowouts", label: "💥 BIGGEST SINGLE-GAME BLOWOUT", type: "game" },
-  { key: "closest_single_games", label: "🔥 CLOSEST SINGLE GAME", type: "game" },
+  {
+    key: "longest_running_rivalries",
+    label: "📅 LONGEST-RUNNING RIVALRY",
+    type: "pair",
+  },
+  {
+    key: "biggest_single_game_blowouts",
+    label: "💥 BIGGEST SINGLE-GAME BLOWOUT",
+    type: "game",
+  },
+  {
+    key: "closest_single_games",
+    label: "🔥 CLOSEST SINGLE GAME",
+    type: "game",
+  },
 ];
 
 function renderRivalryPairEntry(e) {
-  const aClass = e.wins_a > e.wins_b ? "winning-side" : e.wins_a < e.wins_b ? "losing-side" : "tied-side";
-  const bClass = e.wins_b > e.wins_a ? "winning-side" : e.wins_b < e.wins_a ? "losing-side" : "tied-side";
+  const aClass =
+    e.wins_a > e.wins_b
+      ? "winning-side"
+      : e.wins_a < e.wins_b
+        ? "losing-side"
+        : "tied-side";
+  const bClass =
+    e.wins_b > e.wins_a
+      ? "winning-side"
+      : e.wins_b < e.wins_a
+        ? "losing-side"
+        : "tied-side";
   return `
     <div class="rivalry-entry">
       <div class="rivalry-vs">
@@ -233,9 +317,15 @@ function renderRivalryRecords() {
   const container = document.getElementById("rivalry-boards");
   const supers = rivalryData.superlatives;
 
-  container.innerHTML = RIVALRY_CATEGORIES.map(cat => {
+  container.innerHTML = RIVALRY_CATEGORIES.map((cat) => {
     const entries = supers[cat.key] || [];
-    const rows = entries.map(e => cat.type === "pair" ? renderRivalryPairEntry(e) : renderRivalryGameEntry(e)).join("");
+    const rows = entries
+      .map((e) =>
+        cat.type === "pair"
+          ? renderRivalryPairEntry(e)
+          : renderRivalryGameEntry(e),
+      )
+      .join("");
 
     return `
       <div class="mini-board">
@@ -253,19 +343,97 @@ function renderRivalryRecords() {
    =========================================================== */
 
 const DRAFT_CATEGORIES = [
-  { key: "most_loyal_managers", label: "🔒 MOST LOYAL MANAGERS (RETENTION)", type: "manager", valueField: "retention_rate", format: v => (v * 100).toFixed(1) + "%" },
-  { key: "biggest_roster_churners", label: "🔀 BIGGEST ROSTER CHURNERS", type: "manager", valueField: "retention_rate", format: v => (v * 100).toFixed(1) + "%" },
-  { key: "best_picks_in_league_history", label: "⭐ BEST PICKS IN LEAGUE HISTORY", type: "pick" },
-  { key: "worst_busts_in_league_history", label: "✕ WORST BUSTS IN LEAGUE HISTORY", type: "pick" },
-  { key: "best_qb_campaigns_in_league_history", label: "⚡ BEST QB CAMPAIGNS EVER", type: "pick" },
+  {
+    group: "ALL-TIME (BOTH ERAS)",
+    items: [
+      {
+        key: "most_loyal_managers",
+        label: "🔒 MOST LOYAL MANAGERS (RETENTION)",
+        type: "manager",
+        valueField: "retention_rate",
+        format: (v) => (v * 100).toFixed(1) + "%",
+      },
+      {
+        key: "biggest_roster_churners",
+        label: "🔀 BIGGEST ROSTER CHURNERS",
+        type: "manager",
+        valueField: "retention_rate",
+        format: (v) => (v * 100).toFixed(1) + "%",
+      },
+      {
+        key: "best_qb_campaigns_in_league_history",
+        label: "⚡ BEST QB CAMPAIGNS EVER",
+        type: "pick",
+      },
+    ],
+  },
+  {
+    group: "SNAKE DRAFT ERA",
+    items: [
+      {
+        key: "best_picks_snake_era",
+        label: "⭐ BEST PICKS (SNAKE)",
+        type: "pick",
+      },
+      {
+        key: "worst_busts_snake_era",
+        label: "✕ WORST BUSTS (SNAKE)",
+        type: "pick",
+      },
+    ],
+  },
+  {
+    group: "AUCTION DRAFT ERA",
+    items: [
+      {
+        key: "best_picks_auction_era",
+        label: "⭐ BEST PICKS (AUCTION)",
+        type: "pick",
+      },
+      {
+        key: "worst_busts_auction_era",
+        label: "✕ WORST BUSTS (AUCTION)",
+        type: "pick",
+      },
+      {
+        key: "highest_single_bid_ever",
+        label: "💰 HIGHEST SINGLE BID EVER",
+        type: "pick",
+      },
+      {
+        key: "best_career_auction_efficiency",
+        label: "📊 BEST CAREER AUCTION EFFICIENCY",
+        type: "efficiency",
+      },
+    ],
+  },
 ];
 
+/*
+  Shows round/pick OR bid_amount depending on THIS SPECIFIC PICK's own
+  draft_type - not the category's, since best_qb_campaigns_in_league_history
+  spans both eras (a QB season could be from any year). value_score only
+  applies to snake picks; points_per_dollar only to auction picks.
+*/
 function renderDraftPickEntry(p) {
+  const priceLine =
+    p.draft_type === "auction"
+      ? `$${p.bid_amount} bid &middot; ${p.year}`
+      : `Round ${p.round_num}, Pick ${p.round_pick} &middot; ${p.year}`;
+  const statLine =
+    p.draft_type === "auction"
+      ? p.points_per_dollar != null
+        ? `PTS/$: ${p.points_per_dollar.toFixed(2)}`
+        : ""
+      : p.value_score != null
+        ? `VALUE SCORE: ${p.value_score.toFixed(1)}`
+        : "";
+
   return `
     <div class="draft-entry">
       <div class="draft-player">${p.player_name} (${p.position})</div>
-      <div class="draft-drafted-by">Drafted by ${p.drafted_by_name} &middot; Round ${p.round_num}, Pick ${p.round_pick} &middot; ${p.year}</div>
-      <div class="draft-stat-row"><span>${p.value_score != null ? "VALUE SCORE: " + p.value_score.toFixed(1) : ""}</span><span class="draft-points">${p.total_points.toFixed(2)} PTS</span></div>
+      <div class="draft-drafted-by">Drafted by ${p.drafted_by_name} &middot; ${priceLine}</div>
+      <div class="draft-stat-row"><span>${statLine}</span><span class="draft-points">${p.total_points.toFixed(2)} PTS</span></div>
     </div>
   `;
 }
@@ -279,21 +447,50 @@ function renderDraftManagerEntry(m, cat) {
   `;
 }
 
+/*
+  New entry type for best_career_auction_efficiency - aggregates across
+  a manager's WHOLE auction history, not a single pick, so it needs its
+  own shape (owner_name, total_points, total_spent, points_per_dollar)
+  rather than reusing the per-pick or per-retention templates.
+*/
+function renderDraftEfficiencyEntry(e) {
+  return `
+    <div class="draft-manager-entry">
+      <span class="draft-manager-name">${e.owner_name}</span>
+      <span class="draft-manager-stat">${e.points_per_dollar.toFixed(2)} PTS/$</span>
+    </div>
+  `;
+}
+
+function renderEntryByType(e, cat) {
+  if (cat.type === "pick") return renderDraftPickEntry(e);
+  if (cat.type === "efficiency") return renderDraftEfficiencyEntry(e);
+  return renderDraftManagerEntry(e, cat);
+}
+
 function renderDraftRecords() {
   const container = document.getElementById("draft-boards");
   const leaders = draftData.league_leaders;
 
-  container.innerHTML = DRAFT_CATEGORIES.map(cat => {
-    const entries = leaders[cat.key] || [];
-    const rows = entries.map(e => cat.type === "pick" ? renderDraftPickEntry(e) : renderDraftManagerEntry(e, cat)).join("");
-
-    return `
-      <div class="mini-board">
-        <div class="mini-board-title">${cat.label}</div>
-        ${rows || '<p class="stat-meta">No data available.</p>'}
-      </div>
-    `;
-  }).join("");
+  container.innerHTML = DRAFT_CATEGORIES.map(
+    (group) => `
+    <div class="era-group">
+      <div class="era-group-title">${group.group}</div>
+      ${group.items
+        .map((cat) => {
+          const entries = leaders[cat.key] || [];
+          const rows = entries.map((e) => renderEntryByType(e, cat)).join("");
+          return `
+          <div class="mini-board">
+            <div class="mini-board-title">${cat.label}</div>
+            ${rows || '<p class="stat-meta">No data available.</p>'}
+          </div>
+        `;
+        })
+        .join("")}
+    </div>
+  `,
+  ).join("");
 }
 
 document.addEventListener("DOMContentLoaded", init);

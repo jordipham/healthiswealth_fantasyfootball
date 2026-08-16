@@ -3,38 +3,29 @@
 /*
   js/draft-day.js
 
-  Fetches data/derived/draft_day_profiler.json and manager_profiles.json
-  (the latter only for status, since draft_day_profiler.json doesn't
-  carry status itself).
+  Fetches data/derived/draft_day_profiler.json and manager_profiles.json.
 
-  RARITY THRESHOLDS - set from the real distribution of value_score
-  across all picks in this file (135 samples: min 15.4, median 2745.6,
-  max 5679.36). Not arbitrary - chosen to give a reasonable spread
-  across all four tiers rather than one tier dominating.
+  ERA SPLIT: each manager's card shows a Snake/Auction toggle IF they
+  have picks in both eras. If they only have one era (real cases in
+  this league: Jordi Pham is auction-only), NO toggle renders - just
+  that single era's content under a static label.
+
+  RARITY: both eras use the SAME four tier names (Legendary/Rare/
+  Common/Junk) but computed from DIFFERENT underlying metrics -
+  value_score for snake, points_per_dollar for auction. Thresholds
+  are read directly from the JSON (computed dynamically in Python
+  each run), never hardcoded here - this is a deliberate fix for a
+  real bug we hit before, where hardcoded JS thresholds went stale
+  after the QB exclusion changed the snake distribution.
 */
 
 const DRAFT_DATA_PATH = "data/derived/draft_day_profiler.json";
 const PROFILES_DATA_PATH = "data/derived/manager_profiles.json";
 const PHOTO_PATH = (canonicalId) => `images/draft_day/${canonicalId}.jpg`;
 
-/*
-  RARITY THRESHOLDS - re-calibrated after QBs were excluded from this
-  pool. The OLD thresholds (500/2500/4000) were set from a sample that
-  included QBs, which inflate value_score structurally - once QBs were
-  removed, 77% of all remaining picks fell into "Common" and
-  "Legendary" nearly vanished (1 out of 939 picks). These new
-  thresholds are set from the REAL non-QB distribution (939 picks):
-  25th pct ~629, median ~1074, 75th pct ~1620, 90th pct ~2056.
-*/
-const RARITY_THRESHOLDS = { junk: 400, common: 1000, rare: 1800 };
-
-function getRarity(valueScore) {
-  if (valueScore === null || valueScore === undefined) return "common";
-  if (valueScore < RARITY_THRESHOLDS.junk) return "junk";
-  if (valueScore < RARITY_THRESHOLDS.common) return "common";
-  if (valueScore < RARITY_THRESHOLDS.rare) return "rare";
-  return "legendary";
-}
+let draftData = null;
+let managerProfiles = null;
+let rarityThresholds = null;
 
 const RARITY_TAG = {
   legendary: "★ LEGENDARY",
@@ -43,8 +34,14 @@ const RARITY_TAG = {
   junk: "✕ JUNK",
 };
 
-let draftData = null;
-let managerProfiles = null;
+function getRarity(value, era) {
+  const t = rarityThresholds[era];
+  if (!t || value === null || value === undefined) return "common";
+  if (value < t.junk) return "junk";
+  if (value < t.common) return "common";
+  if (value < t.rare) return "rare";
+  return "legendary";
+}
 
 function renderAvatar(canonicalId, sizeClass) {
   return `
@@ -74,6 +71,7 @@ async function init() {
 
   draftData = await draftRes.json();
   managerProfiles = await profilesRes.json();
+  rarityThresholds = draftData.notes.rarity_thresholds;
 
   renderGrid();
   renderFaq();
@@ -84,7 +82,7 @@ function renderGrid() {
 
   Object.entries(managerProfiles).forEach(([canonicalId, m]) => {
     const draftProfile = draftData.manager_profiles[canonicalId];
-    if (!draftProfile) return; // shouldn't happen, but don't crash if a manager has zero picks recorded
+    if (!draftProfile) return;
 
     const card = document.createElement("div");
     card.className = "card" + (m.status === "retired" ? " retired" : "");
@@ -105,132 +103,180 @@ function renderGrid() {
   });
 }
 
-function buildItemCard(pick) {
-  const rarity = getRarity(pick.value_score);
+/* ============ ITEM CARD RENDERERS ============ */
+
+function buildItemCard(pick, era) {
+  const rarity = getRarity(
+    era === "snake" ? pick.value_score : pick.points_per_dollar,
+    era,
+  );
   const movedNote = pick.was_kept_by_drafter
     ? ""
     : `<div class="item-moved">MOVED TO: ${(pick.ended_with || []).join(" & ") || "UNKNOWN"}</div>`;
+
+  const priceLine =
+    era === "snake"
+      ? `Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}`
+      : `$${pick.bid_amount} bid &middot; ${pick.year}`;
 
   return `
     <div class="item ${rarity}">
       <div class="rarity-tag">${RARITY_TAG[rarity]}</div>
       <div class="item-name">${pick.player_name}</div>
-      <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
+      <div class="item-meta">${priceLine}</div>
       <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
       ${movedNote}
     </div>
   `;
 }
 
-/*
-  Stars get their own renderer too, same reasoning as QB cards: the
-  rarity system is based on value_score, which can NEVER reward a
-  round-1 pick fairly - value_score = total_points x round_num, so
-  for round_num=1 that's just total_points with no multiplier at all.
-  A genuinely dominant round-1 season (e.g. 370+ points) can easily
-  fall into "Junk" territory, since the thresholds are calibrated
-  against the whole round 1-17 pool where multipliers do the heavy
-  lifting. Showing a rarity tag here would directly contradict the
-  "Star" label, so this section is deliberately about raw production,
-  not value-relative-to-slot.
-*/
-function buildStarItemCard(pick) {
+function buildStarItemCard(pick, era) {
   const movedNote = pick.was_kept_by_drafter
     ? ""
     : `<div class="item-moved">MOVED TO: ${(pick.ended_with || []).join(" & ") || "UNKNOWN"}</div>`;
+  const priceLine =
+    era === "snake"
+      ? `Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}`
+      : `$${pick.bid_amount} bid &middot; ${pick.year}`;
+  const tag = era === "snake" ? "⭐ EARLY-ROUND HIT" : "⭐ BIG-MONEY HIT";
 
   return `
     <div class="item star-item">
-      <div class="rarity-tag">⭐ EARLY-ROUND HIT</div>
+      <div class="rarity-tag">${tag}</div>
       <div class="item-name">${pick.player_name}</div>
-      <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
+      <div class="item-meta">${priceLine}</div>
       <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
       ${movedNote}
     </div>
   `;
 }
 
-/*
-  QB cards get their own renderer too, deliberately WITHOUT a rarity
-  tier color/tag - QBs are excluded from the Legendary/Rare/Common/
-  Junk system entirely (see notes.qb_exclusion_note in the JSON), so
-  showing a rarity badge here would contradict that framing.
-*/
 function buildQbItemCard(pick) {
   const movedNote = pick.was_kept_by_drafter
     ? ""
     : `<div class="item-moved">MOVED TO: ${(pick.ended_with || []).join(" & ") || "UNKNOWN"}</div>`;
+  const priceLine =
+    pick.draft_type === "snake"
+      ? `Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}`
+      : `$${pick.bid_amount} bid &middot; ${pick.year}`;
 
   return `
     <div class="item qb-item">
       <div class="rarity-tag">⚡ QB SEASON</div>
       <div class="item-name">${pick.player_name}</div>
-      <div class="item-meta">Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}</div>
+      <div class="item-meta">${priceLine}</div>
       <div class="item-points">${pick.total_points.toFixed(2)} PTS</div>
       ${movedNote}
     </div>
   `;
 }
 
-function showInventory(canonicalId, managerMeta, draftProfile) {
-  document.getElementById("inv-name").textContent =
-    `${managerMeta.owner_name.toUpperCase()} — DRAFT LOG`;
+/* ============ ERA SECTION RENDERING ============ */
 
-  // retention_rate = picks_kept / (picks with a KNOWN outcome), NOT
-  // picks_kept / total_picks. Picks with no recoverable landing spot
-  // (dropped by everyone, untraceable) are excluded from both the
-  // numerator and denominator - so the displayed fraction must use
-  // that same reduced denominator, or the shown numbers won't match
-  // the percentage next to them.
-  const knownOutcomePicks =
-    draftProfile.total_picks - draftProfile.picks_with_incomplete_data;
-  document.getElementById("inv-retention").textContent =
-    `RETENTION RATE: ${(draftProfile.retention_rate * 100).toFixed(1)}% (${draftProfile.picks_kept}/${knownOutcomePicks} PICKS KEPT)`;
-  document.getElementById("inv-incomplete").textContent =
-    draftProfile.picks_with_incomplete_data > 0
-      ? `${draftProfile.picks_with_incomplete_data} PICKS HAVE NO RECOVERABLE OUTCOME (DROPPED & NEVER RECLAIMED BY ANYONE) — SEE FAQ`
-      : "";
-
+function renderEraSection(eraKey, eraData) {
   const sections = [
     {
-      id: "best-value-list",
-      data: draftProfile.best_value_picks,
+      id: `${eraKey}-best-value-list`,
+      data: eraData.best_value_picks,
       empty: "No complete-data picks available.",
-      renderer: buildItemCard,
+      renderer: (p) => buildItemCard(p, eraKey),
     },
     {
-      id: "stars-list",
-      data: draftProfile.stars,
-      empty: "No early-round hits found (round 1-4).",
-      renderer: buildStarItemCard,
+      id: `${eraKey}-stars-list`,
+      data: eraData.stars,
+      empty:
+        eraKey === "snake"
+          ? "No early-round hits found (round 1-4)."
+          : "No expensive-bid hits found.",
+      renderer: (p) => buildStarItemCard(p, eraKey),
     },
     {
-      id: "best-steals-list",
-      data: draftProfile.best_steals,
-      empty: "No late-round steals found (round 8+).",
-      renderer: buildItemCard,
+      id: `${eraKey}-best-steals-list`,
+      data: eraData.best_steals,
+      empty:
+        eraKey === "snake"
+          ? "No late-round steals found (round 8+)."
+          : "No cheap-bid steals found.",
+      renderer: (p) => buildItemCard(p, eraKey),
     },
     {
-      id: "biggest-busts-list",
-      data: draftProfile.biggest_busts,
-      empty: "No early-round busts found (round 1-4).",
-      renderer: buildItemCard,
-    },
-    {
-      id: "captain-list",
-      data: draftProfile.captain_at_the_helm,
-      empty: "No QB picks with a known outcome found.",
-      renderer: buildQbItemCard,
+      id: `${eraKey}-biggest-busts-list`,
+      data: eraData.biggest_busts,
+      empty:
+        eraKey === "snake"
+          ? "No early-round busts found (round 1-4)."
+          : "No expensive-bid busts found.",
+      renderer: (p) => buildItemCard(p, eraKey),
     },
   ];
 
   sections.forEach(({ id, data, empty, renderer }) => {
     const el = document.getElementById(id);
+    if (!el) return;
     el.innerHTML =
       data && data.length
         ? data.map(renderer).join("")
         : `<p class="item-meta">${empty}</p>`;
   });
+}
+
+function showInventory(canonicalId, managerMeta, draftProfile) {
+  document.getElementById("inv-name").textContent =
+    `${managerMeta.owner_name.toUpperCase()} — DRAFT LOG`;
+  document.getElementById("inv-retention").textContent =
+    `RETENTION RATE: ${(draftProfile.retention_rate * 100).toFixed(1)}% (${draftProfile.picks_kept}/${draftProfile.total_picks - draftProfile.picks_with_incomplete_data} PICKS KEPT)`;
+  document.getElementById("inv-incomplete").textContent =
+    draftProfile.picks_with_incomplete_data > 0
+      ? `${draftProfile.picks_with_incomplete_data} PICKS HAVE NO RECOVERABLE OUTCOME (DROPPED & NEVER RECLAIMED BY ANYONE) — SEE FAQ`
+      : "";
+
+  // ===== ERA TOGGLE / FALLBACK LOGIC =====
+  const toggleWrap = document.getElementById("era-toggle-wrap");
+  const snakeBlock = document.getElementById("era-block-snake");
+  const auctionBlock = document.getElementById("era-block-auction");
+
+  const hasBoth = draftProfile.has_snake_era && draftProfile.has_auction_era;
+
+  if (hasBoth) {
+    toggleWrap.style.display = "flex";
+    toggleWrap.innerHTML = `
+      <div class="era-tab" id="era-tab-snake" onclick="switchEra('snake')">SNAKE DRAFT</div>
+      <div class="era-tab" id="era-tab-auction" onclick="switchEra('auction')">AUCTION DRAFT</div>
+    `;
+    renderEraSection("snake", draftProfile.eras.snake);
+    renderEraSection("auction", draftProfile.eras.auction);
+    // Default to most recent era with data
+    switchEra("auction");
+  } else if (draftProfile.has_snake_era) {
+    toggleWrap.style.display = "none";
+    toggleWrap.innerHTML = "";
+    renderEraSection("snake", draftProfile.eras.snake);
+    snakeBlock.style.display = "block";
+    auctionBlock.style.display = "none";
+    document.getElementById("era-static-label").textContent = "SNAKE DRAFT ERA";
+    document.getElementById("era-static-label").style.display = "block";
+  } else if (draftProfile.has_auction_era) {
+    toggleWrap.style.display = "none";
+    toggleWrap.innerHTML = "";
+    renderEraSection("auction", draftProfile.eras.auction);
+    snakeBlock.style.display = "none";
+    auctionBlock.style.display = "block";
+    document.getElementById("era-static-label").textContent =
+      "AUCTION DRAFT ERA";
+    document.getElementById("era-static-label").style.display = "block";
+  } else {
+    toggleWrap.style.display = "none";
+    snakeBlock.style.display = "none";
+    auctionBlock.style.display = "none";
+    document.getElementById("era-static-label").style.display = "none";
+  }
+
+  // Captain at the Helm + Signature Picks - unified, unaffected by era toggle
+  const captainList = document.getElementById("captain-list");
+  captainList.innerHTML =
+    draftProfile.captain_at_the_helm && draftProfile.captain_at_the_helm.length
+      ? draftProfile.captain_at_the_helm.map(buildQbItemCard).join("")
+      : `<p class="item-meta">No QB picks with a known outcome found.</p>`;
 
   const sigList = document.getElementById("signature-picks-list");
   if (draftProfile.signature_picks && draftProfile.signature_picks.length) {
@@ -257,43 +303,52 @@ function showInventory(canonicalId, managerMeta, draftProfile) {
     .scrollIntoView({ behavior: "smooth" });
 }
 
+function switchEra(era) {
+  document.getElementById("era-block-snake").style.display =
+    era === "snake" ? "block" : "none";
+  document.getElementById("era-block-auction").style.display =
+    era === "auction" ? "block" : "none";
+  document
+    .getElementById("era-tab-snake")
+    ?.classList.toggle("active", era === "snake");
+  document
+    .getElementById("era-tab-auction")
+    ?.classList.toggle("active", era === "auction");
+}
+
 /* ============ FAQ ============ */
 const FAQ_ITEMS = [
   {
-    q: 'What does "value score" actually mean?',
-    a: "value_score = total_points × round_num. This is a deliberate simplification, not an official stat - it rewards a late-round pick that produced real points more than the identical output from an early pick. A round-14 pick scoring 150 points ranks higher than a round-2 pick scoring the same 150, since finding that production that late is the more impressive feat.",
+    q: 'What does "value score" (snake) mean, and how is auction different?',
+    a: "SNAKE ERA: value_score = total_points x round_num - rewards a late-round pick that produced real points more than the identical output from an early pick. AUCTION ERA: instead of rounds, auctions use real dollar bids, so value is measured as points-per-dollar - a $1 pick that scored 150 points is far better value than a $50 pick that scored the same 150.",
   },
   {
-    q: "How are Best Steals and Biggest Busts different from just sorting by value score?",
-    a: 'They\'re deliberately stricter, separate categories rather than opposite ends of one blended list. BEST STEALS = highest total_points among round 8+ picks only. BIGGEST BUSTS = lowest total_points among round 1-4 picks only. This isolates "found a gem late" and "reached badly early" as distinct stories, instead of mixing in irrelevant late-round dart throws that were never expected to produce anything.',
+    q: "How are Best Steals, Stars, and Biggest Busts different from just sorting by value?",
+    a: 'All three are deliberately stricter, separate categories. SNAKE: Steals = highest points among round 8+ picks. Stars = highest points among round 1-4 picks. Busts = lowest points among round 1-4 picks. AUCTION: Steals = highest points among cheap bids. Stars = highest points among expensive bids. Busts = lowest points among expensive bids. "Cheap" and "expensive" are computed dynamically each run from the real bid distribution (25th/75th percentile), not fixed dollar amounts.',
   },
   {
-    q: "What's the difference between Stars and Biggest Busts?",
-    a: "Same pool, opposite ends: both draw from round 1-4 non-QB picks only, since that's \"early draft capital.\" STARS = highest total_points in that pool (the pick lived up to, or exceeded, its early slot). BIGGEST BUSTS = lowest total_points in that same pool. Together they show the full range of outcomes for a manager's early-round decisions, good and bad.",
+    q: "Why don't QBs show a rarity tag or count toward Best Value/Steals/Busts?",
+    a: "QBs are excluded from BOTH eras' value systems. In snake drafts, QBs are typically drafted late but score heavily due to fantasy point weighting, which skews value_score. In auction drafts, QBs often go for a wide range of prices unrelated to points scored. Either way, QBs get their own \"Captain at the Helm\" section instead, ranked by raw total_points - unchanged across both eras, since raw points aren't biased by round or price.",
   },
   {
-    q: "Why don't Stars show a rarity tag (Legendary/Rare/Common/Junk)?",
-    a: 'Because value_score = total_points x round_num, a round-1 pick gets NO multiplier at all - their value_score is just their raw points. Since the rarity tiers are calibrated against the whole round 1-17 pool (where multipliers do most of the work), even a dominant round-1 season can fall into "Junk" territory by this formula, despite being one of the best performances that manager had. That\'s a real contradiction, not a display bug - so Stars gets its own badge instead of a rarity color that would actively mislead.',
-  },
-  {
-    q: "What counts as a Signature Pick?",
-    a: 'A player the same manager drafted 2 or more separate times across different years - a genuine re-draft after previously letting them go, not a keeper renewal. Matched by the player\'s unique ID, not their name, since ESPN\'s own data has real formatting inconsistencies across years (e.g. "DJ Chark" vs "DJ Chark Jr.") that would cause false negatives if matched by name alone.',
+    q: "What determines the Legendary/Rare/Common/Junk colors?",
+    a: "Both eras use the same four tier names, but computed from different underlying numbers - value_score for snake picks, points_per_dollar for auction picks - and the actual dollar/point cutoffs are recalculated fresh every time this data is regenerated, based on the real distribution that season. They are never hardcoded, so the tiers stay accurate even as more seasons get added.",
   },
   {
     q: "What does Retention Rate measure, exactly?",
-    a: 'The percentage of a manager\'s draft picks that were still on THEIR OWN roster at the end of that same season. It measures "still rostered at season\'s end," not "never touched all year" - a player drafted, dropped in week 4, then re-added by the same manager in week 10 still counts as kept. It\'s a proxy for draft-day conviction and roster patience, not a perfect week-by-week loyalty tracker.',
+    a: 'The percentage of a manager\'s draft picks that were still on THEIR OWN roster at the end of that same season, out of picks with a KNOWN outcome. It measures "still rostered at season\'s end," not "never touched all year."',
   },
   {
     q: "Why do some picks have no points or outcome shown?",
-    a: "Some players were drafted, dropped at some point in the season, and never picked up by anyone else in the league before the season ended. Since this data only captures a snapshot of each team's FINAL roster, a player who vanished from every team's roster has no recoverable point total - not a bug, just an honest gap. Real examples confirmed in this league's data: Le'Veon Bell (2018, held out the season), Michael Thomas (2020, injuries), Nick Chubb (2023, season-ending injury).",
+    a: "Some players were drafted, dropped, and never picked up by anyone else in the league before the season ended. Since this data only captures a snapshot of each team's FINAL roster, a player who vanished from every team's roster has no recoverable point total - not a bug, just an honest gap. Real examples: Le'Veon Bell (2018, held out the season), Michael Thomas (2020, injuries), Nick Chubb (2023, season-ending injury).",
   },
   {
     q: '"Ended With" shows a different manager than who drafted the player - what happened?',
-    a: "That player was traded or claimed off waivers by someone else at some point during the season. The points shown are the player's FULL SEASON total regardless of who had them week-to-week - so this isn't necessarily \"credit\" to whoever ended with them, just an honest record of where they landed by season's end.",
+    a: "That player was traded or claimed off waivers by someone else at some point during the season. The points shown are the player's FULL SEASON total regardless of who had them week-to-week.",
   },
   {
-    q: "Why don't QBs show up in Best Value, Best Steals, or Biggest Busts?",
-    a: 'QBs are deliberately excluded from those three categories. QBs are typically drafted late (a common "wait on QB" strategy) but score heavily due to how fantasy points are weighted - so value_score\'s round-lateness bonus structurally favored QBs regardless of actual skill in identifying them. Nearly every "Legendary" pick was a QB before this fix, which wasn\'t a meaningful signal. QBs get their own "Captain at the Helm" section instead, ranked purely by total_points - a fair, apples-to-apples comparison between QB seasons without the round-based bias.',
+    q: "Why do some managers only have one era section?",
+    a: "This league drafted via snake format through 2023, then switched to auction starting 2024. Anyone who joined the league in 2024 or later has only ever drafted in the auction era, and anyone who left before 2024 only ever drafted in the snake era - so their card shows just that one era, no toggle needed.",
   },
 ];
 

@@ -171,6 +171,33 @@
 }
 .faq-answer.open { display: block; }
 
+/* ============ ERA TOGGLE ============ */
+.era-toggle-wrap {
+  display: none;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.era-tab {
+  font-size: 13px;
+  padding: 12px 20px;
+  background: var(--bg-panel);
+  border: 3px solid var(--border-dim);
+  color: var(--text-dim);
+  cursor: pointer;
+}
+.era-tab:hover { border-color: var(--gold); }
+.era-tab.active { border-color: var(--green); color: var(--green); }
+
+.era-static-label {
+  text-align: center;
+  font-size: 13px;
+  color: var(--gold);
+  margin: 20px 0 10px;
+  border-bottom: 1px dashed #333;
+  padding-bottom: 10px;
+}
+
 /* ============ MOBILE ============ */
 @media (max-width: 600px) {
   .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }

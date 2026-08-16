@@ -20,7 +20,7 @@
 <site-nav current="draft"></site-nav>
 
 <div class="title-bar" style="border: none; padding-top: 24px;">
-  <h1 style="font-size: 14px;">DRAFT DAY RECAPS</h1>
+  <h1 style="font-size: 19px;">DRAFT DAY RECAPS</h1>
   <div class="subtitle">SELECT A MANAGER TO OPEN THEIR INVENTORY</div>
 </div>
 
@@ -30,22 +30,22 @@
     <div class="legend-grid">
       <div class="legend-item">
         <div class="legend-swatch legendary"></div>
-        <div class="legend-desc"><b>Legendary</b> — elite value score (1,800+). A very late pick that massively outproduced its draft slot.</div>
+        <div class="legend-desc"><b>Legendary</b> — top tier value. Snake: late pick, huge output. Auction: massive points per dollar.</div>
       </div>
       <div class="legend-item">
         <div class="legend-swatch rare"></div>
-        <div class="legend-desc"><b>Rare</b> — strong value score (1,000–1,800). Solid production relative to where they were drafted.</div>
+        <div class="legend-desc"><b>Rare</b> — strong value. Solid production relative to draft cost.</div>
       </div>
       <div class="legend-item">
         <div class="legend-swatch common"></div>
-        <div class="legend-desc"><b>Common</b> — moderate value score (400–1,000). Roughly expected output for the slot.</div>
+        <div class="legend-desc"><b>Common</b> — moderate value. Roughly expected output for the cost.</div>
       </div>
       <div class="legend-item">
         <div class="legend-swatch junk"></div>
-        <div class="legend-desc"><b>Junk</b> — low value score (under 400). Usually an early pick that underproduced badly.</div>
+        <div class="legend-desc"><b>Junk</b> — low value. Underproduced relative to draft cost.</div>
       </div>
       <div class="legend-item">
-        <div class="legend-desc" style="grid-column: 1 / -1;"><b>Note:</b> QBs and Stars are excluded from the four rarity tiers above and get their own sections instead. QBs are typically drafted late but score heavily, and round-1 picks can't benefit from value score's round multiplier at all - both would be misleadingly under-colored by this system. See FAQ below.</div>
+        <div class="legend-desc" style="grid-column: 1 / -1;"><b>Note:</b> QBs and Stars/Busts are excluded from the rarity tiers above and get their own sections. Snake-era and auction-era tiers are computed separately (round-based vs. dollar-based) and recalculated dynamically each update - never hardcoded. See FAQ below.</div>
       </div>
     </div>
   </div>
@@ -58,24 +58,45 @@
   <div class="inv-sub" id="inv-retention">—</div>
   <div class="inv-incomplete-note" id="inv-incomplete"></div>
 
-  <div class="inv-section">
-    <div class="inv-section-title">★ BEST VALUE PICKS</div>
-    <div class="inventory" id="best-value-list"></div>
+  <div class="era-toggle-wrap" id="era-toggle-wrap"></div>
+  <div class="era-static-label" id="era-static-label" style="display:none;"></div>
+
+  <div id="era-block-snake">
+    <div class="inv-section">
+      <div class="inv-section-title">★ BEST VALUE PICKS</div>
+      <div class="inventory" id="snake-best-value-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">⭐ STARS (ROUND 1-4 HITS)</div>
+      <div class="inventory" id="snake-stars-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">◆ BEST STEALS (ROUND 8+)</div>
+      <div class="inventory" id="snake-best-steals-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">✕ BIGGEST BUSTS (ROUND 1-4)</div>
+      <div class="inventory" id="snake-biggest-busts-list"></div>
+    </div>
   </div>
 
-  <div class="inv-section">
-    <div class="inv-section-title">◆ BEST STEALS (ROUND 8+)</div>
-    <div class="inventory" id="best-steals-list"></div>
-  </div>
-
-  <div class="inv-section">
-    <div class="inv-section-title">⭐ STARS (ROUND 1-4 HITS)</div>
-    <div class="inventory" id="stars-list"></div>
-  </div>
-
-  <div class="inv-section">
-    <div class="inv-section-title">✕ BIGGEST BUSTS (ROUND 1-4)</div>
-    <div class="inventory" id="biggest-busts-list"></div>
+  <div id="era-block-auction">
+    <div class="inv-section">
+      <div class="inv-section-title">★ BEST VALUE PICKS ($/PT)</div>
+      <div class="inventory" id="auction-best-value-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">⭐ STARS (BIG-MONEY HITS)</div>
+      <div class="inventory" id="auction-stars-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">◆ BEST STEALS (CHEAP BIDS)</div>
+      <div class="inventory" id="auction-best-steals-list"></div>
+    </div>
+    <div class="inv-section">
+      <div class="inv-section-title">✕ BIGGEST BUSTS (EXPENSIVE)</div>
+      <div class="inventory" id="auction-biggest-busts-list"></div>
+    </div>
   </div>
 
   <div class="inv-section">

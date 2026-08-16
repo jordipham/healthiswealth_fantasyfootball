@@ -147,3 +147,14 @@
   .stat-value, .draft-manager-stat { font-size: 15px; }
   .rivalry-vs { font-size: 13px; }
 }
+
+/* ============ DRAFT RECORDS ERA GROUPING ============ */
+.era-group { margin-bottom: 32px; }
+.era-group-title {
+  font-size: 14px;
+  color: var(--pink);
+  text-align: center;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #333;
+}

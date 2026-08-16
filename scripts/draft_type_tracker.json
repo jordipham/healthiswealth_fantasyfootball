@@ -1,0 +1,60 @@
+{
+  "years": {
+    "2018": {
+      "draft_type": "snake"
+    },
+    "2019": {
+      "draft_type": "snake"
+    },
+    "2020": {
+      "draft_type": "snake"
+    },
+    "2021": {
+      "draft_type": "snake"
+    },
+    "2022": {
+      "draft_type": "snake"
+    },
+    "2023": {
+      "draft_type": "snake"
+    },
+    "2024": {
+      "draft_type": "auction",
+      "manager_budgets": {
+        "yannis_bi": 200,
+        "jordi_pham": 200,
+        "ameya_gadkari": 200,
+        "justin_lee": 200,
+        "eric_tao": 200,
+        "ancheng_da": 200,
+        "jonathan_bi": 200,
+        "nicholas_yang": 200,
+        "jared_tao": 200,
+        "karthik_pittala": 200,
+        "parth_shah": 200,
+        "andy_chen": 200,
+        "derek_wen": 200,
+        "saurab_nooguri": 200
+      }
+    },
+    "2025": {
+      "draft_type": "auction",
+      "manager_budgets": {
+        "yannis_bi": 200,
+        "robert_hong": 200,
+        "ameya_gadkari": 200,
+        "justin_lee": 200,
+        "eric_tao": 200,
+        "ancheng_da": 200,
+        "jonathan_bi": 200,
+        "nicholas_yang": 200,
+        "jared_tao": 200,
+        "karthik_pittala": 200,
+        "parth_shah": 200,
+        "jordi_pham": 200,
+        "derek_wen": 200,
+        "saurab_nooguri": 200
+      }
+    }
+  }
+}
