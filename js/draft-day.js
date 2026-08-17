@@ -138,7 +138,7 @@ function buildStarItemCard(pick, era) {
     era === "snake"
       ? `Round ${pick.round_num}, Pick ${pick.round_pick} &middot; ${pick.year}`
       : `$${pick.bid_amount} bid &middot; ${pick.year}`;
-  const tag = era === "snake" ? "⭐ EARLY-ROUND HIT" : "⭐ BIG-MONEY HIT";
+  const tag = era === "snake" ? "⭐ EARLY-ROUND TARGET" : "⭐ BIG-MONEY SPENT";
 
   return `
     <div class="item star-item">

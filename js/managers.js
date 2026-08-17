@@ -105,7 +105,7 @@ function showProfile(canonicalId, manager) {
     ringsEl.classList.remove("none");
   } else {
     ringsEl.textContent =
-      "CHAMPIONSHIP COUNT: (0) - one can only dream of such glory";
+      "CHAMPIONSHIP COUNT: one can only dream of such glory";
     ringsEl.classList.add("none");
   }
 
@@ -123,6 +123,7 @@ function showProfile(canonicalId, manager) {
   document.getElementById("p-years").textContent =
     `${c.years_played[0]}–${c.years_played[c.years_played.length - 1]}`;
   document.getElementById("p-lastplace").textContent = c.last_place_finishes;
+
   const finish = c.best_finish;
   const ordinal =
     finish === 1
@@ -133,6 +134,8 @@ function showProfile(canonicalId, manager) {
           ? "3RD"
           : finish + "TH";
   document.getElementById("p-bestfinish").textContent = ordinal;
+  document.getElementById("p-avgplacement").textContent = c.avg_final_placement;
+
   document.getElementById("p-drought").textContent =
     c.championship_drought === "never won"
       ? "NEVER WON"

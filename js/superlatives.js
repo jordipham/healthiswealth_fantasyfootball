@@ -201,6 +201,18 @@ const CAREER_CATEGORIES = [
     format: (v) => (v * 100).toFixed(1) + "%",
   },
   {
+    key: "best_avg_final_placement",
+    label: "🎯 BEST AVG FINAL PLACEMENT",
+    valueField: "avg_final_placement",
+    format: (v) => v.toFixed(2),
+  },
+  {
+    key: "worst_avg_final_placement",
+    label: "🎯 WORST AVG FINAL PLACEMENT",
+    valueField: "avg_final_placement",
+    format: (v) => v.toFixed(2),
+  },
+  {
     key: "most_trades_career",
     label: "🔄 MOST CAREER TRADES",
     valueField: "trades",

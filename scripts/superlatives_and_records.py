@@ -240,10 +240,11 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
                 "points_for": 0.0,
                 "points_against": 0.0,
                 "last_place_finishes": 0,
+                "best_finish": None,
+                "placement_sum": 0,
                 "years_played": [],
                 "co_ownership_history": [],  # narrative only, not stat-affecting
                 "last_championship_year": None,
-                "best_finish": None,
             }
         return careers[canonical_id]
 
@@ -271,6 +272,12 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
                 c["points_against"] += team.get("points_against", 0) or 0
                 c["years_played"].append(yr)
 
+                finish = team.get("final_standing")
+                if finish is not None:
+                    if c["best_finish"] is None or finish < c["best_finish"]:
+                        c["best_finish"] = finish
+                    c["placement_sum"] += finish
+
                 if team.get("final_standing") == 1:
                     c["championships"] += 1
                     if c["last_championship_year"] is None or yr > c["last_championship_year"]:
@@ -278,11 +285,6 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
 
                 if team.get("final_standing") == max_standing and max_standing > 0:
                     c["last_place_finishes"] += 1
-
-                finish = team.get("final_standing")
-                if finish is not None:
-                    if c["best_finish"] is None or finish < c["best_finish"]:
-                        c["best_finish"] = finish
 
             # Narrative-only co-ownership tracking uses the FULL owners list,
             # so the training relationship is preserved on both people's
@@ -308,6 +310,8 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
         c["points_against"] = round(c["points_against"], 2)
         c["avg_points_per_match"] = round(c["points_for"] / games, 2) if games else None
         c["years_played"] = sorted(set(c["years_played"]))
+        c["avg_final_placement"] = round(c["placement_sum"] / len(c["years_played"]), 2) if c["years_played"] else None
+        del c["placement_sum"]  # internal accumulator only, not meaningful in the output
         c["co_ownership_history"] = sorted(c["co_ownership_history"], key=lambda x: x["year"])
 
         if c["championships"] == 0:
@@ -327,6 +331,11 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
     worst_win_pct = get_leaders(careers, "win_pct", reverse=False)
     most_trades_career = get_leaders(careers, "trades", reverse=True)
     most_last_place = get_leaders(careers, "last_place_finishes", reverse=True)
+    # NOTE: for placement, LOWER is better (1st place beats 10th place) -
+    # so "best" uses reverse=False and "worst" uses reverse=True, the
+    # opposite convention from every other "most/best" category above.
+    best_avg_placement = get_leaders(careers, "avg_final_placement", reverse=False)
+    worst_avg_placement = get_leaders(careers, "avg_final_placement", reverse=True)
 
     return {
         "all_managers": careers,
@@ -334,6 +343,8 @@ def compute_career_records(history, id_to_canonical, canonical_owners, exclusion
             "most_championships": most_championships,
             "best_career_win_pct": best_win_pct,
             "worst_career_win_pct": worst_win_pct,
+            "best_avg_final_placement": best_avg_placement,
+            "worst_avg_final_placement": worst_avg_placement,
             "most_trades_career": most_trades_career,
             "most_last_place_finishes": most_last_place,
         },
