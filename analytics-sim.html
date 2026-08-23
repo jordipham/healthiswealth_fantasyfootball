@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Championship Simulation — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/analytics-shared.css">
+<link rel="stylesheet" href="css/analytics-sim.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="analytics-sim"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">CHAMPIONSHIP SIMULATION</h1>
+  <div class="subtitle">HOW CLOSE WAS EACH TITLE RUN, REALLY?</div>
+</div>
+
+<!-- Framing shown BEFORE any numbers, on purpose - read this FAQ pattern
+     for full detail below, but the short version goes here first. -->
+<div class="intro-framing">
+  <div class="panel">
+    <b>Before you look at your number:</b> this page does not question whether anyone's championship
+    was real or earned. It measures how CLOSE the actual playoff games were, by replaying each
+    champion's real bracket 10,000 times using their own real scoring ability. A low percentage
+    means the games were genuinely tight - close enough that normal variance could plausibly have
+    flipped a result - not that the title was somehow fake. Full methodology below.
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">CHAMPIONSHIP WIN PROBABILITY (10,000 SIMULATED REPLAYS EACH)</div>
+    <div class="chart-container" style="height: 400px;">
+      <canvas id="sim-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="champion-grid" id="champion-grid"></div>
+</div>
+
+<div class="methodology">
+  <div class="methodology-title">METHODOLOGY — HOW WAS THIS CALCULATED?</div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/analytics-sim.js"></script>
+</body>
+</html>

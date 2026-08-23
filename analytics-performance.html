@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance Patterns — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/analytics-shared.css">
+<link rel="stylesheet" href="css/analytics-performance.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="analytics-performance"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">PERFORMANCE PATTERNS</h1>
+  <div class="subtitle">LUCK VS. SKILL &amp; SCORING CONSISTENCY</div>
+</div>
+
+<div class="terminal-panel">
+  <div class="stat-summary-grid">
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">LUCKIEST CAREER</div>
+      <div class="stat-summary-value" id="summary-lucky">—</div>
+    </div>
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">UNLUCKIEST CAREER</div>
+      <div class="stat-summary-value" id="summary-unlucky">—</div>
+    </div>
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">MOST CONSISTENT</div>
+      <div class="stat-summary-value" id="summary-consistent">—</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="terminal-header">ACTUAL WINS VS. EXPECTED WINS (CAREER)</div>
+    <div class="chart-container">
+      <canvas id="luck-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">SCORING CONSISTENCY (CAREER)</div>
+    <div class="chart-container">
+      <canvas id="consistency-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">FULL CAREER BREAKDOWN</div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th onclick="sortTable('owner_name')">MANAGER</th>
+          <th onclick="sortTable('actual_wins')">ACTUAL W</th>
+          <th onclick="sortTable('expected_wins')">EXPECTED W</th>
+          <th onclick="sortTable('luck_differential')">LUCK +/-</th>
+          <th onclick="sortTable('score_stdev')">STDEV</th>
+          <th onclick="sortTable('coefficient_of_variation')">CV</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="methodology">
+  <div class="methodology-title">METHODOLOGY — HOW WAS THIS CALCULATED?</div>
+  <div class="methodology-note">
+    These numbers describe HOW CLOSE games and seasons were, not whether anyone's success was "real."
+    A manager with a big negative luck differential scored well but still lost close games -
+    that's not a knock on them, it's just how the schedule broke.
+  </div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/analytics-performance.js"></script>
+</body>
+</html>

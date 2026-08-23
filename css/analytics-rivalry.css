@@ -1,0 +1,51 @@
+/*
+  css/analytics-rivalry.css
+  Styles specific to Rivalry Analytics only.
+  Relies on css/style.css + css/analytics-shared.css (loaded first).
+*/
+
+.finding-box {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.finding-box .panel {
+  border-color: var(--blue);
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+.finding-box .panel b { color: var(--blue); }
+
+.significant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.significant-card {
+  background: var(--bg-panel);
+  border: 2px solid var(--gold);
+  padding: 14px 16px;
+  font-family: monospace;
+}
+.significant-matchup { font-size: 14px; color: #e8e8e8; margin-bottom: 8px; }
+.significant-record { font-size: 16px; color: var(--green); margin-bottom: 6px; }
+.significant-pvalue { font-size: 11px; color: var(--text-dim); }
+
+.filter-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--text-dim);
+  align-items: center;
+}
+.filter-row input { transform: scale(1.2); }
+
+@media (max-width: 600px) {
+  .significant-matchup { font-size: 12px; }
+  .significant-record { font-size: 13px; }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draft Accuracy — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/analytics-shared.css">
+<link rel="stylesheet" href="css/analytics-draft.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="analytics-draft"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">DRAFT ACCURACY</h1>
+  <div class="subtitle">DO PRESEASON PROJECTIONS PREDICT FINISH?</div>
+</div>
+
+<div class="terminal-panel">
+  <div class="stat-summary-grid">
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">OVERALL CORRELATION</div>
+      <div class="stat-summary-value" id="summary-overall">—</div>
+    </div>
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">TEAM-SEASONS ANALYZED</div>
+      <div class="stat-summary-value" id="summary-teamseasons">—</div>
+    </div>
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">MOST PREDICTABLE YEAR</div>
+      <div class="stat-summary-value" id="summary-best-year">—</div>
+    </div>
+    <div class="stat-summary-box">
+      <div class="stat-summary-label">LEAST PREDICTABLE YEAR</div>
+      <div class="stat-summary-value" id="summary-worst-year">—</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="terminal-header">PROJECTED POINTS VS. FINAL STANDING (ALL 94 TEAM-SEASONS)</div>
+    <div class="chart-container">
+      <canvas id="pooled-scatter"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">CORRELATION BY SEASON</div>
+    <div class="chart-container">
+      <canvas id="yearly-correlation-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header" id="year-correlation-label">SEASON BREAKDOWN</div>
+    <div class="year-strip" id="year-strip"></div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>FINISH</th>
+          <th>MANAGER</th>
+          <th>PROJECTED PTS</th>
+          <th>KNOWN / TOTAL PICKS</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div class="coverage-note">"KNOWN / TOTAL PICKS" shows how many drafted players had a recoverable projection - see FAQ.</div>
+  </div>
+</div>
+
+<div class="methodology">
+  <div class="methodology-title">METHODOLOGY — HOW WAS THIS CALCULATED?</div>
+  <div class="methodology-note">
+    A weak correlation doesn't mean draft skill doesn't matter - it means a season is shaped by many
+    things beyond draft day (trades, injuries, waiver moves, close-game variance). This page measures
+    ONE input among several, not the whole story.
+  </div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/analytics-draft.js"></script>
+</body>
+</html>

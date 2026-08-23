@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rivalry Analytics — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/analytics-shared.css">
+<link rel="stylesheet" href="css/analytics-rivalry.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="analytics-rivalry"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">RIVALRY ANALYTICS</h1>
+  <div class="subtitle">STATISTICAL SIGNIFICANCE &amp; RIVALRY VOLUME</div>
+</div>
+
+<div class="finding-box">
+  <div class="panel">
+    <b>Real finding:</b> this league's rivalry web is a COMPLETE graph - every one of the 105 possible
+    manager pairings has actually played. That's why you won't find a "most central rival" network
+    visual here - see FAQ below for why that measurement doesn't apply in a complete graph.
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">TOTAL GAMES ACROSS ALL RIVALRIES (RANKED)</div>
+    <div class="chart-container">
+      <canvas id="volume-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="terminal-header" style="max-width:900px; margin:0 auto 16px;">STATISTICALLY SIGNIFICANT RIVALRIES (<span id="significant-count">—</span>)</div>
+  <div class="significant-grid" id="significant-grid"></div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">ALL 105 RIVALRIES</div>
+    <div class="filter-row">
+      <input type="checkbox" id="significant-filter" onchange="toggleSignificantFilter()">
+      <label for="significant-filter">Show significant rivalries only</label>
+    </div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th onclick="sortTable('manager_a')">MANAGER A</th>
+          <th onclick="sortTable('manager_b')">MANAGER B</th>
+          <th onclick="sortTable('games_played')">GAMES</th>
+          <th>RECORD</th>
+          <th onclick="sortTable('p_value')">P-VALUE</th>
+          <th>SIGNIFICANT?</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="methodology">
+  <div class="methodology-title">METHODOLOGY — HOW WAS THIS CALCULATED?</div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/analytics-rivalry.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manager Archetypes — Health is Wealth</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/analytics-shared.css">
+<link rel="stylesheet" href="css/analytics-archetypes.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="title-bar">
+  <h1>HEALTH IS WEALTH</h1>
+  <div class="motto">TEARS ARE TREASURE</div>
+</div>
+
+<site-nav current="analytics-archetypes"></site-nav>
+
+<div class="title-bar" style="border: none; padding-top: 24px;">
+  <h1 style="font-size: 19px;">MANAGER ARCHETYPES</h1>
+  <div class="subtitle">PLAYSTYLE CLUSTERING</div>
+</div>
+
+<div class="caveat-box">
+  <div class="panel">
+    <b>Read this first:</b> with only 15 managers, this clustering is illustrative, not a rigorous
+    personality profile. Treat it as a fun snapshot - it can shift meaningfully as more seasons
+    and managers get added.
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="panel">
+    <div class="terminal-header">RETENTION RATE VS. TRADE FREQUENCY, BY CLUSTER</div>
+    <div class="chart-container">
+      <canvas id="archetype-scatter"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="terminal-panel">
+  <div class="cluster-grid" id="cluster-grid"></div>
+</div>
+
+<div class="methodology">
+  <div class="methodology-title">METHODOLOGY — HOW WAS THIS CALCULATED?</div>
+  <div id="faq-list"></div>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/analytics-archetypes.js"></script>
+</body>
+</html>

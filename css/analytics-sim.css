@@ -1,0 +1,63 @@
+/*
+  css/analytics-sim.css
+  Styles specific to Championship Simulation only.
+  Relies on css/style.css + css/analytics-shared.css (loaded first).
+*/
+
+/* Framing box shown BEFORE any results - deliberate, given how easily
+   this page's numbers could be misread as an attack on someone's
+   championship rather than a measure of how close the games were. */
+.intro-framing {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.intro-framing .panel {
+  border-color: var(--pink);
+  font-family: monospace;
+  font-size: 14px;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+.intro-framing .panel b {
+  color: var(--pink);
+}
+
+/* ============ CHAMPION CARDS ============ */
+.champion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.champion-card {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 16px;
+}
+.champion-year {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.champion-name {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 14px;
+  color: #e8e8e8;
+  margin: 8px 0;
+}
+.champion-prob {
+  font-family: monospace;
+  font-size: 20px;
+  color: var(--green);
+  margin-bottom: 10px;
+}
+.champion-meta {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+@media (max-width: 600px) {
+  .champion-name { font-size: 11px; }
+  .champion-prob { font-size: 16px; }
+}

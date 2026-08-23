@@ -1,0 +1,33 @@
+/*
+  css/analytics-performance.css
+  Styles specific to Performance Patterns only.
+  Relies on css/style.css + css/analytics-shared.css (loaded first).
+*/
+
+.stat-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.stat-summary-box {
+  background: var(--bg-panel);
+  border: 2px solid #333;
+  padding: 12px 14px;
+  text-align: center;
+}
+.stat-summary-label {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+}
+.stat-summary-value {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  color: var(--green);
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .stat-summary-value { font-size: 13px; }
+}
