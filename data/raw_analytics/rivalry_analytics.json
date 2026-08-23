@@ -1,0 +1,1119 @@
+{
+  "significance": [
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Yannis Bi",
+      "games_played": 11,
+      "wins_a": 5,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Robert Hong",
+      "games_played": 13,
+      "wins_a": 7,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Nicholas Yang",
+      "games_played": 15,
+      "wins_a": 8,
+      "wins_b": 7,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Eric Tao",
+      "games_played": 12,
+      "wins_a": 6,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Robert Hong",
+      "games_played": 11,
+      "wins_a": 5,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Yannis Bi",
+      "games_played": 12,
+      "wins_a": 5,
+      "wins_b": 7,
+      "p_value": 0.7744,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Jonathan Bi",
+      "games_played": 13,
+      "wins_a": 6,
+      "wins_b": 7,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Nicholas Yang",
+      "games_played": 12,
+      "wins_a": 6,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Justin Lee",
+      "games_played": 13,
+      "wins_a": 6,
+      "wins_b": 7,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Robert Hong",
+      "manager_b": "Yannis Bi",
+      "games_played": 10,
+      "wins_a": 8,
+      "wins_b": 2,
+      "p_value": 0.1094,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Jonathan Bi",
+      "games_played": 14,
+      "wins_a": 6,
+      "wins_b": 8,
+      "p_value": 0.7905,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Nicholas Yang",
+      "games_played": 11,
+      "wins_a": 3,
+      "wins_b": 8,
+      "p_value": 0.2266,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Justin Lee",
+      "games_played": 13,
+      "wins_a": 6,
+      "wins_b": 7,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Nicholas Yang",
+      "manager_b": "Yannis Bi",
+      "games_played": 12,
+      "wins_a": 6,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Robert Hong",
+      "games_played": 14,
+      "wins_a": 5,
+      "wins_b": 9,
+      "p_value": 0.424,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Eric Tao",
+      "games_played": 13,
+      "wins_a": 6,
+      "wins_b": 7,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Yannis Bi",
+      "games_played": 12,
+      "wins_a": 7,
+      "wins_b": 5,
+      "p_value": 0.7744,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Nicholas Yang",
+      "manager_b": "Robert Hong",
+      "games_played": 11,
+      "wins_a": 4,
+      "wins_b": 7,
+      "p_value": 0.5488,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Ancheng Da",
+      "games_played": 13,
+      "wins_a": 7,
+      "wins_b": 6,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Justin Lee",
+      "games_played": 16,
+      "wins_a": 9,
+      "wins_b": 7,
+      "p_value": 0.8036,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Robert Hong",
+      "games_played": 10,
+      "wins_a": 7,
+      "wins_b": 3,
+      "p_value": 0.3438,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Nicholas Yang",
+      "games_played": 11,
+      "wins_a": 2,
+      "wins_b": 9,
+      "p_value": 0.0654,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Justin Lee",
+      "games_played": 9,
+      "wins_a": 4,
+      "wins_b": 5,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Yannis Bi",
+      "games_played": 12,
+      "wins_a": 9,
+      "wins_b": 3,
+      "p_value": 0.146,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Jonathan Bi",
+      "games_played": 9,
+      "wins_a": 3,
+      "wins_b": 6,
+      "p_value": 0.5078,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Nicholas Yang",
+      "games_played": 13,
+      "wins_a": 5,
+      "wins_b": 8,
+      "p_value": 0.5811,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Yannis Bi",
+      "games_played": 13,
+      "wins_a": 5,
+      "wins_b": 8,
+      "p_value": 0.5811,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Robert Hong",
+      "games_played": 10,
+      "wins_a": 6,
+      "wins_b": 4,
+      "p_value": 0.7539,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Karthik Pittala",
+      "games_played": 11,
+      "wins_a": 8,
+      "wins_b": 3,
+      "p_value": 0.2266,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 7,
+      "wins_a": 5,
+      "wins_b": 2,
+      "p_value": 0.4531,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 4,
+      "wins_a": 3,
+      "wins_b": 1,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Karthik Pittala",
+      "manager_b": "Robert Hong",
+      "games_played": 8,
+      "wins_a": 2,
+      "wins_b": 6,
+      "p_value": 0.2891,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Karthik Pittala",
+      "games_played": 13,
+      "wins_a": 8,
+      "wins_b": 5,
+      "p_value": 0.5811,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 7,
+      "wins_a": 3,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Karthik Pittala",
+      "manager_b": "Nicholas Yang",
+      "games_played": 8,
+      "wins_a": 6,
+      "wins_b": 2,
+      "p_value": 0.2891,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 5,
+      "wins_a": 2,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Karthik Pittala",
+      "games_played": 11,
+      "wins_a": 6,
+      "wins_b": 5,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Saurab Nooguri",
+      "manager_b": "Yannis Bi",
+      "games_played": 7,
+      "wins_a": 5,
+      "wins_b": 2,
+      "p_value": 0.4531,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Robert Hong",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 4,
+      "wins_a": 1,
+      "wins_b": 3,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 5,
+      "wins_a": 3,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Karthik Pittala",
+      "manager_b": "Yannis Bi",
+      "games_played": 10,
+      "wins_a": 1,
+      "wins_b": 9,
+      "p_value": 0.0215,
+      "significant": true,
+      "note": "This win/loss split is unlikely to be random chance (p < 0.05)."
+    },
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Karthik Pittala",
+      "games_played": 11,
+      "wins_a": 2,
+      "wins_b": 9,
+      "p_value": 0.0654,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Nicholas Yang",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 5,
+      "wins_a": 3,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Karthik Pittala",
+      "games_played": 10,
+      "wins_a": 7,
+      "wins_b": 3,
+      "p_value": 0.3438,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Karthik Pittala",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 6,
+      "wins_a": 4,
+      "wins_b": 2,
+      "p_value": 0.6875,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Robert Hong",
+      "games_played": 9,
+      "wins_a": 7,
+      "wins_b": 2,
+      "p_value": 0.1797,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Justin Lee",
+      "games_played": 8,
+      "wins_a": 4,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Jared Tao",
+      "games_played": 9,
+      "wins_a": 2,
+      "wins_b": 7,
+      "p_value": 0.1797,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Jonathan Bi",
+      "games_played": 9,
+      "wins_a": 4,
+      "wins_b": 5,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Nicholas Yang",
+      "games_played": 9,
+      "wins_a": 5,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Yannis Bi",
+      "games_played": 10,
+      "wins_a": 7,
+      "wins_b": 3,
+      "p_value": 0.3438,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Jared Tao",
+      "games_played": 8,
+      "wins_a": 4,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Karthik Pittala",
+      "games_played": 9,
+      "wins_a": 8,
+      "wins_b": 1,
+      "p_value": 0.0391,
+      "significant": true,
+      "note": "This win/loss split is unlikely to be random chance (p < 0.05)."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Jared Tao",
+      "games_played": 9,
+      "wins_a": 5,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Karthik Pittala",
+      "manager_b": "Parth Shah",
+      "games_played": 8,
+      "wins_a": 3,
+      "wins_b": 5,
+      "p_value": 0.7266,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Justin Lee",
+      "games_played": 7,
+      "wins_a": 4,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Eric Tao",
+      "games_played": 5,
+      "wins_a": 3,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Parth Shah",
+      "games_played": 9,
+      "wins_a": 5,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Parth Shah",
+      "manager_b": "Robert Hong",
+      "games_played": 5,
+      "wins_a": 3,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Jonathan Bi",
+      "games_played": 5,
+      "wins_a": 3,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Parth Shah",
+      "games_played": 7,
+      "wins_a": 3,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Nicholas Yang",
+      "games_played": 8,
+      "wins_a": 4,
+      "wins_b": 4,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Parth Shah",
+      "manager_b": "Yannis Bi",
+      "games_played": 7,
+      "wins_a": 1,
+      "wins_b": 6,
+      "p_value": 0.125,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Andy Chen",
+      "games_played": 6,
+      "wins_a": 4,
+      "wins_b": 2,
+      "p_value": 0.6875,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Parth Shah",
+      "games_played": 5,
+      "wins_a": 0,
+      "wins_b": 5,
+      "p_value": 0.0625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Parth Shah",
+      "games_played": 8,
+      "wins_a": 6,
+      "wins_b": 2,
+      "p_value": 0.2891,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Andy Chen",
+      "games_played": 4,
+      "wins_a": 0,
+      "wins_b": 4,
+      "p_value": 0.125,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Robert Hong",
+      "games_played": 5,
+      "wins_a": 2,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Parth Shah",
+      "games_played": 6,
+      "wins_a": 2,
+      "wins_b": 4,
+      "p_value": 0.6875,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Justin Lee",
+      "manager_b": "Parth Shah",
+      "games_played": 6,
+      "wins_a": 3,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Yannis Bi",
+      "games_played": 7,
+      "wins_a": 2,
+      "wins_b": 5,
+      "p_value": 0.4531,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Nicholas Yang",
+      "manager_b": "Parth Shah",
+      "games_played": 8,
+      "wins_a": 5,
+      "wins_b": 3,
+      "p_value": 0.7266,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Karthik Pittala",
+      "games_played": 6,
+      "wins_a": 1,
+      "wins_b": 5,
+      "p_value": 0.2188,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Jared Tao",
+      "games_played": 4,
+      "wins_a": 0,
+      "wins_b": 4,
+      "p_value": 0.125,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Parth Shah",
+      "games_played": 6,
+      "wins_a": 3,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Derek Wen",
+      "games_played": 6,
+      "wins_a": 0,
+      "wins_b": 6,
+      "p_value": 0.0312,
+      "significant": true,
+      "note": "This win/loss split is unlikely to be random chance (p < 0.05)."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Yannis Bi",
+      "games_played": 4,
+      "wins_a": 1,
+      "wins_b": 3,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Parth Shah",
+      "games_played": 3,
+      "wins_a": 1,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 3,
+      "wins_a": 2,
+      "wins_b": 1,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Eric Tao",
+      "games_played": 3,
+      "wins_a": 1,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Nicholas Yang",
+      "games_played": 5,
+      "wins_a": 2,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Justin Lee",
+      "games_played": 4,
+      "wins_a": 1,
+      "wins_b": 3,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Jared Tao",
+      "games_played": 4,
+      "wins_a": 3,
+      "wins_b": 1,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Derek Wen",
+      "games_played": 3,
+      "wins_a": 3,
+      "wins_b": 0,
+      "p_value": 0.25,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 3,
+      "wins_a": 2,
+      "wins_b": 1,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Derek Wen",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Robert Hong",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Karthik Pittala",
+      "games_played": 3,
+      "wins_a": 1,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Jonathan Bi",
+      "games_played": 3,
+      "wins_a": 1,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Parth Shah",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 4,
+      "wins_a": 3,
+      "wins_b": 1,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 5,
+      "wins_a": 2,
+      "wins_b": 3,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Parth Shah",
+      "games_played": 3,
+      "wins_a": 2,
+      "wins_b": 1,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Yannis Bi",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Derek Wen",
+      "manager_b": "Jordi Pham",
+      "games_played": 4,
+      "wins_a": 2,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Ameya Gadkari",
+      "manager_b": "Jordi Pham",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Eric Tao",
+      "manager_b": "Jordi Pham",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Nicholas Yang",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Ancheng Da",
+      "manager_b": "Jordi Pham",
+      "games_played": 4,
+      "wins_a": 3,
+      "wins_b": 1,
+      "p_value": 0.625,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jared Tao",
+      "manager_b": "Jordi Pham",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Jonathan Bi",
+      "manager_b": "Jordi Pham",
+      "games_played": 4,
+      "wins_a": 2,
+      "wins_b": 2,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Justin Lee",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Karthik Pittala",
+      "games_played": 3,
+      "wins_a": 2,
+      "wins_b": 1,
+      "p_value": 1.0,
+      "significant": false,
+      "note": "This record, while lopsided-looking, is statistically indistinguishable from a coin flip given the sample size."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Saurab Nooguri",
+      "games_played": 2,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Andy Chen",
+      "manager_b": "Jordi Pham",
+      "games_played": 1,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    },
+    {
+      "manager_a": "Jordi Pham",
+      "manager_b": "Robert Hong",
+      "games_played": 1,
+      "p_value": null,
+      "significant": false,
+      "note": "Sample too small (fewer than 3 decisive games) - not enough data to distinguish from random chance."
+    }
+  ],
+  "network": {
+    "nodes": [
+      {
+        "manager": "Justin Lee",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 131
+      },
+      {
+        "manager": "Eric Tao",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 131
+      },
+      {
+        "manager": "Ameya Gadkari",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 130
+      },
+      {
+        "manager": "Jonathan Bi",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 130
+      },
+      {
+        "manager": "Nicholas Yang",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 130
+      },
+      {
+        "manager": "Ancheng Da",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 130
+      },
+      {
+        "manager": "Yannis Bi",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 129
+      },
+      {
+        "manager": "Karthik Pittala",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 117
+      },
+      {
+        "manager": "Robert Hong",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 113
+      },
+      {
+        "manager": "Jared Tao",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 100
+      },
+      {
+        "manager": "Parth Shah",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 85
+      },
+      {
+        "manager": "Andy Chen",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 68
+      },
+      {
+        "manager": "Saurab Nooguri",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 67
+      },
+      {
+        "manager": "Derek Wen",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 51
+      },
+      {
+        "manager": "Jordi Pham",
+        "distinct_rivals": 14,
+        "total_games_all_rivalries": 34
+      }
+    ],
+    "total_nodes": 15,
+    "total_edges": 105,
+    "is_complete_graph": true
+  },
+  "notes": {
+    "significance_method": "Two-sided binomial test (hand-computed, p=0.5 null hypothesis) on decisive games only (ties excluded). Rivalries with fewer than 3 decisive games are flagged as 'sample too small' rather than given a potentially misleading p-value.",
+    "significant_rivalries_found": 3,
+    "network_method": "This league's rivalry graph is a COMPLETE graph - all 105 of 105 possible manager pairs have played each other. This makes betweenness/degree centrality structurally meaningless (there's no 'bridging' role to measure when everyone already has a direct connection to everyone else), so those were deliberately NOT computed. The one genuinely meaningful signal for a complete weighted graph is total accumulated games across all of a manager's rivalries combined - who has the deepest cumulative head-to-head history, reflecting both tenure and matchup frequency."
+  }
+}

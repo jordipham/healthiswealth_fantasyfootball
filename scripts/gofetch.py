@@ -65,6 +65,7 @@ def roster_to_list(team):
             "pro_team": getattr(p, "proTeam", None),
             "total_points": getattr(p, "total_points", None),
             "avg_points": getattr(p, "avg_points", None),
+            "projected_total_points": getattr(p, "projected_total_points", None),
         })
     return out
 

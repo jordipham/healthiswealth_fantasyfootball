@@ -1,0 +1,805 @@
+{
+  "seasons": {
+    "2018": {
+      "spearman_correlation": 0.5952,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 1558.54,
+          "final_standing": 6,
+          "picks_with_known_projection": 6,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 1608.57,
+          "final_standing": 3,
+          "picks_with_known_projection": 10,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 1569.04,
+          "final_standing": 7,
+          "picks_with_known_projection": 10,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2370.98,
+          "final_standing": 4,
+          "picks_with_known_projection": 13,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 1554.88,
+          "final_standing": 5,
+          "picks_with_known_projection": 8,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2272.16,
+          "final_standing": 8,
+          "picks_with_known_projection": 11,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 2437.89,
+          "final_standing": 1,
+          "picks_with_known_projection": 11,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2582.84,
+          "final_standing": 2,
+          "picks_with_known_projection": 13,
+          "total_picks": 16
+        }
+      ]
+    },
+    "2019": {
+      "spearman_correlation": -0.6727,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 2487.54,
+          "final_standing": 4,
+          "picks_with_known_projection": 12,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 2425.43,
+          "final_standing": 3,
+          "picks_with_known_projection": 12,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 2704.4,
+          "final_standing": 8,
+          "picks_with_known_projection": 13,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2409.94,
+          "final_standing": 1,
+          "picks_with_known_projection": 12,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 2578.45,
+          "final_standing": 2,
+          "picks_with_known_projection": 12,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2843.61,
+          "final_standing": 10,
+          "picks_with_known_projection": 15,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 2524.03,
+          "final_standing": 5,
+          "picks_with_known_projection": 13,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2396.66,
+          "final_standing": 6,
+          "picks_with_known_projection": 13,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "saurab_nooguri",
+          "owner_name": "Saurab Nooguri",
+          "total_projected_points": 2925.29,
+          "final_standing": 7,
+          "picks_with_known_projection": 14,
+          "total_picks": 17
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 2744.77,
+          "final_standing": 9,
+          "picks_with_known_projection": 14,
+          "total_picks": 17
+        }
+      ]
+    },
+    "2020": {
+      "spearman_correlation": -0.0545,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 2435.25,
+          "final_standing": 7,
+          "picks_with_known_projection": 13,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 1494.15,
+          "final_standing": 5,
+          "picks_with_known_projection": 7,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 3086.6,
+          "final_standing": 4,
+          "picks_with_known_projection": 16,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2673.37,
+          "final_standing": 8,
+          "picks_with_known_projection": 14,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 2271.97,
+          "final_standing": 9,
+          "picks_with_known_projection": 12,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2375.24,
+          "final_standing": 6,
+          "picks_with_known_projection": 12,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 2146.14,
+          "final_standing": 2,
+          "picks_with_known_projection": 10,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2357.77,
+          "final_standing": 3,
+          "picks_with_known_projection": 12,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 2564.05,
+          "final_standing": 1,
+          "picks_with_known_projection": 13,
+          "total_picks": 16
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 2423.25,
+          "final_standing": 10,
+          "picks_with_known_projection": 12,
+          "total_picks": 16
+        }
+      ]
+    },
+    "2021": {
+      "spearman_correlation": 0.4476,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 2352.15,
+          "final_standing": 1,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 1927.61,
+          "final_standing": 12,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 2094.45,
+          "final_standing": 11,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2068.96,
+          "final_standing": 8,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 2059.51,
+          "final_standing": 10,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2405.28,
+          "final_standing": 3,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 2583.27,
+          "final_standing": 9,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2554.62,
+          "final_standing": 5,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 2179.47,
+          "final_standing": 4,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 2268.78,
+          "final_standing": 7,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "parth_shah",
+          "owner_name": "Parth Shah",
+          "total_projected_points": 2080.29,
+          "final_standing": 2,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "andy_chen",
+          "owner_name": "Andy Chen",
+          "total_projected_points": 2189.56,
+          "final_standing": 6,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        }
+      ]
+    },
+    "2022": {
+      "spearman_correlation": 0.4196,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 1880.43,
+          "final_standing": 3,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 2062.77,
+          "final_standing": 7,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 2732.75,
+          "final_standing": 2,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 1593.99,
+          "final_standing": 11,
+          "picks_with_known_projection": 8,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 1997.72,
+          "final_standing": 10,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2219.72,
+          "final_standing": 8,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 2069.72,
+          "final_standing": 1,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2135.88,
+          "final_standing": 5,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 2134.03,
+          "final_standing": 4,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 2352.58,
+          "final_standing": 9,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "parth_shah",
+          "owner_name": "Parth Shah",
+          "total_projected_points": 2123.3,
+          "final_standing": 6,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "andy_chen",
+          "owner_name": "Andy Chen",
+          "total_projected_points": 1852.28,
+          "final_standing": 12,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        }
+      ]
+    },
+    "2023": {
+      "spearman_correlation": 0.1912,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 142.22,
+          "final_standing": 11,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 142.38,
+          "final_standing": 6,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 141.2,
+          "final_standing": 14,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 393.8,
+          "final_standing": 13,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 220.98,
+          "final_standing": 5,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 138.81,
+          "final_standing": 7,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 174.44,
+          "final_standing": 2,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 212.66,
+          "final_standing": 3,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 302.96,
+          "final_standing": 4,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 0.0,
+          "final_standing": 8,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "parth_shah",
+          "owner_name": "Parth Shah",
+          "total_projected_points": 294.98,
+          "final_standing": 1,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "andy_chen",
+          "owner_name": "Andy Chen",
+          "total_projected_points": 292.27,
+          "final_standing": 9,
+          "picks_with_known_projection": 14,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "derek_wen",
+          "owner_name": "Derek Wen",
+          "total_projected_points": 134.42,
+          "final_standing": 12,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "saurab_nooguri",
+          "owner_name": "Saurab Nooguri",
+          "total_projected_points": 388.32,
+          "final_standing": 10,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        }
+      ]
+    },
+    "2024": {
+      "spearman_correlation": -0.4286,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 2322.12,
+          "final_standing": 9,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jordi_pham",
+          "owner_name": "Jordi Pham",
+          "total_projected_points": 2102.53,
+          "final_standing": 13,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 2294.58,
+          "final_standing": 6,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2233.65,
+          "final_standing": 1,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 1958.87,
+          "final_standing": 4,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2371.93,
+          "final_standing": 10,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 1756.72,
+          "final_standing": 2,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2202.41,
+          "final_standing": 11,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 2137.18,
+          "final_standing": 3,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 2368.99,
+          "final_standing": 5,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "parth_shah",
+          "owner_name": "Parth Shah",
+          "total_projected_points": 2031.26,
+          "final_standing": 8,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "andy_chen",
+          "owner_name": "Andy Chen",
+          "total_projected_points": 2340.91,
+          "final_standing": 12,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "derek_wen",
+          "owner_name": "Derek Wen",
+          "total_projected_points": 2447.72,
+          "final_standing": 14,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "saurab_nooguri",
+          "owner_name": "Saurab Nooguri",
+          "total_projected_points": 1206.41,
+          "final_standing": 7,
+          "picks_with_known_projection": 6,
+          "total_picks": 15
+        }
+      ]
+    },
+    "2025": {
+      "spearman_correlation": 0.5033,
+      "teams": [
+        {
+          "canonical_id": "yannis_bi",
+          "owner_name": "Yannis Bi",
+          "total_projected_points": 2699.13,
+          "final_standing": 9,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "robert_hong",
+          "owner_name": "Robert Hong",
+          "total_projected_points": 1967.49,
+          "final_standing": 8,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ameya_gadkari",
+          "owner_name": "Ameya Gadkari",
+          "total_projected_points": 2282.43,
+          "final_standing": 7,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "justin_lee",
+          "owner_name": "Justin Lee",
+          "total_projected_points": 2765.34,
+          "final_standing": 2,
+          "picks_with_known_projection": 14,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "eric_tao",
+          "owner_name": "Eric Tao",
+          "total_projected_points": 2468.8,
+          "final_standing": 1,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "ancheng_da",
+          "owner_name": "Ancheng Da",
+          "total_projected_points": 2401.12,
+          "final_standing": 10,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jonathan_bi",
+          "owner_name": "Jonathan Bi",
+          "total_projected_points": 1935.95,
+          "final_standing": 11,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "nicholas_yang",
+          "owner_name": "Nicholas Yang",
+          "total_projected_points": 2140.31,
+          "final_standing": 5,
+          "picks_with_known_projection": 11,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jared_tao",
+          "owner_name": "Jared Tao",
+          "total_projected_points": 2618.23,
+          "final_standing": 4,
+          "picks_with_known_projection": 13,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "karthik_pittala",
+          "owner_name": "Karthik Pittala",
+          "total_projected_points": 1736.25,
+          "final_standing": 14,
+          "picks_with_known_projection": 8,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "parth_shah",
+          "owner_name": "Parth Shah",
+          "total_projected_points": 1996.48,
+          "final_standing": 12,
+          "picks_with_known_projection": 9,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "jordi_pham",
+          "owner_name": "Jordi Pham",
+          "total_projected_points": 2513.98,
+          "final_standing": 13,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "derek_wen",
+          "owner_name": "Derek Wen",
+          "total_projected_points": 2501.53,
+          "final_standing": 3,
+          "picks_with_known_projection": 12,
+          "total_picks": 15
+        },
+        {
+          "canonical_id": "saurab_nooguri",
+          "owner_name": "Saurab Nooguri",
+          "total_projected_points": 2171.98,
+          "final_standing": 6,
+          "picks_with_known_projection": 10,
+          "total_picks": 15
+        }
+      ]
+    }
+  },
+  "overall": {
+    "spearman_correlation": 0.2032,
+    "total_team_seasons": 94
+  },
+  "notes": {
+    "scope": "Only players actually DRAFTED by a team are summed (not their full end-of-season roster) - a team's final roster includes waiver/trade additions, which would conflate draft skill with in-season roster management.",
+    "correlation_method": "Hand-computed Spearman rank correlation (no scipy). Compares [rank by total projected points] against [rank by actual final_standing]. A correlation near +1.0 means projections strongly predicted outcomes; near 0 means projections had little predictive power; negative would mean projections were actually inversely related to outcomes.",
+    "known_limitation": "Players drafted, dropped, and never reclaimed by anyone have no recoverable projection (same limitation as Draft Day Profiler) - team totals are a slight undercount for rosters with many such picks. picks_with_known_projection / total_picks is included per team so this gap is visible, not hidden."
+  }
+}

@@ -1,0 +1,1024 @@
+{
+  "seasons": {
+    "2018": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 2,
+        "expected_wins": 4.14,
+        "luck_differential": -2.14,
+        "score_stdev": 25.16,
+        "score_mean": 119.86,
+        "coefficient_of_variation": 0.2099
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 6,
+        "expected_wins": 4.57,
+        "luck_differential": 1.43,
+        "score_stdev": 24.62,
+        "score_mean": 121.86,
+        "coefficient_of_variation": 0.202
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 5,
+        "expected_wins": 4.71,
+        "luck_differential": 0.29,
+        "score_stdev": 32.01,
+        "score_mean": 121.3,
+        "coefficient_of_variation": 0.2639
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 6,
+        "expected_wins": 5.0,
+        "luck_differential": 1.0,
+        "score_stdev": 24.4,
+        "score_mean": 130.28,
+        "coefficient_of_variation": 0.1873
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 5,
+        "expected_wins": 4.14,
+        "luck_differential": 0.86,
+        "score_stdev": 23.09,
+        "score_mean": 123.04,
+        "coefficient_of_variation": 0.1877
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 5,
+        "expected_wins": 6.29,
+        "luck_differential": -1.29,
+        "score_stdev": 16.46,
+        "score_mean": 134.21,
+        "coefficient_of_variation": 0.1226
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 10,
+        "expected_wins": 9.71,
+        "luck_differential": 0.29,
+        "score_stdev": 14.56,
+        "score_mean": 154.56,
+        "coefficient_of_variation": 0.0942
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 9,
+        "expected_wins": 9.43,
+        "luck_differential": -0.43,
+        "score_stdev": 25.4,
+        "score_mean": 158.02,
+        "coefficient_of_variation": 0.1607
+      }
+    },
+    "2019": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 6,
+        "expected_wins": 5.78,
+        "luck_differential": 0.22,
+        "score_stdev": 14.47,
+        "score_mean": 130.73,
+        "coefficient_of_variation": 0.1107
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 10,
+        "expected_wins": 10.44,
+        "luck_differential": -0.44,
+        "score_stdev": 29.07,
+        "score_mean": 154.72,
+        "coefficient_of_variation": 0.1879
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 5,
+        "expected_wins": 5.33,
+        "luck_differential": -0.33,
+        "score_stdev": 27.85,
+        "score_mean": 125.33,
+        "coefficient_of_variation": 0.2222
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 6,
+        "expected_wins": 5.44,
+        "luck_differential": 0.56,
+        "score_stdev": 22.22,
+        "score_mean": 130.31,
+        "coefficient_of_variation": 0.1705
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 10,
+        "expected_wins": 9.33,
+        "luck_differential": 0.67,
+        "score_stdev": 14.61,
+        "score_mean": 150.21,
+        "coefficient_of_variation": 0.0973
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 3,
+        "expected_wins": 2.33,
+        "luck_differential": 0.67,
+        "score_stdev": 23.36,
+        "score_mean": 107.38,
+        "coefficient_of_variation": 0.2175
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 6,
+        "expected_wins": 7.33,
+        "luck_differential": -1.33,
+        "score_stdev": 27.82,
+        "score_mean": 139.06,
+        "coefficient_of_variation": 0.2001
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 7,
+        "expected_wins": 6.22,
+        "luck_differential": 0.78,
+        "score_stdev": 30.81,
+        "score_mean": 125.51,
+        "coefficient_of_variation": 0.2455
+      },
+      "saurab_nooguri": {
+        "owner_name": "Saurab Nooguri",
+        "actual_wins": 6,
+        "expected_wins": 6.0,
+        "luck_differential": 0.0,
+        "score_stdev": 19.65,
+        "score_mean": 133.95,
+        "coefficient_of_variation": 0.1467
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 6,
+        "expected_wins": 6.78,
+        "luck_differential": -0.78,
+        "score_stdev": 23.79,
+        "score_mean": 132.97,
+        "coefficient_of_variation": 0.1789
+      }
+    },
+    "2020": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 5,
+        "expected_wins": 5.89,
+        "luck_differential": -0.89,
+        "score_stdev": 24.82,
+        "score_mean": 130.96,
+        "coefficient_of_variation": 0.1895
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 7,
+        "expected_wins": 5.22,
+        "luck_differential": 1.78,
+        "score_stdev": 26.13,
+        "score_mean": 125.97,
+        "coefficient_of_variation": 0.2074
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 10,
+        "expected_wins": 5.11,
+        "luck_differential": 4.89,
+        "score_stdev": 25.86,
+        "score_mean": 123.72,
+        "coefficient_of_variation": 0.209
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 6,
+        "expected_wins": 8.44,
+        "luck_differential": -2.44,
+        "score_stdev": 26.1,
+        "score_mean": 143.17,
+        "coefficient_of_variation": 0.1823
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 3,
+        "expected_wins": 7.0,
+        "luck_differential": -4.0,
+        "score_stdev": 29.03,
+        "score_mean": 137.67,
+        "coefficient_of_variation": 0.2109
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 7,
+        "expected_wins": 5.67,
+        "luck_differential": 1.33,
+        "score_stdev": 25.32,
+        "score_mean": 126.16,
+        "coefficient_of_variation": 0.2007
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 6,
+        "expected_wins": 8.56,
+        "luck_differential": -2.56,
+        "score_stdev": 25.24,
+        "score_mean": 149.08,
+        "coefficient_of_variation": 0.1693
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 8,
+        "expected_wins": 6.89,
+        "luck_differential": 1.11,
+        "score_stdev": 26.56,
+        "score_mean": 143.0,
+        "coefficient_of_variation": 0.1857
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 7,
+        "expected_wins": 6.22,
+        "luck_differential": 0.78,
+        "score_stdev": 21.92,
+        "score_mean": 135.78,
+        "coefficient_of_variation": 0.1614
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 6,
+        "expected_wins": 6.0,
+        "luck_differential": 0.0,
+        "score_stdev": 29.71,
+        "score_mean": 130.63,
+        "coefficient_of_variation": 0.2274
+      }
+    },
+    "2021": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 11,
+        "expected_wins": 10.0,
+        "luck_differential": 1.0,
+        "score_stdev": 21.68,
+        "score_mean": 135.7,
+        "coefficient_of_variation": 0.1598
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 7,
+        "expected_wins": 9.0,
+        "luck_differential": -2.0,
+        "score_stdev": 19.11,
+        "score_mean": 131.93,
+        "coefficient_of_variation": 0.1448
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 4,
+        "expected_wins": 3.0,
+        "luck_differential": 1.0,
+        "score_stdev": 19.02,
+        "score_mean": 99.81,
+        "coefficient_of_variation": 0.1906
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 3,
+        "expected_wins": 3.55,
+        "luck_differential": -0.55,
+        "score_stdev": 27.38,
+        "score_mean": 98.0,
+        "coefficient_of_variation": 0.2794
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 5,
+        "expected_wins": 6.27,
+        "luck_differential": -1.27,
+        "score_stdev": 22.55,
+        "score_mean": 114.46,
+        "coefficient_of_variation": 0.197
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 11,
+        "expected_wins": 9.27,
+        "luck_differential": 1.73,
+        "score_stdev": 29.78,
+        "score_mean": 133.35,
+        "coefficient_of_variation": 0.2233
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 6,
+        "expected_wins": 7.82,
+        "luck_differential": -1.82,
+        "score_stdev": 19.89,
+        "score_mean": 122.11,
+        "coefficient_of_variation": 0.1629
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 7,
+        "expected_wins": 8.91,
+        "luck_differential": -1.91,
+        "score_stdev": 26.43,
+        "score_mean": 126.91,
+        "coefficient_of_variation": 0.2083
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 10,
+        "expected_wins": 7.45,
+        "luck_differential": 2.55,
+        "score_stdev": 26.33,
+        "score_mean": 119.56,
+        "coefficient_of_variation": 0.2202
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 5,
+        "expected_wins": 5.91,
+        "luck_differential": -0.91,
+        "score_stdev": 15.69,
+        "score_mean": 114.89,
+        "coefficient_of_variation": 0.1366
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "actual_wins": 8,
+        "expected_wins": 5.45,
+        "luck_differential": 2.55,
+        "score_stdev": 20.41,
+        "score_mean": 112.56,
+        "coefficient_of_variation": 0.1813
+      },
+      "andy_chen": {
+        "owner_name": "Andy Chen",
+        "actual_wins": 7,
+        "expected_wins": 7.36,
+        "luck_differential": -0.36,
+        "score_stdev": 27.64,
+        "score_mean": 120.36,
+        "coefficient_of_variation": 0.2296
+      }
+    },
+    "2022": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 9,
+        "expected_wins": 10.18,
+        "luck_differential": -1.18,
+        "score_stdev": 19.98,
+        "score_mean": 126.96,
+        "coefficient_of_variation": 0.1574
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 7,
+        "expected_wins": 7.0,
+        "luck_differential": 0.0,
+        "score_stdev": 15.94,
+        "score_mean": 115.42,
+        "coefficient_of_variation": 0.1381
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 7,
+        "expected_wins": 7.27,
+        "luck_differential": -0.27,
+        "score_stdev": 26.77,
+        "score_mean": 119.64,
+        "coefficient_of_variation": 0.2238
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 5,
+        "expected_wins": 5.45,
+        "luck_differential": -0.45,
+        "score_stdev": 19.31,
+        "score_mean": 106.07,
+        "coefficient_of_variation": 0.182
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 7,
+        "expected_wins": 6.82,
+        "luck_differential": 0.18,
+        "score_stdev": 23.49,
+        "score_mean": 109.02,
+        "coefficient_of_variation": 0.2155
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 7,
+        "expected_wins": 6.91,
+        "luck_differential": 0.09,
+        "score_stdev": 17.58,
+        "score_mean": 111.72,
+        "coefficient_of_variation": 0.1574
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 9,
+        "expected_wins": 6.45,
+        "luck_differential": 2.55,
+        "score_stdev": 22.18,
+        "score_mean": 113.02,
+        "coefficient_of_variation": 0.1962
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 7,
+        "expected_wins": 6.36,
+        "luck_differential": 0.64,
+        "score_stdev": 24.19,
+        "score_mean": 115.79,
+        "coefficient_of_variation": 0.2089
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 10,
+        "expected_wins": 7.45,
+        "luck_differential": 2.55,
+        "score_stdev": 21.83,
+        "score_mean": 116.67,
+        "coefficient_of_variation": 0.1871
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 5,
+        "expected_wins": 5.36,
+        "luck_differential": -0.36,
+        "score_stdev": 17.8,
+        "score_mean": 109.91,
+        "coefficient_of_variation": 0.162
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "actual_wins": 8,
+        "expected_wins": 10.18,
+        "luck_differential": -2.18,
+        "score_stdev": 22.49,
+        "score_mean": 129.88,
+        "coefficient_of_variation": 0.1732
+      },
+      "andy_chen": {
+        "owner_name": "Andy Chen",
+        "actual_wins": 3,
+        "expected_wins": 4.55,
+        "luck_differential": -1.55,
+        "score_stdev": 20.42,
+        "score_mean": 105.21,
+        "coefficient_of_variation": 0.1941
+      }
+    },
+    "2023": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 7,
+        "expected_wins": 8.0,
+        "luck_differential": -1.0,
+        "score_stdev": 23.18,
+        "score_mean": 115.46,
+        "coefficient_of_variation": 0.2008
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 8,
+        "expected_wins": 7.08,
+        "luck_differential": 0.92,
+        "score_stdev": 23.43,
+        "score_mean": 115.24,
+        "coefficient_of_variation": 0.2033
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 4,
+        "expected_wins": 5.46,
+        "luck_differential": -1.46,
+        "score_stdev": 30.57,
+        "score_mean": 109.28,
+        "coefficient_of_variation": 0.2797
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 5,
+        "expected_wins": 4.69,
+        "luck_differential": 0.31,
+        "score_stdev": 15.35,
+        "score_mean": 100.73,
+        "coefficient_of_variation": 0.1524
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 8,
+        "expected_wins": 7.31,
+        "luck_differential": 0.69,
+        "score_stdev": 17.23,
+        "score_mean": 112.62,
+        "coefficient_of_variation": 0.153
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 9,
+        "expected_wins": 9.85,
+        "luck_differential": -0.85,
+        "score_stdev": 16.54,
+        "score_mean": 124.5,
+        "coefficient_of_variation": 0.1329
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 8,
+        "expected_wins": 5.92,
+        "luck_differential": 2.08,
+        "score_stdev": 17.27,
+        "score_mean": 106.94,
+        "coefficient_of_variation": 0.1615
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 7,
+        "expected_wins": 7.62,
+        "luck_differential": -0.62,
+        "score_stdev": 25.15,
+        "score_mean": 116.24,
+        "coefficient_of_variation": 0.2164
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 9,
+        "expected_wins": 8.38,
+        "luck_differential": 0.62,
+        "score_stdev": 29.22,
+        "score_mean": 120.42,
+        "coefficient_of_variation": 0.2427
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 7,
+        "expected_wins": 8.15,
+        "luck_differential": -1.15,
+        "score_stdev": 24.19,
+        "score_mean": 117.77,
+        "coefficient_of_variation": 0.2054
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "actual_wins": 8,
+        "expected_wins": 6.85,
+        "luck_differential": 1.15,
+        "score_stdev": 22.92,
+        "score_mean": 113.21,
+        "coefficient_of_variation": 0.2025
+      },
+      "andy_chen": {
+        "owner_name": "Andy Chen",
+        "actual_wins": 7,
+        "expected_wins": 8.31,
+        "luck_differential": -1.31,
+        "score_stdev": 18.4,
+        "score_mean": 115.82,
+        "coefficient_of_variation": 0.1589
+      },
+      "derek_wen": {
+        "owner_name": "Derek Wen",
+        "actual_wins": 6,
+        "expected_wins": 4.38,
+        "luck_differential": 1.62,
+        "score_stdev": 18.55,
+        "score_mean": 97.86,
+        "coefficient_of_variation": 0.1896
+      },
+      "saurab_nooguri": {
+        "owner_name": "Saurab Nooguri",
+        "actual_wins": 5,
+        "expected_wins": 6.0,
+        "luck_differential": -1.0,
+        "score_stdev": 29.06,
+        "score_mean": 103.11,
+        "coefficient_of_variation": 0.2818
+      }
+    },
+    "2024": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 6,
+        "expected_wins": 6.81,
+        "luck_differential": -0.81,
+        "score_stdev": 26.18,
+        "score_mean": 112.68,
+        "coefficient_of_variation": 0.2323
+      },
+      "jordi_pham": {
+        "owner_name": "Jordi Pham",
+        "actual_wins": 3,
+        "expected_wins": 5.0,
+        "luck_differential": -2.0,
+        "score_stdev": 17.0,
+        "score_mean": 102.94,
+        "coefficient_of_variation": 0.1651
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 7,
+        "expected_wins": 6.77,
+        "luck_differential": 0.23,
+        "score_stdev": 41.35,
+        "score_mean": 118.27,
+        "coefficient_of_variation": 0.3496
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 7,
+        "expected_wins": 8.0,
+        "luck_differential": -1.0,
+        "score_stdev": 26.16,
+        "score_mean": 119.95,
+        "coefficient_of_variation": 0.2181
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 9,
+        "expected_wins": 7.0,
+        "luck_differential": 2.0,
+        "score_stdev": 24.96,
+        "score_mean": 114.77,
+        "coefficient_of_variation": 0.2175
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 7,
+        "expected_wins": 5.77,
+        "luck_differential": 1.23,
+        "score_stdev": 18.24,
+        "score_mean": 105.35,
+        "coefficient_of_variation": 0.1731
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 9,
+        "expected_wins": 10.77,
+        "luck_differential": -1.77,
+        "score_stdev": 14.5,
+        "score_mean": 129.54,
+        "coefficient_of_variation": 0.1119
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 6,
+        "expected_wins": 5.85,
+        "luck_differential": 0.15,
+        "score_stdev": 24.09,
+        "score_mean": 105.08,
+        "coefficient_of_variation": 0.2293
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 10,
+        "expected_wins": 8.92,
+        "luck_differential": 1.08,
+        "score_stdev": 22.85,
+        "score_mean": 122.31,
+        "coefficient_of_variation": 0.1868
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 7,
+        "expected_wins": 8.69,
+        "luck_differential": -1.69,
+        "score_stdev": 17.08,
+        "score_mean": 118.76,
+        "coefficient_of_variation": 0.1438
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "actual_wins": 7,
+        "expected_wins": 7.15,
+        "luck_differential": -0.15,
+        "score_stdev": 20.93,
+        "score_mean": 113.06,
+        "coefficient_of_variation": 0.1851
+      },
+      "andy_chen": {
+        "owner_name": "Andy Chen",
+        "actual_wins": 7,
+        "expected_wins": 6.54,
+        "luck_differential": 0.46,
+        "score_stdev": 18.46,
+        "score_mean": 108.06,
+        "coefficient_of_variation": 0.1708
+      },
+      "derek_wen": {
+        "owner_name": "Derek Wen",
+        "actual_wins": 5,
+        "expected_wins": 3.54,
+        "luck_differential": 1.46,
+        "score_stdev": 17.59,
+        "score_mean": 93.94,
+        "coefficient_of_variation": 0.1872
+      },
+      "saurab_nooguri": {
+        "owner_name": "Saurab Nooguri",
+        "actual_wins": 8,
+        "expected_wins": 7.19,
+        "luck_differential": 0.81,
+        "score_stdev": 19.46,
+        "score_mean": 113.61,
+        "coefficient_of_variation": 0.1713
+      }
+    },
+    "2025": {
+      "yannis_bi": {
+        "owner_name": "Yannis Bi",
+        "actual_wins": 5,
+        "expected_wins": 8.15,
+        "luck_differential": -3.15,
+        "score_stdev": 24.79,
+        "score_mean": 119.88,
+        "coefficient_of_variation": 0.2068
+      },
+      "robert_hong": {
+        "owner_name": "Robert Hong",
+        "actual_wins": 7,
+        "expected_wins": 6.65,
+        "luck_differential": 0.35,
+        "score_stdev": 26.39,
+        "score_mean": 110.97,
+        "coefficient_of_variation": 0.2378
+      },
+      "ameya_gadkari": {
+        "owner_name": "Ameya Gadkari",
+        "actual_wins": 8,
+        "expected_wins": 8.85,
+        "luck_differential": -0.85,
+        "score_stdev": 19.23,
+        "score_mean": 119.7,
+        "coefficient_of_variation": 0.1607
+      },
+      "justin_lee": {
+        "owner_name": "Justin Lee",
+        "actual_wins": 10,
+        "expected_wins": 7.85,
+        "luck_differential": 2.15,
+        "score_stdev": 18.62,
+        "score_mean": 113.69,
+        "coefficient_of_variation": 0.1638
+      },
+      "eric_tao": {
+        "owner_name": "Eric Tao",
+        "actual_wins": 10,
+        "expected_wins": 9.54,
+        "luck_differential": 0.46,
+        "score_stdev": 24.41,
+        "score_mean": 126.71,
+        "coefficient_of_variation": 0.1926
+      },
+      "ancheng_da": {
+        "owner_name": "Ancheng Da",
+        "actual_wins": 4,
+        "expected_wins": 4.77,
+        "luck_differential": -0.77,
+        "score_stdev": 27.69,
+        "score_mean": 102.89,
+        "coefficient_of_variation": 0.2691
+      },
+      "jonathan_bi": {
+        "owner_name": "Jonathan Bi",
+        "actual_wins": 6,
+        "expected_wins": 7.54,
+        "luck_differential": -1.54,
+        "score_stdev": 28.43,
+        "score_mean": 114.74,
+        "coefficient_of_variation": 0.2478
+      },
+      "nicholas_yang": {
+        "owner_name": "Nicholas Yang",
+        "actual_wins": 8,
+        "expected_wins": 5.92,
+        "luck_differential": 2.08,
+        "score_stdev": 25.79,
+        "score_mean": 103.93,
+        "coefficient_of_variation": 0.2481
+      },
+      "jared_tao": {
+        "owner_name": "Jared Tao",
+        "actual_wins": 8,
+        "expected_wins": 7.77,
+        "luck_differential": 0.23,
+        "score_stdev": 26.56,
+        "score_mean": 119.07,
+        "coefficient_of_variation": 0.2231
+      },
+      "karthik_pittala": {
+        "owner_name": "Karthik Pittala",
+        "actual_wins": 4,
+        "expected_wins": 4.65,
+        "luck_differential": -0.65,
+        "score_stdev": 16.53,
+        "score_mean": 100.83,
+        "coefficient_of_variation": 0.1639
+      },
+      "parth_shah": {
+        "owner_name": "Parth Shah",
+        "actual_wins": 5,
+        "expected_wins": 5.08,
+        "luck_differential": -0.08,
+        "score_stdev": 19.45,
+        "score_mean": 102.14,
+        "coefficient_of_variation": 0.1904
+      },
+      "jordi_pham": {
+        "owner_name": "Jordi Pham",
+        "actual_wins": 6,
+        "expected_wins": 5.46,
+        "luck_differential": 0.54,
+        "score_stdev": 19.47,
+        "score_mean": 105.36,
+        "coefficient_of_variation": 0.1848
+      },
+      "derek_wen": {
+        "owner_name": "Derek Wen",
+        "actual_wins": 10,
+        "expected_wins": 8.46,
+        "luck_differential": 1.54,
+        "score_stdev": 21.23,
+        "score_mean": 120.55,
+        "coefficient_of_variation": 0.1761
+      },
+      "saurab_nooguri": {
+        "owner_name": "Saurab Nooguri",
+        "actual_wins": 7,
+        "expected_wins": 7.31,
+        "luck_differential": -0.31,
+        "score_stdev": 16.99,
+        "score_mean": 113.3,
+        "coefficient_of_variation": 0.15
+      }
+    }
+  },
+  "career": {
+    "yannis_bi": {
+      "owner_name": "Yannis Bi",
+      "actual_wins": 51,
+      "expected_wins": 58.95,
+      "luck_differential": -7.95,
+      "score_stdev": 23.4,
+      "score_mean": 123.98,
+      "coefficient_of_variation": 0.1887,
+      "total_regular_season_games": 108
+    },
+    "robert_hong": {
+      "owner_name": "Robert Hong",
+      "actual_wins": 52,
+      "expected_wins": 49.96,
+      "luck_differential": 2.04,
+      "score_stdev": 26.82,
+      "score_mean": 124.91,
+      "coefficient_of_variation": 0.2147,
+      "total_regular_season_games": 94
+    },
+    "ameya_gadkari": {
+      "owner_name": "Ameya Gadkari",
+      "actual_wins": 50,
+      "expected_wins": 46.5,
+      "luck_differential": 3.5,
+      "score_stdev": 28.79,
+      "score_mean": 116.92,
+      "coefficient_of_variation": 0.2462,
+      "total_regular_season_games": 108
+    },
+    "justin_lee": {
+      "owner_name": "Justin Lee",
+      "actual_wins": 48,
+      "expected_wins": 48.42,
+      "luck_differential": -0.42,
+      "score_stdev": 26.61,
+      "score_mean": 117.19,
+      "coefficient_of_variation": 0.2271,
+      "total_regular_season_games": 108
+    },
+    "eric_tao": {
+      "owner_name": "Eric Tao",
+      "actual_wins": 57,
+      "expected_wins": 57.41,
+      "luck_differential": -0.41,
+      "score_stdev": 25.73,
+      "score_mean": 123.19,
+      "coefficient_of_variation": 0.2089,
+      "total_regular_season_games": 108
+    },
+    "ancheng_da": {
+      "owner_name": "Ancheng Da",
+      "actual_wins": 53,
+      "expected_wins": 50.86,
+      "luck_differential": 2.14,
+      "score_stdev": 24.83,
+      "score_mean": 117.92,
+      "coefficient_of_variation": 0.2106,
+      "total_regular_season_games": 108
+    },
+    "jonathan_bi": {
+      "owner_name": "Jonathan Bi",
+      "actual_wins": 60,
+      "expected_wins": 64.1,
+      "luck_differential": -4.1,
+      "score_stdev": 26.67,
+      "score_mean": 127.86,
+      "coefficient_of_variation": 0.2086,
+      "total_regular_season_games": 108
+    },
+    "nicholas_yang": {
+      "owner_name": "Nicholas Yang",
+      "actual_wins": 59,
+      "expected_wins": 57.2,
+      "luck_differential": 1.8,
+      "score_stdev": 30.45,
+      "score_mean": 123.5,
+      "coefficient_of_variation": 0.2466,
+      "total_regular_season_games": 108
+    },
+    "saurab_nooguri": {
+      "owner_name": "Saurab Nooguri",
+      "actual_wins": 26,
+      "expected_wins": 26.5,
+      "luck_differential": -0.5,
+      "score_stdev": 23.95,
+      "score_mean": 115.67,
+      "coefficient_of_variation": 0.2071,
+      "total_regular_season_games": 55
+    },
+    "karthik_pittala": {
+      "owner_name": "Karthik Pittala",
+      "actual_wins": 40,
+      "expected_wins": 45.54,
+      "luck_differential": -5.54,
+      "score_stdev": 22.9,
+      "score_mean": 117.68,
+      "coefficient_of_variation": 0.1946,
+      "total_regular_season_games": 96
+    },
+    "jared_tao": {
+      "owner_name": "Jared Tao",
+      "actual_wins": 54,
+      "expected_wins": 46.19,
+      "luck_differential": 7.81,
+      "score_stdev": 24.97,
+      "score_mean": 122.14,
+      "coefficient_of_variation": 0.2044,
+      "total_regular_season_games": 83
+    },
+    "parth_shah": {
+      "owner_name": "Parth Shah",
+      "actual_wins": 36,
+      "expected_wins": 34.71,
+      "luck_differential": 1.29,
+      "score_stdev": 22.52,
+      "score_mean": 114.17,
+      "coefficient_of_variation": 0.1972,
+      "total_regular_season_games": 70
+    },
+    "andy_chen": {
+      "owner_name": "Andy Chen",
+      "actual_wins": 24,
+      "expected_wins": 26.76,
+      "luck_differential": -2.76,
+      "score_stdev": 21.83,
+      "score_mean": 112.36,
+      "coefficient_of_variation": 0.1943,
+      "total_regular_season_games": 56
+    },
+    "derek_wen": {
+      "owner_name": "Derek Wen",
+      "actual_wins": 21,
+      "expected_wins": 16.38,
+      "luck_differential": 4.62,
+      "score_stdev": 22.16,
+      "score_mean": 104.12,
+      "coefficient_of_variation": 0.2128,
+      "total_regular_season_games": 42
+    },
+    "jordi_pham": {
+      "owner_name": "Jordi Pham",
+      "actual_wins": 9,
+      "expected_wins": 10.46,
+      "luck_differential": -1.46,
+      "score_stdev": 17.98,
+      "score_mean": 104.15,
+      "coefficient_of_variation": 0.1726,
+      "total_regular_season_games": 28
+    }
+  },
+  "notes": {
+    "scope": "Regular season weeks only - playoff weeks are excluded from both analyses, since playoffs are single-elimination brackets, not full round-robin against the whole league.",
+    "expected_wins_method": "For each week, a team's expected win fraction = (number of OTHER teams they outscored + 0.5 x ties) / (total other teams that week). Summed across the season.",
+    "luck_differential_interpretation": "actual_wins - expected_wins. Positive = won more than their scoring output predicts. Negative = scored well but still lost more than expected (tough schedule luck).",
+    "coefficient_of_variation_purpose": "score_stdev / score_mean - makes volatility comparable across seasons/eras with different average scoring levels."
+  }
+}

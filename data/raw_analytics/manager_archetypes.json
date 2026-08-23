@@ -1,0 +1,264 @@
+{
+  "managers": {
+    "yannis_bi": {
+      "owner_name": "Yannis Bi",
+      "cluster_id": 1,
+      "archetype": "Mr. Consistent",
+      "features": {
+        "owner_name": "Yannis Bi",
+        "win_pct": 0.4722,
+        "retention_rate": 0.6023,
+        "trades_per_season": 3.875,
+        "coefficient_of_variation": 0.1887
+      }
+    },
+    "robert_hong": {
+      "owner_name": "Robert Hong",
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "features": {
+        "owner_name": "Robert Hong",
+        "win_pct": 0.5532,
+        "retention_rate": 0.5915,
+        "trades_per_season": 2.0,
+        "coefficient_of_variation": 0.2147
+      }
+    },
+    "ameya_gadkari": {
+      "owner_name": "Ameya Gadkari",
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "features": {
+        "owner_name": "Ameya Gadkari",
+        "win_pct": 0.463,
+        "retention_rate": 0.6842,
+        "trades_per_season": 2.25,
+        "coefficient_of_variation": 0.2462
+      }
+    },
+    "justin_lee": {
+      "owner_name": "Justin Lee",
+      "cluster_id": 0,
+      "archetype": "Active Trader",
+      "features": {
+        "owner_name": "Justin Lee",
+        "win_pct": 0.4444,
+        "retention_rate": 0.4839,
+        "trades_per_season": 4.875,
+        "coefficient_of_variation": 0.2271
+      }
+    },
+    "eric_tao": {
+      "owner_name": "Eric Tao",
+      "cluster_id": 2,
+      "archetype": "Wheeler-Dealer",
+      "features": {
+        "owner_name": "Eric Tao",
+        "win_pct": 0.5278,
+        "retention_rate": 0.4941,
+        "trades_per_season": 8.875,
+        "coefficient_of_variation": 0.2089
+      }
+    },
+    "ancheng_da": {
+      "owner_name": "Ancheng Da",
+      "cluster_id": 0,
+      "archetype": "Active Trader",
+      "features": {
+        "owner_name": "Ancheng Da",
+        "win_pct": 0.4907,
+        "retention_rate": 0.4316,
+        "trades_per_season": 5.25,
+        "coefficient_of_variation": 0.2106
+      }
+    },
+    "jonathan_bi": {
+      "owner_name": "Jonathan Bi",
+      "cluster_id": 2,
+      "archetype": "Wheeler-Dealer",
+      "features": {
+        "owner_name": "Jonathan Bi",
+        "win_pct": 0.5556,
+        "retention_rate": 0.3218,
+        "trades_per_season": 9.5,
+        "coefficient_of_variation": 0.2086
+      }
+    },
+    "nicholas_yang": {
+      "owner_name": "Nicholas Yang",
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "features": {
+        "owner_name": "Nicholas Yang",
+        "win_pct": 0.5463,
+        "retention_rate": 0.5521,
+        "trades_per_season": 3.375,
+        "coefficient_of_variation": 0.2466
+      }
+    },
+    "saurab_nooguri": {
+      "owner_name": "Saurab Nooguri",
+      "cluster_id": 0,
+      "archetype": "Active Trader",
+      "features": {
+        "owner_name": "Saurab Nooguri",
+        "win_pct": 0.4727,
+        "retention_rate": 0.4146,
+        "trades_per_season": 6.25,
+        "coefficient_of_variation": 0.2071
+      }
+    },
+    "karthik_pittala": {
+      "owner_name": "Karthik Pittala",
+      "cluster_id": 1,
+      "archetype": "Mr. Consistent",
+      "features": {
+        "owner_name": "Karthik Pittala",
+        "win_pct": 0.4167,
+        "retention_rate": 0.5316,
+        "trades_per_season": 4.714,
+        "coefficient_of_variation": 0.1946
+      }
+    },
+    "jared_tao": {
+      "owner_name": "Jared Tao",
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "features": {
+        "owner_name": "Jared Tao",
+        "win_pct": 0.6506,
+        "retention_rate": 0.6571,
+        "trades_per_season": 1.0,
+        "coefficient_of_variation": 0.2044
+      }
+    },
+    "parth_shah": {
+      "owner_name": "Parth Shah",
+      "cluster_id": 0,
+      "archetype": "Active Trader",
+      "features": {
+        "owner_name": "Parth Shah",
+        "win_pct": 0.5143,
+        "retention_rate": 0.5102,
+        "trades_per_season": 3.4,
+        "coefficient_of_variation": 0.1972
+      }
+    },
+    "andy_chen": {
+      "owner_name": "Andy Chen",
+      "cluster_id": 1,
+      "archetype": "Mr. Consistent",
+      "features": {
+        "owner_name": "Andy Chen",
+        "win_pct": 0.4286,
+        "retention_rate": 0.6957,
+        "trades_per_season": 0.75,
+        "coefficient_of_variation": 0.1943
+      }
+    },
+    "derek_wen": {
+      "owner_name": "Derek Wen",
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "features": {
+        "owner_name": "Derek Wen",
+        "win_pct": 0.5,
+        "retention_rate": 0.6286,
+        "trades_per_season": 1.667,
+        "coefficient_of_variation": 0.2128
+      }
+    },
+    "jordi_pham": {
+      "owner_name": "Jordi Pham",
+      "cluster_id": 1,
+      "archetype": "Mr. Consistent",
+      "features": {
+        "owner_name": "Jordi Pham",
+        "win_pct": 0.3214,
+        "retention_rate": 0.5217,
+        "trades_per_season": 6.5,
+        "coefficient_of_variation": 0.1726
+      }
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "archetype": "Active Trader",
+      "member_count": 4,
+      "members": [
+        "Justin Lee",
+        "Ancheng Da",
+        "Saurab Nooguri",
+        "Parth Shah"
+      ],
+      "centroid_real_units": {
+        "win_pct": 0.4805,
+        "retention_rate": 0.4601,
+        "trades_per_season": 4.9437,
+        "coefficient_of_variation": 0.2105
+      }
+    },
+    {
+      "cluster_id": 1,
+      "archetype": "Mr. Consistent",
+      "member_count": 4,
+      "members": [
+        "Yannis Bi",
+        "Karthik Pittala",
+        "Andy Chen",
+        "Jordi Pham"
+      ],
+      "centroid_real_units": {
+        "win_pct": 0.4097,
+        "retention_rate": 0.5878,
+        "trades_per_season": 3.9598,
+        "coefficient_of_variation": 0.1875
+      }
+    },
+    {
+      "cluster_id": 2,
+      "archetype": "Wheeler-Dealer",
+      "member_count": 2,
+      "members": [
+        "Eric Tao",
+        "Jonathan Bi"
+      ],
+      "centroid_real_units": {
+        "win_pct": 0.5417,
+        "retention_rate": 0.4079,
+        "trades_per_season": 9.1875,
+        "coefficient_of_variation": 0.2088
+      }
+    },
+    {
+      "cluster_id": 3,
+      "archetype": "Set It and Forget It",
+      "member_count": 5,
+      "members": [
+        "Robert Hong",
+        "Ameya Gadkari",
+        "Nicholas Yang",
+        "Jared Tao",
+        "Derek Wen"
+      ],
+      "centroid_real_units": {
+        "win_pct": 0.5426,
+        "retention_rate": 0.6227,
+        "trades_per_season": 2.0584,
+        "coefficient_of_variation": 0.2249
+      }
+    }
+  ],
+  "notes": {
+    "method": "Hand-rolled k-means (k=4, 10 random restarts, lowest inertia kept). Features are z-score standardized before clustering so no single feature's raw numeric scale dominates the distance calculation.",
+    "features_used": [
+      "win_pct",
+      "retention_rate",
+      "trades_per_season",
+      "coefficient_of_variation"
+    ],
+    "caveat": "With only 15 managers, this clustering is ILLUSTRATIVE, not statistically robust. Small-sample clustering can be sensitive to a single data point, and cluster boundaries may shift meaningfully as more seasons/managers are added.",
+    "label_method": "Archetype labels are generated from whichever standardized feature deviates most from the overall league mean for that cluster's centroid - not a fixed, hardcoded list, so labels stay meaningful even if underlying data shifts."
+  }
+}
