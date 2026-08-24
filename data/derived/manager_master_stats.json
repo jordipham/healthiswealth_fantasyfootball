@@ -3017,9 +3017,9 @@
     "draft_profile_full": {
       "owner_name": "Yannis Bi",
       "total_picks": 124,
-      "picks_with_incomplete_data": 36,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 53,
-      "retention_rate": 0.6023,
+      "retention_rate": 0.4274,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -3086,6 +3086,24 @@
               "points_per_dollar": null
             },
             {
+              "year": 2018,
+              "draft_type": "snake",
+              "round_num": 10,
+              "round_pick": 7,
+              "bid_amount": 0,
+              "player_id": 13295,
+              "player_name": "Emmanuel Sanders",
+              "position": "WR",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 198.22,
+              "data_complete": true,
+              "value_score": 1982.2,
+              "points_per_dollar": null
+            },
+            {
               "year": 2021,
               "draft_type": "snake",
               "round_num": 14,
@@ -3104,29 +3122,27 @@
               "data_complete": true,
               "value_score": 1946.0,
               "points_per_dollar": null
-            },
-            {
-              "year": 2021,
-              "draft_type": "snake",
-              "round_num": 13,
-              "round_pick": 10,
-              "bid_amount": 0,
-              "player_id": -16017,
-              "player_name": "Patriots D/ST",
-              "position": "D/ST",
-              "drafted_by_canonical_id": "yannis_bi",
-              "drafted_by_name": "Yannis Bi",
-              "ended_with": [
-                "Ameya Gadkari"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 148.0,
-              "data_complete": true,
-              "value_score": 1924.0,
-              "points_per_dollar": null
             }
           ],
           "best_steals": [
+            {
+              "year": 2018,
+              "draft_type": "snake",
+              "round_num": 10,
+              "round_pick": 7,
+              "bid_amount": 0,
+              "player_id": 13295,
+              "player_name": "Emmanuel Sanders",
+              "position": "WR",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 198.22,
+              "data_complete": true,
+              "value_score": 1982.2,
+              "points_per_dollar": null
+            },
             {
               "year": 2022,
               "draft_type": "snake",
@@ -3205,26 +3221,6 @@
               "total_points": 185.3,
               "data_complete": true,
               "value_score": 1482.4,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 8,
-              "round_pick": 1,
-              "bid_amount": 0,
-              "player_id": 4241372,
-              "player_name": "Marquise Brown",
-              "position": "WR",
-              "drafted_by_canonical_id": "yannis_bi",
-              "drafted_by_name": "Yannis Bi",
-              "ended_with": [
-                "Yannis Bi"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 183.0,
-              "data_complete": true,
-              "value_score": 1464.0,
               "points_per_dollar": null
             }
           ],
@@ -3332,6 +3328,42 @@
           ],
           "biggest_busts": [
             {
+              "year": 2018,
+              "draft_type": "snake",
+              "round_num": 4,
+              "round_pick": 7,
+              "bid_amount": 0,
+              "player_id": 16782,
+              "player_name": "Jerick McKinnon",
+              "position": "RB",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 0.0,
+              "data_complete": true,
+              "value_score": 0.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2018,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 2,
+              "bid_amount": 0,
+              "player_id": 16944,
+              "player_name": "Devonta Freeman",
+              "position": "RB",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 14.1,
+              "data_complete": true,
+              "value_score": 42.3,
+              "points_per_dollar": null
+            },
+            {
               "year": 2020,
               "draft_type": "snake",
               "round_num": 3,
@@ -3390,50 +3422,10 @@
               "data_complete": true,
               "value_score": 148.6,
               "points_per_dollar": null
-            },
-            {
-              "year": 2023,
-              "draft_type": "snake",
-              "round_num": 1,
-              "round_pick": 4,
-              "bid_amount": 0,
-              "player_id": 2977187,
-              "player_name": "Cooper Kupp",
-              "position": "WR",
-              "drafted_by_canonical_id": "yannis_bi",
-              "drafted_by_name": "Yannis Bi",
-              "ended_with": [
-                "Yannis Bi"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 164.4,
-              "data_complete": true,
-              "value_score": 164.4,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 1,
-              "bid_amount": 0,
-              "player_id": 2508176,
-              "player_name": "David Johnson",
-              "position": "RB",
-              "drafted_by_canonical_id": "yannis_bi",
-              "drafted_by_name": "Yannis Bi",
-              "ended_with": [
-                "Karthik Pittala"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 179.5,
-              "data_complete": true,
-              "value_score": 718.0,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 63
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -3600,6 +3592,24 @@
               "points_per_dollar": 116.5
             },
             {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 12,
+              "round_pick": 4,
+              "bid_amount": 1,
+              "player_id": -16004,
+              "player_name": "Bengals D/ST",
+              "position": "D/ST",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 93.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 93.0
+            },
+            {
               "year": 2025,
               "draft_type": "auction",
               "round_num": 14,
@@ -3724,6 +3734,24 @@
           ],
           "biggest_busts": [
             {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 2,
+              "round_pick": 1,
+              "bid_amount": 26,
+              "player_id": 4428331,
+              "player_name": "Rashee Rice",
+              "position": "WR",
+              "drafted_by_canonical_id": "yannis_bi",
+              "drafted_by_name": "Yannis Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 64.9,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 2.496153846153846
+            },
+            {
               "year": 2025,
               "draft_type": "auction",
               "round_num": 3,
@@ -3802,30 +3830,10 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 4.9125
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 5,
-              "round_pick": 5,
-              "bid_amount": 32,
-              "player_id": 16737,
-              "player_name": "Mike Evans",
-              "position": "WR",
-              "drafted_by_canonical_id": "yannis_bi",
-              "drafted_by_name": "Yannis Bi",
-              "ended_with": [
-                "Karthik Pittala"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 240.4,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 7.5125
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 25
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -3910,24 +3918,22 @@
           "points_per_dollar": null
         },
         {
-          "year": 2024,
-          "draft_type": "auction",
-          "round_num": 11,
-          "round_pick": 2,
-          "bid_amount": 4,
-          "player_id": 4361741,
-          "player_name": "Brock Purdy",
+          "year": 2020,
+          "draft_type": "snake",
+          "round_num": 14,
+          "round_pick": 1,
+          "bid_amount": 0,
+          "player_id": 11237,
+          "player_name": "Matt Ryan",
           "position": "QB",
           "drafted_by_canonical_id": "yannis_bi",
           "drafted_by_name": "Yannis Bi",
-          "ended_with": [
-            "Yannis Bi"
-          ],
-          "was_kept_by_drafter": true,
-          "total_points": 266.86,
+          "ended_with": null,
+          "was_kept_by_drafter": false,
+          "total_points": 282.44,
           "data_complete": true,
-          "value_score": null,
-          "points_per_dollar": 66.715
+          "value_score": 3954.16,
+          "points_per_dollar": null
         }
       ],
       "signature_picks": [
@@ -3972,14 +3978,14 @@
           "combined_points_across_those_seasons": 538.96
         },
         {
-          "player_name": "Mike Evans",
-          "position": "WR",
+          "player_name": "Matthew Stafford",
+          "position": "QB",
           "times_drafted": 2,
           "years": [
-            2022,
-            2024
+            2018,
+            2020
           ],
-          "combined_points_across_those_seasons": 465.8
+          "combined_points_across_those_seasons": 472.74
         }
       ]
     },
@@ -6990,9 +6996,9 @@
     "draft_profile_full": {
       "owner_name": "Ameya Gadkari",
       "total_picks": 124,
-      "picks_with_incomplete_data": 29,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 65,
-      "retention_rate": 0.6842,
+      "retention_rate": 0.5242,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -7039,6 +7045,24 @@
               "points_per_dollar": null
             },
             {
+              "year": 2018,
+              "draft_type": "snake",
+              "round_num": 16,
+              "round_pick": 2,
+              "bid_amount": 0,
+              "player_id": 3051902,
+              "player_name": "Peyton Barber",
+              "position": "RB",
+              "drafted_by_canonical_id": "ameya_gadkari",
+              "drafted_by_name": "Ameya Gadkari",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 150.3,
+              "data_complete": true,
+              "value_score": 2404.8,
+              "points_per_dollar": null
+            },
+            {
               "year": 2020,
               "draft_type": "snake",
               "round_num": 14,
@@ -7076,26 +7100,6 @@
               "total_points": 201.4,
               "data_complete": true,
               "value_score": 2014.0,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2022,
-              "draft_type": "snake",
-              "round_num": 14,
-              "round_pick": 11,
-              "bid_amount": 0,
-              "player_id": 10621,
-              "player_name": "Nick Folk",
-              "position": "K",
-              "drafted_by_canonical_id": "ameya_gadkari",
-              "drafted_by_name": "Ameya Gadkari",
-              "ended_with": [
-                "Yannis Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 141.0,
-              "data_complete": true,
-              "value_score": 1974.0,
               "points_per_dollar": null
             }
           ],
@@ -7305,6 +7309,42 @@
           ],
           "biggest_busts": [
             {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 2,
+              "round_pick": 6,
+              "bid_amount": 0,
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley",
+              "position": "WR",
+              "drafted_by_canonical_id": "ameya_gadkari",
+              "drafted_by_name": "Ameya Gadkari",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 71.1,
+              "data_complete": true,
+              "value_score": 142.2,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2022,
+              "draft_type": "snake",
+              "round_num": 4,
+              "round_pick": 11,
+              "bid_amount": 0,
+              "player_id": 4427366,
+              "player_name": "Breece Hall",
+              "position": "RB",
+              "drafted_by_canonical_id": "ameya_gadkari",
+              "drafted_by_name": "Ameya Gadkari",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 115.1,
+              "data_complete": true,
+              "value_score": 460.4,
+              "points_per_dollar": null
+            },
+            {
               "year": 2018,
               "draft_type": "snake",
               "round_num": 1,
@@ -7363,50 +7403,10 @@
               "data_complete": true,
               "value_score": 340.8,
               "points_per_dollar": null
-            },
-            {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 5,
-              "bid_amount": 0,
-              "player_id": 3919596,
-              "player_name": "Chris Carson",
-              "position": "RB",
-              "drafted_by_canonical_id": "ameya_gadkari",
-              "drafted_by_name": "Ameya Gadkari",
-              "ended_with": [
-                "Ameya Gadkari"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 187.8,
-              "data_complete": true,
-              "value_score": 751.2,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2022,
-              "draft_type": "snake",
-              "round_num": 3,
-              "round_pick": 2,
-              "bid_amount": 0,
-              "player_id": 3116365,
-              "player_name": "Mark Andrews",
-              "position": "TE",
-              "drafted_by_canonical_id": "ameya_gadkari",
-              "drafted_by_name": "Ameya Gadkari",
-              "ended_with": [
-                "Ameya Gadkari"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 190.5,
-              "data_complete": true,
-              "value_score": 571.5,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 72
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -7818,7 +7818,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 23
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -7955,7 +7955,7 @@
             2023,
             2024
           ],
-          "combined_points_across_those_seasons": 213.7
+          "combined_points_across_those_seasons": 226.8
         },
         {
           "player_name": "Ja'Marr Chase",
@@ -11041,9 +11041,9 @@
     "draft_profile_full": {
       "owner_name": "Eric Tao",
       "total_picks": 124,
-      "picks_with_incomplete_data": 39,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 42,
-      "retention_rate": 0.4941,
+      "retention_rate": 0.3387,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -11358,6 +11358,60 @@
             {
               "year": 2018,
               "draft_type": "snake",
+              "round_num": 1,
+              "round_pick": 1,
+              "bid_amount": 0,
+              "player_id": 15825,
+              "player_name": "Le'Veon Bell",
+              "position": "RB",
+              "drafted_by_canonical_id": "eric_tao",
+              "drafted_by_name": "Eric Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 0.0,
+              "data_complete": true,
+              "value_score": 0.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 4,
+              "round_pick": 11,
+              "bid_amount": 0,
+              "player_id": 3051926,
+              "player_name": "Gus Edwards",
+              "position": "RB",
+              "drafted_by_canonical_id": "eric_tao",
+              "drafted_by_name": "Eric Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 0.0,
+              "data_complete": true,
+              "value_score": 0.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2019,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 4,
+              "bid_amount": 0,
+              "player_id": 3916925,
+              "player_name": "Kerryon Johnson",
+              "position": "RB",
+              "drafted_by_canonical_id": "eric_tao",
+              "drafted_by_name": "Eric Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 85.0,
+              "data_complete": true,
+              "value_score": 255.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2018,
+              "draft_type": "snake",
               "round_num": 2,
               "round_pick": 8,
               "bid_amount": 0,
@@ -11394,70 +11448,10 @@
               "data_complete": true,
               "value_score": 406.20000000000005,
               "points_per_dollar": null
-            },
-            {
-              "year": 2022,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 1,
-              "bid_amount": 0,
-              "player_id": 3128429,
-              "player_name": "Courtland Sutton",
-              "position": "WR",
-              "drafted_by_canonical_id": "eric_tao",
-              "drafted_by_name": "Eric Tao",
-              "ended_with": [
-                "Eric Tao"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 159.4,
-              "data_complete": true,
-              "value_score": 637.6,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 8,
-              "bid_amount": 0,
-              "player_id": 3116365,
-              "player_name": "Mark Andrews",
-              "position": "TE",
-              "drafted_by_canonical_id": "eric_tao",
-              "drafted_by_name": "Eric Tao",
-              "ended_with": [
-                "Nicholas Yang"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 170.1,
-              "data_complete": true,
-              "value_score": 680.4,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2021,
-              "draft_type": "snake",
-              "round_num": 3,
-              "round_pick": 2,
-              "bid_amount": 0,
-              "player_id": 4052042,
-              "player_name": "James Robinson",
-              "position": "RB",
-              "drafted_by_canonical_id": "eric_tao",
-              "drafted_by_name": "Eric Tao",
-              "ended_with": [
-                "Jonathan Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 173.9,
-              "data_complete": true,
-              "value_score": 521.7,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 63
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -11642,6 +11636,24 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 97.2
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 2,
+              "round_pick": 5,
+              "bid_amount": 1,
+              "player_id": 3055899,
+              "player_name": "Harrison Butker",
+              "position": "K",
+              "drafted_by_canonical_id": "eric_tao",
+              "drafted_by_name": "Eric Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 96.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 96.0
             }
           ],
           "stars": [
@@ -11849,7 +11861,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 22
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -15024,9 +15036,9 @@
     "draft_profile_full": {
       "owner_name": "Ancheng Da",
       "total_picks": 124,
-      "picks_with_incomplete_data": 29,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 41,
-      "retention_rate": 0.4316,
+      "retention_rate": 0.3306,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -15440,7 +15452,7 @@
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 71
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -15487,6 +15499,24 @@
             {
               "year": 2024,
               "draft_type": "auction",
+              "round_num": 8,
+              "round_pick": 7,
+              "bid_amount": 1,
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo",
+              "position": "K",
+              "drafted_by_canonical_id": "ancheng_da",
+              "drafted_by_name": "Ancheng Da",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 111.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 111.0
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
               "round_num": 9,
               "round_pick": 1,
               "bid_amount": 3,
@@ -15523,26 +15553,6 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 75.0
-            },
-            {
-              "year": 2025,
-              "draft_type": "auction",
-              "round_num": 10,
-              "round_pick": 5,
-              "bid_amount": 3,
-              "player_id": 15818,
-              "player_name": "Keenan Allen",
-              "position": "WR",
-              "drafted_by_canonical_id": "ancheng_da",
-              "drafted_by_name": "Ancheng Da",
-              "ended_with": [
-                "Ancheng Da"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 182.7,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 60.9
             }
           ],
           "best_steals": [
@@ -15585,6 +15595,42 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 127.9
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 8,
+              "round_pick": 7,
+              "bid_amount": 1,
+              "player_id": 3049899,
+              "player_name": "Younghoe Koo",
+              "position": "K",
+              "drafted_by_canonical_id": "ancheng_da",
+              "drafted_by_name": "Ancheng Da",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 111.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 111.0
+            },
+            {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 12,
+              "round_pick": 8,
+              "bid_amount": 1,
+              "player_id": 4685350,
+              "player_name": "Trevor Etienne",
+              "position": "RB",
+              "drafted_by_canonical_id": "ancheng_da",
+              "drafted_by_name": "Ancheng Da",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 11.7,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 11.7
             }
           ],
           "stars": [
@@ -15792,7 +15838,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 24
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -18949,9 +18995,9 @@
     "draft_profile_full": {
       "owner_name": "Nicholas Yang",
       "total_picks": 124,
-      "picks_with_incomplete_data": 28,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 53,
-      "retention_rate": 0.5521,
+      "retention_rate": 0.4274,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -19038,23 +19084,21 @@
               "points_per_dollar": null
             },
             {
-              "year": 2021,
+              "year": 2018,
               "draft_type": "snake",
-              "round_num": 10,
+              "round_num": 16,
               "round_pick": 5,
               "bid_amount": 0,
-              "player_id": 4241372,
-              "player_name": "Marquise Brown",
+              "player_id": 11270,
+              "player_name": "Jordy Nelson",
               "position": "WR",
               "drafted_by_canonical_id": "nicholas_yang",
               "drafted_by_name": "Nicholas Yang",
-              "ended_with": [
-                "Nicholas Yang"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 226.3,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 156.7,
               "data_complete": true,
-              "value_score": 2263.0,
+              "value_score": 2507.2,
               "points_per_dollar": null
             }
           ],
@@ -19266,6 +19310,24 @@
             {
               "year": 2019,
               "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 2,
+              "bid_amount": 0,
+              "player_id": 13934,
+              "player_name": "Antonio Brown",
+              "position": "WR",
+              "drafted_by_canonical_id": "nicholas_yang",
+              "drafted_by_name": "Nicholas Yang",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 16.1,
+              "data_complete": true,
+              "value_score": 48.300000000000004,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2019,
+              "draft_type": "snake",
               "round_num": 4,
               "round_pick": 9,
               "bid_amount": 0,
@@ -19342,30 +19404,10 @@
               "data_complete": true,
               "value_score": 529.5,
               "points_per_dollar": null
-            },
-            {
-              "year": 2023,
-              "draft_type": "snake",
-              "round_num": 2,
-              "round_pick": 4,
-              "bid_amount": 0,
-              "player_id": 4047365,
-              "player_name": "Josh Jacobs",
-              "position": "RB",
-              "drafted_by_canonical_id": "nicholas_yang",
-              "drafted_by_name": "Nicholas Yang",
-              "ended_with": [
-                "Jonathan Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 181.1,
-              "data_complete": true,
-              "value_score": 362.2,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 73
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -19777,7 +19819,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 23
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -19928,7 +19970,7 @@
             2021,
             2024
           ],
-          "combined_points_across_those_seasons": 254.0
+          "combined_points_across_those_seasons": 289.0
         },
         {
           "player_name": "Stefon Diggs",
@@ -22585,9 +22627,9 @@
     "draft_profile_full": {
       "owner_name": "Robert Hong",
       "total_picks": 109,
-      "picks_with_incomplete_data": 38,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 42,
-      "retention_rate": 0.5915,
+      "retention_rate": 0.3853,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -22674,23 +22716,21 @@
               "points_per_dollar": null
             },
             {
-              "year": 2019,
+              "year": 2018,
               "draft_type": "snake",
-              "round_num": 17,
+              "round_num": 16,
               "round_pick": 1,
               "bid_amount": 0,
-              "player_id": 14922,
-              "player_name": "Mohamed Sanu Sr.",
+              "player_id": 16016,
+              "player_name": "Kenny Stills",
               "position": "WR",
               "drafted_by_canonical_id": "robert_hong",
               "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Karthik Pittala"
-              ],
+              "ended_with": null,
               "was_kept_by_drafter": false,
-              "total_points": 124.1,
+              "total_points": 134.42,
               "data_complete": true,
-              "value_score": 2109.7,
+              "value_score": 2150.72,
               "points_per_dollar": null
             }
           ],
@@ -22920,6 +22960,24 @@
               "points_per_dollar": null
             },
             {
+              "year": 2020,
+              "draft_type": "snake",
+              "round_num": 1,
+              "round_pick": 5,
+              "bid_amount": 0,
+              "player_id": 2976316,
+              "player_name": "Michael Thomas",
+              "position": "WR",
+              "drafted_by_canonical_id": "robert_hong",
+              "drafted_by_name": "Robert Hong",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 83.9,
+              "data_complete": true,
+              "value_score": 83.9,
+              "points_per_dollar": null
+            },
+            {
               "year": 2018,
               "draft_type": "snake",
               "round_num": 1,
@@ -22937,6 +22995,24 @@
               "total_points": 120.4,
               "data_complete": true,
               "value_score": 120.4,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 12,
+              "bid_amount": 0,
+              "player_id": 15880,
+              "player_name": "Robert Woods",
+              "position": "WR",
+              "drafted_by_canonical_id": "robert_hong",
+              "drafted_by_name": "Robert Hong",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 137.2,
+              "data_complete": true,
+              "value_score": 411.59999999999997,
               "points_per_dollar": null
             },
             {
@@ -22958,50 +23034,10 @@
               "data_complete": true,
               "value_score": 275.2,
               "points_per_dollar": null
-            },
-            {
-              "year": 2023,
-              "draft_type": "snake",
-              "round_num": 3,
-              "round_pick": 1,
-              "bid_amount": 0,
-              "player_id": 4242335,
-              "player_name": "Jonathan Taylor",
-              "position": "RB",
-              "drafted_by_canonical_id": "robert_hong",
-              "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Robert Hong"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 156.4,
-              "data_complete": true,
-              "value_score": 469.20000000000005,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2018,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 1,
-              "bid_amount": 0,
-              "player_id": 3043078,
-              "player_name": "Derrick Henry",
-              "position": "RB",
-              "drafted_by_canonical_id": "robert_hong",
-              "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Yannis Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 201.36,
-              "data_complete": true,
-              "value_score": 805.44,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 62
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -23049,61 +23085,55 @@
               "year": 2025,
               "draft_type": "auction",
               "round_num": 15,
-              "round_pick": 13,
+              "round_pick": 11,
               "bid_amount": 1,
-              "player_id": 4431545,
-              "player_name": "Will Shipley",
-              "position": "RB",
+              "player_id": 5123663,
+              "player_name": "Isaac TeSlaa",
+              "position": "WR",
               "drafted_by_canonical_id": "robert_hong",
               "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Robert Hong"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 17.5,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 75.9,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 17.5
+              "points_per_dollar": 75.9
             },
             {
               "year": 2025,
               "draft_type": "auction",
-              "round_num": 5,
-              "round_pick": 1,
-              "bid_amount": 14,
-              "player_id": 4361529,
-              "player_name": "Isiah Pacheco",
-              "position": "RB",
+              "round_num": 13,
+              "round_pick": 14,
+              "bid_amount": 1,
+              "player_id": 4360939,
+              "player_name": "Rashod Bateman",
+              "position": "WR",
               "drafted_by_canonical_id": "robert_hong",
               "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Robert Hong"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 87.3,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 55.4,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 6.235714285714286
+              "points_per_dollar": 55.4
             },
             {
               "year": 2025,
               "draft_type": "auction",
-              "round_num": 1,
-              "round_pick": 3,
-              "bid_amount": 59,
-              "player_id": 4890973,
-              "player_name": "Ashton Jeanty",
-              "position": "RB",
+              "round_num": 11,
+              "round_pick": 5,
+              "bid_amount": 1,
+              "player_id": 16460,
+              "player_name": "Adam Thielen",
+              "position": "WR",
               "drafted_by_canonical_id": "robert_hong",
               "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Robert Hong"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 245.1,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 39.6,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 4.154237288135593
+              "points_per_dollar": 39.6
             }
           ],
           "best_steals": [
@@ -23151,21 +23181,55 @@
               "year": 2025,
               "draft_type": "auction",
               "round_num": 15,
-              "round_pick": 13,
+              "round_pick": 11,
               "bid_amount": 1,
-              "player_id": 4431545,
-              "player_name": "Will Shipley",
-              "position": "RB",
+              "player_id": 5123663,
+              "player_name": "Isaac TeSlaa",
+              "position": "WR",
               "drafted_by_canonical_id": "robert_hong",
               "drafted_by_name": "Robert Hong",
-              "ended_with": [
-                "Robert Hong"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 17.5,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 75.9,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 17.5
+              "points_per_dollar": 75.9
+            },
+            {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 13,
+              "round_pick": 14,
+              "bid_amount": 1,
+              "player_id": 4360939,
+              "player_name": "Rashod Bateman",
+              "position": "WR",
+              "drafted_by_canonical_id": "robert_hong",
+              "drafted_by_name": "Robert Hong",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 55.4,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 55.4
+            },
+            {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 11,
+              "round_pick": 5,
+              "bid_amount": 1,
+              "player_id": 16460,
+              "player_name": "Adam Thielen",
+              "position": "WR",
+              "drafted_by_canonical_id": "robert_hong",
+              "drafted_by_name": "Robert Hong",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 39.6,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 39.6
             }
           ],
           "stars": [
@@ -23293,7 +23357,7 @@
             }
           ],
           "total_picks_this_era": 15,
-          "complete_picks_this_era": 9
+          "complete_picks_this_era": 15
         }
       },
       "captain_at_the_helm": [
@@ -23441,14 +23505,14 @@
           "combined_points_across_those_seasons": 529.5
         },
         {
-          "player_name": "Cowboys D/ST",
-          "position": "D/ST",
+          "player_name": "Chris Godwin",
+          "position": "WR",
           "times_drafted": 2,
           "years": [
-            2022,
-            2023
+            2019,
+            2021
           ],
-          "combined_points_across_those_seasons": 325.0
+          "combined_points_across_those_seasons": 518.5
         }
       ]
     },
@@ -26578,9 +26642,9 @@
     "draft_profile_full": {
       "owner_name": "Justin Lee",
       "total_picks": 124,
-      "picks_with_incomplete_data": 31,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 45,
-      "retention_rate": 0.4839,
+      "retention_rate": 0.3629,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -26893,6 +26957,42 @@
           ],
           "biggest_busts": [
             {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 1,
+              "round_pick": 14,
+              "bid_amount": 0,
+              "player_id": 3128720,
+              "player_name": "Nick Chubb",
+              "position": "RB",
+              "drafted_by_canonical_id": "justin_lee",
+              "drafted_by_name": "Justin Lee",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 23.1,
+              "data_complete": true,
+              "value_score": 23.1,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 9,
+              "bid_amount": 0,
+              "player_id": 3919596,
+              "player_name": "Chris Carson",
+              "position": "RB",
+              "drafted_by_canonical_id": "justin_lee",
+              "drafted_by_name": "Justin Lee",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 48.1,
+              "data_complete": true,
+              "value_score": 144.3,
+              "points_per_dollar": null
+            },
+            {
               "year": 2021,
               "draft_type": "snake",
               "round_num": 3,
@@ -26933,68 +27033,26 @@
               "points_per_dollar": null
             },
             {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 7,
-              "bid_amount": 0,
-              "player_id": 2977644,
-              "player_name": "Todd Gurley II",
-              "position": "RB",
-              "drafted_by_canonical_id": "justin_lee",
-              "drafted_by_name": "Justin Lee",
-              "ended_with": [
-                "Justin Lee"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 163.2,
-              "data_complete": true,
-              "value_score": 652.8,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2019,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 5,
-              "bid_amount": 0,
-              "player_id": 4035538,
-              "player_name": "David Montgomery",
-              "position": "RB",
-              "drafted_by_canonical_id": "justin_lee",
-              "drafted_by_name": "Justin Lee",
-              "ended_with": [
-                "Justin Lee"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 170.4,
-              "data_complete": true,
-              "value_score": 681.6,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2022,
+              "year": 2021,
               "draft_type": "snake",
               "round_num": 2,
-              "round_pick": 7,
+              "round_pick": 4,
               "bid_amount": 0,
-              "player_id": 3045147,
-              "player_name": "James Conner",
-              "position": "RB",
+              "player_id": 15795,
+              "player_name": "DeAndre Hopkins",
+              "position": "WR",
               "drafted_by_canonical_id": "justin_lee",
               "drafted_by_name": "Justin Lee",
-              "ended_with": [
-                "Karthik Pittala"
-              ],
+              "ended_with": null,
               "was_kept_by_drafter": false,
-              "total_points": 200.2,
+              "total_points": 147.2,
               "data_complete": true,
-              "value_score": 400.4,
+              "value_score": 294.4,
               "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 67
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -27406,7 +27464,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 26
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -27513,6 +27571,17 @@
       ],
       "signature_picks": [
         {
+          "player_name": "DeAndre Hopkins",
+          "position": "WR",
+          "times_drafted": 3,
+          "years": [
+            2018,
+            2020,
+            2021
+          ],
+          "combined_points_across_those_seasons": 768.5
+        },
+        {
           "player_name": "Amari Cooper",
           "position": "WR",
           "times_drafted": 3,
@@ -27522,17 +27591,6 @@
             2020
           ],
           "combined_points_across_those_seasons": 698.8
-        },
-        {
-          "player_name": "DeAndre Hopkins",
-          "position": "WR",
-          "times_drafted": 3,
-          "years": [
-            2018,
-            2020,
-            2021
-          ],
-          "combined_points_across_those_seasons": 621.3
         },
         {
           "player_name": "Jerry Jeudy",
@@ -27554,7 +27612,7 @@
             2023,
             2024
           ],
-          "combined_points_across_those_seasons": 281.4
+          "combined_points_across_those_seasons": 367.8
         },
         {
           "player_name": "Kyler Murray",
@@ -27564,7 +27622,7 @@
             2020,
             2022
           ],
-          "combined_points_across_those_seasons": 378.74
+          "combined_points_across_those_seasons": 579.26
         }
       ]
     },
@@ -30308,9 +30366,9 @@
     "draft_profile_full": {
       "owner_name": "Karthik Pittala",
       "total_picks": 108,
-      "picks_with_incomplete_data": 29,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 42,
-      "retention_rate": 0.5316,
+      "retention_rate": 0.3889,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -30357,6 +30415,24 @@
               "points_per_dollar": null
             },
             {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 15,
+              "round_pick": 1,
+              "bid_amount": 0,
+              "player_id": 3051909,
+              "player_name": "Daniel Carlson",
+              "position": "K",
+              "drafted_by_canonical_id": "karthik_pittala",
+              "drafted_by_name": "Karthik Pittala",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 171.0,
+              "data_complete": true,
+              "value_score": 2565.0,
+              "points_per_dollar": null
+            },
+            {
               "year": 2020,
               "draft_type": "snake",
               "round_num": 16,
@@ -30394,26 +30470,6 @@
               "total_points": 238.6,
               "data_complete": true,
               "value_score": 2147.4,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2021,
-              "draft_type": "snake",
-              "round_num": 8,
-              "round_pick": 12,
-              "bid_amount": 0,
-              "player_id": 3045147,
-              "player_name": "James Conner",
-              "position": "RB",
-              "drafted_by_canonical_id": "karthik_pittala",
-              "drafted_by_name": "Karthik Pittala",
-              "ended_with": [
-                "Jared Tao"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 257.7,
-              "data_complete": true,
-              "value_score": 2061.6,
               "points_per_dollar": null
             }
           ],
@@ -30724,7 +30780,7 @@
             }
           ],
           "total_picks_this_era": 78,
-          "complete_picks_this_era": 59
+          "complete_picks_this_era": 78
         },
         "auction": {
           "best_value_picks": [
@@ -30809,24 +30865,22 @@
               "points_per_dollar": 126.0
             },
             {
-              "year": 2025,
+              "year": 2024,
               "draft_type": "auction",
-              "round_num": 12,
-              "round_pick": 3,
-              "bid_amount": 2,
-              "player_id": 4242355,
-              "player_name": "Jake Ferguson",
-              "position": "TE",
+              "round_num": 14,
+              "round_pick": 4,
+              "bid_amount": 1,
+              "player_id": 4430034,
+              "player_name": "Xavier Legette",
+              "position": "WR",
               "drafted_by_canonical_id": "karthik_pittala",
               "drafted_by_name": "Karthik Pittala",
-              "ended_with": [
-                "Ancheng Da"
-              ],
+              "ended_with": null,
               "was_kept_by_drafter": false,
-              "total_points": 188.1,
+              "total_points": 125.1,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 94.05
+              "points_per_dollar": 125.1
             }
           ],
           "best_steals": [
@@ -30909,6 +30963,24 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 126.0
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 14,
+              "round_pick": 4,
+              "bid_amount": 1,
+              "player_id": 4430034,
+              "player_name": "Xavier Legette",
+              "position": "WR",
+              "drafted_by_canonical_id": "karthik_pittala",
+              "drafted_by_name": "Karthik Pittala",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 125.1,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 125.1
             }
           ],
           "stars": [
@@ -31015,6 +31087,24 @@
           ],
           "biggest_busts": [
             {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 4,
+              "round_pick": 11,
+              "bid_amount": 28,
+              "player_id": 4241416,
+              "player_name": "Chuba Hubbard",
+              "position": "RB",
+              "drafted_by_canonical_id": "karthik_pittala",
+              "drafted_by_name": "Karthik Pittala",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 125.4,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 4.478571428571429
+            },
+            {
               "year": 2024,
               "draft_type": "auction",
               "round_num": 5,
@@ -31093,30 +31183,10 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 7.6692307692307695
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 7,
-              "round_pick": 9,
-              "bid_amount": 18,
-              "player_id": 4259545,
-              "player_name": "D'Andre Swift",
-              "position": "RB",
-              "drafted_by_canonical_id": "karthik_pittala",
-              "drafted_by_name": "Karthik Pittala",
-              "ended_with": [
-                "Karthik Pittala"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 214.5,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 11.916666666666666
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 20
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -31242,7 +31312,7 @@
             2021,
             2022
           ],
-          "combined_points_across_those_seasons": 300.8
+          "combined_points_across_those_seasons": 353.0
         },
         {
           "player_name": "Russell Wilson",
@@ -34386,9 +34456,9 @@
     "draft_profile_full": {
       "owner_name": "Jonathan Bi",
       "total_picks": 124,
-      "picks_with_incomplete_data": 37,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 28,
-      "retention_rate": 0.3218,
+      "retention_rate": 0.2258,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -34435,6 +34505,24 @@
               "points_per_dollar": null
             },
             {
+              "year": 2022,
+              "draft_type": "snake",
+              "round_num": 15,
+              "round_pick": 4,
+              "bid_amount": 0,
+              "player_id": 3916566,
+              "player_name": "K.J. Osborn",
+              "position": "WR",
+              "drafted_by_canonical_id": "jonathan_bi",
+              "drafted_by_name": "Jonathan Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 155.6,
+              "data_complete": true,
+              "value_score": 2334.0,
+              "points_per_dollar": null
+            },
+            {
               "year": 2023,
               "draft_type": "snake",
               "round_num": 12,
@@ -34472,26 +34560,6 @@
               "total_points": 219.7,
               "data_complete": true,
               "value_score": 2197.0,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2018,
-              "draft_type": "snake",
-              "round_num": 10,
-              "round_pick": 6,
-              "bid_amount": 0,
-              "player_id": 12649,
-              "player_name": "Julian Edelman",
-              "position": "WR",
-              "drafted_by_canonical_id": "jonathan_bi",
-              "drafted_by_name": "Jonathan Bi",
-              "ended_with": [
-                "Jonathan Bi"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 207.42,
-              "data_complete": true,
-              "value_score": 2074.2,
               "points_per_dollar": null
             }
           ],
@@ -34701,6 +34769,42 @@
           ],
           "biggest_busts": [
             {
+              "year": 2021,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 8,
+              "bid_amount": 0,
+              "player_id": 16799,
+              "player_name": "Allen Robinson II",
+              "position": "WR",
+              "drafted_by_canonical_id": "jonathan_bi",
+              "drafted_by_name": "Jonathan Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 87.0,
+              "data_complete": true,
+              "value_score": 261.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 4,
+              "round_pick": 7,
+              "bid_amount": 0,
+              "player_id": 4045163,
+              "player_name": "Miles Sanders",
+              "position": "RB",
+              "drafted_by_canonical_id": "jonathan_bi",
+              "drafted_by_name": "Jonathan Bi",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 87.6,
+              "data_complete": true,
+              "value_score": 350.4,
+              "points_per_dollar": null
+            },
+            {
               "year": 2020,
               "draft_type": "snake",
               "round_num": 1,
@@ -34759,50 +34863,10 @@
               "data_complete": true,
               "value_score": 145.5,
               "points_per_dollar": null
-            },
-            {
-              "year": 2020,
-              "draft_type": "snake",
-              "round_num": 2,
-              "round_pick": 10,
-              "bid_amount": 0,
-              "player_id": 13982,
-              "player_name": "Julio Jones",
-              "position": "WR",
-              "drafted_by_canonical_id": "jonathan_bi",
-              "drafted_by_name": "Jonathan Bi",
-              "ended_with": [
-                "Ancheng Da"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 146.1,
-              "data_complete": true,
-              "value_score": 292.2,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2022,
-              "draft_type": "snake",
-              "round_num": 2,
-              "round_pick": 9,
-              "bid_amount": 0,
-              "player_id": 3126486,
-              "player_name": "Deebo Samuel",
-              "position": "WR",
-              "drafted_by_canonical_id": "jonathan_bi",
-              "drafted_by_name": "Jonathan Bi",
-              "ended_with": [
-                "Jared Tao"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 168.4,
-              "data_complete": true,
-              "value_score": 336.8,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 94,
-          "complete_picks_this_era": 69
+          "complete_picks_this_era": 94
         },
         "auction": {
           "best_value_picks": [
@@ -35214,7 +35278,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 18
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -35342,13 +35406,13 @@
         },
         {
           "player_name": "Carson Wentz",
-          "position": null,
+          "position": "QB",
           "times_drafted": 2,
           "years": [
             2018,
             2019
           ],
-          "combined_points_across_those_seasons": 275.86
+          "combined_points_across_those_seasons": 469.52
         },
         {
           "player_name": "Robert Woods",
@@ -35358,17 +35422,17 @@
             2018,
             2022
           ],
-          "combined_points_across_those_seasons": 265.6
+          "combined_points_across_those_seasons": 381.3
         },
         {
-          "player_name": "Jahan Dotson",
-          "position": "WR",
+          "player_name": "Sony Michel",
+          "position": "RB",
           "times_drafted": 2,
           "years": [
-            2022,
-            2023
+            2018,
+            2019
           ],
-          "combined_points_across_those_seasons": 255.4
+          "combined_points_across_those_seasons": 291.7
         }
       ]
     },
@@ -37088,9 +37152,9 @@
     "draft_profile_full": {
       "owner_name": "Saurab Nooguri",
       "total_picks": 62,
-      "picks_with_incomplete_data": 21,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 17,
-      "retention_rate": 0.4146,
+      "retention_rate": 0.2742,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -37403,6 +37467,24 @@
           ],
           "biggest_busts": [
             {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 4,
+              "round_pick": 3,
+              "bid_amount": 0,
+              "player_id": 4360238,
+              "player_name": "Dameon Pierce",
+              "position": "RB",
+              "drafted_by_canonical_id": "saurab_nooguri",
+              "drafted_by_name": "Saurab Nooguri",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 82.7,
+              "data_complete": true,
+              "value_score": 330.8,
+              "points_per_dollar": null
+            },
+            {
               "year": 2019,
               "draft_type": "snake",
               "round_num": 3,
@@ -37481,30 +37563,10 @@
               "data_complete": true,
               "value_score": 274.1,
               "points_per_dollar": null
-            },
-            {
-              "year": 2019,
-              "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 3,
-              "bid_amount": 0,
-              "player_id": 3042519,
-              "player_name": "Aaron Jones",
-              "position": "RB",
-              "drafted_by_canonical_id": "saurab_nooguri",
-              "drafted_by_name": "Saurab Nooguri",
-              "ended_with": [
-                "Saurab Nooguri"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 314.8,
-              "data_complete": true,
-              "value_score": 1259.2,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 32,
-          "complete_picks_this_era": 25
+          "complete_picks_this_era": 32
         },
         "auction": {
           "best_value_picks": [
@@ -37916,7 +37978,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 16
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -38031,7 +38093,17 @@
             2023,
             2024
           ],
-          "combined_points_across_those_seasons": 420.74
+          "combined_points_across_those_seasons": 570.48
+        },
+        {
+          "player_name": "Evan Engram",
+          "position": "TE",
+          "times_drafted": 2,
+          "years": [
+            2019,
+            2025
+          ],
+          "combined_points_across_those_seasons": 212.2
         },
         {
           "player_name": "Chargers D/ST",
@@ -38044,24 +38116,14 @@
           "combined_points_across_those_seasons": 199.0
         },
         {
-          "player_name": "Evan Engram",
-          "position": "TE",
-          "times_drafted": 2,
-          "years": [
-            2019,
-            2025
-          ],
-          "combined_points_across_those_seasons": 109.4
-        },
-        {
           "player_name": "Miles Sanders",
-          "position": null,
+          "position": "RB",
           "times_drafted": 2,
           "years": [
             2024,
             2025
           ],
-          "combined_points_across_those_seasons": 0
+          "combined_points_across_those_seasons": 104.0
         }
       ]
     },
@@ -40474,9 +40536,9 @@
     "draft_profile_full": {
       "owner_name": "Jared Tao",
       "total_picks": 91,
-      "picks_with_incomplete_data": 21,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 46,
-      "retention_rate": 0.6571,
+      "retention_rate": 0.5055,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -40890,7 +40952,7 @@
             }
           ],
           "total_picks_this_era": 61,
-          "complete_picks_this_era": 46
+          "complete_picks_this_era": 61
         },
         "auction": {
           "best_value_picks": [
@@ -40957,42 +41019,38 @@
             {
               "year": 2024,
               "draft_type": "auction",
-              "round_num": 9,
-              "round_pick": 5,
-              "bid_amount": 4,
-              "player_id": 4241416,
-              "player_name": "Chuba Hubbard",
-              "position": "RB",
+              "round_num": 2,
+              "round_pick": 2,
+              "bid_amount": 1,
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST",
+              "position": "D/ST",
               "drafted_by_canonical_id": "jared_tao",
               "drafted_by_name": "Jared Tao",
-              "ended_with": [
-                "Jared Tao"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 241.6,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 92.0,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 60.4
+              "points_per_dollar": 92.0
             },
             {
               "year": 2025,
               "draft_type": "auction",
-              "round_num": 1,
+              "round_num": 7,
               "round_pick": 12,
-              "bid_amount": 3,
-              "player_id": 4689936,
-              "player_name": "Jake Bates",
-              "position": "K",
+              "bid_amount": 1,
+              "player_id": -16008,
+              "player_name": "Lions D/ST",
+              "position": "D/ST",
               "drafted_by_canonical_id": "jared_tao",
               "drafted_by_name": "Jared Tao",
-              "ended_with": [
-                "Jared Tao"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 145.0,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 91.0,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 48.333333333333336
+              "points_per_dollar": 91.0
             }
           ],
           "best_steals": [
@@ -41057,24 +41115,40 @@
               "points_per_dollar": 162.0
             },
             {
-              "year": 2025,
+              "year": 2024,
               "draft_type": "auction",
-              "round_num": 13,
-              "round_pick": 8,
+              "round_num": 2,
+              "round_pick": 2,
               "bid_amount": 1,
-              "player_id": 4682745,
-              "player_name": "Jaylen Wright",
-              "position": "RB",
+              "player_id": -16006,
+              "player_name": "Cowboys D/ST",
+              "position": "D/ST",
               "drafted_by_canonical_id": "jared_tao",
               "drafted_by_name": "Jared Tao",
-              "ended_with": [
-                "Eric Tao"
-              ],
+              "ended_with": null,
               "was_kept_by_drafter": false,
-              "total_points": 48.2,
+              "total_points": 92.0,
               "data_complete": true,
               "value_score": null,
-              "points_per_dollar": 48.2
+              "points_per_dollar": 92.0
+            },
+            {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 7,
+              "round_pick": 12,
+              "bid_amount": 1,
+              "player_id": -16008,
+              "player_name": "Lions D/ST",
+              "position": "D/ST",
+              "drafted_by_canonical_id": "jared_tao",
+              "drafted_by_name": "Jared Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 91.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 91.0
             }
           ],
           "stars": [
@@ -41183,6 +41257,24 @@
             {
               "year": 2024,
               "draft_type": "auction",
+              "round_num": 2,
+              "round_pick": 3,
+              "bid_amount": 26,
+              "player_id": 2976212,
+              "player_name": "Stefon Diggs",
+              "position": "WR",
+              "drafted_by_canonical_id": "jared_tao",
+              "drafted_by_name": "Jared Tao",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 121.92,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 4.689230769230769
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
               "round_num": 4,
               "round_pick": 5,
               "bid_amount": 33,
@@ -41259,30 +41351,10 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 13.02857142857143
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 3,
-              "round_pick": 14,
-              "bid_amount": 31,
-              "player_id": 4429160,
-              "player_name": "De'Von Achane",
-              "position": "RB",
-              "drafted_by_canonical_id": "jared_tao",
-              "drafted_by_name": "Jared Tao",
-              "ended_with": [
-                "Jonathan Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 299.9,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 9.674193548387096
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 24
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -43528,9 +43600,9 @@
     "draft_profile_full": {
       "owner_name": "Parth Shah",
       "total_picks": 75,
-      "picks_with_incomplete_data": 26,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 25,
-      "retention_rate": 0.5102,
+      "retention_rate": 0.3333,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -43843,6 +43915,42 @@
           ],
           "biggest_busts": [
             {
+              "year": 2022,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 9,
+              "bid_amount": 0,
+              "player_id": 4360248,
+              "player_name": "Kyle Pitts",
+              "position": "TE",
+              "drafted_by_canonical_id": "parth_shah",
+              "drafted_by_name": "Parth Shah",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 75.6,
+              "data_complete": true,
+              "value_score": 226.79999999999998,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 3,
+              "round_pick": 5,
+              "bid_amount": 0,
+              "player_id": 4569173,
+              "player_name": "Rhamondre Stevenson",
+              "position": "RB",
+              "drafted_by_canonical_id": "parth_shah",
+              "drafted_by_name": "Parth Shah",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 145.7,
+              "data_complete": true,
+              "value_score": 437.09999999999997,
+              "points_per_dollar": null
+            },
+            {
               "year": 2021,
               "draft_type": "snake",
               "round_num": 2,
@@ -43901,50 +44009,10 @@
               "data_complete": true,
               "value_score": 819.6,
               "points_per_dollar": null
-            },
-            {
-              "year": 2023,
-              "draft_type": "snake",
-              "round_num": 2,
-              "round_pick": 10,
-              "bid_amount": 0,
-              "player_id": 3925357,
-              "player_name": "Calvin Ridley",
-              "position": "WR",
-              "drafted_by_canonical_id": "parth_shah",
-              "drafted_by_name": "Parth Shah",
-              "ended_with": [
-                "Justin Lee"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 229.9,
-              "data_complete": true,
-              "value_score": 459.8,
-              "points_per_dollar": null
-            },
-            {
-              "year": 2021,
-              "draft_type": "snake",
-              "round_num": 3,
-              "round_pick": 5,
-              "bid_amount": 0,
-              "player_id": 4241389,
-              "player_name": "CeeDee Lamb",
-              "position": "WR",
-              "drafted_by_canonical_id": "parth_shah",
-              "drafted_by_name": "Parth Shah",
-              "ended_with": [
-                "Parth Shah"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 232.8,
-              "data_complete": true,
-              "value_score": 698.4000000000001,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 45,
-          "complete_picks_this_era": 29
+          "complete_picks_this_era": 45
         },
         "auction": {
           "best_value_picks": [
@@ -44009,6 +44077,24 @@
               "points_per_dollar": 147.7
             },
             {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 11,
+              "round_pick": 4,
+              "bid_amount": 1,
+              "player_id": 3055899,
+              "player_name": "Harrison Butker",
+              "position": "K",
+              "drafted_by_canonical_id": "parth_shah",
+              "drafted_by_name": "Parth Shah",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 144.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 144.0
+            },
+            {
               "year": 2024,
               "draft_type": "auction",
               "round_num": 12,
@@ -44027,26 +44113,6 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 141.0
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 13,
-              "round_pick": 1,
-              "bid_amount": 2,
-              "player_id": 4038815,
-              "player_name": "Rico Dowdle",
-              "position": "RB",
-              "drafted_by_canonical_id": "parth_shah",
-              "drafted_by_name": "Parth Shah",
-              "ended_with": [
-                "Parth Shah"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 197.8,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 98.9
             }
           ],
           "best_steals": [
@@ -44111,6 +44177,24 @@
               "points_per_dollar": 147.7
             },
             {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 11,
+              "round_pick": 4,
+              "bid_amount": 1,
+              "player_id": 3055899,
+              "player_name": "Harrison Butker",
+              "position": "K",
+              "drafted_by_canonical_id": "parth_shah",
+              "drafted_by_name": "Parth Shah",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 144.0,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 144.0
+            },
+            {
               "year": 2024,
               "draft_type": "auction",
               "round_num": 12,
@@ -44129,26 +44213,6 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 141.0
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 10,
-              "round_pick": 12,
-              "bid_amount": 1,
-              "player_id": 4036133,
-              "player_name": "T.J. Hockenson",
-              "position": "TE",
-              "drafted_by_canonical_id": "parth_shah",
-              "drafted_by_name": "Parth Shah",
-              "ended_with": [
-                "Parth Shah"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 86.5,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 86.5
             }
           ],
           "stars": [
@@ -44356,7 +44420,7 @@
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 20
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -44421,6 +44485,24 @@
           "points_per_dollar": 128.29
         },
         {
+          "year": 2023,
+          "draft_type": "snake",
+          "round_num": 4,
+          "round_pick": 10,
+          "bid_amount": 0,
+          "player_id": 4038941,
+          "player_name": "Justin Herbert",
+          "position": "QB",
+          "drafted_by_canonical_id": "parth_shah",
+          "drafted_by_name": "Parth Shah",
+          "ended_with": null,
+          "was_kept_by_drafter": false,
+          "total_points": 234.16,
+          "data_complete": true,
+          "value_score": 936.64,
+          "points_per_dollar": null
+        },
+        {
           "year": 2022,
           "draft_type": "snake",
           "round_num": 13,
@@ -44439,26 +44521,6 @@
           "data_complete": true,
           "value_score": 2848.04,
           "points_per_dollar": null
-        },
-        {
-          "year": 2025,
-          "draft_type": "auction",
-          "round_num": 4,
-          "round_pick": 14,
-          "bid_amount": 29,
-          "player_id": 4426348,
-          "player_name": "Jayden Daniels",
-          "position": "QB",
-          "drafted_by_canonical_id": "parth_shah",
-          "drafted_by_name": "Parth Shah",
-          "ended_with": [
-            "Parth Shah"
-          ],
-          "was_kept_by_drafter": true,
-          "total_points": 114.28,
-          "data_complete": true,
-          "value_score": null,
-          "points_per_dollar": 3.940689655172414
         }
       ],
       "signature_picks": [
@@ -44483,6 +44545,16 @@
           "combined_points_across_those_seasons": 313.0
         },
         {
+          "player_name": "Texans D/ST",
+          "position": "D/ST",
+          "times_drafted": 2,
+          "years": [
+            2024,
+            2025
+          ],
+          "combined_points_across_those_seasons": 312.0
+        },
+        {
           "player_name": "Pat Freiermuth",
           "position": "TE",
           "times_drafted": 2,
@@ -44491,16 +44563,6 @@
             2024
           ],
           "combined_points_across_those_seasons": 245.1
-        },
-        {
-          "player_name": "Texans D/ST",
-          "position": null,
-          "times_drafted": 2,
-          "years": [
-            2024,
-            2025
-          ],
-          "combined_points_across_those_seasons": 173.0
         }
       ]
     },
@@ -46183,9 +46245,9 @@
     "draft_profile_full": {
       "owner_name": "Andy Chen",
       "total_picks": 60,
-      "picks_with_incomplete_data": 14,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 32,
-      "retention_rate": 0.6957,
+      "retention_rate": 0.5333,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -46500,6 +46562,24 @@
             {
               "year": 2022,
               "draft_type": "snake",
+              "round_num": 2,
+              "round_pick": 8,
+              "bid_amount": 0,
+              "player_id": 4361579,
+              "player_name": "Javonte Williams",
+              "position": "RB",
+              "drafted_by_canonical_id": "andy_chen",
+              "drafted_by_name": "Andy Chen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 42.0,
+              "data_complete": true,
+              "value_score": 84.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2022,
+              "draft_type": "snake",
               "round_num": 4,
               "round_pick": 8,
               "bid_amount": 0,
@@ -46576,30 +46656,10 @@
               "data_complete": true,
               "value_score": 201.4,
               "points_per_dollar": null
-            },
-            {
-              "year": 2021,
-              "draft_type": "snake",
-              "round_num": 2,
-              "round_pick": 9,
-              "bid_amount": 0,
-              "player_id": 3121422,
-              "player_name": "Terry McLaurin",
-              "position": "WR",
-              "drafted_by_canonical_id": "andy_chen",
-              "drafted_by_name": "Andy Chen",
-              "ended_with": [
-                "Andy Chen"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 213.5,
-              "data_complete": true,
-              "value_score": 427.0,
-              "points_per_dollar": null
             }
           ],
           "total_picks_this_era": 45,
-          "complete_picks_this_era": 33
+          "complete_picks_this_era": 45
         },
         "auction": {
           "best_value_picks": [
@@ -46622,6 +46682,24 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 182.3
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 15,
+              "round_pick": 8,
+              "bid_amount": 1,
+              "player_id": 4428718,
+              "player_name": "Tre Tucker",
+              "position": "WR",
+              "drafted_by_canonical_id": "andy_chen",
+              "drafted_by_name": "Andy Chen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 129.3,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 129.3
             },
             {
               "year": 2024,
@@ -46682,26 +46760,6 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 108.0
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 8,
-              "round_pick": 2,
-              "bid_amount": 8,
-              "player_id": 3916148,
-              "player_name": "Tony Pollard",
-              "position": "RB",
-              "drafted_by_canonical_id": "andy_chen",
-              "drafted_by_name": "Andy Chen",
-              "ended_with": [
-                "Andy Chen"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 200.7,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 25.0875
             }
           ],
           "best_steals": [
@@ -46724,6 +46782,24 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 182.3
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 15,
+              "round_pick": 8,
+              "bid_amount": 1,
+              "player_id": 4428718,
+              "player_name": "Tre Tucker",
+              "position": "WR",
+              "drafted_by_canonical_id": "andy_chen",
+              "drafted_by_name": "Andy Chen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 129.3,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 129.3
             },
             {
               "year": 2024,
@@ -46911,7 +46987,7 @@
             }
           ],
           "total_picks_this_era": 15,
-          "complete_picks_this_era": 13
+          "complete_picks_this_era": 15
         }
       },
       "captain_at_the_helm": [
@@ -48377,9 +48453,9 @@
     "draft_profile_full": {
       "owner_name": "Derek Wen",
       "total_picks": 45,
-      "picks_with_incomplete_data": 10,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 22,
-      "retention_rate": 0.6286,
+      "retention_rate": 0.4889,
       "has_snake_era": true,
       "has_auction_era": true,
       "eras": {
@@ -48468,21 +48544,19 @@
             {
               "year": 2023,
               "draft_type": "snake",
-              "round_num": 4,
-              "round_pick": 5,
+              "round_num": 13,
+              "round_pick": 10,
               "bid_amount": 0,
-              "player_id": 4567048,
-              "player_name": "Kenneth Walker III",
+              "player_id": 3125116,
+              "player_name": "D'Onta Foreman",
               "position": "RB",
               "drafted_by_canonical_id": "derek_wen",
               "drafted_by_name": "Derek Wen",
-              "ended_with": [
-                "Derek Wen"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 199.4,
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 91.2,
               "data_complete": true,
-              "value_score": 797.6,
+              "value_score": 1185.6000000000001,
               "points_per_dollar": null
             }
           ],
@@ -48525,6 +48599,60 @@
               "total_points": 133.0,
               "data_complete": true,
               "value_score": 1596.0,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 13,
+              "round_pick": 10,
+              "bid_amount": 0,
+              "player_id": 3125116,
+              "player_name": "D'Onta Foreman",
+              "position": "RB",
+              "drafted_by_canonical_id": "derek_wen",
+              "drafted_by_name": "Derek Wen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 91.2,
+              "data_complete": true,
+              "value_score": 1185.6000000000001,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 9,
+              "round_pick": 10,
+              "bid_amount": 0,
+              "player_id": 4040655,
+              "player_name": "Darnell Mooney",
+              "position": "WR",
+              "drafted_by_canonical_id": "derek_wen",
+              "drafted_by_name": "Derek Wen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 78.9,
+              "data_complete": true,
+              "value_score": 710.1,
+              "points_per_dollar": null
+            },
+            {
+              "year": 2023,
+              "draft_type": "snake",
+              "round_num": 8,
+              "round_pick": 5,
+              "bid_amount": 0,
+              "player_id": 3120348,
+              "player_name": "JuJu Smith-Schuster",
+              "position": "WR",
+              "drafted_by_canonical_id": "derek_wen",
+              "drafted_by_name": "Derek Wen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 61.0,
+              "data_complete": true,
+              "value_score": 488.0,
               "points_per_dollar": null
             }
           ],
@@ -48693,7 +48821,7 @@
             }
           ],
           "total_picks_this_era": 15,
-          "complete_picks_this_era": 10
+          "complete_picks_this_era": 15
         },
         "auction": {
           "best_value_picks": [
@@ -49004,6 +49132,24 @@
           ],
           "biggest_busts": [
             {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 6,
+              "round_pick": 10,
+              "bid_amount": 18,
+              "player_id": 3925357,
+              "player_name": "Calvin Ridley",
+              "position": "WR",
+              "drafted_by_canonical_id": "derek_wen",
+              "drafted_by_name": "Derek Wen",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 47.3,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 2.6277777777777778
+            },
+            {
               "year": 2024,
               "draft_type": "auction",
               "round_num": 2,
@@ -49082,30 +49228,10 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 11.105882352941178
-            },
-            {
-              "year": 2025,
-              "draft_type": "auction",
-              "round_num": 5,
-              "round_pick": 7,
-              "bid_amount": 28,
-              "player_id": 4432710,
-              "player_name": "TreVeyon Henderson",
-              "position": "RB",
-              "drafted_by_canonical_id": "derek_wen",
-              "drafted_by_name": "Derek Wen",
-              "ended_with": [
-                "Derek Wen"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 206.2,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 7.364285714285714
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 25
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [
@@ -50187,9 +50313,9 @@
     "draft_profile_full": {
       "owner_name": "Jordi Pham",
       "total_picks": 30,
-      "picks_with_incomplete_data": 7,
+      "picks_with_incomplete_data": 0,
       "picks_kept": 12,
-      "retention_rate": 0.5217,
+      "retention_rate": 0.4,
       "has_snake_era": false,
       "has_auction_era": true,
       "eras": {
@@ -50258,6 +50384,24 @@
             {
               "year": 2024,
               "draft_type": "auction",
+              "round_num": 9,
+              "round_pick": 11,
+              "bid_amount": 1,
+              "player_id": 4428850,
+              "player_name": "Dontayvion Wicks",
+              "position": "WR",
+              "drafted_by_canonical_id": "jordi_pham",
+              "drafted_by_name": "Jordi Pham",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 110.5,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 110.5
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
               "round_num": 8,
               "round_pick": 11,
               "bid_amount": 1,
@@ -50274,26 +50418,6 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 98.0
-            },
-            {
-              "year": 2025,
-              "draft_type": "auction",
-              "round_num": 11,
-              "round_pick": 13,
-              "bid_amount": 2,
-              "player_id": 4569173,
-              "player_name": "Rhamondre Stevenson",
-              "position": "RB",
-              "drafted_by_canonical_id": "jordi_pham",
-              "drafted_by_name": "Jordi Pham",
-              "ended_with": [
-                "Jordi Pham"
-              ],
-              "was_kept_by_drafter": true,
-              "total_points": 178.8,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 89.4
             }
           ],
           "best_steals": [
@@ -50356,6 +50480,24 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 126.1
+            },
+            {
+              "year": 2024,
+              "draft_type": "auction",
+              "round_num": 9,
+              "round_pick": 11,
+              "bid_amount": 1,
+              "player_id": 4428850,
+              "player_name": "Dontayvion Wicks",
+              "position": "WR",
+              "drafted_by_canonical_id": "jordi_pham",
+              "drafted_by_name": "Jordi Pham",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 110.5,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 110.5
             },
             {
               "year": 2024,
@@ -50482,6 +50624,24 @@
           ],
           "biggest_busts": [
             {
+              "year": 2025,
+              "draft_type": "auction",
+              "round_num": 5,
+              "round_pick": 14,
+              "bid_amount": 30,
+              "player_id": 3045147,
+              "player_name": "James Conner",
+              "position": "RB",
+              "drafted_by_canonical_id": "jordi_pham",
+              "drafted_by_name": "Jordi Pham",
+              "ended_with": null,
+              "was_kept_by_drafter": false,
+              "total_points": 33.3,
+              "data_complete": true,
+              "value_score": null,
+              "points_per_dollar": 1.1099999999999999
+            },
+            {
               "year": 2024,
               "draft_type": "auction",
               "round_num": 2,
@@ -50560,30 +50720,10 @@
               "data_complete": true,
               "value_score": null,
               "points_per_dollar": 2.238709677419355
-            },
-            {
-              "year": 2024,
-              "draft_type": "auction",
-              "round_num": 1,
-              "round_pick": 9,
-              "bid_amount": 76,
-              "player_id": 3116406,
-              "player_name": "Tyreek Hill",
-              "position": "WR",
-              "drafted_by_canonical_id": "jordi_pham",
-              "drafted_by_name": "Jordi Pham",
-              "ended_with": [
-                "Yannis Bi"
-              ],
-              "was_kept_by_drafter": false,
-              "total_points": 218.2,
-              "data_complete": true,
-              "value_score": null,
-              "points_per_dollar": 2.871052631578947
             }
           ],
           "total_picks_this_era": 30,
-          "complete_picks_this_era": 23
+          "complete_picks_this_era": 30
         }
       },
       "captain_at_the_helm": [

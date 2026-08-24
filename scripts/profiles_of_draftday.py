@@ -159,19 +159,24 @@ def build_pick_records(history, id_to_canonical, canonical_owners, exclusions, d
             landing = landing_spots.get(player_id)
             bid_amount = pick.get("bid_amount")
 
-            if landing is None:
-                ended_with = None
-                total_points = None
-                position = None
-                was_kept = False
-                data_complete = False
-            else:
+            # total_points/position now come DIRECTLY from the pick itself -
+            # gofetch.py enriches every pick with these already (final_roster
+            # lookup, or a player_info() fallback for the ~27% with no
+            # recoverable landing spot at all). landing_spots is still
+            # needed separately, but ONLY to determine was_kept/ended_with,
+            # since that requires knowing which TEAM a player ended up on -
+            # not just their stats, which player_info() alone doesn't tell us.
+            total_points = pick.get("total_points")
+            position = pick.get("position")
+            data_complete = total_points is not None
+
+            if landing is not None:
                 ended_team = teams_by_id.get(landing["team_id"])
                 ended_with = resolve_credited_owners(ended_team, yr, id_to_canonical, canonical_owners, exclusions) if ended_team else []
-                total_points = landing["total_points"]
-                position = landing["position"]
                 was_kept = (landing["team_id"] == drafted_team_id)
-                data_complete = True
+            else:
+                ended_with = None
+                was_kept = False
 
             value_score = None
             points_per_dollar = None
@@ -496,4 +501,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+    

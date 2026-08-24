@@ -160,6 +160,36 @@ def pull_season(year):
     draft = [pick_to_dict(p) for p in league.draft]
     settings = settings_to_dict(league.settings)
 
+    # Enrich every pick DIRECTLY with position/points - final_roster
+    # covers ~73% of picks for free (no extra API calls). The remaining
+    # ~27% (dropped and never reclaimed by anyone) fall back to a direct
+    # player_info() call - confirmed via test_player_info_historical.py
+    # to return valid historical data even for these vanished players
+    # (Le'Veon Bell's 2018 holdout, Jerick McKinnon's season-ending
+    # injury, etc. all matched real history correctly).
+    final_roster_lookup = {}
+    for team in teams:
+        for p in team["final_roster"]:
+            final_roster_lookup[p["player_id"]] = p
+
+    for pick in draft:
+        pid = pick["player_id"]
+        found = final_roster_lookup.get(pid)
+        if found:
+            pick["position"] = found["position"]
+            pick["total_points"] = found["total_points"]
+            pick["avg_points"] = found["avg_points"]
+            pick["projected_total_points"] = found.get("projected_total_points")
+        else:
+            try:
+                player = league.player_info(playerId=pid)
+            except Exception:
+                player = None
+            pick["position"] = getattr(player, "position", None) if player else None
+            pick["total_points"] = getattr(player, "total_points", None) if player else None
+            pick["avg_points"] = getattr(player, "avg_points", None) if player else None
+            pick["projected_total_points"] = getattr(player, "projected_total_points", None) if player else None
+
     matchups = {}
     max_week = 18  # safe upper bound; unplayed/nonexistent weeks are skipped below
     for week in range(1, max_week + 1):
