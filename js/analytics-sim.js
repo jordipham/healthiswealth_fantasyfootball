@@ -130,6 +130,10 @@ const FAQ_ITEMS = [
     q: "What do the labels (DOMINANT / DESERVED / LUCKY RUN / MIRACLE RUN) mean?",
     a: "They're just a plain-language way to describe the probability range: DOMINANT (45%+) means they'd likely win that bracket most of the time. DESERVED (25-45%) means a real, solid favorite. LUCKY RUN (10-25%) means the margins were tight enough that it easily could have gone another way. MIRACLE RUN (under 10%) means a genuinely dramatic, could-have-gone-either-way path to the title - which is a great story, not a bad one.",
   },
+  {
+    q: "Why these specific percentages, and why aren't they recalculated automatically?",
+    a: "These cutoffs are calibrated to THIS league's real observed range (across 8 champions so far, from about 3% to 53%) rather than arbitrary round numbers - the original thresholds meant \"DOMINANT\" had never once been reached, and 5 of 8 champions were all lumped into the single most dramatic label despite having meaningfully different probabilities. They're intentionally FIXED, not recalculated fresh each season, unlike some other stats on this site - with only one data point per year, dynamic thresholds would be too coarse, and would retroactively relabel past champions every time a new season is added, which isn't the goal here.",
+  },
 ];
 
 function renderMethodology() {

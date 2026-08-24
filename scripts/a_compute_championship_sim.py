@@ -216,6 +216,20 @@ def main():
             "champion": entry["owners_display"],
             "games_in_bracket_run": games_in_run,
             "simulated_championship_probability": win_probability,
+            # Thresholds recalibrated 2026 - the original 60/35/15 cutoffs
+            # were arbitrary round numbers, not based on this league's
+            # actual data. Checked against real results (8 champions,
+            # range 2.9%-52.2%): the old cutoffs meant "DOMINANT" was
+            # NEVER reached even once, while 5 of 8 champions all landed
+            # in the single most dramatic "MIRACLE RUN" bucket, lumping
+            # together genuinely different outcomes (e.g. 14.0% and 2.9%
+            # got the identical label despite one being ~5x rarer).
+            # These FIXED (not dynamic) thresholds are set to actually
+            # span the real range instead. Kept fixed rather than
+            # percentile-based/dynamic deliberately - with only 8 data
+            # points (one per season), dynamic thresholds would be too
+            # coarse AND would retroactively relabel past champions every
+            # time a new season is added, which isn't desired here.
             "luck_label": (
                 "DOMINANT" if win_probability >= 0.45 else
                 "DESERVED" if win_probability >= 0.25 else
@@ -229,7 +243,7 @@ def main():
         "notes": {
             "method": f"{N_TRIALS} Monte Carlo trials per champion. Each playoff game's outcome is resampled from both teams' REAL regular-season scoring mean/stdev (Normal distribution, Box-Muller sampling) rather than assuming the real result was inevitable.",
             "interpretation": "simulated_championship_probability = fraction of simulated trials where the real champion wins their ENTIRE actual bracket path. Low probability doesn't mean they didn't deserve it - it means the games were close enough that variance could easily have gone the other way.",
-            "luck_label_thresholds": "DOMINANT >=60%, DESERVED >=35%, LUCKY RUN >=15%, MIRACLE RUN <15%",
+            "luck_label_thresholds": "DOMINANT >=45%, DESERVED >=25%, LUCKY RUN >=10%, MIRACLE RUN <10%. Recalibrated to this league's real observed range (originally 60/35/15, which meant DOMINANT was never reachable and 5 of 8 champions were lumped into one bucket). These are FIXED, not dynamically recalculated - see script comments for why.",
         },
     }
 
