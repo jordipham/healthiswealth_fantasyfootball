@@ -4,22 +4,26 @@
   js/nav.js
 
   Universal site navigation, built as a Web Component so every page just
-  includes <site-nav current="managers"></site-nav> instead of duplicating
-  nav HTML across every file. Add a new page? Add ONE line to the `PAGES`
-  array below and every page on the site picks it up automatically.
+  includes <site-nav current="managers"></site-nav>. Add a new page?
+  Add ONE line to the PAGES array below and every page picks it up
+  automatically - both the desktop nav AND the mobile hamburger menu
+  are generated from this SAME array, so they can never drift out of
+  sync from being hand-duplicated.
 
-  The `current` attribute highlights which page is active - pass the
-  matching `id` from the PAGES array (e.g. current="managers"), or the
-  matching CHILD id for a dropdown entry (e.g. current="analytics-draft").
+  RESPONSIVE STRATEGY (as of this rework):
+  - DESKTOP (>600px): full horizontal nav bar, ANALYTICS is a
+    hover-triggered dropdown - unchanged, since this was never broken
+    (hover doesn't have the ambiguous tap-timing problem touch does).
+  - MOBILE (<=600px): the horizontal nav bar and hover dropdown are
+    HIDDEN entirely via CSS. Instead, a hamburger icon opens a
+    full slide-in panel listing EVERY page as one flat list, with
+    ANALYTICS as a plain section heading (not a nested toggle) above
+    its 5 pages - this eliminates the floating-dropdown/tap-ambiguity
+    bug mechanism completely on mobile, rather than trying to patch it.
 
-  DROPDOWN SUPPORT: an entry with a `children` array (instead of `href`)
-  renders as a dropdown trigger, not a direct link. Two independent
-  interaction paths handle showing/hiding it:
-    - DESKTOP: pure CSS :hover (see css/style.css) - zero JS needed.
-    - MOBILE/TOUCH: JS click-to-toggle (below), since touch devices
-      don't have a real hover state. A tap-outside-to-close listener
-      is also wired up so the menu doesn't stay stuck open.
-  Both paths target the same markup - there's no separate mobile nav.
+  Both the desktop nav bar and the mobile panel are ALWAYS rendered
+  into the DOM - which one is visible is controlled purely by CSS
+  media queries in style.css, not by JS re-rendering on resize.
 */
 
 const PAGES = [
@@ -74,21 +78,34 @@ const PAGES = [
 class SiteNav extends HTMLElement {
   connectedCallback() {
     const current = this.getAttribute("current") || "";
-    this.innerHTML = `<nav class="nav-bar">${PAGES.map((p) => this.renderEntry(p, current)).join("")}</nav>`;
-    this.wireUpDropdowns();
+
+    this.innerHTML = `
+      ${this.renderDesktopNav(current)}
+      ${this.renderMobileTrigger()}
+      ${this.renderMobilePanel(current)}
+    `;
+
+    this.wireUpDesktopDropdowns();
+    this.wireUpMobilePanel();
   }
 
-  renderEntry(entry, current) {
+  // ============ DESKTOP: unchanged hover-dropdown nav ============
+  renderDesktopNav(current) {
+    const entries = PAGES.map((p) => this.renderDesktopEntry(p, current)).join(
+      "",
+    );
+    return `<nav class="nav-bar nav-bar-desktop">${entries}</nav>`;
+  }
+
+  renderDesktopEntry(entry, current) {
     if (!entry.children) {
       const activeClass = entry.id === current ? " active" : "";
       return `<a href="${entry.href}" class="nav-link${activeClass}">${entry.label}</a>`;
     }
 
-    // Dropdown entry: trigger is active if the CURRENT page is any of its children
     const childIsActive = entry.children.some((c) => c.id === current);
     const triggerClass =
       "nav-link nav-dropdown-trigger" + (childIsActive ? " active" : "");
-
     const childLinks = entry.children
       .map((c) => {
         const activeClass = c.id === current ? " active" : "";
@@ -104,28 +121,71 @@ class SiteNav extends HTMLElement {
     `;
   }
 
-  wireUpDropdowns() {
-    const dropdowns = this.querySelectorAll(".nav-dropdown");
+  wireUpDesktopDropdowns() {
+    // Desktop dropdown is PURE CSS :hover - see style.css. No JS
+    // listener needed here at all, which is exactly why desktop was
+    // never affected by the mobile tap bug in the first place.
+  }
 
-    dropdowns.forEach((dropdown) => {
-      const trigger = dropdown.querySelector(".nav-dropdown-trigger");
+  // ============ MOBILE: hamburger trigger (hidden on desktop via CSS) ============
+  renderMobileTrigger() {
+    return `
+      <div class="mobile-nav-bar">
+        <div class="hamburger-btn" id="hamburger-btn">☰</div>
+      </div>
+    `;
+  }
 
-      // MOBILE/TOUCH path: click toggles the .open class, which a CSS
-      // rule (separate from the :hover rule) also reveals the menu for.
-      trigger.addEventListener("click", (e) => {
-        e.stopPropagation(); // don't let this click also trigger the outside-click closer below
-        const isOpen = dropdown.classList.contains("open");
-        // Close any other open dropdowns first (only one open at a time)
-        dropdowns.forEach((d) => d.classList.remove("open"));
-        if (!isOpen) dropdown.classList.add("open");
-      });
+  // ============ MOBILE: slide-in panel, flat list, no nested toggle ============
+  renderMobilePanel(current) {
+    const rows = [];
+    PAGES.forEach((entry) => {
+      if (!entry.children) {
+        const activeClass = entry.id === current ? " active" : "";
+        rows.push(
+          `<a href="${entry.href}" class="mobile-nav-link${activeClass}">${entry.label}</a>`,
+        );
+      } else {
+        rows.push(`<div class="mobile-nav-heading">${entry.label}</div>`);
+        entry.children.forEach((c) => {
+          const activeClass = c.id === current ? " active" : "";
+          rows.push(
+            `<a href="${c.href}" class="mobile-nav-link${activeClass}">${c.label}</a>`,
+          );
+        });
+      }
     });
 
-    // Tap/click anywhere outside a dropdown closes it - touch has no
-    // equivalent of "mouse moved away", so this is required for mobile.
-    document.addEventListener("click", () => {
-      dropdowns.forEach((d) => d.classList.remove("open"));
-    });
+    return `
+      <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
+      <div class="mobile-nav-panel" id="mobile-nav-panel">
+        <div class="mobile-nav-panel-header">
+          <span>NAVIGATE</span>
+          <div class="mobile-close-btn" id="mobile-close-btn">✕</div>
+        </div>
+        ${rows.join("")}
+      </div>
+    `;
+  }
+
+  wireUpMobilePanel() {
+    const hamburgerBtn = this.querySelector("#hamburger-btn");
+    const closeBtn = this.querySelector("#mobile-close-btn");
+    const backdrop = this.querySelector("#mobile-nav-backdrop");
+    const panel = this.querySelector("#mobile-nav-panel");
+
+    const openPanel = () => {
+      panel.classList.add("open");
+      backdrop.classList.add("show");
+    };
+    const closePanel = () => {
+      panel.classList.remove("open");
+      backdrop.classList.remove("show");
+    };
+
+    hamburgerBtn.addEventListener("click", openPanel);
+    closeBtn.addEventListener("click", closePanel);
+    backdrop.addEventListener("click", closePanel);
   }
 }
 

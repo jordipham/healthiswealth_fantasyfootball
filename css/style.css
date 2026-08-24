@@ -155,13 +155,11 @@ body {
   margin-top: 2px;
 }
 
-/* DESKTOP PATH: pure CSS hover, zero JS involved */
+/* DESKTOP PATH ONLY: pure CSS hover, zero JS involved. This dropdown
+   is NEVER used on mobile anymore - mobile gets the hamburger panel
+   instead (see below), which eliminates the tap-timing ambiguity bug
+   entirely rather than trying to patch it. */
 .nav-dropdown:hover .nav-dropdown-menu {
-  display: flex;
-}
-
-/* MOBILE/TOUCH PATH: JS toggles this class on tap (see nav.js) */
-.nav-dropdown.open .nav-dropdown-menu {
   display: flex;
 }
 
@@ -180,12 +178,110 @@ body {
   background: var(--bg-panel);
 }
 
+/* ============ RESPONSIVE SWITCH: desktop nav vs mobile hamburger ============
+   Both structures are ALWAYS in the DOM (see nav.js) - which one is
+   visible is controlled purely here, via media query, not by JS
+   re-rendering on resize. */
+.mobile-nav-bar { display: none; }
+
 @media (max-width: 600px) {
-  .nav-dropdown-menu {
-    position: static;
-    min-width: 100%;
-    border: none;
-    margin-top: 4px;
+  .nav-bar-desktop { display: none; }
+  .mobile-nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    background: #111;
+    border-bottom: 2px solid #333;
+    padding: 10px 14px;
   }
-  .nav-dropdown-item { font-size: 10px; padding: 8px 10px; }
+}
+
+/* ============ HAMBURGER TRIGGER ============ */
+.hamburger-btn {
+  width: 38px;
+  height: 38px;
+  background: var(--bg-panel);
+  border: 2px solid var(--border-dim);
+  color: var(--green);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-btn:hover { border-color: var(--gold); }
+
+/* ============ MOBILE SLIDE-IN PANEL ============ */
+.mobile-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 200;
+  display: none;
+}
+.mobile-nav-backdrop.show { display: block; }
+
+.mobile-nav-panel {
+  position: fixed;
+  top: 0;
+  right: -85%;
+  width: 80%;
+  max-width: 320px;
+  height: 100%;
+  background: #111;
+  border-left: 3px solid var(--gold);
+  z-index: 201;
+  overflow-y: auto;
+  transition: right 0.25s ease;
+}
+.mobile-nav-panel.open { right: 0; }
+
+.mobile-nav-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 2px solid #333;
+}
+.mobile-nav-panel-header span {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+  color: var(--gold);
+}
+
+.mobile-close-btn {
+  width: 30px;
+  height: 30px;
+  background: var(--bg-panel);
+  border: 2px solid var(--border-dim);
+  color: var(--pink);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-close-btn:hover { border-color: var(--pink); }
+
+.mobile-nav-link {
+  display: block;
+  padding: 14px 16px;
+  color: var(--green);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 13px;
+  border-bottom: 1px solid #222;
+}
+.mobile-nav-link:hover { background: var(--bg-panel); }
+.mobile-nav-link.active {
+  color: var(--gold);
+  background: var(--bg-panel);
+}
+
+.mobile-nav-heading {
+  padding: 14px 16px 6px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: var(--pink);
+  border-top: 2px dashed #333;
+  margin-top: 6px;
 }

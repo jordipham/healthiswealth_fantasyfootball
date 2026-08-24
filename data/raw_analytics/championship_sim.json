@@ -4,62 +4,62 @@
       "year": 2018,
       "champion": "Jonathan Bi",
       "games_in_bracket_run": 2,
-      "simulated_championship_probability": 0.4001,
+      "simulated_championship_probability": 0.3896,
       "luck_label": "DESERVED"
     },
     {
       "year": 2019,
       "champion": "Justin Lee",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.0295,
+      "simulated_championship_probability": 0.0319,
       "luck_label": "MIRACLE RUN"
     },
     {
       "year": 2020,
       "champion": "Jared Tao",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.1343,
-      "luck_label": "MIRACLE RUN"
+      "simulated_championship_probability": 0.1345,
+      "luck_label": "LUCKY RUN"
     },
     {
       "year": 2021,
       "champion": "Yannis Bi",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.5216,
-      "luck_label": "DESERVED"
+      "simulated_championship_probability": 0.5341,
+      "luck_label": "DOMINANT"
     },
     {
       "year": 2022,
       "champion": "Jonathan Bi",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.1336,
-      "luck_label": "MIRACLE RUN"
+      "simulated_championship_probability": 0.1364,
+      "luck_label": "LUCKY RUN"
     },
     {
       "year": 2023,
       "champion": "Parth Shah",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.1397,
-      "luck_label": "MIRACLE RUN"
+      "simulated_championship_probability": 0.1402,
+      "luck_label": "LUCKY RUN"
     },
     {
       "year": 2024,
       "champion": "Justin Lee",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.1046,
+      "simulated_championship_probability": 0.0995,
       "luck_label": "MIRACLE RUN"
     },
     {
       "year": 2025,
       "champion": "Eric Tao",
       "games_in_bracket_run": 3,
-      "simulated_championship_probability": 0.2556,
-      "luck_label": "LUCKY RUN"
+      "simulated_championship_probability": 0.2566,
+      "luck_label": "DESERVED"
     }
   ],
   "notes": {
     "method": "10000 Monte Carlo trials per champion. Each playoff game's outcome is resampled from both teams' REAL regular-season scoring mean/stdev (Normal distribution, Box-Muller sampling) rather than assuming the real result was inevitable.",
     "interpretation": "simulated_championship_probability = fraction of simulated trials where the real champion wins their ENTIRE actual bracket path. Low probability doesn't mean they didn't deserve it - it means the games were close enough that variance could easily have gone the other way.",
-    "luck_label_thresholds": "DOMINANT >=60%, DESERVED >=35%, LUCKY RUN >=15%, MIRACLE RUN <15%"
+    "luck_label_thresholds": "DOMINANT >=45%, DESERVED >=25%, LUCKY RUN >=10%, MIRACLE RUN <10%"
   }
 }

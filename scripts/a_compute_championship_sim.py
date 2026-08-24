@@ -217,9 +217,9 @@ def main():
             "games_in_bracket_run": games_in_run,
             "simulated_championship_probability": win_probability,
             "luck_label": (
-                "DOMINANT" if win_probability >= 0.6 else
-                "DESERVED" if win_probability >= 0.35 else
-                "LUCKY RUN" if win_probability >= 0.15 else
+                "DOMINANT" if win_probability >= 0.45 else
+                "DESERVED" if win_probability >= 0.25 else
+                "LUCKY RUN" if win_probability >= 0.10 else
                 "MIRACLE RUN"
             ),
         })
