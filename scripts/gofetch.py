@@ -180,6 +180,7 @@ def pull_season(year):
             pick["total_points"] = found["total_points"]
             pick["avg_points"] = found["avg_points"]
             pick["projected_total_points"] = found.get("projected_total_points")
+            pick["pro_team"] = found.get("pro_team")
         else:
             try:
                 player = league.player_info(playerId=pid)
@@ -189,6 +190,7 @@ def pull_season(year):
             pick["total_points"] = getattr(player, "total_points", None) if player else None
             pick["avg_points"] = getattr(player, "avg_points", None) if player else None
             pick["projected_total_points"] = getattr(player, "projected_total_points", None) if player else None
+            pick["pro_team"] = getattr(player, "proTeam", None) if player else None
 
     matchups = {}
     max_week = 18  # safe upper bound; unplayed/nonexistent weeks are skipped below
